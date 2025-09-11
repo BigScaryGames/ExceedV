@@ -1,3 +1,2 @@
-These are Exceed TTRPG drafts in obsidian and are in a regular state of being rewritten until the right feel will be achieved.
-If you are a player, open the folder containing the last version - V4.
-Start with [[2. Basic Mechanics]], proceed to [[3. Character Creation and Point buy Costs]] 
+Welcome to Exceed TTRPG. The best skill-based TTRPG created after GURPS 4e.
+If you are a player, download the vault and use Obsidian. The Ruleset folder is the vault you need.
