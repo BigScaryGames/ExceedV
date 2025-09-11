@@ -1,1 +1,0 @@
-players start with a set amount of points

@@ -15,3 +15,5 @@
 # Exclude other potentially sensitive plugin data
 .obsidian/plugins/*/data.json
 /.obsidian/community-plugins.json
+Ruleset/CLAUDE.md
+Ruleset/todo.md
