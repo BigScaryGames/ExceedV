@@ -1,13 +1,14 @@
 # Cultural Explorer
 
 **Requirements:** History 1
-**Category:** Universal
-**Cost:** 5 CP
+**Category:** Skill
+**Attributes:** [WT/CH]
+**Cost:** 2 CP
 **Traits:** -
 
 
 ## Short Description
-Select a culture you have acquainted yourself with and learn their cultural norms, language basics, and commonly known historical facts.
+You learn about a culture, its norms, history, and language.
 
 ## Effect
 - Choose one specific culture when taking this perk
@@ -15,10 +16,6 @@ Select a culture you have acquainted yourself with and learn their cultural norm
 - Gain basic language skills for communication
 - Know commonly known historical facts and cultural references
 - Can take this perk multiple times for different cultures
-- Helps avoid cultural faux pas and social mistakes
-- Provides context for understanding cultural artifacts and customs
-- May grant bonuses to social interactions with members of that culture
-- Useful for diplomacy, trade, and cultural research
 
 ## Description
-Select a culture you have acquainted yourself with and learn their cultural norms, language basics, and commonly known historical facts.
+When taking this perk, select a specific culture you've studied. You gain knowledge of their cultural norms, basic language skills, and commonly known historical facts about that culture.

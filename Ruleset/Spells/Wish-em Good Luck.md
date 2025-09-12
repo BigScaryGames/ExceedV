@@ -12,7 +12,7 @@ Give advantage to an ally.
 **Limit Cost:** -
 **Effect:** The ally's next roll is affected by Good #Luck
 ## Description
-[People talk a lot, and mages are no exception. To use this spell you must mean it. Learning this spell is considered a funny challenge in magical community, but not all pass. This spell requires to speak what you mean for a day while actively interacting with other people. If you lie or say something you don't believe in, the learning restarts.]
+[People talk a lot, and mages are no exception. To use this spell you must mean it. Learning this spell is considered a funny challenge in magical community, but not all pass. It requires to speak what you mean for a day while actively interacting with other people. If you lie or say something you don't believe in, the you need to start all over.]
 
 **Duration:** 1 round
 

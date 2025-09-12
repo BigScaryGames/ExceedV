@@ -1,23 +1,19 @@
 # Liar Liar
 
-**Requirements:** -
-**Category:** Universal
-**Cost:** 5 CP
-**Traits:** -
+**Requirements:** Manipulation 2, Fast-talk 1
+**Category:** Skill
+**Attributes:** [CH/WL]
+**Cost:** 2 CP
+**Traits:** - #GM
 
 
 ## Short Description
-You lie as naturally as breathing, gaining enhanced deception abilities at the cost of diplomatic effectiveness.
+Lying as second nature.
 
 ## Effect
-- +2 bonus on all deception checks and attempts to mislead
-- -2 penalty on diplomacy checks and honest persuasion attempts
-- Lying comes so naturally that it's hard to be genuinely sincere
-- People may sense your duplicitous nature even when you're being honest
-- Particularly effective for con games, espionage, and misdirection
-- May make it difficult to build genuine trust with NPCs
-- Bonus applies to all forms of deception: verbal lies, false identities, etc.
+- +2 bonus on all fast talk and manipulation rolls in attempts to mislead
+- -2 penalty on leadership and negotiation checks if you are honest
 - Penalty applies when genuine honesty and sincerity are required
 
 ## Description
-You lie as naturally as breathing, gaining enhanced deception abilities at the cost of diplomatic effectiveness.
+You lie as naturally as breathing. When you speak truth it feels unnatural to you. One day when all your lies surface, you will sink. But with your skills it won't be soon.

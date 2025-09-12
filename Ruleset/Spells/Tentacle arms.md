@@ -11,7 +11,7 @@ Transform limbs into tentacles with extended reach
 
 ## Basic Version
 **Limit Cost:** -
-**Effect:** Your tentacles have reach 2m, but no fine manipulators
+**Effect:** Your tentacles have reach 2m, but no fine manipulators. Removes manacles that don't prevent casting spells.
 
 ## Description
 [Flavor text to be written]

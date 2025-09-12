@@ -1,6 +1,6 @@
 # Inquisitor
 
-**Requirements:** Theology 1
+**Requirements:** Theology 3, Ordained
 **Category:** Rank-based
 **Cost:** 5 CP
 **Traits:** #Rank

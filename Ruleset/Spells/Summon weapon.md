@@ -1,4 +1,4 @@
-# Summon weapon
+# Summon Weapon
 
 **Tier:** 1
 **Type:** Basic

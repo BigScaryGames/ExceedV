@@ -1,16 +1,19 @@
 # Arcane Sight
 
-**Requirements:** Arcane Lore 1
+**Requirements:** Arcane Lore 2, Detect Magic, Spellcraft 2
 **Category:** Magic
-**Cost:** 5 CP
-**Traits:** -
+**Attributes:** [PR, Spellcraft]
+**Cost:** 7 CP
+**Traits:** - #Scrying
 
 
 ## Short Description
-You can perceive magical emanations within a limited range, detecting the presence of magic around you.
+Enhance your ability to perceive magic.
 
 ## Effect
-You can perceive magical emanations within a limited range, detecting the presence of magic around you.
+Detect Magic's **Limit cost** is now 0. **Range** = 10m * Spellcraft Tier.
+You can identify creature's Spellcraft Tier on sight within range by spending 3AP. You know tiers of spells cast in your sight and range.
 
 ## Description
-You can perceive magical emanations within a limited range, detecting the presence of magic around you.
+Arcane sight had its moment of glory among nobles and mages alike upon its invention two centuries ago. People passed the quite painful ritual to gain the knowledge on whom to challenge and whom to avoid.
+The boom ended overnight with the invention of #Illusion enchantments mimicking the Spellcraft Tier. [[Mislieading Rings]] are mass produced ever since.

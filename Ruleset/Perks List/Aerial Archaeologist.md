@@ -1,16 +1,14 @@
 # Aerial Archaeologist
 
 **Requirements:** History 2
-**Category:** Universal
-**Cost:** 10 CP
+**Category:** Skill
+**Cost:** 2 CP
+**Attributes:** [WT/PR]
 **Traits:** -
 
 
 ## Short Description
-You can scan the landscape for ancient remains without access to libraries, using likely positions and historic references.
-
-## Effect
-You can scan the landscape for ancient remains without access to libraries, using likely positions and historic references.
+From the birds eye view you can see the hints of ruins undergound.
 
 ## Description
-You can scan the landscape for ancient remains without access to libraries, using likely positions and historic references.
+While airborne you can scan 200m radius on the ground underneath for potential remains buried underground. Roll History+PR against GM set DC. You are limited by the speed of your flight or flying device.

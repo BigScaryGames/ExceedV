@@ -16,4 +16,4 @@ Sense magical auras and enchantments
 ## Description
 [Flavor text to be written]
 
-**Duration:** 10 minutes
+**Duration:** 1 round

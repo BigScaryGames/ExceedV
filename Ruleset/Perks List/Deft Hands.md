@@ -1,24 +1,15 @@
 # Deft Hands
 
-**Requirements:** Lockpicking 1
-**Category:** Universal
-**Cost:** 5 CP
+**Requirements:** Lockpicking 2, Dexterity 1
+**Category:** Skill
+**Attributes:** [DX/PR]
+**Cost:** 1 CP
 **Traits:** -
 
 
 ## Short Description
-You know your way around traps, locks, and sealed letters, working without tools or gaining bonuses with them.
+You can use makeshift tools without penalties for lockpicking actions.
 
-## Effect
-- Can attempt trap disarming, lockpicking, and letter opening without proper tools
-- Gain +2 bonus to attempts when using appropriate tools
-- Applies to mechanical security devices and sealed communications
-- May work on magical locks with GM discretion
-- Particularly useful for infiltration and investigation
-- Can open sealed letters without obvious signs of tampering
-- Represents exceptional manual dexterity and understanding of mechanisms
-- Foundation skill for more advanced criminal abilities
-- Useful for both criminal activities and legitimate security work
 
 ## Description
-You know your way around traps, locks, and sealed letters, working without tools or gaining bonuses with them.
+You know your way around traps, locks and sealed letters. When others need lockpicks you can use a copper wire or a properly bent fork.

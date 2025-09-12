@@ -1,16 +1,17 @@
 # Bribery Expert
 
-**Requirements:** Street Wisdom 2
-**Category:** Universal
-**Cost:** 10 CP
+**Requirements:** Streetwise 2
+**Category:** Skill
+**Attributes:** [CH/PR]
+**Cost:** 3 CP
 **Traits:** -
 
 
 ## Short Description
-During bribery attempts, you know the correct amounts and gain bonuses to persuasion when corrupting officials.
+You are an expert in corruption.
 
 ## Effect
-During bribery attempts, you know the correct amounts and gain bonuses to persuasion when corrupting officials.
+You can deduce if an official is corruptible or if you can ask for a bribe with +3. You know appropriate amounts for different 'favors'.
 
 ## Description
-During bribery attempts, you know the correct amounts and gain bonuses to persuasion when corrupting officials.
+A silken shirt, a silver sword hilt that isn't an old heirloom, the attitude. They don't need to rub their hands for you to sense corruption. You sense it when it's in front of you, and know when to offer people to participate in it. You know the words and hints to suggest it in the most vague forms. How do you use that knowledge is a different question.

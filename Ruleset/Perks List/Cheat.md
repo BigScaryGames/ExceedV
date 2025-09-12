@@ -1,24 +1,17 @@
 # Cheat
 
-**Requirements:** Liar Liar
-**Category:** Universal
-**Cost:** 15 CP
-**Traits:** -
+**Requirements:** Liar Liar, Attractive
+**Category:** Skill
+**Attributes:** [CH]
+**Cost:** 5 CP
+**Traits:** #GM
 
 
 ## Short Description
-People are consistently fooled by your deceptions, making it much harder for them to detect your lies.
+Others have a hard time detecting the falsehoods in your words.
 
 ## Effect
-- When someone neutral or friendly tries to detect if you're lying, they roll twice and take the worse result
-- Represents your mastery of micro-expressions, body language, and vocal control
-- Only works on people who don't already distrust or dislike you
-- Enemies or those with reason to be suspicious are unaffected
-- Makes you exceptionally convincing to those willing to believe you
-- Can turn casual conversations into opportunities for significant deception
-- May allow you to maintain false identities or cover stories more easily
-- Does not work against magical lie detection or supernatural insight
-- Particularly effective for con games and long-term deception schemes
+- When someone with neutral or better attitude that might find you attractive rolls to [[8. Social Interactions#Detect falsehood]] they roll with #Unluck.
 
 ## Description
-People are consistently fooled by your deceptions, making it much harder for them to detect your lies.
+With a pretty face like yours getting away with lying is just too easy.
