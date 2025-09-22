@@ -2,7 +2,7 @@
 
 **Requirements:** Public Speaker, Inspirer
 **Category:** Universal
-**Cost:** 15 CP
+**Cost:** 15 XP
 **Traits:** -
 
 

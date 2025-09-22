@@ -2,7 +2,7 @@
 
 **Requirements:** -
 **Category:** Universal
-**Cost:** 15 CP
+**Cost:** 15 XP
 **Traits:** -
 
 

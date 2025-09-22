@@ -4,7 +4,7 @@
 **Type:** Basic/Advanced
 **AP Cost:** 3
 **Attributes:** PR/WT
-**Traits:** #Spell #Boon #Illusion
+**Traits:** #Spell #Attuned #Boon #Illusion
 
 ## Short Description
 Make yourself or team less noticeable from distance

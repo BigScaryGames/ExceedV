@@ -3,7 +3,7 @@
 **Requirements:** Fast-Talk 2, Charisma 1
 **Category:** Skill
 **Attributes:** [CH/PR]
-**Cost:** 3 CP
+**Cost:** 3 XP
 **Traits:** -
 
 

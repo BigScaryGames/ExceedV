@@ -4,7 +4,7 @@
 **Type:** Advanced
 **AP Cost:** -
 **Attributes:** CH/EN
-**Traits:** #Spell #Boon #Enhancement 
+**Traits:** #Spell #Attuned #Boon #Enhancement 
 
 ## Short Description
 Increase team movement speed

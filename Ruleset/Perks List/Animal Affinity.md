@@ -3,7 +3,7 @@
 **Requirements:** Survival 2
 **Category:** Skill
 **Attributes:** [CH/WL]
-**Cost:** 5 CP
+**Cost:** 5 XP
 **Traits:** -
 
 

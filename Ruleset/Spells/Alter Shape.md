@@ -4,7 +4,7 @@
 **Type:** Basic/Advanced
 **AP Cost:** 1m
 **Attributes:** CH/PR
-**Traits:** #Spell #Boon #Transformation #Illusion
+**Traits:** #Spell #Attuned #Boon #Transformation #Illusion
 
 ## Short Description
 Adjust facial features and body shape to impersonate others

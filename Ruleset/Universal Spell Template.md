@@ -30,8 +30,8 @@ This document defines a standardized structure for all spells in the Exceed TTRP
   "versions": {
     "hasBasic": "boolean (true if basic version exists)",
     "hasAdvanced": "boolean (true if advanced version exists)",
-    "basicCost": "integer (CP cost for basic version)",
-    "advancedCost": "integer (CP cost for advanced version)"
+    "basicCost": "integer (XP cost for basic version)",
+    "advancedCost": "integer (XP cost for advanced version)"
   },
   "range": "string (self|touch|short|medium|long|sight)",
   "area": "string (single|line|cone|burst|aura)",
@@ -210,7 +210,7 @@ This document defines a standardized structure for all spells in the Exceed TTRP
 ### Effects and Targeting
 - **damage**: Damage formula, type, and scaling for combat spells
 - **duration**: How long the spell's effects persist
-- **versions**: Basic and Advanced versions with different CP costs and effects
+- **versions**: Basic and Advanced versions with different XP costs and effects
 - **range/area/targeting**: Spatial mechanics for spell application
 
 ### Magic System Integration

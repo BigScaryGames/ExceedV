@@ -2,7 +2,7 @@
 
 **Requirements:** -
 **Category:** Skill-based
-**Cost:** 5 CP
+**Cost:** 5 XP
 **Traits:** -
 
 

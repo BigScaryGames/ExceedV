@@ -3,7 +3,7 @@
 **Requirements:** Medicine 2
 **Category:** Skill-based
 **Attributes:** [DX/WT]
-**Cost:** 3 CP
+**Cost:** 3 XP
 **Traits:** -
 
 

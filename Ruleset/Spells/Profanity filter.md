@@ -4,7 +4,7 @@
 **Type:** Basic
 **AP Cost:** R
 **Attributes:** CH/WL
-**Traits:** #Spell #Bane #Mental #Protection 
+**Traits:** #Spell #Bane #Mind #Protection 
 
 ## Short Description
 Counter curses and profanity by silencing offenders

@@ -4,7 +4,7 @@
 **Type:** Basic/Advanced
 **AP Cost:** -
 **Attributes:** EN/MG
-**Traits:** #Spell #Boon #Manipulation #Equpment 
+**Traits:** #Spell #Attuned #Boon #Manipulation #Equipment 
 
 ## Short Description
 Reduce the weight you carry in your backpack.

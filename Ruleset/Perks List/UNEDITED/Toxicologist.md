@@ -2,7 +2,7 @@
 
 **Requirements:** Poison Resistance, Medicine 3
 **Category:** Skill-based
-**Cost:** 15 CP
+**Cost:** 15 XP
 **Traits:** -
 
 

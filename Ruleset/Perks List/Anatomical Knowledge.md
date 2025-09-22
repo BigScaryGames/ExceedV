@@ -3,7 +3,7 @@
 **Requirements:** Medicine 2/Biology 2
 **Category:** Skill
 **Attributes:** [PR/WT]
-**Cost:** 5 CP
+**Cost:** 5 XP
 **Traits:** -
 
 

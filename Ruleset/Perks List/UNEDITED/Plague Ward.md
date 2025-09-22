@@ -2,7 +2,7 @@
 
 **Requirements:** Medicine 2
 **Category:** Skill-based
-**Cost:** 10 CP
+**Cost:** 10 XP
 **Traits:** -
 
 

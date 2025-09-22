@@ -3,7 +3,7 @@
 **Requirements:** Arcane Lore 1, Stealth 3
 **Category:** Skill
 **Attributes:** [AG/WL]
-**Cost:** 5 CP
+**Cost:** 5 XP
 **Traits:** #Illusion
 
 ## Short Description

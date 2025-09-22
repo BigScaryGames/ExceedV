@@ -2,7 +2,7 @@
 
 **Requirements:** Arcane Lore 3
 **Category:** Magic
-**Cost:** 15 CP
+**Cost:** 15 XP
 **Traits:** -
 
 

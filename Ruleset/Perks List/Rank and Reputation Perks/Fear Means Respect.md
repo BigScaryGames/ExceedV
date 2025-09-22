@@ -2,7 +2,7 @@
 
 **Requirements:** Street Wisdom 3, Created reputation rumors about power/viciousness
 **Category:** Universal
-**Cost:** 15 CP
+**Cost:** 15 XP
 **Traits:** -
 
 

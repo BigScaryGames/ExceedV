@@ -3,7 +3,7 @@
 **Requirements:** Wit 2
 **Category:** Universal
 **Attributes:** [WT/PR]
-**Cost:** 3 CP
+**Cost:** 3 XP
 **Traits:** -
 
 

@@ -4,7 +4,7 @@
 **Type:** Basic
 **AP Cost:** -
 **Attributes:** AG/DX
-**Traits:** #Spell #Boon #Transformation 
+**Traits:** #Spell #Attuned #Boon #Transformation 
 
 ## Short Description
 Grow claws and defensive arm covering

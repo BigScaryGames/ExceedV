@@ -2,7 +2,7 @@
 
 **Requirements:** #Streetwise 2, Known in criminal upper echelons  #Rank in cri
 **Category:** Rank-based
-**Cost:** 10 CP
+**Cost:** 10 XP
 **Traits:** #Rank
 
 

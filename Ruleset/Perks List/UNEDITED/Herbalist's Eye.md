@@ -2,7 +2,7 @@
 
 **Requirements:** Medicine 1
 **Category:** Skill-based
-**Cost:** 5 CP
+**Cost:** 5 XP
 **Traits:** -
 
 

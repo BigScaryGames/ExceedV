@@ -20,7 +20,7 @@ This grouping matches how players actually think about character building and pe
   "category": "string (skill|martial|magic)",
   "subcategory": "string (optional - specific domain or skill type)",
   "tier": "integer (0-5, representing power level)",
-  "cpCost": "integer (base cost in character points)",
+  "cpCost": "integer (base cost in experience points)",
   "variableCost": "boolean (true if cost varies by level/circumstances)",
   "costFormula": "string (describes variable cost calculation)",
   "requirements": {
@@ -227,7 +227,7 @@ This grouping matches how players actually think about character building and pe
 - **tier**: Power level indicator (0=basic, 5=legendary)
 
 ### Cost Structure
-- **cpCost**: Base character point investment required
+- **cpCost**: Base experience point investment required
 - **variableCost**: Boolean indicating if cost scales with level or circumstances
 - **costFormula**: Human-readable description of variable cost calculation
 
@@ -253,7 +253,7 @@ This grouping matches how players actually think about character building and pe
 1. **Name** → `name`
 2. **Requirements** → Parse into appropriate `requirements` subcategories
 3. **Attr** → Parse into `attributeBonuses` if granting bonuses, otherwise may indicate roll formula
-4. **CP Cost** → `cpCost` and `variableCost`/`costFormula` if applicable
+4. **XP Cost** → `cpCost` and `variableCost`/`costFormula` if applicable
 5. **Description** → Use as `shortDescription`, expand with context for `longDescription`
 
 ### Category Mapping

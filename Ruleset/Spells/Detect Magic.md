@@ -4,7 +4,7 @@
 **Type:** Basic
 **AP Cost:** 3
 **Attributes:** WT/WL
-**Traits:** #Spell #Scrying
+**Traits:** #Spell #Attuned #Scrying
 
 ## Short Description
 Sense magical auras and enchantments

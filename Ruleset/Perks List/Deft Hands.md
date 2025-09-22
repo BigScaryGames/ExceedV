@@ -3,7 +3,7 @@
 **Requirements:** Lockpicking 2, Dexterity 1
 **Category:** Skill
 **Attributes:** [DX/PR]
-**Cost:** 1 CP
+**Cost:** 1 XP
 **Traits:** -
 
 

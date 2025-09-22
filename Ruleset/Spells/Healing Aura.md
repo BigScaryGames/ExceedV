@@ -4,7 +4,7 @@
 **Type:** Advanced
 **AP Cost:** -
 **Attributes:** WL/CH
-**Traits:** #Spell #Boon #Healing
+**Traits:** #Spell #Attuned #Boon #Healing
 
 ## Short Description
 Heal surface injuries of your team.

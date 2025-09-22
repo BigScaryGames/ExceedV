@@ -2,7 +2,7 @@
 
 **Requirements:** History 2
 **Category:** Skill
-**Cost:** 2 CP
+**Cost:** 2 XP
 **Attributes:** [WT/PR]
 **Traits:** -
 

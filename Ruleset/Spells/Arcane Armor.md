@@ -4,7 +4,7 @@
 **Type:** Basic
 **AP Cost:** -
 **Attributes:** WL/EN
-**Traits:** #Spell #Boon #Protection #Conjuration 
+**Traits:** #Spell #Attuned #Boon #Protection #Conjuration 
 
 ## Short Description
 Summon a light magical armor on self.

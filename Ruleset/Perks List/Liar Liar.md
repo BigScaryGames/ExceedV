@@ -3,7 +3,7 @@
 **Requirements:** Manipulation 2, Fast-talk 1
 **Category:** Skill
 **Attributes:** [CH/WL]
-**Cost:** 2 CP
+**Cost:** 2 XP
 **Traits:** - #GM
 
 

@@ -4,7 +4,7 @@
 **Type:** Basic
 **AP Cost:** -
 **Attributes:** WT/CH
-**Traits:** #Spell #Manipulation
+**Traits:** #Spell #Attuned #Manipulation
 
 ## Short Description
 Animate household appliances to do simple menial labor

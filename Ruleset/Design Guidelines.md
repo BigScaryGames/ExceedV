@@ -61,10 +61,10 @@ Spell Costs by Tier:
 | Backpack               | 1-3 kg         |
 
 ## Encumbrance Simulation
-**Average human (MG0/EN0, 0 CP invested):**
+**Average human (MG0/EN0, 0 XP invested):**
 - Capacity: 25 kg, No penalty threshold: 12.5 kg
 
-**Early Character (MG1/EN1, 20 CP invested):**
+**Early Character (MG1/EN1, 20 XP invested):**
 - Capacity: 49 kg, No penalty threshold: 24.5 kg
 
 **Early-Mid Character (MG2 or EN2):**
@@ -111,9 +111,9 @@ The game aims to fix 3 problems recurrent in TTRPGs
 The Limit system in [[6. Magic System]] - limiting the active buffs and magical effects a character can sustain on self and group.
 
 [[3.2 HP And Wounds]]. - where Armor works as ablation multiplied by the character's resilience.
-  2. [[3.1 Attributes]] - Attributes deriving from skills, creating positive feedback loops, separation of social and combat CP based on the session contents.
+  2. [[3.1 Attributes]] - Attributes deriving from skills, creating positive feedback loops, separation of social and combat XP based on the session contents.
 ### Target Audience
 Skill-based TTRPG enjoyers. Earned progression connoisseurs.
 Target audience is TTRPG players who prefer when they are not dictated how to play a character from the moment they choose the class at level 1.
-It still absolutely should work for new players as well as experienced ones. Though groups with new players are suggested lower CP starting point.
+It still absolutely should work for new players as well as experienced ones. Though groups with new players are suggested lower XP starting point.
 It's a game for GURPS players who want less complexity and more streamlined experience, Pathfinder players who want more control over their characters, LitRPG lovers who love numbers go up, slow burn progression.

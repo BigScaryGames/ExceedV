@@ -2,7 +2,7 @@
 
 **Requirements:** Arcane Lore 1
 **Category:** Magic
-**Cost:** 5 CP
+**Cost:** 5 XP
 **Traits:** -
 
 

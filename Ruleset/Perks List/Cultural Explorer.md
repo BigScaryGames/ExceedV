@@ -3,7 +3,7 @@
 **Requirements:** History 1
 **Category:** Skill
 **Attributes:** [WT/CH]
-**Cost:** 2 CP
+**Cost:** 2 XP
 **Traits:** -
 
 

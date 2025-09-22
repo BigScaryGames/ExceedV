@@ -2,7 +2,7 @@
   
  **Tier:** 0  
  **AP Cost:** 2  
- **CP Cost:** Basic 1 / Advanced 3  
+ **XP Cost:** Basic 1 / Advanced 3  
  **Attributes:** WL/WI
  **Tags:** #Tag1
   

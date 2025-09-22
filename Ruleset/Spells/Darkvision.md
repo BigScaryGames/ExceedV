@@ -4,7 +4,7 @@
 **Type:** Basic/Advanced
 **AP Cost:** -
 **Attributes:** PR
-**Traits:** #Spell #Boon #Scrying
+**Traits:** #Spell #Attuned #Boon #Scrying
 
 ## Short Description
 Grant darkvision to self or team

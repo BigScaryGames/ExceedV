@@ -4,7 +4,7 @@
 **Type:** Basic/Advanced
 **AP Cost:** 2
 **Attributes:** WL/PR
-**Traits:** #Spell #Boon
+**Traits:** #Spell #Attuned #Boon
 
 ## Short Description
 Create small lamp level illumination around yourself or party

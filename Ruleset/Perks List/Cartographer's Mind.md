@@ -3,7 +3,7 @@
 **Requirements:** Navigation 2, Wit 1
 **Category:** Skill
 **Attributes:** [WT/PR]
-**Cost:** 3 CP
+**Cost:** 3 XP
 **Traits:** -
 
 ## Short Description

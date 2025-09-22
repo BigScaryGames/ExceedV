@@ -4,7 +4,7 @@
 **Type:** Basic/Advanced
 **AP Cost:** -
 **Attributes:** AG/MG
-**Traits:** #Spell #Manipulation
+**Traits:** #Spell #Attuned #Manipulation
 
 ## Short Description
 Levitate targets to move them through the air

@@ -2,7 +2,7 @@
 
 **Requirements:** Theology 2
 **Category:** Universal
-**Cost:** 10 CP
+**Cost:** 10 XP
 **Traits:** -
 
 

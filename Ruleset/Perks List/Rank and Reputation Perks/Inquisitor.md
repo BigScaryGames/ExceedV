@@ -2,7 +2,7 @@
 
 **Requirements:** Theology 3, Ordained
 **Category:** Rank-based
-**Cost:** 5 CP
+**Cost:** 5 XP
 **Traits:** #Rank
 
 

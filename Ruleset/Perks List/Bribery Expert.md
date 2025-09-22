@@ -3,7 +3,7 @@
 **Requirements:** Streetwise 2
 **Category:** Skill
 **Attributes:** [CH/PR]
-**Cost:** 3 CP
+**Cost:** 3 XP
 **Traits:** -
 
 

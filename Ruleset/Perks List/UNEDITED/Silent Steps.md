@@ -2,7 +2,7 @@
 
 **Requirements:** Stealth 1
 **Category:** Universal
-**Cost:** 5 CP
+**Cost:** 5 XP
 **Traits:** -
 
 

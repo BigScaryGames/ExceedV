@@ -3,7 +3,7 @@
 **Requirements:** Fast-Talk 3, Charisma 2
 **Category:** Skill
 **Attributes:** [-]
-**Cost:** 0 CP
+**Cost:** 0 XP
 **Traits:** -  #GM #Instant
 
 

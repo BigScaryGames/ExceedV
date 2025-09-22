@@ -2,7 +2,7 @@
 
 **Requirements:** Street Wisdom 3, Started a criminal organization
 **Category:** Rank-based
-**Cost:** 15 CP
+**Cost:** 15 XP
 **Traits:** #Rank
 
 

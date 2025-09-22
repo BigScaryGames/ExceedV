@@ -2,8 +2,8 @@
 
 **Requirements:** Intimidation 2
 **Category:** Skill-based
-**Cost:** 8 CP
-**Traits:** #Mental
+**Cost:** 8 XP
+**Traits:** #Mind
 
 ## Short Description
 Use Might attribute when Demoralizing and Coercing

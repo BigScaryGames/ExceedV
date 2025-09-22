@@ -3,7 +3,7 @@
 **Requirements:** Survival 1, Tracking 1
 **Category:** Skill-based
 **Attributes:** [PR/WT]
-**Cost:** 3 CP
+**Cost:** 3 XP
 **Traits:** -
 
 

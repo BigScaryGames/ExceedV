@@ -4,7 +4,7 @@
 **Type:** Basic/Advanced
 **AP Cost:** -
 **Attributes:** EN/AG
-**Traits:** #Spell #Boon
+**Traits:** #Spell #Attuned #Boon
 
 ## Short Description
 Ignore difficult terrain while traveling
