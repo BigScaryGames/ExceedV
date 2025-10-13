@@ -1,16 +1,19 @@
 # Silent Steps
 
-**Requirements:** Stealth 1
-**Category:** Universal
+**Requirements:** Stealth 2
+**Category:** Skill
 **Cost:** 5 XP
-**Traits:** -
+**Traits:** #Exploration 
 
 
-## Short Description
-Sneaking doesn't slow you down.
+### **Short Description**
 
-## Effect
-You can sneak at full speed, and can choose to move at half speed for +2 bonus to stealth rolls.
+Move swiftly without breaking silence.
 
+### **Effect**
+
+- Sneaking in **combat** no longer reduces your movement speed.
+- You may move at **half speed** to gain **+2** to Stealth rolls that depend on sound.
+- When **Scouting**, reduce the **Speed Penalty** from 2 to **1**.
 ## Description
-You know how to move quickly and quietly.
+You know how to move quickly and quietly as a second nature.

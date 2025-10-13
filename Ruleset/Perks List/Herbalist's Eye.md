@@ -1,16 +1,20 @@
-# Herbalist's Eye
+# **Herbalist's Eye**
 
-**Requirements:** Medicine 1, Biology 1
-**Category:** Skill-based
-**Cost:** 3 XP
-**Traits:** -
+**Requirements:** Medicine 1, Biology 1  
+**Category:** Skill  
+**Cost:** 3 XP  
+**Traits:** #Exploration
 
+### **Short Description**
 
-## Short Description
-Gather herbs while moving through wilderness.
+Gather herbs on the move without slowing down.
 
-## Effect
-You can perform gathering of herbs during traveling through the wilderness without significantly slowing down your movement speed.
-When traveling or tracking you can roll for Biology from perception to gather extra plants if any.
+### **Effect**
+
+When foraging for herbs while marching, choose one:
+1. **Ignore the –1 Speed penalty** for gathering on the move.
+2. **Ignore the +2 DC penalty** for gathering on the move.
+
 ## Description
-Your trained eye can distinguish between beneficial and harmful plants at a glance and on the go, filling your resources of materials for elixirs and poisons.
+Your trained eye instantly distinguishes useful plants from weeds and poisonous ones.  
+You gather herbal materials efficiently, even while traveling, keeping your pouch stocked for elixirs, salves, and poisons.
