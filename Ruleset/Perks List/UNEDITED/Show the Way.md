@@ -1,5 +1,5 @@
 # Show the Way
-
+-- TO DELETE - REPLICATES AN EFFECT OF A SIMILAR SPELL
 **Requirements:** -
 **Category:** Universal
 **Cost:** 10 XP

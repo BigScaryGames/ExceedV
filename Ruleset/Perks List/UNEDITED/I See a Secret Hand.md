@@ -1,8 +1,8 @@
 # I See a Secret Hand
 
 **Requirements:** History 3
-**Category:** Universal
-**Cost:** 15 XP
+**Category:** Skill
+**Cost:** 5 XP
 **Traits:** -
 
 

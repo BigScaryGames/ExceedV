@@ -83,3 +83,9 @@ Broad category that includes item manipulation like moving, throwing, stawing, p
 | [[identify]] | varies | #Skill | Knowledge skill for information |
 | [[First Aid]] | 4 | #Interact #Healing | Medicine skill, restore HP |
 | [[Aid]] | 2+R | #Interact #Boon | Provide bonus to ally action |
+
+## Exploration Activities and Actions
+
+//TODO
+Break ward - 
+Pick lock - 

@@ -1,7 +1,7 @@
 # Public Speaker
 
-**Requirements:** -
-**Category:** Universal
+**Requirements:** - Leadership 2 / Acting 2
+**Category:** Skill
 **Cost:** 5 XP
 **Traits:** -
 
