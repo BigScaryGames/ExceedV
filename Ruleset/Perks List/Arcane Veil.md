@@ -1,6 +1,6 @@
 # Arcane Veil
 
-**Requirements:** Arcane Lore 1, Stealth 3
+**Requirements:** Magical Theory 1, Stealth 3
 **Category:** Skill
 **Attributes:** [AG/WL]
 **Cost:** 5 XP

@@ -1,6 +1,6 @@
 # Spell Memory
 
-**Requirements:** Spell Identification, Arcane Lore 2
+**Requirements:** Spell Identification, Magical Theory 2
 **Category:** Magic
 **Cost:** 10 XP
 **Traits:** -

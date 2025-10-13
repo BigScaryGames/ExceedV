@@ -98,7 +98,7 @@
 ### Spellcraft Domain
 - **Progression:** Learning spells advances the domain
 - **Tier Unlocks:** Each Spellcraft level unlocks new spell tiers
-- **Learning Requirements:** Arcane Lore/Theology ≥ spell tier (or teacher)
+- **Learning Requirements:** Magical Theory/Theology ≥ spell tier (or teacher)
 - **Learning Time:** 1 day per XP spent
 
 ### Spell Costs by Tier
@@ -124,7 +124,7 @@
 - Breaking (Might/Wit)
 
 ### Knowledge Skills
-- Arcane Lore (Wit/Will), History (Wit/Will), Theology (Will/Charisma), Streetwise (Charisma/Perception)
+- Magical Theory (Wit/Will), History (Wit/Will), Theology (Will/Charisma), Streetwise (Charisma/Perception)
 
 ### Other Categories
 - **Crafting:** Smithing, Woodworking, Textilework, Engineering

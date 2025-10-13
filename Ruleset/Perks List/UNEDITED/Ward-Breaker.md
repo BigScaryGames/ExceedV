@@ -1,6 +1,6 @@
 # Glyphwright
 
-**Requirements:** Arcane Lore 2
+**Requirements:** Magical Theory 2
 **Category:** Magic
 **Cost:** 10 XP
 **Traits:** -

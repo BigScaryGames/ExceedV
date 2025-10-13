@@ -1,6 +1,6 @@
 # Spell Identification
 
-**Requirements:** Arcane Lore 1
+**Requirements:** Magical Theory 1
 **Category:** Magic
 **Cost:** 5 XP
 **Traits:** -

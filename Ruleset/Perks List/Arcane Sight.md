@@ -1,6 +1,6 @@
 # Arcane Sight
 
-**Requirements:** Arcane Lore 2, Detect Magic, Spellcraft 2
+**Requirements:** Magical Theory 2, Detect Magic, Spellcraft 2
 **Category:** Magic
 **Attributes:** [PR, Spellcraft]
 **Cost:** 7 XP

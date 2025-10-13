@@ -1,6 +1,6 @@
 # Enchanter
 
-**Requirements:** Arcane Lore 2
+**Requirements:** Magical Theory 2
 **Category:** Magic
 **Cost:** 5 XP
 **Traits:** -

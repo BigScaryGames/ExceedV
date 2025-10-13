@@ -1,6 +1,6 @@
 # Sole Ritualist
 
-**Requirements:** Arcane Lore 3
+**Requirements:** Magical Theory 3
 **Category:** Magic
 **Cost:** 15 XP
 **Traits:** -
