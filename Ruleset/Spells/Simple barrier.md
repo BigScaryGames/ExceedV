@@ -16,4 +16,4 @@ Place magical barriers to block or bridge
 ## Description
 [Flavor text to be written]
 
-**Duration:** 1 minute
+**Duration:** 1 minuta

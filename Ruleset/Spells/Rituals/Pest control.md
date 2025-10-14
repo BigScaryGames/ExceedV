@@ -2,7 +2,7 @@
 
 **Tier:** 1
 **Type:** Ritual
-**AP Cost:** 1 hour per 100 m²
+**AP Cost:** 1 shift per 250 m²
 **Attributes:** WT/PR
 **Traits:** #Spell #Manipulation #AOE #Bane #Illusion 
 

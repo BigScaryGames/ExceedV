@@ -10,7 +10,7 @@
 You can communicate with any humanoid and learn languages at accelerated rates.
 
 ## Effect
-- Develop sign and sound language to communicate with any humanoid within 10 minutes
+- Develop sign and sound language to communicate with any humanoid within a breather
 - Learn any language at broken level within one week
 - Achieve native-level fluency within one month of study
 - Works with any humanoid language, regardless of origin

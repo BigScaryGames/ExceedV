@@ -16,4 +16,4 @@ Telekinetic manipulation of small objects
 ## Description
 [Flavor text to be written]
 
-**Duration:** 1 minute
+**Duration:** 1 minuta

@@ -17,4 +17,4 @@ Alarms all team members when unauthorised creature enters the area. To bypass it
 ## Description
 [Bread and butter of adventurers and bodyguards. Despite its common use and relative ease of detection by trained thieves and assassins this is a one of the pillars of security systems. Note from author: Dear adventurers, if your travel in the wilderness and your support mage doesn't know this spell - you need to find another one. ]
 
-**Duration:** 10 hours or until dispelled
+**Duration:** 4 shifts or until dispelled

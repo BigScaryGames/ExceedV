@@ -16,4 +16,4 @@ Create phantom tools for a skill you have
 ## Description
 [Flavor text to be written]
 
-**Duration:** 1 minute
+**Duration:** 1 minuta

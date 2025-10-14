@@ -16,4 +16,4 @@ Minor magical effects for cleaning, flavoring, and coloring
 ## Description
 [Flavor text to be written]
 
-**Duration:** 1 minute
+**Duration:** 1 minuta

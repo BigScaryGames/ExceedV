@@ -20,4 +20,4 @@ Negate falling damage for targets
 ## Description
 [Flavor text to be written]
 
-**Duration:** 1 minute
+**Duration:** 1 minuta

@@ -1,3 +1,41 @@
+Conditions in Exceed apply penalties or ongoing effects. All penalties follow the standard stacking rules: penalties of the same type do not stack (only the highest applies), while penalties of different types do stack.
+# **1. Enhancement Conditions**
+
+This penalty directly reduces a character's core attributes or a specific roll. It represents a physical or mental debilitation.
+
+- **Clumsy X:** X penalty to Agility (AG) and Dexterity (DX) based rolls.
+- **Enfeebled X:** X penalty to Might (MG) and Endurance (EN) based rolls.
+- **Distracted X:** X penalty to Willpower (WL) and Perception (PR) based rolls.
+- **Befuddled X:** X penalty to Charisma (CH) and Wit (WT) based rolls.
+- **Fatigued X:** Max 3. X Enhancement penalty to all rolls, -3 penalty to exploration activities. When fatigue would increase to 4, you go unconscious.
+
+# **2. Morale Conditions
+
+This penalty affects a character's ability to perform certain types of actions, representing fear, doubt, or a lack of confidence.
+
+- **Hesitant X:** X morale penalty on all **Offensive** rolls and to movement speed when moving towards the enemy. 
+- **Shaken X:** X morale penalty on all **Defensive** rolls.
+- **Demoralized X:** X morale penalty on **all** actions.
+
+# **3. Luck**
+
+Misfortune effects.
+* Cursed: - check of specific types are rolled at disadvantage. This can be attribute based, action based or otherwise specified.
+* Jinxed - next roll of a specific type or simply the next roll is rolled with disadvantage.
+* 
+# **4. Situational Penalty**
+* Prone: -2 Penalty to martial skill rolls. 
+* Flanked/OFFGUARD - TBD
+* Blinded/Dazzled
+  
+# 5. DOT
+
+1. Elemental DOT
+2. Bleeding DOT
+3. Mental DOT
+4. Body DOT (poisons)
+# Musings
+___ 
 **Stunned X** : Lose X actions next turn, cannot use reactions
 **Flanked**: -1 DC per flanking enemy beyond the first if they are not on the same side. (centers of space don't enter your space) 
 **Prone**: [To be defined] -2DC flat.
@@ -13,3 +51,44 @@
 **Bleeding:** Wounds cause bleeding X equal to highest wound severity level (0-3 damage per turn until treated).
 
 **Natural Bleeding Cessation** At the end of each turn (or every minuta out of combat), characters with bleeding wounds roll flat 2d10 vs 11+Bleeding level, reducing the severity by 1 or 2 on a critical.
+
+
+
+
+# Conditions Logic
+fists lets look at bonus and penalty types
+
+## Bonus Types
+*Stacking rules: Same type = Don't Stack, take higher. Different types = Stack.*
+
+| Trait        |
+| ------------ |
+| #Competence  |
+| #Morale      |
+| #Enhancement |
+| #Luck        |
+| #Equipment   |
+| #Situational |
+| #Armor       |
+| #Size        |
+From these - 
+Armor penalty- doing that will be a bad design choice.
+Morale - good choice - just flat penalty or bonus 
+Competence - poor choice - requires recalculation so will lead to back and forth
+Enhancement - good choice - not much to recaltulate.
+Luck - good choice
+Equpment - hard to track, can be put in enhancement and will be good.
+Situational - good choice -doesn't stack
+Size - no comment
+
+so we get
+Enhancement - for Attribute penalties
+DOT conditions - for Damage on time
+Morale Penalty - for action types - like offensive/defensive/all 
+Enhanceme
+
+nt penalty - clumsy(AG+DX), enfeebled(MG+EN), Distracted WL+PR and Befuddled CH+WT
+Luck - simple enogh.
+Situational - like flanked, prone and similar.
+
+ 

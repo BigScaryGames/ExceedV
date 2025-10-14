@@ -16,4 +16,4 @@ Transform limbs into tentacles with extended reach
 ## Description
 [Flavor text to be written]
 
-**Duration:** 1 hour, cannot be self dispelled. Because you don't have hands to dispell
+**Duration:** 1 shift, cannot be self dispelled. Because you don't have hands to dispell

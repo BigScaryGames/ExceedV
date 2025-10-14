@@ -16,4 +16,4 @@ Create illusory sounds
 ## Description
 [Flavor text to be written]
 
-**Duration:** 10 seconds
+**Duration:** 1 round
