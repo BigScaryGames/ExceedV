@@ -5,6 +5,7 @@
 .smart-env/smart_chat_threads/
 .smart-env/smart_completions/
 .smart-env/smart_contexts/
+.obsidian
 
 # Optional: exclude all smart-env if you don't want to sync AI plugin data
 # .smart-env/
@@ -23,3 +24,4 @@ Ruleset/todo.md
 .smart-env/multi/README_md.ajson
 *.ajson
 *.ajson
+.smart-env/multi/README_md.ajson
