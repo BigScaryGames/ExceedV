@@ -1,10 +1,9 @@
 # Avid Gossiper
 
 **Requirements:** -  Gossip 2
-**Category:** Skill
 **Cost:** 5 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
   When gathering information throug gossip, your interest in target subject remains hidden.

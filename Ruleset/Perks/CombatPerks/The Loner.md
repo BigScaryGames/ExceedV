@@ -1,10 +1,10 @@
 # The Loner
 
- **Requirement:** -
- **Attributes:** Any Attribute
- **AP Cost:** 2
- **XP Cost:** 20
- **Tags:** #Universal
+**Requirements:** -
+**Attributes:** Any Attribute
+**Cost:** 20 XP
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Fight alone with enhanced capabilities but no allies.

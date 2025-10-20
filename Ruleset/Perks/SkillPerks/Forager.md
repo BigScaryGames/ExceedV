@@ -1,10 +1,9 @@
 # Forager
 
 **Requirements:** -
-**Category:** Skill-based
 **Cost:** 5 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 Procuring food in the wilderness is a second nature.

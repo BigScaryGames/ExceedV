@@ -1,10 +1,10 @@
 # Pushing Strike
 
- **Requirement:** SaS2, MG1
- **Attributes:** MG+SaS
- **AP Cost:** 3
- **XP Cost:** 3
- **Tags:** #StavesSpears
+**Requirements:** SaS2, MG1
+**Attributes:** MG+SaS
+**Cost:** 3 XP
+**AP Cost:** 3
+**Tags:** #Combat #StavesSpears
 
 ## Short Description
 Strike to push enemies outside your weapon's reach.

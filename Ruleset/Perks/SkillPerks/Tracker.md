@@ -1,10 +1,9 @@
 # Tracker
 
 **Requirements:** Tracking 2,
-**Category:** Skill
 **Cost:** 5 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 Tracking is your second nature

@@ -1,10 +1,9 @@
 # Environmental Grace
 
 **Requirements:** - Survival 3
-**Category:** Skill
 **Cost:** 7 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 You are good at mitigating the enviornmental effects.

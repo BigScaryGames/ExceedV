@@ -1,10 +1,9 @@
 # Crime in-Law
 
 **Requirements:** #Streetwise 2, Known in criminal upper echelons  #Rank in cri
-**Category:** Rank-based
 **Cost:** 10 XP
-**Traits:** #Rank
-
+**AP Cost:** -
+**Tags:** #Skill #Rank
 
 ## Short Description
 You are a respected figure in the criminal underworld, ensuring better treatment and respect from all criminal interactions.

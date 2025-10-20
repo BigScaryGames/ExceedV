@@ -1,11 +1,10 @@
 # Arcane Sight
 
 **Requirements:** Magical Theory 2, Detect Magic, Spellcraft 2
-**Category:** Magic
-**Attributes:** [PR, Spellcraft]
+**Attributes:** PR, Spellcraft
 **Cost:** 7 XP
-**Traits:** - #Scrying
-
+**AP Cost:** -
+**Tags:** #Skill - #Scrying
 
 ## Short Description
 Enhance your ability to perceive magic.

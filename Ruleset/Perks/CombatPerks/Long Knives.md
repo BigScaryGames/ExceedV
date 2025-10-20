@@ -1,10 +1,10 @@
 # Long Knives
 
- **Requirement:** 1H1
- **Attributes:** AG/DX+1H
- **AP Cost:** 2
- **XP Cost:** 2
- **Tags:** #OneHanded
+**Requirements:** 1H1
+**Attributes:** AG/DX+1H
+**Cost:** 2 XP
+**AP Cost:** 2
+**Tags:** #Combat #OneHanded
 
 ## Short Description
 Increase damage with knives and daggers.

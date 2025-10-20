@@ -1,11 +1,10 @@
 # Liar Liar
 
 **Requirements:** Manipulation 2, Fast-talk 1
-**Category:** Skill
-**Attributes:** [CH/WL]
+**Attributes:** CH/WL
 **Cost:** 2 XP
-**Traits:** - #GM
-
+**AP Cost:** -
+**Tags:** #Skill - #GM
 
 ## Short Description
 Lying as second nature.

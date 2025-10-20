@@ -1,11 +1,10 @@
 # Cultural Explorer
 
 **Requirements:** History 1
-**Category:** Skill
-**Attributes:** [WT/CH]
+**Attributes:** WT/CH
 **Cost:** 2 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 You learn about a culture, its norms, history, and language.

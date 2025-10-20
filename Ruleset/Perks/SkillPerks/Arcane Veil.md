@@ -1,10 +1,10 @@
 # Arcane Veil
 
 **Requirements:** Magical Theory 1, Stealth 3
-**Category:** Skill
-**Attributes:** [AG/WL]
+**Attributes:** AG/WL
 **Cost:** 5 XP
-**Traits:** #Illusion
+**AP Cost:** -
+**Tags:** #Skill #Illusion
 
 ## Short Description
 Skill to hide from scrying.

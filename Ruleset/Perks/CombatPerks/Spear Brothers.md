@@ -1,10 +1,10 @@
 # Spear Brothers
 
- **Requirement:** SaS1
- **Attributes:** CH/WL+Sas
- **AP Cost:** 2
- **XP Cost:** 3
- **Tags:** #StavesSpears
+**Requirements:** SaS1
+**Attributes:** CH/WL+Sas
+**Cost:** 3 XP
+**AP Cost:** 2
+**Tags:** #Combat #StavesSpears
 
 ## Short Description
 Fight better when standing adjacent to another spearman.

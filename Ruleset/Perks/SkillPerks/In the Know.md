@@ -1,10 +1,9 @@
 # In the Know
 
 **Requirements:** Street Wisdom 2
-**Category:** Skill
 **Cost:** 5 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 The shadowy parts of towns are your natural habitat.

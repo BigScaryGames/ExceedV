@@ -1,10 +1,9 @@
 # Inquisitor
 
 **Requirements:** Theology 3, Ordained
-**Category:** Rank-based
 **Cost:** 5 XP
-**Traits:** #Rank
-
+**AP Cost:** -
+**Tags:** #Skill #Rank
 
 ## Short Description
 You are a certified witch hunter with legal authority to request aid against supernatural threats.

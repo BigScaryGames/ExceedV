@@ -1,11 +1,11 @@
 # **Herbalist's Eye**
 
 **Requirements:** Medicine 1, Biology 1  
-**Category:** Skill  
-**Cost:** 3 XP  
-**Traits:** #Exploration
+**Cost:** 3 XP
+**AP Cost:** -
+**Tags:** #Skill #Exploration
 
-### **Short Description**
+## **Short Description**
 
 Gather herbs on the move without slowing down.
 

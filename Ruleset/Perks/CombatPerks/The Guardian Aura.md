@@ -1,10 +1,10 @@
 # The Guardian Aura
 
- **Requirement:** SH3, Spell Guard, Shield Warden
- **Attributes:** EN/MG+SH
- **AP Cost:** 2
- **XP Cost:** 10
- **Tags:** #Shield
+**Requirements:** SH3, Spell Guard, Shield Warden
+**Attributes:** EN/MG+SH
+**Cost:** 10 XP
+**AP Cost:** 2
+**Tags:** #Combat #Shield
 
 ## Short Description
 Provide defensive advantages to allies within aura range.

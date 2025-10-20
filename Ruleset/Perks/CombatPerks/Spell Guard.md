@@ -1,10 +1,10 @@
 # Spell Guard
 
- **Requirement:** SH2
- **Attributes:** PR/AG+SH
- **AP Cost:** 2
- **XP Cost:** 5
- **Tags:** #Shield
+**Requirements:** SH2
+**Attributes:** PR/AG+SH
+**Cost:** 5 XP
+**AP Cost:** 2
+**Tags:** #Combat #Shield
 
 ## Short Description
 Block magical effects and spells with your shield.

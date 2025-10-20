@@ -1,12 +1,11 @@
 # Silent Steps
 
 **Requirements:** Stealth 2
-**Category:** Skill
 **Cost:** 5 XP
-**Traits:** #Exploration 
+**AP Cost:** -
+**Tags:** #Skill #Exploration 
 
-
-### **Short Description**
+## **Short Description**
 
 Move swiftly without breaking silence.
 

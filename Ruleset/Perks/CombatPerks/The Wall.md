@@ -1,10 +1,10 @@
 # The Wall
 
- **Requirement:** SH3, Shield Warden
- **Attributes:** EN/MG+SH
- **AP Cost:** 2
- **XP Cost:** 15
- **Tags:** #Shield
+**Requirements:** SH3, Shield Warden
+**Attributes:** EN/MG+SH
+**Cost:** 15 XP
+**AP Cost:** 2
+**Tags:** #Combat #Shield
 
 ## Short Description
 Allow adjacent allies to hide behind you and your heavy shield.

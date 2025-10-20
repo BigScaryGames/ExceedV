@@ -1,10 +1,10 @@
 # Too Selfish
 
- **Requirement:** That Type of a person
- **Attributes:** CH
- **AP Cost:** 2
- **XP Cost:** -
- **Tags:** #Universal
+**Requirements:** That Type of a person
+**Attributes:** CH
+**Cost:** -
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Instant perk that activates when protecting someone fails.

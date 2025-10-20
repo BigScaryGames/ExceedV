@@ -1,10 +1,10 @@
 # Pointy stick
 
- **Requirement:** SaS2
- **Attributes:** PR/MG +SaS
- **AP Cost:** 3
- **XP Cost:** 5
- **Tags:** #StavesSpears
+**Requirements:** SaS2
+**Attributes:** PR/MG +SaS
+**Cost:** 5 XP
+**AP Cost:** 3
+**Tags:** #Combat #StavesSpears
 
 ## Short Description
 Prepare to strike enemies entering your reach.

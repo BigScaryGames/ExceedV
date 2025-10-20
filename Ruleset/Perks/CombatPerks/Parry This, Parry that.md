@@ -1,10 +1,10 @@
 # Parry This, Parry that
 
- **Requirement:** MD 3, Projectile parry
- **Attributes:** AG/DX +MD
- **AP Cost:** 2
- **XP Cost:** 10
- **Tags:** #Universal
+**Requirements:** MD 3, Projectile parry
+**Attributes:** AG/DX +MD
+**Cost:** 10 XP
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Parry magical effects and protect those behind you.

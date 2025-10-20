@@ -1,10 +1,10 @@
 # Dodge-Roll
 
- **Requirement:** AG 3, Dodging Step
- **Attributes:** AG/MG
- **AP Cost:** 2
- **XP Cost:** 10
- **Tags:** #Universal
+**Requirements:** AG 3, Dodging Step
+**Attributes:** AG/MG
+**Cost:** 10 XP
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Use an acrobatic roll to avoid area attacks.

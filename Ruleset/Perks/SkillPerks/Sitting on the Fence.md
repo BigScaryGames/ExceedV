@@ -1,10 +1,9 @@
 # Sitting on the Fence
 
 **Requirements:** Street Wisdom 1
-**Category:** Universal
 **Cost:** 5 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 You know how to work as a fence or as an information broker.

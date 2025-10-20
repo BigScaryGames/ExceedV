@@ -1,10 +1,10 @@
 # The Cult Leader
 
- **Requirement:** GM, The Leader, Lead. 3, Manip. 3
- **Attributes:** CH
- **AP Cost:** 2
- **XP Cost:** 10
- **Tags:** #Universal
+**Requirements:** GM, The Leader, Lead. 3, Manip. 3
+**Attributes:** CH
+**Cost:** 10 XP
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Lead fanatical followers who have sworn loyalty to you.

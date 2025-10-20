@@ -1,10 +1,10 @@
 # Dodging Step
 
- **Requirement:** AG 2
- **Attributes:** AG/PR
- **AP Cost:** 2
- **XP Cost:** 5
- **Tags:** #Universal
+**Requirements:** AG 2
+**Attributes:** AG/PR
+**Cost:** 5 XP
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Improve your dodge by taking a tactical step.

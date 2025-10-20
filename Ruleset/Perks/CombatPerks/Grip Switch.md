@@ -1,10 +1,10 @@
 # Grip Switch
 
- **Requirement:** SaS1
- **Attributes:** DX/AG+SaS
- **AP Cost:** 2
- **XP Cost:** 2
- **Tags:** #StavesSpears
+**Requirements:** SaS1
+**Attributes:** DX/AG+SaS
+**Cost:** 2 XP
+**AP Cost:** 2
+**Tags:** #Combat #StavesSpears
 
 ## Short Description
 Switch weapon grip freely during offensive actions.

@@ -1,10 +1,10 @@
 # The Leader
 
- **Requirement:** Lead.1
- **Attributes:** CH
- **AP Cost:** 2
- **XP Cost:** 5
- **Tags:** #Universal
+**Requirements:** Lead.1
+**Attributes:** CH
+**Cost:** 5 XP
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Lead your team's resistance against fear effects.

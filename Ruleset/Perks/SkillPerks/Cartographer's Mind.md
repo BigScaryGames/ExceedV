@@ -1,10 +1,10 @@
 # Cartographer's Mind
 
 **Requirements:** Navigation 2, Wit 1
-**Category:** Skill
-**Attributes:** [WT/PR]
+**Attributes:** WT/PR
 **Cost:** 3 XP
-**Traits:** -
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 You have perfect recall of routes and distances.

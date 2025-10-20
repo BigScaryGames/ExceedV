@@ -1,10 +1,10 @@
 # Shield Guardian
 
- **Requirement:** SH2
- **Attributes:** PR/AG+SH
- **AP Cost:** 2
- **XP Cost:** 10
- **Tags:** #Shield
+**Requirements:** SH2
+**Attributes:** PR/AG+SH
+**Cost:** 10 XP
+**AP Cost:** 2
+**Tags:** #Combat #Shield
 
 ## Short Description
 Block attacks targeting adjacent allies instead of them.

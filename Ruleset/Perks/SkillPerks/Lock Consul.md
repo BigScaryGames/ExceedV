@@ -1,11 +1,12 @@
 # **Lock Consul**
-**Requirements:** Lockpicking 2, Dexterity 1  
-**Category:** Skill  
-**Attributes:** [DX/PR]  
-**Cost:** 5 XP  
-**Traits:** —
 
-### **Short Description**
+**Requirements:** Lockpicking 2, Dexterity 1  
+**Attributes:** DX/PR
+**Cost:** 5 XP
+**AP Cost:** -
+**Tags:** #Skill —
+
+## **Short Description**
 Work fast when time is short, or slow when mistakes aren’t an option.
 
 ### **Effect**

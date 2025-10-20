@@ -1,10 +1,10 @@
 # Projectile Parry
 
- **Requirement:** Melee MD
- **Attributes:** AG/DX+MD
- **AP Cost:** 2
- **XP Cost:** 5
- **Tags:** #Universal
+**Requirements:** Melee MD
+**Attributes:** AG/DX+MD
+**Cost:** 5 XP
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Parry ranged physical attacks with melee weapons.

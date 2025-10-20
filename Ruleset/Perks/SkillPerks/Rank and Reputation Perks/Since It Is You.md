@@ -1,10 +1,9 @@
 # Since It Is You
 
 **Requirements:** History 3, Published author, Participated in conference
-**Category:** Rank-based
 **Cost:** 15 XP
-**Traits:** #Rank
-
+**AP Cost:** -
+**Tags:** #Skill #Rank
 
 ## Short Description
 There is a chance you will be recognized and gain preferential treatment from scholars and nobles.

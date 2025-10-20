@@ -1,11 +1,10 @@
 # Natural Predator
 
 **Requirements:** Stealth 2, Survival 2 / Tracking 2
-**Category:** Skill-based
-**Attributes:** [PR/AG]
+**Attributes:** PR/AG
 **Cost:** 3 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 Experience in coordinated strikes in the natural environments.

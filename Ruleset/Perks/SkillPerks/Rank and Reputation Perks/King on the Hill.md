@@ -1,10 +1,9 @@
 # King on the Hill
 
 **Requirements:** Street Wisdom 3, Started a criminal organization
-**Category:** Rank-based
 **Cost:** 15 XP
-**Traits:** #Rank
-
+**AP Cost:** -
+**Tags:** #Skill #Rank
 
 ## Short Description
 Your criminal syndicate generates passive income as you establish yourself as a significant power in the underworld.

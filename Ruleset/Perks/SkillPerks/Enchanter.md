@@ -1,10 +1,9 @@
 # Enchanter
 
 **Requirements:** Magical Theory 2
-**Category:** Magic
 **Cost:** 5 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 You learn Enchantement.

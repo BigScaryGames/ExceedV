@@ -1,11 +1,10 @@
 # Aerial Archaeologist
 
 **Requirements:** History 2
-**Category:** Skill
+**Attributes:** WT/PR
 **Cost:** 2 XP
-**Attributes:** [WT/PR]
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 From the birds eye view you can see the hints of ruins undergound.

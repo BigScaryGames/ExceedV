@@ -1,10 +1,10 @@
 # Shield Block
 
- **Requirement:** SH1 (starting perk)
- **Attributes:** -
- **AP Cost:** 2
- **XP Cost:** -
- **Tags:** #Shield #Starting
+**Requirements:** SH1 (starting perk)
+**Attributes:** -
+**Cost:** -
+**AP Cost:** 2
+**Tags:** #Combat #Shield #Starting
 
 ## Short Description
 Reduce damage from failed blocks with shield negation.

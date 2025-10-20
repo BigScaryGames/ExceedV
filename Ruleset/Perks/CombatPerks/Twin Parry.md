@@ -1,10 +1,10 @@
 # Twin Parry
 
- **Requirement:** 1H1
- **Attributes:** AG/DX+1H
- **AP Cost:** 2
- **XP Cost:** 3
- **Tags:** #OneHanded
+**Requirements:** 1H1
+**Attributes:** AG/DX+1H
+**Cost:** 3 XP
+**AP Cost:** 2
+**Tags:** #Combat #OneHanded
 
 ## Short Description
 Gain parrying bonus when dual wielding.

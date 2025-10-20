@@ -1,10 +1,9 @@
 # Licensed Healer
 
 **Requirements:** Licensed Healer, Medicine 3, Court appointment
-**Category:** Rank-based
 **Cost:** 15 XP
-**Traits:** #Rank
-
+**AP Cost:** -
+**Tags:** #Skill #Rank
 
 ## Short Description
 Your reputation as a court-appointed physician grants you exceptional social standing and resources.

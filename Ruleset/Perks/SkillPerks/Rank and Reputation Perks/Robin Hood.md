@@ -1,10 +1,9 @@
 # Robin Hood
 
 **Requirements:** Street Wisdom 3, Created reputation rumors
-**Category:** Rank-based
 **Cost:** 15 XP
-**Traits:** #Rank
-
+**AP Cost:** -
+**Tags:** #Skill #Rank
 
 ## Short Description
 Your positive reputation as a folk hero or champion of the common people works opposite to fear-based intimidation.

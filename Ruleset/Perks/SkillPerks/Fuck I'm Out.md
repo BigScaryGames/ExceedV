@@ -1,10 +1,9 @@
 # Fuck I'm Out
 
 **Requirements:** Initimidation 3
-**Category:** Skill
 **Cost:** 5 XP
-**Traits:** - #Mind
-
+**AP Cost:** -
+**Tags:** #Skill - #Mind
 
 ## Short Description
 Your Initimidation can make enemies reconsider fighting you.

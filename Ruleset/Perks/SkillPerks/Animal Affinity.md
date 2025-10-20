@@ -1,11 +1,10 @@
 # Animal Affinity
 
 **Requirements:** Survival 2
-**Category:** Skill
-**Attributes:** [CH/WL]
+**Attributes:** CH/WL
 **Cost:** 5 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 You and your team have a short window to negotiate with Animals to prevent combat.

@@ -1,10 +1,10 @@
 # Staff acrobat
 
- **Requirement:** SaS1
- **Attributes:** AG/MG+SaS
- **AP Cost:** 2
- **XP Cost:** 2
- **Tags:** #StavesSpears
+**Requirements:** SaS1
+**Attributes:** AG/MG+SaS
+**Cost:** 2 XP
+**AP Cost:** 2
+**Tags:** #Combat #StavesSpears
 
 ## Short Description
 Use your staff to enhance jumping and balance.

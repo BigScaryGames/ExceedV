@@ -1,11 +1,10 @@
 # Not Sherlock
 
 **Requirements:** Wit 2
-**Category:** Universal
-**Attributes:** [WT/PR]
+**Attributes:** WT/PR
 **Cost:** 3 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 Failed Deduce checks provide conflicting information instead of nothing.

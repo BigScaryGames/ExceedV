@@ -1,11 +1,10 @@
 # Primeval Awareness
 
 **Requirements:** Survival 1, Tracking 1
-**Category:** Skill-based
-**Attributes:** [PR/WT]
+**Attributes:** PR/WT
 **Cost:** 3 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 You know of animals' habitats.

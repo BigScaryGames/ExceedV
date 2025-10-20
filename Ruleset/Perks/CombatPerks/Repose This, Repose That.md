@@ -1,10 +1,10 @@
 # Repose This, Repose That
 
- **Requirement:** MG 5, Parry this, Parry that, WL3
- **Attributes:** Will+MD
- **AP Cost:** 2
- **XP Cost:** 10
- **Tags:** #Universal
+**Requirements:** MG 5, Parry this, Parry that, WL3
+**Attributes:** Will+MD
+**Cost:** 10 XP
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Reflect spells back at their casters on critical parries.

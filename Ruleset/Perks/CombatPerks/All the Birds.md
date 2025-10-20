@@ -1,10 +1,10 @@
 # All the Birds
 
- **Requirement:** MD4+MG4, Two birds
- **Attributes:** MG/AG+MD
- **AP Cost:** 6
- **XP Cost:** 15
- **Tags:** #Universal
+**Requirements:** MD4+MG4, Two birds
+**Attributes:** MG/AG+MD
+**Cost:** 15 XP
+**AP Cost:** 6
+**Tags:** #Combat #Universal
 
 ## Short Description
 Strike all targets within reach simultaneously.

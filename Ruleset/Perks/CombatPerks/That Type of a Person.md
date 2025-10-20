@@ -1,10 +1,10 @@
 # That Type of a Person
 
- **Requirement:** Watching your back
- **Attributes:** Will
- **AP Cost:** 2
- **XP Cost:** 5
- **Tags:** #Universal
+**Requirements:** Watching your back
+**Attributes:** Will
+**Cost:** 5 XP
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Rush to protect downed allies, taking their attacks.

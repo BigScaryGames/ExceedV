@@ -1,11 +1,10 @@
 # First Responder
 
 **Requirements:** Medicine 2
-**Category:** Skill-based
-**Attributes:** [DX/WT]
+**Attributes:** DX/WT
 **Cost:** 3 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 First responder training.

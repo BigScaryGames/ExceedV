@@ -1,10 +1,10 @@
 # Multipurpose Shield
 
- **Requirement:** SH1
- **Attributes:** AG/MG+SH
- **AP Cost:** 2
- **XP Cost:** 3
- **Tags:** #Shield
+**Requirements:** SH1
+**Attributes:** AG/MG+SH
+**Cost:** 3 XP
+**AP Cost:** 2
+**Tags:** #Combat #Shield
 
 ## Short Description
 Strike with shield boss without losing defensive bonus.

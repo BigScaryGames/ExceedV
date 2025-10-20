@@ -1,11 +1,10 @@
 # Comedian
 
 **Requirements:** Fast-Talk 2, Charisma 1
-**Category:** Skill
-**Attributes:** [CH/PR]
+**Attributes:** CH/PR
 **Cost:** 3 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 You know how to turn everything into a joke.

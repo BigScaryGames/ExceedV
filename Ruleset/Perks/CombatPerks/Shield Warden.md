@@ -1,10 +1,10 @@
 # Shield Warden
 
- **Requirement:** SH1
- **Attributes:** PR/EN+SH
- **AP Cost:** 2
- **XP Cost:** 5
- **Tags:** #Shield
+**Requirements:** SH1
+**Attributes:** PR/EN+SH
+**Cost:** 5 XP
+**AP Cost:** 2
+**Tags:** #Combat #Shield
 
 ## Short Description
 Use Shield Block to protect allies taking damage.

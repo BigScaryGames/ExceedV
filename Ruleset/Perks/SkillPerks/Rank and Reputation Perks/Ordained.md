@@ -1,10 +1,9 @@
 # Ordained
 
 **Requirements:** Theology 1
-**Category:** Universal
 **Cost:** 5 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 You are a licensed priest of a deity with official standing and religious authority.

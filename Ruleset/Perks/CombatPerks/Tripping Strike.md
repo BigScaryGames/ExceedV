@@ -1,10 +1,10 @@
 # Tripping Strike
 
- **Requirement:** SaS2, Calfe Strike
- **Attributes:** MG/AG +SaS
- **AP Cost:** 3
- **XP Cost:** 5
- **Tags:** #StavesSpears
+**Requirements:** SaS2, Calfe Strike
+**Attributes:** MG/AG +SaS
+**Cost:** 5 XP
+**AP Cost:** 3
+**Tags:** #Combat #StavesSpears
 
 ## Short Description
 Strike enemy's leg to knock them prone.

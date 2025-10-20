@@ -1,11 +1,10 @@
 # Jester
 
 **Requirements:** Fast-Talk 3, Charisma 2
-**Category:** Skill
-**Attributes:** [-]
+**Attributes:** -
 **Cost:** 0 XP
-**Traits:** -  #GM #Instant
-
+**AP Cost:** -
+**Tags:** #Skill -  #GM #Instant
 
 ## Short Description
 You gain the Jester immunity.

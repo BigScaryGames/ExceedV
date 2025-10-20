@@ -1,10 +1,10 @@
 # The Cult Inner Member
 
- **Requirement:** -
- **Attributes:** -
- **AP Cost:** 2
- **XP Cost:** -
- **Tags:** #Universal
+**Requirements:** -
+**Attributes:** -
+**Cost:** -
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Loyal follower with enhanced mental resistance and leader protection.

@@ -1,10 +1,10 @@
 # Reactive
 
- **Requirement:** AG 3+PR3
- **Attributes:** AG/PR
- **AP Cost:** 2
- **XP Cost:** 20
- **Tags:** #Universal
+**Requirements:** AG 3+PR3
+**Attributes:** AG/PR
+**Cost:** 20 XP
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Your mind and body are primed to move with lightning speed.

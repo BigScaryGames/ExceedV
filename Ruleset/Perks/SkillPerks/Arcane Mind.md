@@ -1,11 +1,10 @@
 # Arcane Mind
 
 **Requirements:** Magical Theory 3, Spellcraft 1
-**Category:** Skill-Based
-**Attributes:** [WL/WT, Spellcraft]
+**Attributes:** WL/WT, Spellcraft
 **Cost:** 7 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 Your knowledge in magic aids you in protecting your mind against it.

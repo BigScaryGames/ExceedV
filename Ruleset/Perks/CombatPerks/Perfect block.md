@@ -1,10 +1,10 @@
 # Perfect block
 
- **Requirement:** SH2
- **Attributes:** MG/EN+SH
- **AP Cost:** 2
- **XP Cost:** 5
- **Tags:** #Shield
+**Requirements:** SH2
+**Attributes:** MG/EN+SH
+**Cost:** 5 XP
+**AP Cost:** 2
+**Tags:** #Combat #Shield
 
 ## Short Description
 Make attacker off-guard after critical block success.

@@ -1,10 +1,10 @@
 # The Edgelord
 
- **Requirement:** 1H2/2H2, GM
- **Attributes:** AG/DX
- **AP Cost:** 2
- **XP Cost:** 10
- **Tags:** #Universal
+**Requirements:** 1H2/2H2, GM
+**Attributes:** AG/DX
+**Cost:** 10 XP
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Master of edged weapons with a competitive edge.

@@ -1,10 +1,10 @@
 # Ready Hand
 
- **Requirement:** 1H1 (starting perk)
- **Attributes:** -
- **AP Cost:** 2
- **XP Cost:** -
- **Tags:** #OneHanded #Starting
+**Requirements:** 1H1 (starting perk)
+**Attributes:** -
+**Cost:** -
+**AP Cost:** 2
+**Tags:** #Combat #OneHanded #Starting
 
 ## Short Description
 Draw your weapon instinctively when combat starts.

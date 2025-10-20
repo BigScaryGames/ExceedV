@@ -1,10 +1,10 @@
 # Dodge behind your back
 
- **Requirement:** AG 4, Dodging Step, Stealth 4
- **Attributes:** AG/DX + Stealth
- **AP Cost:** 2
- **XP Cost:** 10
- **Tags:** #Universal
+**Requirements:** AG 4, Dodging Step, Stealth 4
+**Attributes:** AG/DX + Stealth
+**Cost:** 10 XP
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Use superior dodging to disappear and reappear behind enemies.

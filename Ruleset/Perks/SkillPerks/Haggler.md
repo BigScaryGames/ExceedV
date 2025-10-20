@@ -1,10 +1,9 @@
 # Haggler
 
 **Requirements:** FastTalk 2
-**Category:** Skill
 **Cost:** 2 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 Experienced Haggler doesn't make thing worse.

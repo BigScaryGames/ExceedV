@@ -1,11 +1,10 @@
 # Cheat
 
 **Requirements:** Liar Liar, Attractive
-**Category:** Skill
-**Attributes:** [CH]
+**Attributes:** CH
 **Cost:** 5 XP
-**Traits:** #GM
-
+**AP Cost:** -
+**Tags:** #Skill #GM
 
 ## Short Description
 Others have a hard time detecting the falsehoods in your words.

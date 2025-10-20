@@ -25,3 +25,7 @@ Ruleset/todo.md
 *.ajson
 *.ajson
 .smart-env/multi/README_md.ajson
+Ruleset/__pycache__/add_subtype_tags.cpython-312.pyc
+Ruleset/__pycache__/unify_perks.cpython-312.pyc
+Ruleset/add_subtype_tags.py
+Ruleset/unify_perks.py

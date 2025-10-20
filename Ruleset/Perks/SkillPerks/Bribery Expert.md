@@ -1,11 +1,10 @@
 # Bribery Expert
 
 **Requirements:** Streetwise 2
-**Category:** Skill
-**Attributes:** [CH/PR]
+**Attributes:** CH/PR
 **Cost:** 3 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 You are an expert in corruption.

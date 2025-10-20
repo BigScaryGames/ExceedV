@@ -1,10 +1,9 @@
 # Fear Means Respect
 
 **Requirements:** Street Wisdom 3, Created reputation rumors about power/viciousness
-**Category:** Universal
 **Cost:** 15 XP
-**Traits:** -
-
+**AP Cost:** -
+**Tags:** #Skill
 
 ## Short Description
 Your fearsome reputation causes people to avoid investigating your activities and look the other way when you're involved.

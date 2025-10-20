@@ -1,10 +1,10 @@
 # The Aspiring Hero
 
- **Requirement:** Lead3, The Leader, GM
- **Attributes:** CH
- **AP Cost:** 2
- **XP Cost:** 10
- **Tags:** #Universal
+**Requirements:** Lead3, The Leader, GM
+**Attributes:** CH
+**Cost:** 10 XP
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Instant perk that prevents death through narrative importance.

@@ -1,10 +1,10 @@
 # Shield Rush
 
- **Requirement:** SH1
- **Attributes:** MG/EN+SH
- **AP Cost:** 4
- **XP Cost:** 2
- **Tags:** #Shield
+**Requirements:** SH1
+**Attributes:** MG/EN+SH
+**Cost:** 2 XP
+**AP Cost:** 4
+**Tags:** #Combat #Shield
 
 ## Short Description
 Move and strike with shield, adding might to damage twice.

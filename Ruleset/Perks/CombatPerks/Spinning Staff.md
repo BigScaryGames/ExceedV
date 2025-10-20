@@ -1,10 +1,10 @@
 # Spinning Staff
 
- **Requirement:** SAS3
- **Attributes:** AG/DX +SaS
- **AP Cost:** 5
- **XP Cost:** 10
- **Tags:** #StavesSpears
+**Requirements:** SAS3
+**Attributes:** AG/DX +SaS
+**Cost:** 10 XP
+**AP Cost:** 5
+**Tags:** #Combat #StavesSpears
 
 ## Short Description
 Spin your staff to create a defensive zone that strikes approaching enemies.

@@ -1,10 +1,10 @@
 # Watching your back
 
- **Requirement:** -
- **Attributes:** CH + MD
- **AP Cost:** 2
- **XP Cost:** 5
- **Tags:** #Universal
+**Requirements:** -
+**Attributes:** CH + MD
+**Cost:** 5 XP
+**AP Cost:** 2
+**Tags:** #Combat #Universal
 
 ## Short Description
 Protect adjacent allies from being flanked.
