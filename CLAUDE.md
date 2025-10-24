@@ -30,7 +30,7 @@
 
 ### Steps
 1. **Concept:** Name and character concept
-2. **Starting XP:** GM awards Combat XP and Non-Combat XP separately
+2. **Starting XP:** GM awards Combat XP and Skill XP separately
 3. **Spend XP:** Skills, perks, spells (each shows which attributes benefit)
 4. **Calculate Bonus Actions:** Every 5 Mental/Physical attribute points = +1 action of that type
 5. **Starting Gear:** Equipment and final statistics

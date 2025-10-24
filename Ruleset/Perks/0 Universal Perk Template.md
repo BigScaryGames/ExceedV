@@ -71,7 +71,7 @@ Narrative description, lore, and context (optional - can be omitted if Effect is
 
 ### **AP Cost:**
 - Number for action point cost
-- `-` if not applicable (most non-combat perks)
+- `-` if not applicable (most Skill perks)
 
 **Examples:**
 ```
