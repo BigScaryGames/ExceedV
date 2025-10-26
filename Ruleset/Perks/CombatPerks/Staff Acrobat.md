@@ -1,4 +1,4 @@
-# Staff acrobat
+# Staff Acrobat
 
 **Requirements:** SaS1
 **Attributes:** AG/MG+SaS

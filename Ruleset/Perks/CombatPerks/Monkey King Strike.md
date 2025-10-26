@@ -1,6 +1,6 @@
 # Monkey King Strike
 
-**Requirements:** SAS3, AG3, Staff arobat
+**Requirements:** SAS3, AG3, [[Staff Acrobat]]
 **Attributes:** AG/MG+SaS
 **Cost:** 15 XP
 **AP Cost:** 4
