@@ -70,16 +70,16 @@ Perks allowing attacks against more than one enemy.
 ### 4. Adding Damage
 Perks that increase damage output through bonuses or die improvements.
 
-| Perk Name | Domain | Cost | Damage Bonus | Conditions | Design Intent |
-|-----------|--------|------|--------------|------------|---------------|
-| Piranha Strike | 1H | 10 XP | +2 per damage die | Target off-guard | Rogue/assassin archetype, punish vulnerable |
-| The Edgelord | Universal | 10 XP | +2 flat | Edged weapons only | Humorous "only one" mechanic with duel consequence |
-| Shield Rush | Sh | 2 XP | Double Might bonus | Movement required | Momentum-based damage, charge mechanic |
-| Spear Charge | SaS | 15 XP | +1 per meter moved | Straight line charge | Distance becomes damage scalar |
-| Long Knives | 1H | 2 XP | 1d4 → 1d6 | Knives/daggers only | Make small weapons viable damage dealers |
-| Overpowered Draw | Arc | Outside PT4 | +1 per aim (cumulative) | Stationary | Scaling damage for patient snipers |
-| Close Quarters Shooter | Arc | Outside PT4 | +Archery level | Close range aimed | Anti-intuitive close-range archer damage |
-| Tower | Arc | 10 XP | Free Aim1 | Didn't move 2 turns | Stationary sniper bonus |
+| Perk Name              | Domain    | Cost        | Damage Bonus            | Conditions               | Design Intent                                      |
+| ---------------------- | --------- | ----------- | ----------------------- | ------------------------ | -------------------------------------------------- |
+| Piranha Strike         | 1H        | 10 XP       | +2 per damage die       | Target off-guard         | Rogue/assassin archetype, punish vulnerable        |
+| The Edgelord           | Universal | 10 XP       | +2 flat                 | Edged weapons only       | Humorous "only one" mechanic with duel consequence |
+| ==Shield Rush==        | ==Sh==    | ==2 XP==    | ==Double Might bonus==  | ==Movement required==    | ==Momentum-based damage, charge mechanic==         |
+| ==Spear Charge==       | ==SaS==   | ==15 XP==   | ==+1 per meter moved==  | ==Straight line charge== | ==Distance becomes damage scalar==                 |
+| Long Knives            | 1H        | 2 XP        | 1d4 → 1d6               | Knives/daggers only      | Make small weapons viable damage dealers           |
+| Overpowered Draw       | Arc       | Outside PT4 | +1 per aim (cumulative) | Stationary               | Scaling damage for patient snipers                 |
+| Close Quarters Shooter | Arc       | Outside PT4 | +Archery level          | Close range aimed        | Anti-intuitive close-range archer damage           |
+| Tower                  | Arc       | 10 XP       | Free Aim1               | Didn't move 2 turns      | Stationary sniper bonus                            |
 
 **Design Notes:**
 - Conditional bonuses cost less than unconditional (Piranha vs Edgelord)
@@ -111,15 +111,15 @@ Perks that trigger on critical success/failure or modify critical mechanics.
 ### 6. Weapon Improvement
 Perks that enhance weapon properties, stats, or capabilities.
 
-| Perk Name | Domain | Cost | Improvement Type | Design Intent |
-|-----------|--------|------|-----------------|---------------|
-| Grip Switch | SaS | 2 XP | Free grip change (reach/long reach) | Tactical flexibility with pole weapons |
-| Long Knives | 1H | 2 XP | Damage die increase (1d4→1d6) | Make daggers viable |
-| Throwing Hand | 1H | 2 XP | +3 range, add throwing capability | Enable ranged option for melee weapons |
-| Multipurpose Shield | Sh | 3 XP | Strike without losing defense bonus | Sword-and-board offense without sacrifice |
-| Quarter-staff Training | SaS | 10 XP | +1 to all defenses | Make defensive staff builds viable |
-| Artillery | Arc | Outside PT4 | Range = Aim, double aim value | Extreme range sniper |
-| Defensive Archer | Arc | 5 XP | Parry with bow (no break risk) | Melee defense for ranged characters |
+| Perk Name              | Domain | Cost        | Improvement Type                    | Design Intent                             |
+| ---------------------- | ------ | ----------- | ----------------------------------- | ----------------------------------------- |
+| Grip Switch            | SaS    | 2 XP        | Free grip change (reach/long reach) | Tactical flexibility with pole weapons    |
+| Long Knives            | 1H     | 2 XP        | Damage die increase (1d4→1d6)       | Make daggers viable                       |
+| Throwing Hand          | 1H     | 2 XP        | +3 range, add throwing capability   | Enable ranged option for melee weapons    |
+| Multipurpose Shield    | Sh     | 3 XP        | Strike without losing defense bonus | Sword-and-board offense without sacrifice |
+| Quarter-staff Training | SaS    | 10 XP       | +1 to all defenses                  | Make defensive staff builds viable        |
+| Artillery              | Arc    | Outside PT4 | Range = Aim, double aim value       | Extreme range sniper                      |
+| Defensive Archer       | Arc    | 5 XP        | Parry with bow (no break risk)      | Melee defense for ranged characters       |
 
 **Design Notes:**
 - Cheap improvements (2-3 XP) for basic weapon function
@@ -132,13 +132,13 @@ Perks that enhance weapon properties, stats, or capabilities.
 ### 7. Reaction Attacks
 Perks that enable counter-attacks, opportunity strikes, or reaction-based offense.
 
-| Perk Name | Domain | Cost | Trigger | Design Intent |
-|-----------|--------|------|---------|---------------|
-| Riposte | Universal | 5 XP | Crit defense or enemy crit fail | Classic counter-strike mechanic |
-| Reactive Strike | Universal | 10 XP | Enemy strides/runs away | Punish tactical retreats, control space |
-| Painful Parry | 1H | 5 XP | Critical parry | Dual-wielding counter |
-| Pointy stick | SaS | 5 XP | Enemy enters reach | Anti-charge defense, prepared action |
-| Spinning Staff | SaS | 10 XP | Each enemy approaches | Create defensive zone, anti-swarm |
+| Perk Name          | Domain    | Cost      | Trigger                         | Design Intent                            |
+| ------------------ | --------- | --------- | ------------------------------- | ---------------------------------------- |
+| Riposte            | Universal | 5 XP      | Crit defense or enemy crit fail | Classic counter-strike mechanic          |
+| Reactive Strike    | Universal | 10 XP     | Enemy strides/runs away         | Punish tactical retreats, control space  |
+| ==Pointy stick==   | ==SaS==   | ==5 XP==  | ==Enemy enters reach==          | ==Anti-charge defense, prepared action== |
+| ==Spinning Staff== | ==SaS==   | ==10 XP== | ==Each enemy approaches== <br>  | ==Create defensive zone, anti-swarm==    |
+| Painful Parry      | 1H        | 5 XP      | Critical parry                  | Dual-wielding counter                    |
 
 **Design Notes:**
 - Cost 5-10 XP based on trigger frequency
@@ -1371,3 +1371,6 @@ When designing a new combat perk:
 ---
 
 *This document is a living reference. Update as new perks are designed and playtested. Last updated: [Current Date]*
+
+[^1]: these 2 are the same, almost
+	
