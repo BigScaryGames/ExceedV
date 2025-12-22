@@ -249,13 +249,14 @@ Perks that enhance movement, positioning, or provide non-combat benefits.
 ### 12. Narrative Abilities
 GM-mediated special mechanics with story integration.
 
-| Perk Name | Domain | Cost | Effect | Design Intent |
-|-----------|--------|------|--------|---------------|
-| Plot Armor | Universal | 50 XP | Heroic destiny protection | Most expensive perk, pure protagonist shield |
-| The Aspiring Hero | Universal | 10 XP | Cheat death (lose 10 CP + take limitation) | Death prevention with real cost |
-| Too Selfish | Universal | Free (instant) | Bargain with Master of Universe on protection failure | Dramatic "can't lose you" moment |
-| The Loner | Universal | 20 XP | +2 AP solo, can't have allies | Solo archetype with permanent drawback |
-| The Edgelord | Universal | 10 XP | +2 damage, must duel other Edgelords | Humorous "there can be only one" mechanic |
+| Perk Name         | Domain    | Cost           | Effect                                                | Design Intent                                |
+| ----------------- | --------- | -------------- | ----------------------------------------------------- | -------------------------------------------- |
+| Plot Armor        | Universal | 50 XP          | Heroic destiny protection                             | Most expensive perk, pure protagonist shield |
+| The Aspiring Hero | Universal | 10 XP          | Cheat death (lose 10 CP + take limitation)            | Death prevention with real cost              |
+| Too Selfish       | Universal | Free (instant) | Bargain with Master of Universe on protection failure | Dramatic "can't lose you" moment             |
+| The Loner         | Universal | 20 XP          | +2 AP solo, can't have allies                         | Solo archetype with permanent drawback       |
+| The Edgelord      | Universal | 10 XP          | +2 damage, must duel other Edgelords                  | Humorous "there can be only one" mechanic    |
+|                   |           |                |                                                       |                                              |
 
 **Design Notes:**
 - Most expensive perks (10-50 XP) or free instant-use

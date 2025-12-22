@@ -1,5 +1,11 @@
 # ExceedV TTXPG Core Rules Reference
 
+> **Version Status:** This is a 0.4 → 0.5 WIP (Work in Progress)
+> - Martial domain restructure in progress
+> - Weapon training system implementation ongoing
+> - Combat perk overhaul planned
+> - Extra HP deprecation (replacing with Conditioning perks)
+
 ## Game Overview
 - **System:** 2d10 dice system with advantage/disadvantage (3d10 keep 2)
 - **Target Audience:** Skill-based fantasy TTXPG for players wanting more control than class-based systems
@@ -46,7 +52,20 @@
 - **Regular Skills:** 2/+4/+6/+8/+10 XP per level
 - **Domains (Special Skills):**
   - Spellcraft: 10/+20/+30/+40/+50 XP (progressed by learning spells)
-  - Martial Domains: 5/+10/+15/+20/+25 XP (progressed by learning perks)
+  - Martial Domain: 10/+20/+30/+40/+50 XP (progressed by learning perks and weapon training)
+
+### Weapon Training System (v0.5)
+- **8 Weapon Categories:** Brawling, Shield, Blades, Axes, Impact, Polearms, Bows, Thrown
+- **Untrained Penalty:** -2 to use weapons without training
+- **Training Perks:** 5 XP each, grants proficiency + category-specific bonus
+  - **Blades:** Expanded crit range (beat defense by 10+ = crit)
+  - **Shield:** Shield Block reaction (damage reduction on failed blocks)
+  - **Brawling:** 2 AP and 3 AP unarmed attacks (supplementary)
+  - **Polearms:** Ready strikes cost -1 AP (defensive stance)
+  - **Axes:** Overswing (Reaction: +2 vs Block defense when declared)
+  - **Thrown:** Skirmisher's Strike (Step back as part of thrown attack, once per turn)
+  - **Bows:** Learn Aim action (works with all ranged weapons)
+  - **Impact:** Shoving Strike (+1 AP; on hit target rolls Endure or shoved 1m/2m on crit)
 
 ## Hit Points & Health
 
@@ -56,8 +75,10 @@
 - **Starting:** 2 Max Wounds, 5 HP Per Wound
 
 ### Increasing HP
-- **Extra HP Perk:** Max_Wounds × XP per level
+- **Extra HP Perk (v0.4, deprecated in v0.5):** Max_Wounds × XP per level
 - **Consolidation:** Every 5 Extra HP levels → +1 Max Wound
+- **v0.5 Replacement:** Conditioning perks (same mechanics, thematic capstone rewards)
+  - Poison Resistance, Waterfall Training, Mental Resilience, Cold/Heat Conditioning, Battle Scarred, Magical Conditioning
 
 ## Combat System
 
@@ -69,9 +90,17 @@
 
 ### Defenses
 - **Parry:** Martial Domain + Agility/Dexterity
-- **Block:** Shield Domain + Agility/Endurance/Might
+- **Block:** Shield Domain + Agility/Endurance/Might (also: magical barriers, natural armor, some monsters)
 - **Dodge:** Agility + Perception
 - **Endure:** Endurance + Will
+
+### Combat Resolution Sequence (v0.5)
+1. **Attacker declares activity:** "I swing at you"
+2. **Defender declares defense type:** "I Block/Dodge/Parry/Endure"
+3. **Attacker declares pre-roll boosts:** Spending reactions, stances, abilities
+4. **Defender declares pre-roll boosts and reactions:** Defensive abilities, buffs
+5. **Both roll**
+6. **Resolve outcome**
 
 ### Defense Applications by Attack Type
 - **Strike:** Parry, Block, Dodge (melee, touch spells)
@@ -178,6 +207,9 @@
 
 ### Combat Actions
 - **Basic Attack:** 2-4 AP based on weapon weight
+- **Ready (v0.5):** Variable AP (activity cost) - prepare action with trigger, execute as Reaction
+  - Examples: Ready strike, ready spell, ready movement
+  - Most combat preparations are obvious to observers
 - **First Aid:** 4 AP, Medicine skill
 - **Aid:** 2+R AP, provides bonus to ally
 
@@ -222,10 +254,12 @@
 - `Ruleset/11. Actions.md` - Combat, social, knowledge, and support actions
 
 ### Combat System Files
-- `Ruleset/Combat Skills and perks/1. Martial Domains.md` - Combat skill domains
+- `Ruleset/Combat Skills and perks/1. Martial Domains.md` - Combat skill domains (v0.4, being restructured)
 - `Ruleset/Combat Skills and perks/0 Combat Perk Template.md` - Template for combat perks
 - `Ruleset/Combat Skills and perks/Perks/` - Individual combat perk definitions
 - `Ruleset/Combat Skills and perks/Conditions/` - Status effects and conditions
+- `Ruleset/Perks/CombatPerks/WeaponTraining/` - Weapon training perks (v0.5)
+- `Ruleset/Combat Perk Design Guidelines.md` - Comprehensive perk design document
 
 ### Spell System Files
 - `Ruleset/Spells/` - Individual spell definitions organized by tier
@@ -276,10 +310,17 @@
 - **Magic Schools:** Search `#Spell`, `#Conjuration`, `#Manipulation`, `#Transformation`
 - **Bonus Types:** Search `#Competence`, `#Morale`, `#Enhancement`, `#Luck`
 
-## File Status Notes
+## File Status Notes (v0.4 → v0.5 WIP)
 - **Modified Files:** Several core files have recent changes (per git status)
 - **Unedited Content:** Some perks in `/UNEDITED/` folder need revision
 - **New Content:** Recent additions in combat perks and main perk list
+- **v0.5 Progress:**
+  - ✅ Ready action implemented (11. Actions.md)
+  - ✅ Weapon training structure defined (8 categories, 5 XP each)
+  - ✅ All weapon training perks complete: Blades, Shield, Brawling, Polearms, Axes, Thrown, Bows, Impact
+  - ⏳ Combat perk overhaul: Convert from old domains to weapon trait requirements
+  - ⏳ Conditioning perks: Replace Extra HP system
+  - ⏳ Archery domain remake (flagged for later)
 
 ## Development Workflow
 - **Templates:** Use Universal templates before creating new content
