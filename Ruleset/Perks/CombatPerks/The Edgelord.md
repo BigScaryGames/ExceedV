@@ -9,8 +9,9 @@
 ## Short Description
 Master of edged weapons with a competitive edge.
 
-## Effect
-You are so edgy one can cut themselves against you. Deal +2 damage with edged weapons. If two Edgelords exist in one party they have to duel. The winner keeps the perk, the loser loses the edge.
+## Grants
+
+![[Effect - The Edgelord]]
 
 ## Description
 [Flavor text to be written]

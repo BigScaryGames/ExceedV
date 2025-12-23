@@ -9,8 +9,9 @@
 ## Short Description
 Deal extra damage when striking off guard targets.
 
-## Effect
-When striking off guard targets deal +2 damage per damage die
+## Grants
+
+![[Effect - Off-Guard Exploitation]]
 
 ## Description
 [Flavor text to be written]

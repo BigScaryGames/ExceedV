@@ -9,8 +9,9 @@
 ## Short Description
 You know how to turn everything into a joke.
 
-## Effect
-Whenever words lead to a decrease in an attitude roll Fast-Talk against GM set DC (based on the offense level) attempting to turn it into a joke. On a success the offense taken doesn't decrease the attitude.
+## Grants
+
+![[Ability - Comedian]]
 
 ## Description
 Your natural comedic timing and charismatic delivery can frame some offensive statements or requests as harmless jokes, but each time you do you get the reputation of a [[Jester]].

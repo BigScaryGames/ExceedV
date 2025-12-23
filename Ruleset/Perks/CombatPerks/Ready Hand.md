@@ -9,8 +9,9 @@
 ## Short Description
 Draw your weapon instinctively when combat starts.
 
-## Effect
-You were trained to take out your weapon instinctually. On initiative even when ambushed - draw your 1H weapon.
+## Grants
+
+![[Effect - Ready Hand]]
 
 ## Description
 [Flavor text to be written]

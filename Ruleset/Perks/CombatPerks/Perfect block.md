@@ -9,8 +9,9 @@
 ## Short Description
 Make attacker off-guard after critical block success.
 
-## Effect
-when critically succeeding against a melee attack, the attacker becomes off-guard until the start of their next turn.
+## Grants
+
+![[Effect - Perfect Block]]
 
 ## Description
 [Flavor text to be written]

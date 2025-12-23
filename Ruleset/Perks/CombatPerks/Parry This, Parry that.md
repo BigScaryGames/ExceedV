@@ -9,8 +9,9 @@
 ## Short Description
 Parry magical effects and protect those behind you.
 
-## Effect
-You can parry Lines, Rays, Bursts and cones on a success - targets behind you are unaffected.
+## Grants
+
+![[Effect - Magical Deflection]]
 
 ## Description
 [Flavor text to be written]

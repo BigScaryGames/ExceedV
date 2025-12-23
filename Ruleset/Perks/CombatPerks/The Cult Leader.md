@@ -9,8 +9,9 @@
 ## Short Description
 Lead fanatical followers who have sworn loyalty to you.
 
-## Effect
-Your team are your loyal followers, and have all sworn an oath to you. You can "Drive into Fervor" (2AP, lasts for 1 turn).
+## Grants
+
+![[Ability - Drive into Fervor]]
 
 ## Description
 [Flavor text to be written]

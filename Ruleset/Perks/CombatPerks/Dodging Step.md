@@ -9,8 +9,9 @@
 ## Short Description
 Improve your dodge by taking a tactical step.
 
-## Effect
-When dodging, make a step and take +1 to dodge. If it is against a melee strike, dodge within attacker's reach if possible.
+## Grants
+
+![[Effect - Dodging Step]]
 
 ## Description
 [Flavor text to be written]

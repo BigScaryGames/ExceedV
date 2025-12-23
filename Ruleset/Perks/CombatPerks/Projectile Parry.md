@@ -9,8 +9,9 @@
 ## Short Description
 Parry ranged physical attacks with melee weapons.
 
-## Effect
-You can parry physical ranged attacks and thrown weapons without penalty.
+## Grants
+
+![[Effect - Projectile Deflection]]
 
 ## Description
 [Flavor text to be written]

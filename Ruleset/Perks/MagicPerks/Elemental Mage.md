@@ -1,4 +1,4 @@
-# [Title Missing]
+# Elemental Mage
 
 **Requirements:** Spellcraft 1, 
 **Attributes:** WI/WT

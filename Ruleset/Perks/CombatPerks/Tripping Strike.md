@@ -9,8 +9,9 @@
 ## Short Description
 Strike enemy's leg to knock them prone.
 
-## Effect
-Make a strike with +1AP cost with the blunt part at enemy's leg. If you succeed, enemy has to roll Dodge. On a failure, they fall prone.
+## Grants
+
+![[Ability - Tripping Strike]]
 
 ## Description
 [Flavor text to be written]

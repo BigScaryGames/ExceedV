@@ -9,8 +9,9 @@
 ## Short Description
 Gain parrying bonus when dual wielding.
 
-## Effect
-Dual Wielding provides +1 circumstance bonus to parrying
+## Grants
+
+![[Effect - Twin Parry]]
 
 ## Description
 [Flavor text to be written]

@@ -9,11 +9,22 @@
 ## Short Description
 [Brief one-line description for tables and quick reference]
 
-## Effect
-[Mechanical effects of the perk - what it does in game terms]
+## Grants
+Use "Effect:" for passive bonuses, "Ability:" for active skill uses
+
+**Effect:** [Name] - For passive bonuses, unlocks, always-on modifications
+**Ability:** [Name] - For active skill actions (if the perk grants a new action)
+
+**Most skill perks grant Effects** (passive bonuses to skill use, attitude modifiers, unlocks, etc.)
+
+**Example:**
+```
+Effect: **Animal Affinity**
+Animals' starting attitude with you is increased by 2.
+```
 
 ## Description
-[Flavor text and additional context if the Effect section isn't sufficient]
+[Flavor text and additional context if the Grants section isn't sufficient]
 
 
 # Note

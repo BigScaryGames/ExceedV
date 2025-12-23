@@ -9,8 +9,9 @@
 ## Short Description
 Protect adjacent allies from being flanked.
 
-## Effect
-While Adjacent to you your allies cannot be flanked. Because you always are watching their backs.
+## Grants
+
+![[Effect - Watching your back]]
 
 ## Description
 You watch the back of someone else. Maybe you are just that type of a person who is always there.

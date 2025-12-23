@@ -9,8 +9,9 @@
 ## Short Description
 Use an acrobatic roll to avoid area attacks.
 
-## Effect
-An AOE is coming, and you know just the right thing. Fall prone in a space within 2 tiles away from you and gain +3 to the dodge attempt.
+## Grants
+
+![[Ability - Dodge-Roll]]
 
 ## Description
 [Flavor text to be written]

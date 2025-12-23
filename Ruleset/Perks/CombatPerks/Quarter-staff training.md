@@ -9,8 +9,9 @@
 ## Short Description
 Gain defensive bonuses when wielding quarterstaffs and warstaves.
 
-## Effect
-Quarterstaff and WarStaves in your hands grant you +1 to all defenses.
+## Grants
+
+![[Effect - Quarterstaff Defense]]
 
 ## Description
 [Flavor text to be written]

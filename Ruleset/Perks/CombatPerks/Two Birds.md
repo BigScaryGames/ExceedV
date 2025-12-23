@@ -9,8 +9,9 @@
 ## Short Description
 Strike multiple adjacent targets with one attack.
 
-## Effect
-Prereq: You are holding non-light melee weapon. Make a melee Strike with +2 AP cost against adjacent targets within your reach. Resolve strikes one after another. Roll attack and damage once.
+## Grants
+
+![[Ability - Two Birds]]
 
 ## Description
 [Flavor text to be written]

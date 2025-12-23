@@ -9,8 +9,9 @@
 ## Short Description
 Your mind and body are primed to move with lightning speed.
 
-## Effect
-You gain the second reaction.
+## Grants
+
+![[Effect - Second Reaction]]
 
 ## Description
 [Flavor text to be written]

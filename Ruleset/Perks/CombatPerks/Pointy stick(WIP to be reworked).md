@@ -9,8 +9,9 @@
 ## Short Description
 Prepare to strike enemies entering your reach.
 
-## Effect
-1AP. Designate a target outside your reach. If the target enters your reach with an action that provokes a reaction, make a strike against them. You can substitute this strike other strikes that don't require extra actions.
+## Grants
+
+![[Ability - Pointy stick]]
 
 ## Description
 [Flavor text to be written]

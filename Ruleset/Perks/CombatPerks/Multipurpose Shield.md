@@ -9,8 +9,9 @@
 ## Short Description
 Strike with shield boss without losing defensive bonus.
 
-## Effect
-You can strike with the shield boss without losing the defense bonus from it.
+## Grants
+
+![[Effect - Multipurpose Shield]]
 
 ## Description
 [Flavor text to be written]

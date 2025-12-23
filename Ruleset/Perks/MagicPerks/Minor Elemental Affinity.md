@@ -1,5 +1,4 @@
-# [Title Missing]
-
+# Minor Elemental Affinity
 **Requirements:** Spellcraft 1, 
 **Attributes:** WI/WT
 **Cost:** 5 XP

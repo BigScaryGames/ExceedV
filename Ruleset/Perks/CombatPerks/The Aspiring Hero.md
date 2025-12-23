@@ -9,8 +9,9 @@
 ## Short Description
 Instant perk that prevents death through narrative importance.
 
-## Effect
-Instant - this perk requires no training. If you die here the story ends. Lose 10CP, take a limitation, consequence or a disadvantage of GM's choice and survive.
+## Grants
+
+![[Effect - The Aspiring Hero]]
 
 ## Description
 [Flavor text to be written]

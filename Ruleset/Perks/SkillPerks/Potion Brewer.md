@@ -8,8 +8,9 @@
 ## Short Description
 Learn Potion Brewing.
 
-## Effect
-#TODO Potion Brewing(crafting) rules are TBD in 0,6 or later.
+## Grants
+
+![[Effect - Potion Brewer]]
 
 ## Description
 Your understanding of medicine and chemistry extends to the magical properties contained in them allowing to effectively brew quickly acting potions.

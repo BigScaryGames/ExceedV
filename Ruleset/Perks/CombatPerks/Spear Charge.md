@@ -9,8 +9,9 @@
 ## Short Description
 Move in a straight line and strike with bonus damage based on distance.
 
-## Effect
-Move in a straight line and make a strike. Strike deals extra damage equal to the number of distance you moved.
+## Grants
+
+![[Ability - Spear Charge]]
 
 ## Description
 [Flavor text to be written]

@@ -8,9 +8,9 @@
 ## Short Description
 You are good at mitigating the enviornmental effects.
 
-## Effect
-- Reduce harsh environmental effects by 1 step for you and your party
-- Applies to temperature extremes, altitude effects, and similar natural hazards
+## Grants
+
+![[Effect - Environmental Grace]]
 
 ## Description
 You prepare yourself and your party for harsh environmental conditions, reducing their effects.

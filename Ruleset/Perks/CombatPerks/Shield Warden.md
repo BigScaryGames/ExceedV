@@ -9,8 +9,9 @@
 ## Short Description
 Use Shield Block to protect allies taking damage.
 
-## Effect
-Trigger: Ally takes damage. Use R Shield Block for your Ally.
+## Grants
+
+![[Ability - Shield Warden]]
 
 ## Description
 [Flavor text to be written]

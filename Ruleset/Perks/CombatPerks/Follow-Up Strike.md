@@ -9,8 +9,9 @@
 ## Short Description
 Reduce AP cost for consecutive attacks on same target.
 
-## Effect
-After hitting a target, your next attack this turn against the same target costs -1 AP.
+## Grants
+
+![[Effect - Follow-Up Momentum]]
 
 ## Description
 [Flavor text to be written]

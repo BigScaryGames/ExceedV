@@ -326,3 +326,86 @@
 - **Templates:** Use Universal templates before creating new content
 - **Git Status:** Check git status for recent changes and untracked files
 - **Cross-References:** Many files link to each other using `[[filename]]` notation
+
+## Ability & Effect System (GAS-Inspired)
+
+### Naming Convention
+The system uses Unreal Engine GAS (Gameplay Ability System) naming conventions:
+- **Abilities:** Active actions players choose to use (files prefixed with `Ability - `)
+- **Effects:** Passive bonuses, triggers, or ongoing modifications (files prefixed with `Effect - `)
+
+### File Structure
+```
+/Ruleset/Abilities/Ability - Name.md    → Contains ability mechanics only
+/Ruleset/Effects/Effect - Name.md       → Contains effect mechanics only
+/Ruleset/Perks/Category/Perk Name.md    → Contains XP cost, requirements, embeds ability/effect
+```
+
+### Ability vs Effect Decision Tree
+- **Is it an active choice the player makes?** → Ability
+  - Examples: Strike attacks, reactions, castable spells, preparing actions
+- **Is it always on or triggers automatically?** → Effect
+  - Examples: Stat bonuses, expanded crit ranges, passive auras, conditional triggers
+
+### File Format
+
+**Ability Files** (`Ability - Name.md`):
+```markdown
+Description of what the ability does and how it works.
+
+**Tags:** #RelevantTags #ForMechanics
+```
+
+**Effect Files** (`Effect - Name.md`):
+```markdown
+Description of what the effect does and when it applies.
+
+**Tags:** #Passive #RelevantTags
+```
+
+**Perk Files** (embed abilities/effects):
+```markdown
+# Perk Name
+
+**Requirements:** Prerequisites
+**Attributes:** Affected attributes
+**Cost:** XP cost
+**AP Cost:** Action point cost (or -)
+**Tags:** #Category #Type
+
+## Short Description
+Brief one-liner
+
+## Grants
+
+![[Ability - Name]]
+
+## Description
+Flavor text
+```
+
+### Why This Structure?
+1. **No Duplication:** Ability/effect mechanics live in one file only
+2. **Reusability:** Multiple perks can grant the same ability/effect
+3. **Clean Embedding:** Obsidian shows "Ability - Name" as title (clear type indicator)
+4. **Parser-Friendly:** Files identifiable by `Ability - ` or `Effect - ` prefix
+5. **No Recursion:** Perk files and ability/effect files have different names
+
+### Creating New Abilities/Effects
+1. Determine if it's an Ability (active) or Effect (passive)
+2. Create file in `/Ruleset/Abilities/` or `/Ruleset/Effects/`
+3. Name file: `Ability - Descriptive Name.md` or `Effect - Descriptive Name.md`
+4. Write mechanics (no "Ability:" or "Effect:" label needed - filename shows type)
+5. Add relevant tags for mechanics (NOT perk-level tags like #Combat)
+6. In perk file, embed with `![[Ability - Name]]` or `![[Effect - Name]]`
+
+### Tag Conventions
+**Perk-level tags** (in perk file):
+- `#Combat`, `#Skill`, `#Magic`, `#Universal`
+- `#WeaponTraining`, `#Shield`, `#StavesSpears`, etc.
+
+**Mechanic tags** (in ability/effect file):
+- `#Strike`, `#Projectile`, `#Burst`, `#Reaction`
+- `#Passive`, `#Dodge`, `#Parry`, `#Block`, `#Endure`
+- `#Damage`, `#Healing`, `#Buff`, `#Debuff`
+- `#AoE`, `#Melee`, `#Ranged`, `#Movement`

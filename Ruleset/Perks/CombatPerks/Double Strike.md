@@ -9,8 +9,9 @@
 ## Short Description
 Strike with both weapons, but second misses if first is blocked.
 
-## Effect
-Strike with both weapons with -2 AP. If the enemy successfully defends against the first strike, the second misses automatically.
+## Grants
+
+![[Ability - Double Strike]]
 
 ## Description
 [Flavor text to be written]

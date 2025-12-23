@@ -9,11 +9,29 @@
 ## Short Description
 Brief one-line description for tables and quick reference
 
-## Effect
-Mechanical effects of the perk - what it does in game terms
+## Grants
+Use this section to describe what the perk grants - either Abilities (active actions) or Effects (passive bonuses).
+
+**Format:**
+- **Effect: [Name]** - Passive bonuses, conditional triggers, always-on modifications
+- **Ability: [Name]** - Active actions the player chooses to use (include AP cost)
+
+**Example (Effect):**
+```
+Effect: **Expanded Blade Critical Range**
+When attacking with blades, exceeding the defense roll by 10 or more counts as a critical hit.
+```
+
+**Example (Ability):**
+```
+Ability: **Shield Block**
+**Trigger:** You fail a Block defense but haven't applied damage yet.
+**Effect:** Reduce damage by Shield Negation.
+**AP Cost:** 1 Reaction
+```
 
 ## Description
-Narrative description, lore, and context (optional - can be omitted if Effect is sufficient)
+Narrative description, lore, and context (optional - can be omitted if Grants section is sufficient)
 
 ---
 
@@ -133,7 +151,9 @@ Narrative description, lore, and context (optional - can be omitted if Effect is
 ## Short Description
 Move twice and strike with shield, adding Might to damage twice.
 
-## Effect
+## Grants
+
+Ability: **Shield Rush**
 Move twice (up to full movement), then strike with your shield.
 Add Might bonus to damage twice.
 Total cost: 4 AP (reduced from normal 5 AP for move + attack)
@@ -155,7 +175,9 @@ You charge forward with shield raised, using momentum to deliver a devastating b
 ## Short Description
 Animals' starting attitude toward you is increased by +2.
 
-## Effect
+## Grants
+
+Effect: **Animal Affinity**
 Animals' starting attitude with you is increased by 2.
 You have a short window to negotiate with animals before combat begins.
 
@@ -176,7 +198,9 @@ One day you noticed that cats and dogs love you more than others. Unless on guar
 ## Short Description
 Awaken your magical talent and unlock spellcasting.
 
-## Effect
+## Grants
+
+Effect: **Mage Talent**
 - Select one Tier 0 spell and add it to your repertoire (this spell doesn't contribute to attribute advancement)
 - You unlock Tier 0 spells for learning
 - You can learn Team Ritual in one day with written guidance or one shift with help
@@ -202,7 +226,9 @@ Perhaps you were trained by a journeyman or master mage, or maybe during a pivot
 ## Short Description
 Increase your health pool (can be taken multiple times).
 
-## Effect
+## Grants
+
+Effect: **Increased Health Pool**
 Gain additional HP based on your current Max_Wounds.
 
 **Cost Formula:** Max_Wounds × current level in ExtraHP

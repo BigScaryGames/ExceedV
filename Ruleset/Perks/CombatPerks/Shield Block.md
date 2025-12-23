@@ -9,8 +9,9 @@
 ## Short Description
 Reduce damage from failed blocks with shield negation.
 
-## Effect
-Reaction -You fail to block an attack - reduce the damage by Shield Negation
+## Grants
+
+![[Ability - Shield Block]]
 
 ## Description
 [Flavor text to be written]

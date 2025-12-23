@@ -9,8 +9,9 @@
 ## Short Description
 Block attacks targeting adjacent allies instead of them.
 
-## Effect
-Trigger: Adjacent ally is attacked. Use your reaction to attempt block instead of them. If This is an AOE effect, you protect both of you.
+## Grants
+
+![[Ability - Shield Guardian]]
 
 ## Description
 [Flavor text to be written]

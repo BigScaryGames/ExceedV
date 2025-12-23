@@ -9,8 +9,9 @@
 ## Short Description
 Reflect spells back at their casters on critical parries.
 
-## Effect
-When you critically succeed parrying a spell - you send it back towards the sender, making him roll defense against his spell as well.
+## Grants
+
+![[Ability - Spell Reflection]]
 
 ## Description
 [Flavor text to be written]

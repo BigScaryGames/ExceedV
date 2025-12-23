@@ -9,8 +9,9 @@
 ## Short Description
 Strike enemies as they retreat from your reach.
 
-## Effect
-When an enemy strides or runs out of your reach - make a free strike as a reaction before they leave their space.
+## Grants
+
+![[Ability - Reactive Strike]]
 
 ## Description
 [Flavor text to be written]

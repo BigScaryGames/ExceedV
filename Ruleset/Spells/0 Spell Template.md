@@ -9,6 +9,11 @@
 ## Short Description
 Cover a 20sq m or a 15m radius area in movement detection spell.
 
+**Terminology Note:** Spells keep "## Effect" sections (they don't "grant"). Clarify whether the spell:
+- IS an Ability (active casting like Summon Weapon, Fireball)
+- IS an Effect (passive buff like Bless, Shield)
+- Grants abilities to targets (use "grants ability **Name**" language)
+
  ## Basic Version  
  **Limit Cost:** 1  
  **Effect:** [effect description]  

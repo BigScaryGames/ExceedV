@@ -9,8 +9,9 @@
 ## Short Description
 Increase damage with knives and daggers.
 
-## Effect
-Knives and daggers deal 1d6 damage in your hands.
+## Grants
+
+![[Effect - Enhanced Knives]]
 
 ## Description
 [Flavor text to be written]

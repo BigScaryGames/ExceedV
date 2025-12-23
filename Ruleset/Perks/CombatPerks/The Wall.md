@@ -9,8 +9,9 @@
 ## Short Description
 Allow adjacent allies to hide behind you and your heavy shield.
 
-## Effect
-Req: You carry a heavy shield. Adjacent allies can hide behind you as a reaction, leaving the defense up to The Wall.
+## Grants
+
+![[Ability - The Wall]]
 
 ## Description
 [Flavor text to be written]
