@@ -1,10 +1,10 @@
 # Riposte
 
-**Requirements:** AG 3+MD3
-**Attributes:** AG/DX +MD
+**Requirements:** Tier 3, AG 3
+**Attributes:** AG/DX
 **Cost:** 5 XP
 **AP Cost:** 2
-**Tags:** #Combat #Universal
+**Tags:** #Combat 
 
 ## Short Description
 Capitalize on enemy mistakes with a quick counter-attack.

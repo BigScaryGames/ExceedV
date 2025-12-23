@@ -1,10 +1,10 @@
 # Plot Armor
 
-**Requirements:** GM
+**Requirements:** GM permission.
 **Attributes:** EN
 **Cost:** 50 XP
 **AP Cost:** 2
-**Tags:** #Combat #Universal
+**Tags:** #Combat 
 
 ## Short Description
 Heroic destiny grants supernatural protection.

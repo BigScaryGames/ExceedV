@@ -1,10 +1,10 @@
 # Ready Hand
 
-**Requirements:** 1H1 (starting perk)
+**Requirements:** Tier 1, [[Blades Training]]
 **Attributes:** -
 **Cost:** -
 **AP Cost:** 2
-**Tags:** #Combat #OneHanded #Starting
+**Tags:** #Combat 
 
 ## Short Description
 Draw your weapon instinctively when combat starts.

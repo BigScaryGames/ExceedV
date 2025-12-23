@@ -4,7 +4,7 @@
 **Attributes:** CH
 **Cost:** 5 XP
 **AP Cost:** 2
-**Tags:** #Combat #Universal
+**Tags:** #Skill
 
 ## Short Description
 Lead your team's resistance against fear effects.

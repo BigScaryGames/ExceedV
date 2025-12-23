@@ -4,7 +4,7 @@
 **Attributes:** -
 **Cost:** -
 **AP Cost:** 2
-**Tags:** #Combat #Universal
+**Tags:** #Combat 
 
 ## Short Description
 Loyal follower with enhanced mental resistance and leader protection.

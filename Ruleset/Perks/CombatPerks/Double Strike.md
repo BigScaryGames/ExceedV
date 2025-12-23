@@ -1,10 +1,10 @@
 # Double Strike
 
-**Requirements:** 1H1
-**Attributes:** AG/MG+1H
+**Requirements:** Tier 1
+**Attributes:** AG/MG
 **Cost:** 5 XP
 **AP Cost:** 0
-**Tags:** #Combat #OneHanded
+**Tags:** #Combat 
 
 ## Short Description
 Strike with both weapons, but second misses if first is blocked.

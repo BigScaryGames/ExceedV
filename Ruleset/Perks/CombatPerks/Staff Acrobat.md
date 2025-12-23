@@ -1,10 +1,10 @@
 # Staff Acrobat
 
-**Requirements:** SaS1
-**Attributes:** AG/MG+SaS
+**Requirements:** Tier 1, [[Polearms Training]]
+**Attributes:** AG/MG
 **Cost:** 2 XP
 **AP Cost:** 2
-**Tags:** #Combat #StavesSpears
+**Tags:** #Combat
 
 ## Short Description
 Use your staff to enhance jumping and balance.

@@ -1,3 +1,3 @@
-Knives and daggers deal 1d6 damage in your hands.
+Increase the die size of Knives and daggers in your hands by 1 step.
 
 **Tags:** #Passive #Damage #Weapon

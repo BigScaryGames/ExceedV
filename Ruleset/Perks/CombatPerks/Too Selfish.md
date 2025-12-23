@@ -1,6 +1,6 @@
 # Too Selfish
 
-**Requirements:** That Type of a person
+**Requirements:** [[That Type of a person]]
 **Attributes:** CH
 **Cost:** -
 **AP Cost:** 2

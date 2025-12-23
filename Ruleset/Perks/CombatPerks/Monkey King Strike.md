@@ -1,10 +1,10 @@
 # Monkey King Strike
 
-**Requirements:** SAS3, AG3, [[Staff Acrobat]]
-**Attributes:** AG/MG+SaS
+**Requirements:** Tier 3, AG3, [[Staff Acrobat]]
+**Attributes:** AG/MG
 **Cost:** 15 XP
 **AP Cost:** +2
-**Tags:** #Combat #StavesSpears
+**Tags:** #Combat 
 
 ## Short Description
 Climb your weapon to jump and strike enemies in a line.

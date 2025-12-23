@@ -1,7 +1,7 @@
 # Multipurpose Shield
 
-**Requirements:** SH1
-**Attributes:** AG/MG+SH
+**Requirements:** Tier 1, [[Shield Training]]
+**Attributes:** AG/MG
 **Cost:** 3 XP
 **AP Cost:** 2
 **Tags:** #Combat #Shield

@@ -1,8 +1,8 @@
 # Walking Stick
 
-**Requirements:** SaS1 (starting perk)
+**Requirements:** Tier 1, [[Polearms Training]], 
 **Attributes:** -
-**Cost:** -
+**Cost:** 2XP
 **AP Cost:** 2
 **Tags:** #Combat #StavesSpears #Starting
 

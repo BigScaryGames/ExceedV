@@ -1,10 +1,10 @@
 # Piranha Strike
 
-**Requirements:** 1H2
-**Attributes:** AG/DX+1H
+**Requirements:** Tier 2
+**Attributes:** AG/DX
 **Cost:** 10 XP
 **AP Cost:** 2
-**Tags:** #Combat #OneHanded
+**Tags:** #Combat 
 
 ## Short Description
 Deal extra damage when striking off guard targets.

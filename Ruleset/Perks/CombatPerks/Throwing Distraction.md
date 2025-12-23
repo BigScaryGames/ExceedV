@@ -1,10 +1,10 @@
 # Throwing Distraction
 
-**Requirements:** 1H3, Throwing hand
-**Attributes:** DX/PR+1H
+**Requirements:** Tier 2, [[Throwing Hand]]
+**Attributes:** DX/PR
 **Cost:** 10 XP
 **AP Cost:** 2
-**Tags:** #Combat #OneHanded
+**Tags:** #Combat 
 
 ## Short Description
 Throw weapon to make ally's target off guard.

@@ -1,7 +1,7 @@
 # Shield Warden
 
-**Requirements:** SH1
-**Attributes:** PR/EN+SH
+**Requirements:** Tier 1, [[Shield Training]],
+**Attributes:** PR/EN
 **Cost:** 5 XP
 **AP Cost:** 2
 **Tags:** #Combat #Shield

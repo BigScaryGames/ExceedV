@@ -1,10 +1,10 @@
 # Calf Strike
 
-**Requirements:** SaS1
-**Attributes:** MG/AG+SaS
+**Requirements:** Tier 1,
+**Attributes:** MG/AG
 **Cost:** 5 XP
 **AP Cost:** 2
-**Tags:** #Combat #StavesSpears
+**Tags:** #Combat
 
 ## Short Description
 Strike enemy's leg with blunt end to reduce their speed.

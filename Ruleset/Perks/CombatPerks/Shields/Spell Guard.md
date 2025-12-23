@@ -1,7 +1,7 @@
 # Spell Guard
 
-**Requirements:** SH2
-**Attributes:** PR/AG+SH
+**Requirements:** Tier 2, [[Shield Training]]
+**Attributes:** PR/AG
 **Cost:** 5 XP
 **AP Cost:** 2
 **Tags:** #Combat #Shield

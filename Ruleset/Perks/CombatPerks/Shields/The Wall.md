@@ -1,7 +1,7 @@
 # The Wall
 
-**Requirements:** SH3, Shield Warden
-**Attributes:** EN/MG+SH
+**Requirements:** Tier 3, [[Shield Warden]]
+**Attributes:** EN/MG
 **Cost:** 15 XP
 **AP Cost:** 2
 **Tags:** #Combat #Shield

@@ -1,11 +1,10 @@
 # Reactive Strike
 
-**Requirements:** AG 2+MD2
+**Requirements:** Tier 2, AG 2
 **Attributes:** AG/PR+MD
 **Cost:** 10 XP
 **AP Cost:** 2
-**Tags:** #Combat #Universal
-
+**Tags:** #Combat 
 ## Short Description
 Strike enemies as they retreat from your reach.
 

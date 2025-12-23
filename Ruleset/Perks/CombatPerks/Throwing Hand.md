@@ -1,10 +1,10 @@
 # Throwing Hand
 
-**Requirements:** 1H1
-**Attributes:** DX/Per+1H
+**Requirements:** Tier 1, [[Thrown Training]]
+**Attributes:** DX/Per
 **Cost:** 2 XP
 **AP Cost:** 2
-**Tags:** #Combat #OneHanded
+**Tags:** #Combat 
 
 ## Short Description
 Learn to throw one-handed weapons effectively.

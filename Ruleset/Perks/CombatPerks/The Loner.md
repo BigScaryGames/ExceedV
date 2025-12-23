@@ -1,7 +1,7 @@
 # The Loner
 
 **Requirements:** -
-**Attributes:** Any Attribute
+**Attributes:** WL/EN
 **Cost:** 20 XP
 **AP Cost:** 2
 **Tags:** #Combat #Universal

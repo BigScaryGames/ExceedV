@@ -1,10 +1,10 @@
 # Follow-Up Strike
 
-**Requirements:** 1H2
-**Attributes:** AG/DX+1H
+**Requirements:** Tier 2
+**Attributes:** AG/DX
 **Cost:** 5 XP
 **AP Cost:** 2
-**Tags:** #Combat #OneHanded
+**Tags:** #Combat 
 
 ## Short Description
 Reduce AP cost for consecutive attacks on same target.

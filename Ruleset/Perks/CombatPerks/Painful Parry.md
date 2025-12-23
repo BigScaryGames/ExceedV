@@ -1,10 +1,10 @@
 # Painful Parry
 
-**Requirements:** 1H2, Twin Parry
-**Attributes:** DX/Per+1H
+**Requirements:** Tier 2, [[Twin Parry]]
+**Attributes:** DX/PR
 **Cost:** 5 XP
 **AP Cost:** 2
-**Tags:** #Combat #OneHanded
+**Tags:** #Combat
 
 ## Short Description
 Counter-attack with light weapon after critical parry success.

@@ -1,6 +1,6 @@
 # The Edgelord
 
-**Requirements:** 1H2/2H2, GM
+**Requirements:** [[Blades Training]] GM
 **Attributes:** AG/DX
 **Cost:** 10 XP
 **AP Cost:** 2

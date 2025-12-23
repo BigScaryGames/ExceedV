@@ -1,10 +1,10 @@
-# Quarter-staff training
+# Quarter-staff Adept
 
-**Requirements:** SaS2
+**Requirements:** Tier 1, [[Polearms Training]]
 **Attributes:** AG +SaS
 **Cost:** 10 XP
 **AP Cost:** 2
-**Tags:** #Combat #StavesSpears
+**Tags:** #Combat 
 
 ## Short Description
 Gain defensive bonuses when wielding quarterstaffs and warstaves.

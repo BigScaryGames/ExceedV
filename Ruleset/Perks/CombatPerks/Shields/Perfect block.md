@@ -1,7 +1,7 @@
 # Perfect block
 
-**Requirements:** SH2
-**Attributes:** MG/EN+SH
+**Requirements:** Tier 2, [[Shield Training]]
+**Attributes:** MG/EN
 **Cost:** 5 XP
 **AP Cost:** 2
 **Tags:** #Combat #Shield

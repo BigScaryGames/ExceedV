@@ -1,7 +1,7 @@
 # Behind the Shield strike
 
-**Requirements:** SH2
-**Attributes:** AG/CH+SH
+**Requirements:** Tier 2, [[Shield Training]]
+**Attributes:** AG/CH
 **Cost:** 3 XP
 **AP Cost:** +1
 **Tags:** #Combat #Shield

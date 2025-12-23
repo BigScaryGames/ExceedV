@@ -1,13 +1,13 @@
 # Spear Brothers
 
-**Requirements:** SaS1
-**Attributes:** CH/WL+Sas
+**Requirements:** Tier 1, [[Polearms Training]]
+**Attributes:** CH/WL
 **Cost:** 3 XP
 **AP Cost:** 2
-**Tags:** #Combat #StavesSpears
+**Tags:** #Combat 
 
 ## Short Description
-Fight better when standing adjacent to another spearman.
+Fight better when standing shoulder to shoulder with a brother.
 
 ## Grants
 
