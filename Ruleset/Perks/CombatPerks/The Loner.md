@@ -4,7 +4,7 @@
 **Attributes:** WL/EN
 **Cost:** 20 XP
 **AP Cost:** 2
-**Tags:** #Combat #Universal
+**Tags:** #Combat 
 
 ## Short Description
 Fight alone with enhanced capabilities but no allies.

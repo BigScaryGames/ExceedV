@@ -4,7 +4,7 @@
 **Attributes:** -
 **Cost:** 2XP
 **AP Cost:** 2
-**Tags:** #Combat #StavesSpears #Starting
+**Tags:** #Combat
 
 ## Short Description
 Properly use your weapon to reduce encumbrance and increase carrying capacity.

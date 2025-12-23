@@ -4,8 +4,7 @@
 **Attributes:** CH
 **Cost:** 10 XP
 **AP Cost:** 2
-**Tags:** #Combat #Universal
-
+**Tags:** #Combat 
 ## Short Description
 Instant perk that prevents death through narrative importance.
 

@@ -4,7 +4,7 @@
 **Attributes:** CH + MD
 **Cost:** 5 XP
 **AP Cost:** 2
-**Tags:** #Combat #Universal
+**Tags:** #Combat 
 
 ## Short Description
 Protect adjacent allies from being flanked.

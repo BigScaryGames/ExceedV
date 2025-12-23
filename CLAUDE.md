@@ -67,6 +67,33 @@
   - **Bows:** Learn Aim action (works with all ranged weapons)
   - **Impact:** Shoving Strike (+1 AP; on hit target rolls Endure or shoved 1m/2m on crit)
 
+### Combat Perk Trees (v0.5)
+Combat perks with 5+ interconnected requirements form perk trees organized into subfolders.
+
+#### Shield Tree (`Perks/CombatPerks/Shields/`)
+**Base Requirement:** Shield Training (from WeaponTraining)
+
+**Tier 1 (5-10 XP):**
+- Shield Warden (5 XP, PR/EN) - Use Shield Block to protect allies taking damage
+- Shield Rush (2 XP, MG/EN, req: MG1) - Move and strike with shield, adding Might to damage twice
+- Multipurpose Shield (3 XP, AG/MG) - Strike with shield boss without losing defensive bonus
+
+**Tier 2 (3-10 XP):**
+- Shield Guardian (10 XP, PR/AG, req: Shield Warden) - Block attacks targeting adjacent allies
+- Spell Guard (5 XP, PR/AG) - Block magical effects and spells with shield
+- Perfect Block (5 XP, MG/EN) - Critical block makes attacker off-guard
+- Behind the Shield Strike (3 XP, AG/CH) - Strike from behind shield with enemy penalties to defense
+
+**Tier 3 (10-15 XP):**
+- The Wall (15 XP, EN/MG, req: Shield Warden) - Allow adjacent allies to hide behind you and heavy shield
+- The Guardian Aura (10 XP, EN/MG, req: Spell Guard + Shield Warden) - Provide defensive advantages to allies within aura range
+
+**Tree Branches:**
+- **Guardian Branch:** Shield Training → Shield Warden → Shield Guardian / The Wall
+- **Spell Defense Branch:** Shield Training → Spell Guard → Guardian Aura (also requires Shield Warden)
+- **Offensive Techniques:** Shield Training → Shield Rush / Multipurpose Shield / Behind Shield Strike
+- **Defensive Tech:** Shield Training → Perfect Block
+
 ## Hit Points & Health
 
 ### HP Pools
@@ -259,6 +286,8 @@
 - `Ruleset/Combat Skills and perks/Perks/` - Individual combat perk definitions
 - `Ruleset/Combat Skills and perks/Conditions/` - Status effects and conditions
 - `Ruleset/Perks/CombatPerks/WeaponTraining/` - Weapon training perks (v0.5)
+- `Ruleset/Perks/CombatPerks/Conditioning/` - Conditioning perks for HP progression (v0.5)
+- `Ruleset/Perks/CombatPerks/Shields/` - Shield perk tree (v0.5)
 - `Ruleset/Combat Perk Design Guidelines.md` - Comprehensive perk design document
 
 ### Spell System Files
@@ -318,8 +347,10 @@
   - ✅ Ready action implemented (11. Actions.md)
   - ✅ Weapon training structure defined (8 categories, 5 XP each)
   - ✅ All weapon training perks complete: Blades, Shield, Brawling, Polearms, Axes, Thrown, Bows, Impact
+  - ✅ Conditioning perks: Replace Extra HP system (7 conditioning types with leveled progression and capstones)
+  - ✅ Shield perk tree organized (9 perks in 3 tiers, based on Shield Training)
   - ⏳ Combat perk overhaul: Convert from old domains to weapon trait requirements
-  - ⏳ Conditioning perks: Replace Extra HP system
+  - ⏳ Combat perk tree organization: Shields complete, Leadership/Parrying/other trees pending
   - ⏳ Archery domain remake (flagged for later)
 
 ## Development Workflow

@@ -4,7 +4,7 @@
 **Attributes:** CH
 **Cost:** -
 **AP Cost:** 2
-**Tags:** #Combat #Universal
+**Tags:** #Combat 
 
 ## Short Description
 Instant perk that activates when protecting someone fails.

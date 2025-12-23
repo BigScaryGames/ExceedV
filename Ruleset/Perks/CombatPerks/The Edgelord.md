@@ -4,7 +4,7 @@
 **Attributes:** AG/DX
 **Cost:** 10 XP
 **AP Cost:** 2
-**Tags:** #Combat #Universal
+**Tags:** #Combat 
 
 ## Short Description
 Master of edged weapons with a competitive edge.
