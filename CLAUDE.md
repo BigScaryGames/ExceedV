@@ -440,3 +440,4 @@ Flavor text
 - `#Passive`, `#Dodge`, `#Parry`, `#Block`, `#Endure`
 - `#Damage`, `#Healing`, `#Buff`, `#Debuff`
 - `#AoE`, `#Melee`, `#Ranged`, `#Movement`
+- dont put random tags where they don't belong.

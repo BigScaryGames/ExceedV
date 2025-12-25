@@ -1,0 +1,17 @@
+# Storm of Arrows
+
+**Requirements:** Tier 5, [[wip Rapid Draw]], AG 3
+**Attributes:** AG/DX
+**Cost:** 20 XP
+**AP Cost:** x AP
+**Tags:** #Combat
+
+## Short Description
+Fire three rapid-draw shots at -2 to hit, each dealing -1 damage die.
+
+## Grants
+
+![[Ability - Storm of Arrows]]
+
+## Description
+You unleash a devastating barrage of arrows in rapid succession, your hands moving almost too fast to see. Three arrows fly toward your enemies in the time most archers take for two shots. While individually less powerful, the sheer volume of projectiles overwhelms defenses and multiplies the effects of poisons and magical enhancements.
