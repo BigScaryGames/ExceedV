@@ -441,3 +441,4 @@ Flavor text
 - `#Damage`, `#Healing`, `#Buff`, `#Debuff`
 - `#AoE`, `#Melee`, `#Ranged`, `#Movement`
 - dont put random tags where they don't belong.
+- don't write the name of the file in the first line of the file as a header. Name of the file is a header already.
