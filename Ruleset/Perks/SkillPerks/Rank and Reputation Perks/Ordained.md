@@ -1,8 +1,5 @@
-# Ordained
-
 **Requirements:** Theology 1
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

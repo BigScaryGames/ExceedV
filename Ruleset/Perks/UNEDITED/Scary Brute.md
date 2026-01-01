@@ -1,5 +1,3 @@
-# Scary Brute
-
 **Requirements:** Intimidation 2
 **Category:** Skill-based
 **Cost:** 8 XP

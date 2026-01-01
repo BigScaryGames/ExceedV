@@ -1,7 +1,6 @@
 **Requirements:** Fast-Talk 2, Charisma 1
 **Attributes:** CH/PR
 **Cost:** 3 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

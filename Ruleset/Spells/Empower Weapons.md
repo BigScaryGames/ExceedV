@@ -1,5 +1,3 @@
-# Empower Weapons
-
 **Tier:** 1
 **Type:** Basic/Advanced
 **AP Cost:** -

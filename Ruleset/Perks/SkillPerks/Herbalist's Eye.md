@@ -1,8 +1,5 @@
-# **Herbalist's Eye**
-
 **Requirements:** Medicine 1, Biology 1  
 **Cost:** 3 XP
-**AP Cost:** -
 **Tags:** #Skill #Exploration
 
 ## **Short Description**

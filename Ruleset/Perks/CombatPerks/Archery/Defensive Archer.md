@@ -1,9 +1,6 @@
-# Defensive Archer
-
 **Requirements:** Tier 1, [[Bow Training]]
 **Attributes:** AG/DX
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Combat 
 
 ## Short Description

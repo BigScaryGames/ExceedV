@@ -1,9 +1,6 @@
-# Natural Predator
-
 **Requirements:** Stealth 2, Survival 2 / Tracking 2
 **Attributes:** PR/AG
 **Cost:** 3 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

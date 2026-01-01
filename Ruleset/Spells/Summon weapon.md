@@ -1,5 +1,3 @@
-# Summon Weapon
-
 **Tier:** 1
 **Type:** Basic
 **AP Cost:** 1

@@ -1,5 +1,3 @@
-# Wargame Master
-
 **Requirements:** [Leadership 3], [Drill Master] 
 **Category:** [Skill]
 **Attributes:** [Wit/Charisma]

@@ -1,9 +1,6 @@
-# Close Quarters Shooter
-
 **Requirements:** Tier 3
 **Attributes:** AG/DX
 **Cost:** TBD
-**AP Cost:** -
 **Tags:** #Combat 
 
 ## Short Description

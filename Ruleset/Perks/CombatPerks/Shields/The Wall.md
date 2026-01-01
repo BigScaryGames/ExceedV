@@ -1,9 +1,6 @@
-# The Wall
-
 **Requirements:** Tier 3, [[Shield Warden]]
 **Attributes:** EN/MG
 **Cost:** 15 XP
-**AP Cost:** 2
 **Tags:** #Combat #Shield
 
 ## Short Description

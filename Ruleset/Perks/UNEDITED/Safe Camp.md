@@ -1,5 +1,3 @@
-# Safe Camp
-
 **Requirements:** -
 **Category:** Skill-based
 **Cost:** 10 XP

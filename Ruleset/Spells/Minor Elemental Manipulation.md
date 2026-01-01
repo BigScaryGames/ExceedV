@@ -1,5 +1,3 @@
-# Minor Elemental Manipulation
-
 **Tier:** 0
 **Type:** Basic
 **AP Cost:** 3

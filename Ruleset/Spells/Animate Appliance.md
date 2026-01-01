@@ -1,5 +1,3 @@
-# Animate Appliance
-
 **Tier:** 1
 **Type:** Basic
 **AP Cost:** -

@@ -1,9 +1,6 @@
-# Shield Training
-
 **Requirements:** -
 **Attributes:** EN
 **Cost:** 5 XP
-**AP Cost:** 1
 **Tags:** #Combat #WeaponTraining 
 
 ## Short Description

@@ -1,9 +1,6 @@
-# Anatomical Knowledge
-
 **Requirements:** Medicine 2/Biology 2
 **Attributes:** PR/WT
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

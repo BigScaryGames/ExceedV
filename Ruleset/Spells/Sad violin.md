@@ -1,5 +1,3 @@
-# Sad violin
-
 **Tier:** 0
 **Type:** Basic
 **AP Cost:** R

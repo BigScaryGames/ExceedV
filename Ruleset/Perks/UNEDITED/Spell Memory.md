@@ -1,5 +1,3 @@
-# Spell Memory
-
 **Requirements:** Spell Identification, Magical Theory 2
 **Category:** Magic
 **Cost:** 10 XP

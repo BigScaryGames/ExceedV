@@ -1,5 +1,3 @@
-# Endure Elements
-
 **Tier:** 0
 **Type:** Basic/Advanced
 **AP Cost:** 3

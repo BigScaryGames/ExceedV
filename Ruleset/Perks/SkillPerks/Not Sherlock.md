@@ -1,9 +1,6 @@
-# Not Sherlock
-
 **Requirements:** Wit 2
 **Attributes:** WT/PR
 **Cost:** 3 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

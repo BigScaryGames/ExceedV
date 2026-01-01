@@ -1,5 +1,3 @@
-# Bestial Arms
-
 **Tier:** 1
 **Type:** Basic
 **AP Cost:** -

@@ -1,8 +1,5 @@
-# In the Know
-
 **Requirements:** Street Wisdom 2
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

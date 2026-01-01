@@ -1,3 +1,5 @@
-Before rolling against a #Mind spell, spend a reaction to add +2 Competence bonus to your Endure roll.
+**AP Cost:** R
 
-**Tags:** #Reaction #Defense #Mind #Endure #Competence
+Before rolling against a #Mind spell, add +2 Competence bonus to your Endure roll.
+
+**Tags:** #Reaction #Endure

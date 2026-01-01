@@ -1,7 +1,5 @@
-# Brawling Training
-
 **Requirements:** -  
-**Attributes:** MG or AG  
+**Attributes:** MG/AG  
 **Cost:** 5 XP  
 **Tags:** #Combat #WeaponTraining
 

@@ -1,6 +1,7 @@
 ## Damage Formula
 `Damage = Weapon Dice + Might + Bonuses`
-
+**MS5 PLaceholder for crits.**
+`Criticals = Damage * 2`
 ## Damage Dice by Skill Level
 
 | Skill Level | Damage Dice |

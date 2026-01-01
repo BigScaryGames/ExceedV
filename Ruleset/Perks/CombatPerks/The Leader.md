@@ -1,9 +1,6 @@
-# The Leader
-
 **Requirements:** Lead.1
 **Attributes:** CH
 **Cost:** 5 XP
-**AP Cost:** 2
 **Tags:** #Skill
 
 ## Short Description

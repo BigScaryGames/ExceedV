@@ -1,9 +1,6 @@
-# Painful Parry
-
 **Requirements:** Tier 2, [[Twin Parry]]
 **Attributes:** DX/PR
 **Cost:** 5 XP
-**AP Cost:** 2
 **Tags:** #Combat
 
 ## Short Description

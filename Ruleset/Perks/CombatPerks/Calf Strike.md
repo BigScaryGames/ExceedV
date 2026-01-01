@@ -1,9 +1,6 @@
-# Calf Strike
-
 **Requirements:** Tier 1,
 **Attributes:** MG/AG
 **Cost:** 5 XP
-**AP Cost:** 2
 **Tags:** #Combat
 
 ## Short Description

@@ -1,9 +1,6 @@
-# Bow Training
-
 **Requirements:** -
-**Attributes:**  PR or DX
+**Attributes:**  PR/DX
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Combat #WeaponTraining 
 
 ## Short Description

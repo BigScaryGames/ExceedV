@@ -1,9 +1,6 @@
-# Shield Guardian
-
 **Requirements:** Tier 2, [[Shield Warden]
 **Attributes:** PR/AG
 **Cost:** 10 XP
-**AP Cost:** 2
 **Tags:** #Combat #Shield
 
 ## Short Description

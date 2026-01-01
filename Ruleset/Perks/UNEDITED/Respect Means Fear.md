@@ -1,5 +1,3 @@
-# Respect Means Fear
-
 **Requirements:** Theology 1
 **Category:** Universal
 **Cost:** 5 XP

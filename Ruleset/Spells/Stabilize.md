@@ -1,5 +1,3 @@
-# Stabilize
-
 **Tier:** 0
 **Type:** Basic
 **AP Cost:** 5

@@ -1,8 +1,5 @@
-# Sitting on the Fence
-
 **Requirements:** Street Wisdom 1
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

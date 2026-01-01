@@ -1,6 +1,6 @@
 **Base Action Points:** 5 AP per turn + 1 Reaction
 
-**Bonus Action Points:**
+**Additional Action Points:**
 - **Mental AP:** Every 5 total Mental attributes (Perception + Will + Charisma + Wit) = +1 Mental AP
 - **Physical AP:** Every 5 total Physical attributes (Might + Endurance + Agility + Dexterity) = +1 Physical AP
 

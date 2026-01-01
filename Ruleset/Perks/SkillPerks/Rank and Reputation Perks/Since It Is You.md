@@ -1,8 +1,5 @@
-# Since It Is You
-
 **Requirements:** History 3, Published author, Participated in conference
 **Cost:** 15 XP
-**AP Cost:** -
 **Tags:** #Skill #Rank
 
 ## Short Description

@@ -1,5 +1,3 @@
-# Language Expert
-
 **Requirements:** History 2
 **Category:** Universal
 **Cost:** 10 XP

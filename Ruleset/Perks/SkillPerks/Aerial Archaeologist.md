@@ -1,9 +1,6 @@
-# Aerial Archaeologist
-
 **Requirements:** History 2
 **Attributes:** WT/PR
 **Cost:** 2 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

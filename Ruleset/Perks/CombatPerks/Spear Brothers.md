@@ -1,9 +1,6 @@
-# Spear Brothers
-
 **Requirements:** Tier 1, [[Polearms Training]]
 **Attributes:** CH/WL
 **Cost:** 3 XP
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

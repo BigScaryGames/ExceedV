@@ -1,9 +1,6 @@
-# Cartographer's Mind
-
 **Requirements:** Navigation 2, Wit 1
 **Attributes:** WT/PR
 **Cost:** 3 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

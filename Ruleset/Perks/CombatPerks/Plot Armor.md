@@ -1,9 +1,6 @@
-# Plot Armor
-
 **Requirements:** GM permission.
 **Attributes:** EN
 **Cost:** 50 XP
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

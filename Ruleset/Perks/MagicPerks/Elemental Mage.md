@@ -1,9 +1,6 @@
-# Elemental Mage
-
 **Requirements:** Spellcraft 1, 
 **Attributes:** WI/WT
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Magic #Spellcraft #Spellshape
 
 ## **Description**

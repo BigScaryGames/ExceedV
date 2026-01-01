@@ -1,9 +1,6 @@
-# Cultural Explorer
-
 **Requirements:** History 1
 **Attributes:** WT/CH
 **Cost:** 2 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

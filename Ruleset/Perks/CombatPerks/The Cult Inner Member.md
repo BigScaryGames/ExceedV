@@ -1,9 +1,6 @@
-# The Cult Inner Member
-
 **Requirements:** -
 **Attributes:** -
 **Cost:** -
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

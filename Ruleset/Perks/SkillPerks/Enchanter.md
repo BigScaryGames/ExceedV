@@ -1,6 +1,5 @@
 **Requirements:** Magical Theory 2
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

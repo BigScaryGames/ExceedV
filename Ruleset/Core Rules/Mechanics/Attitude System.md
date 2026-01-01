@@ -1,6 +1,4 @@
-# Attitude System
-
-## Attitude Range
+# Attitude Range
 
 Attitude ranges from **-5** (hostile nemesis, may attack on sight) to **+5** (fanatical love and adoration).
 

@@ -1,5 +1,3 @@
-# Life and Death
-
 **Requirements:** Medicine 3
 **Category:** Skill-based
 **Cost:** 15 XP

@@ -1,9 +1,6 @@
-# Pointy stick
-
 **Requirements:** Tier 2, [[Polearms Training]]
 **Attributes:** PR/MG
 **Cost:** 5 XP
-**AP Cost:** 3
 **Tags:** #Combat 
 
 ## Short Description

@@ -1,5 +1,3 @@
-# Alarming Wards
-
 **Tier:** 1
 **Type:** Basic
 **AP Cost:** 1m

@@ -1,9 +1,6 @@
-# Bribery Expert
-
 **Requirements:** Streetwise 2
 **Attributes:** CH/PR
 **Cost:** 3 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

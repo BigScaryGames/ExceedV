@@ -1,34 +1,17 @@
-# Perk Name
-
 **Requirements:** Requirement text or -
 **Attributes:** AT1/AT2 or AT1/AT2+Domain
 **Cost:** X XP
-**AP Cost:** X or -
 **Tags:** #Tag1 #Tag2 or -
 
 ## Short Description
 Brief one-line description for tables and quick reference
 
 ## Grants
-Use this section to describe what the perk grants - either Abilities (active actions) or Effects (passive bonuses).
+Use this section to embed the Ability or Effect this perk grants.
 
 **Format:**
-- **Effect: [Name]** - Passive bonuses, conditional triggers, always-on modifications
-- **Ability: [Name]** - Active actions the player chooses to use (include AP cost)
-
-**Example (Effect):**
-```
-Effect: **Expanded Blade Critical Range**
-When attacking with blades, exceeding the defense roll by 10 or more counts as a critical hit.
-```
-
-**Example (Ability):**
-```
-Ability: **Shield Block**
-**Trigger:** You fail a Block defense but haven't applied damage yet.
-**Effect:** Reduce damage by Shield Negation.
-**AP Cost:** 1 Reaction
-```
+- `![[Ability - Name]]` - Active actions (have AP cost in the ability file)
+- `![[Effect - Name]]` - Passive bonuses, conditional triggers, always-on modifications
 
 ## Description
 Narrative description, lore, and context (optional - can be omitted if Grants section is sufficient)
@@ -40,45 +23,41 @@ Narrative description, lore, and context (optional - can be omitted if Grants se
 ## Header Fields (Always in this order)
 
 ### **Requirements:**
+- Tier requirements: `Tier 1`, `Tier 2`, etc.
 - Skill requirements: `Medicine 2`, `Biology 2/History 2`
-- Domain requirements: `SH1`, `OH2`, `AR3`
-- Perk prerequisites: `Shield Block, Shield Warden`
-- Special requirements: `GM permission`, `Must be in water`
+- Perk prerequisites: `[[Shield Training]]`, `[[Footwork]]`
+- Attribute requirements: `AG 2`, `MG 3`
+- Special requirements: `GM permission`
 - Multiple requirements: Separate with commas
 - No requirements: Use `-`
 
 **Examples:**
 ```
+**Requirements:** Tier 1, [[Footwork]]
+**Requirements:** Tier 2, AG 2
 **Requirements:** Medicine 2
-**Requirements:** SH1
-**Requirements:** Shield Block, Medicine 2
-**Requirements:** GM permission
 **Requirements:** -
 ```
 
 ### **Attributes:**
-- Format: `AT1/AT2` or `AT1/AT2+Domain`
+- Format: `AT1/AT2`
 - NO brackets `[]` - keep it clean
-- Use abbreviated form: `PR/WL`, `MG/EN+SH`
-- Domains added with `+`: `AG/DX+OH` (Agility/Dexterity + One-Handed)
+- Use abbreviated form: `PR/WL`, `MG/EN`
 
 **Abbreviations:**
 - **Mental:** PR (Perception), WL (Will), CH (Charisma), WT (Wit)
 - **Physical:** MG (Might), EN (Endurance), AG (Agility), DX (Dexterity)
-- **Domains:** SH (Shield), OH (One-Handed), TH (Two-Handed), AR (Archery), SP (Spear), ST (Staff)
 
 **Examples:**
 ```
 **Attributes:** PR/WT
-**Attributes:** MG/EN+SH
-**Attributes:** AG/DX+OH
-**Attributes:** WL/WT
+**Attributes:** MG/EN
+**Attributes:** AG/DX
 ```
 
 ### **Cost:**
 - Always format: `X XP`
 - For variable costs: `Variable (formula)`
-- Never use just numbers or "P" suffix
 
 **Examples:**
 ```
@@ -87,230 +66,72 @@ Narrative description, lore, and context (optional - can be omitted if Grants se
 **Cost:** Variable (Max_Wounds × level)
 ```
 
-### **AP Cost:**
-- Number for action point cost
-- `-` if not applicable (most Skill perks)
-
-**Examples:**
-```
-**AP Cost:** 2
-**AP Cost:** 4
-**AP Cost:** ActionType (e.g. weapon attack) +1
-
-```
-Some abilities don't have fixed AP cost but modify the AP cost of an existing abilities.
 ### **Tags:**
 - Use hashtags: `#Tag1 #Tag2`
-- Common tags: `#Combat`, `#Social`, `#Magic`, `#Instant`, `#Passive`, `#Leveling`
-- Domain tags: `#Shield`, `#Archery`, `#OneHanded`
-- Spell tags: `#Spellcraft`, `#Spellshape`
-- Use `-` if no tags
-
-**Examples:**
-```
-**Tags:** #Shield #Combat
-**Tags:** #Social #Passive
-**Tags:** #Instant
-**Tags:** -
-```
+- Keep tags minimal and meaningful
+- Use `-` or leave empty if no tags
 
 ---
 
-## Content Sections
+## Ability vs Effect Decision
 
-### Short Description
-- One-line summary
-- Used in tables and quick reference
-- Keep it under 100 characters if possible
+**Use Ability when:**
+- Player actively chooses to use it
+- Has an AP cost
+- Examples: Strike attacks, reactions, special moves
 
-### Effect
-- Mechanical game rules
-- What the perk does in concrete terms
-- Include numbers, bonuses, conditions
-- Can use bullet points for clarity
-
-### Description (Optional)
-- Narrative description
-- Lore and context
-- How it might manifest in-game
-- Can be omitted if Effect section is self-explanatory
+**Use Effect when:**
+- Always on or triggers automatically
+- No AP cost
+- Examples: Stat bonuses, expanded crit ranges, passive auras
 
 ---
 
 ## Examples by Type
 
-### Combat Perk
+### Combat Perk (grants Ability)
 ```markdown
-# Shield Rush
-
-**Requirements:** SH1
-**Attributes:** MG/EN+SH
+**Requirements:** Tier 1, [[Shield Training]]
+**Attributes:** MG/EN
 **Cost:** 2 XP
-**AP Cost:** 4
-**Tags:** #Shield #Strike
+**Tags:**
 
 ## Short Description
-Move twice and strike with shield, adding Might to damage twice.
+Move twice and strike with shield.
 
 ## Grants
 
-Ability: **Shield Rush**
-Move twice (up to full movement), then strike with your shield.
-Add Might bonus to damage twice.
-Total cost: 4 AP (reduced from normal 5 AP for move + attack)
+![[Ability - Shield Rush]]
 
 ## Description
 You charge forward with shield raised, using momentum to deliver a devastating bash.
 ```
 
-### Skill Perk
+### Skill Perk (grants Effect)
 ```markdown
-# Animal Affinity
-
 **Requirements:** Survival 2
 **Attributes:** CH/WL
 **Cost:** 5 XP
-**AP Cost:** -
-**Tags:** #Social #Passive
+**Tags:**
 
 ## Short Description
 Animals' starting attitude toward you is increased by +2.
 
 ## Grants
 
-Effect: **Animal Affinity**
-Animals' starting attitude with you is increased by 2.
-You have a short window to negotiate with animals before combat begins.
+![[Effect - Animal Affinity]]
 
 ## Description
-One day you noticed that cats and dogs love you more than others. Unless on guarding duty they never bark at you or try to harm you, horses generally don't throw you off, even wild animals don't attack you instantly on sight, and may allow you to walk away.
-```
-
-### Magic Perk
-```markdown
-# Mage
-
-**Requirements:** GM permission
-**Attributes:** WL
-**Cost:** 5 XP
-**AP Cost:** -
-**Tags:** #Instant #Magic
-
-## Short Description
-Awaken your magical talent and unlock spellcasting.
-
-## Grants
-
-Effect: **Mage Talent**
-- Select one Tier 0 spell and add it to your repertoire (this spell doesn't contribute to attribute advancement)
-- You unlock Tier 0 spells for learning
-- You can learn Team Ritual in one day with written guidance or one shift with help
-- This perk requires GM permission and no time to learn
-- Can be selected as part of character background
-
-## Description
-Everyone wants to bend reality to their will. Unlike most, you can, because you are a mage.
-
-Perhaps you were trained by a journeyman or master mage, or maybe during a pivotal moment in your life, your talent awakened. You might have been a child lost in darkness who summoned light, a pilgrim whose exhaustion lightened their burden, or someone who willed wounds to stop bleeding.
-```
-
-### Leveling Perk
-```markdown
-# ExtraHP
-
-**Requirements:** -
-**Attributes:** EN/WL
-**Cost:** Variable (Max_Wounds × level)
-**AP Cost:** -
-**Tags:** #Leveling #Passive
-
-## Short Description
-Increase your health pool (can be taken multiple times).
-
-## Grants
-
-Effect: **Increased Health Pool**
-Gain additional HP based on your current Max_Wounds.
-
-**Cost Formula:** Max_Wounds × current level in ExtraHP
-- Example: With 2 Max_Wounds, 1st level costs 2 XP, 2nd costs 4 XP, 3rd costs 6 XP
-
-**Consolidation:** When ExtraHP reaches level 5, it consolidates into +1 Max_Wounds. The new wound operates like all others (gains full armor and endurance bonuses).
-
-## Description
-Through rigorous training and conditioning, you've expanded your body's resilience beyond normal limits.
+Cats and dogs love you more than others.
 ```
 
 ---
 
-## Parser Notes (for build-time tool)
+## Parser Notes
 
-When parsing these files, the build tool should:
-
-1. **Extract title** from `# Perk Name`
-2. **Parse header fields** (Requirements, Attributes, Cost, AP Cost, Tags)
-3. **Extract sections** (Short Description, Effect, Flavor)
+When parsing perk files:
+1. **Extract title** from filename (not header - there is none)
+2. **Parse header fields** (Requirements, Attributes, Cost, Tags)
+3. **Extract embedded files** from `![[Ability - X]]` or `![[Effect - X]]`
 4. **Detect leveling perks** by `Variable` in Cost field
-5. **Generate ID** from title (kebab-case)
-6. **Infer type** from directory:
-   - `Perks/CombatPerks/` → `combat`
-   - `Perks/SkillPerks/` → `skill`
-   - `Perks/MagicPerks/` → `magic`
-
-**Output JSON structure:**
-```json
-{
-  "type": "perk",
-  "subtype": "combat",
-  "id": "shield-rush",
-  "name": "Shield Rush",
-  "requirements": {
-    "text": "SH1",
-    "domain": "SH1",
-    "skills": [],
-    "perks": [],
-    "special": []
-  },
-  "attributes": ["Might", "Endurance", "Shield"],
-  "cost": {
-    "xp": 2,
-    "variable": false
-  },
-  "apCost": 4,
-  "tags": ["Shield", "Strike"],
-  "shortDescription": "Move twice and strike with shield...",
-  "effect": "Move twice (up to full movement)...",
-  "flavor": "You charge forward with shield raised..."
-}
-```
-
-### Multi-Level Perk Example (ExtraHP)
-```yaml
-subtype: skill
-name: ExtraHP
-id: extra-hp
-requirements:
-  domain: null
-  skills: []
-  perks: []
-  special: []
-attributes:
-  - Endurance
-  - Will
-cost:
-  xp: 0  # Not fixed - uses formula
-  ap: null
-leveling:
-  enabled: true
-  xp_formula: "Max_Wounds * level"
-  max_level: null  # Can be taken unlimited times
-  consolidation: "Every 5 levels consolidates into +1 Max_Wounds"
-tags:
-  - HP
-  - Leveling
-short_description: Increase health pool
-effect: |
-  Gain additional HP based on your current Max_Wounds.
-  Cost: Max_Wounds × current level XP
-  Consolidation: When ExtraHP level reaches 5, it consolidates into +1 Max_Wounds.
-```
+5. **Infer type** from directory path

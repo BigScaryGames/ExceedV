@@ -1,8 +1,5 @@
-# Robin Hood
-
 **Requirements:** Street Wisdom 3, Created reputation rumors
 **Cost:** 15 XP
-**AP Cost:** -
 **Tags:** #Skill #Rank
 
 ## Short Description

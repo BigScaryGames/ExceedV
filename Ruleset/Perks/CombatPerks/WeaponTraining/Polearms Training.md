@@ -1,9 +1,6 @@
-# Polearms Training
-
 **Requirements:** -
-**Attributes:** AG or MG
+**Attributes:** AG/MG
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Combat #WeaponTraining
 
 ## Short Description

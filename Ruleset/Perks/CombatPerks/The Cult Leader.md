@@ -1,9 +1,6 @@
-# The Cult Leader
-
 **Requirements:** GM, [[The Leader]], Lead. 3, Manip. 3
 **Attributes:** CH
 **Cost:** 10 XP
-**AP Cost:** 2
 **Tags:** #Skill 
 
 ## Short Description

@@ -1,7 +1,6 @@
 **Requirements:** Tier 4, [[Tower]]
 **Attributes:** AG/DX
 **Cost:** TBD
-**AP Cost:** -
 **Tags:** #Combat 
 
 ## Short Description

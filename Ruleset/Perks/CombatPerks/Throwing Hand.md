@@ -1,9 +1,6 @@
-# Throwing Hand
-
 **Requirements:** Tier 1, [[Thrown Training]]
 **Attributes:** DX/Per
 **Cost:** 2 XP
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

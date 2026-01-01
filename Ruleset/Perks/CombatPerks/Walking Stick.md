@@ -1,9 +1,6 @@
-# Walking Stick
-
 **Requirements:** Tier 1, [[Polearms Training]], 
 **Attributes:** -
 **Cost:** 2XP
-**AP Cost:** 2
 **Tags:** #Combat
 
 ## Short Description

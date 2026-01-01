@@ -1,5 +1,3 @@
-# Poison Resistance
-
 **Requirements:** Medicine 1
 **Category:** Skill-based
 **Cost:** 5 XP

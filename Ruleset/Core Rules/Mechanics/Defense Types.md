@@ -1,5 +1,3 @@
-# Defense Types
-
 There are 4 main defensive options in the game.
 
 | Defense | Formula |

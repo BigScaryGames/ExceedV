@@ -1,9 +1,6 @@
-# Piranha Strike
-
 **Requirements:** Tier 2
 **Attributes:** AG/DX
 **Cost:** 10 XP
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

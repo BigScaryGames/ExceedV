@@ -1,5 +1,3 @@
-# Obscure
-
 **Tier:** 1
 **Type:** Basic/Advanced
 **AP Cost:** 3

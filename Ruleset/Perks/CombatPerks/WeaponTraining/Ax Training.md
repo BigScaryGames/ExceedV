@@ -1,9 +1,6 @@
-# Ax Training
-
 **Requirements:** -
-**Attributes:**  MG or EN
+**Attributes:**  MG/EN
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Combat #WeaponTraining 
 
 ## Short Description

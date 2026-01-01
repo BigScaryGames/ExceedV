@@ -1,9 +1,6 @@
-# Repose This, Repose That
-
 **Requirements:** Tier 4, [[Parry This, Parry that]], WL3,
-**Attributes:** Will
+**Attributes:** WL
 **Cost:** 10 XP
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

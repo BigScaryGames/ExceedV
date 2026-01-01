@@ -1,5 +1,3 @@
-# I See a Secret Hand
-
 **Requirements:** History 3
 **Category:** Skill
 **Cost:** 5 XP

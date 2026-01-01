@@ -1,9 +1,6 @@
-# Animal Affinity
-
 **Requirements:** Survival 2
 **Attributes:** CH/WL
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

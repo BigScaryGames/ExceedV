@@ -1,9 +1,6 @@
-# Arcane Veil
-
 **Requirements:** Magical Theory 1, Stealth 3
 **Attributes:** AG/WL
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Skill #Illusion
 
 ## Short Description

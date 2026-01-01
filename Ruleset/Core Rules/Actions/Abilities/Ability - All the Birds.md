@@ -1,3 +1,5 @@
-Make a melee strike with +4 AP cost against all targets within your reach. Resolve strikes one after another. Roll Attack and Damage once.
+**AP Cost:** +4
 
-**Tags:** #Strike #AOE #Multitarget
+Make a melee strike against all targets within your reach. Resolve strikes one after another. Roll Attack and Damage once.
+
+**Tags:** #Strike #AoE

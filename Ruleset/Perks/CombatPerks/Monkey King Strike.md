@@ -1,9 +1,6 @@
-# Monkey King Strike
-
 **Requirements:** Tier 3, AG3, [[Staff Acrobat]]
 **Attributes:** AG/MG
 **Cost:** 15 XP
-**AP Cost:** +2
 **Tags:** #Combat 
 
 ## Short Description

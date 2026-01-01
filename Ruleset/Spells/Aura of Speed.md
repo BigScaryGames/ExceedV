@@ -1,5 +1,3 @@
-# Aura of Speed
-
 **Tier:** 1
 **Type:** Advanced
 **AP Cost:** -

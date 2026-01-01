@@ -1,5 +1,3 @@
-# Profanity filter
-
 **Tier:** 1
 **Type:** Basic
 **AP Cost:** R

@@ -1,7 +1,6 @@
 **Requirements:** Tier 3, [[Mage]]
 **Attributes:** AG/DX
 **Cost:** TBD
-**AP Cost:** -
 **Tags:** #Combat 
 
 ## Short Description

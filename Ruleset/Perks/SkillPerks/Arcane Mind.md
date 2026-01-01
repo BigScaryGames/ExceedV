@@ -1,9 +1,6 @@
-# Arcane Mind
-
 **Requirements:** Magical Theory 3, Spellcraft 1
 **Attributes:** WL/WT, Spellcraft
 **Cost:** 7 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

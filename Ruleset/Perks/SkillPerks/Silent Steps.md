@@ -1,8 +1,5 @@
-# Silent Steps
-
 **Requirements:** Stealth 2
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Skill #Exploration 
 
 ## **Short Description**

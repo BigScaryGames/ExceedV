@@ -1,9 +1,6 @@
-# Quarter-staff Adept
-
 **Requirements:** Tier 1, [[Polearms Training]]
 **Attributes:** AG +SaS
 **Cost:** 10 XP
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

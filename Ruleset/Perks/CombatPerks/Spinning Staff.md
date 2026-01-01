@@ -1,9 +1,6 @@
-# Spinning Staff
-
 **Requirements:** Tier 3
 **Attributes:** AG/DX 
 **Cost:** 10 XP
-**AP Cost:** 3
 **Tags:** #Combat 
 
 ## Short Description

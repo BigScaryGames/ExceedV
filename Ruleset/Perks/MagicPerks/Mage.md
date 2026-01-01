@@ -1,7 +1,6 @@
 **Requirements:** GM permission
 **Attributes:** WL
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Instant #Magic
 
 ## Short Description

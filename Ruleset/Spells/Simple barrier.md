@@ -1,5 +1,3 @@
-# Simple barrier
-
 **Tier:** 1
 **Type:** Basic
 **AP Cost:** 4

@@ -1,6 +1,5 @@
 **Requirements:** History 1
 **Cost:** 2 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

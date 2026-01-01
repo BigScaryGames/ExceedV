@@ -1,5 +1,3 @@
-# Pest control
-
 **Tier:** 1
 **Type:** Ritual
 **AP Cost:** 1 shift per 250 m²

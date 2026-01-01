@@ -1,5 +1,3 @@
-# Detect Magic
-
 **Tier:** 0
 **Type:** Basic
 **AP Cost:** 3

@@ -1,5 +1,3 @@
-# Tentacle arms
-
 **Tier:** 1
 **Type:** Basic
 **AP Cost:** 3AP

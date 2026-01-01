@@ -1,9 +1,6 @@
-# First Responder
-
 **Requirements:** Medicine 2
 **Attributes:** DX/WT
 **Cost:** 3 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

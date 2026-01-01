@@ -1,9 +1,6 @@
-# Watching your back
-
 **Requirements:** Tier 2,
 **Attributes:** CH + MD
 **Cost:** 5 XP
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

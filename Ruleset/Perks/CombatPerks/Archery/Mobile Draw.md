@@ -1,7 +1,6 @@
 **Requirements:** Tier 4, [[Fast Archer]]
 **Attributes:** AG/DX
 **Cost:** 10 XP
-**AP Cost:** -
 **Tags:**
 
 ## Short Description

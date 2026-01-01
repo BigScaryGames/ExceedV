@@ -1,9 +1,6 @@
-# Tripping Strike
-
 **Requirements:** Tier 2, [[Calf Strike]]
 **Attributes:** MG/AG 
 **Cost:** 5 XP
-**AP Cost:** 3
 **Tags:** #Combat 
 
 ## Short Description

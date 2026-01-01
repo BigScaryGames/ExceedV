@@ -1,9 +1,6 @@
-# Long Knives
-
 **Requirements:** Tier 1, [[Blades Training]]
 **Attributes:** AG/DX
 **Cost:** 2 XP
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

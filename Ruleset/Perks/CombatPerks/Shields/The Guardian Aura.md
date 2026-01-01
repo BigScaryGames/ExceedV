@@ -1,9 +1,6 @@
-# The Guardian Aura
-
 **Requirements:** Tier 3, [[Spell Guard]], [[Shield Warden]]
 **Attributes:** EN/MG
 **Cost:** 10 XP
-**AP Cost:** 2
 **Tags:** #Combat #Shield
 
 ## Short Description

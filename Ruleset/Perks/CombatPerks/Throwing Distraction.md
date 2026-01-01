@@ -1,9 +1,6 @@
-# Throwing Distraction
-
 **Requirements:** Tier 2, [[Throwing Hand]]
 **Attributes:** DX/PR
 **Cost:** 10 XP
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

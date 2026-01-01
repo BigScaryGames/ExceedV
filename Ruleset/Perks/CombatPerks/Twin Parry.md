@@ -1,9 +1,6 @@
-# Twin Parry
-
 **Requirements:** Tier 1, 
 **Attributes:** AG/DX
 **Cost:** 3 XP
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

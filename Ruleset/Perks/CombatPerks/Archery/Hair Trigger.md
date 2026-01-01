@@ -1,9 +1,6 @@
-# Hair Trigger
-
 **Requirements:** Tier 2
 **Attributes:** PR/AG
 **Cost:** 10 XP
-**AP Cost:** Variable (readied action)
 **Tags:**
 
 ## Short Description

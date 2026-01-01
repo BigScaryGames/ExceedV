@@ -1,5 +1,3 @@
-# Summon Skelly boys
-
 **Tier:** 1
 **Type:** Advanced
 **AP Cost:** -

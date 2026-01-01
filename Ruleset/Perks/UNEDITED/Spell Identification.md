@@ -1,5 +1,3 @@
-# Spell Identification
-
 **Requirements:** Magical Theory 1
 **Category:** Magic
 **Cost:** 5 XP

@@ -1,5 +1,3 @@
-# Rumour Monger
-
 **Requirements:** -
 **Category:** Universal
 **Cost:** 10 XP

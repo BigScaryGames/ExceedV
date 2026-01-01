@@ -1,9 +1,6 @@
-# Double Strike
-
 **Requirements:** Tier 1
 **Attributes:** AG/MG
 **Cost:** 5 XP
-**AP Cost:** 0
 **Tags:** #Combat 
 
 ## Short Description

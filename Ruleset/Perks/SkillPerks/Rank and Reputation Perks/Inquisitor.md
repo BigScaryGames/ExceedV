@@ -1,8 +1,5 @@
-# Inquisitor
-
 **Requirements:** Theology 3, Ordained
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Skill #Rank
 
 ## Short Description

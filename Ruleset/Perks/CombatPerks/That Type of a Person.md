@@ -1,9 +1,6 @@
-# That Type of a Person
-
 **Requirements:** [[Watching your back]]
 **Attributes:** Will
 **Cost:** 5 XP
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

@@ -1,3 +1,5 @@
-Move twice and strike with your shield, adding Might to the damage twice. (-1 AP total cost)
+**AP Cost:** 4
 
-**Tags:** #Strike #Shield #Movement #Charge
+Move twice and strike with your shield, adding Might to the damage twice.
+
+**Tags:** #Strike #Movement

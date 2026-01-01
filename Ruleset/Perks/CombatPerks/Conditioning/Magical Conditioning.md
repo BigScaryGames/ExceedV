@@ -1,9 +1,6 @@
-# Magical Conditioning
-
 **Requirements:** Mage, Spellcraft 1
 **Attributes:** EN/WL
 **Cost:** Variable (Max_Wounds × level)
-**AP Cost:** -
 **Tags:** #Combat #Conditioning #Leveled #Magic
 
 ## Short Description

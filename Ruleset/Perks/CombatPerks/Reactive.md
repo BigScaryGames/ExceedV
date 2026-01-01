@@ -1,7 +1,6 @@
 **Requirements:** AG 3, PR 3
 **Attributes:** AG/PR
 **Cost:** 20 XP
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

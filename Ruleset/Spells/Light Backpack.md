@@ -1,5 +1,3 @@
-# Light Backpack
-
 **Tier:** 0
 **Type:** Basic/Advanced
 **AP Cost:** -

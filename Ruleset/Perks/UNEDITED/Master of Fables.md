@@ -1,5 +1,3 @@
-# Master of Legends
-
 **Requirements:** History 4, Access to Tier5 library, fabler
 **Category:** Skill
 **Cost:** 8 XP

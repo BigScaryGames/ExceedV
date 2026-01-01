@@ -1,9 +1,6 @@
-# Zen Archer
-
 **Requirements:** Tier 1, [[Bow Training]]
 **Attributes:** PR
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Combat
 
 ## Short Description

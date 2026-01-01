@@ -1,5 +1,3 @@
-# Surgeon's Precision
-
 **Requirements:** First Aid, Medicine 2
 **Category:** Skill-based
 **Cost:** 10 XP

@@ -1,9 +1,6 @@
-# Grip Switch
-
 **Requirements:** Tier 1, [[Polearms Training]]
 **Attributes:** DX/AG
 **Cost:** 2 XP
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

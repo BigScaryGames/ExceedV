@@ -1,9 +1,6 @@
-# Impact Training
-
 **Requirements:** -
-**Attributes:**  DX or AG
+**Attributes:**  DX/AG
 **Cost:** 5 XP
-**AP Cost:** -
 **Tags:** #Combat #WeaponTraining 
 
 ## Short Description

@@ -1,8 +1,5 @@
-# Crime in-Law
-
 **Requirements:** #Streetwise 2, Known in criminal upper echelons  #Rank in cri
 **Cost:** 10 XP
-**AP Cost:** -
 **Tags:** #Skill #Rank
 
 ## Short Description

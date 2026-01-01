@@ -1,8 +1,5 @@
-# King on the Hill
-
 **Requirements:** Street Wisdom 3, Started a criminal organization
 **Cost:** 15 XP
-**AP Cost:** -
 **Tags:** #Skill #Rank
 
 ## Short Description

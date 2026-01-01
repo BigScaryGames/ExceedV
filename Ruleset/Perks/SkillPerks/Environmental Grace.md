@@ -1,8 +1,5 @@
-# Environmental Grace
-
 **Requirements:** - Survival 3
 **Cost:** 7 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

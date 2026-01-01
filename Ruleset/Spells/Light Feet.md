@@ -1,5 +1,3 @@
-# Light Feet
-
 **Tier:** 0
 **Type:** Basic/Advanced
 **AP Cost:** -

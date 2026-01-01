@@ -1,9 +1,6 @@
-# Staff Acrobat
-
 **Requirements:** Tier 1, [[Polearms Training]]
 **Attributes:** AG/MG
 **Cost:** 2 XP
-**AP Cost:** 2
 **Tags:** #Combat
 
 ## Short Description

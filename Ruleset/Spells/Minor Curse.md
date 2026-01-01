@@ -1,5 +1,3 @@
-# Minor Curse
-
 **Tier:** 1
 **Type:** Basic
 **AP Cost:** 5

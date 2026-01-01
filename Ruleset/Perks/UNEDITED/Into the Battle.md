@@ -1,5 +1,3 @@
-# Into the Battle
-
 **Requirements:** -
 **Category:** Universal
 **Cost:** 15 XP

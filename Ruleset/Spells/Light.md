@@ -1,5 +1,3 @@
-# Light
-
 **Tier:** 0
 **Type:** Basic/Advanced
 **AP Cost:** 2

@@ -1,9 +1,6 @@
-# Liar Liar
-
 **Requirements:** Manipulation 2, Fast-talk 1
 **Attributes:** CH/WL
 **Cost:** 2 XP
-**AP Cost:** -
 **Tags:** #Skill - #GM
 
 ## Short Description

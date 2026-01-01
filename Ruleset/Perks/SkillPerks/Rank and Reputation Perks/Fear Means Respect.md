@@ -1,8 +1,5 @@
-# Fear Means Respect
-
 **Requirements:** Street Wisdom 3, Created reputation rumors about power/viciousness
 **Cost:** 15 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

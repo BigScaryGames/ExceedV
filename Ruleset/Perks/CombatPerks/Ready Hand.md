@@ -1,9 +1,6 @@
-# Ready Hand
-
 **Requirements:** Tier 1, [[Blades Training]]
-**Attributes:** -
+**Attributes:** AG
 **Cost:** -
-**AP Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

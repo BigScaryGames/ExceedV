@@ -1,9 +1,6 @@
-# Arcane Sight
-
 **Requirements:** Magical Theory 2, Detect Magic, Spellcraft 2
 **Attributes:** PR, Spellcraft
 **Cost:** 7 XP
-**AP Cost:** -
 **Tags:** #Skill - #Scrying
 
 ## Short Description

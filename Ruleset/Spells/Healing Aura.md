@@ -1,5 +1,3 @@
-# Healing Aura
-
 **Tier:** 1
 **Type:** Advanced
 **AP Cost:** -

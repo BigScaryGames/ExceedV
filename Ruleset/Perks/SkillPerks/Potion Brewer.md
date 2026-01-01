@@ -1,8 +1,5 @@
-# Potion Brewer
-
 **Requirements:** Medicine 2, Chemistry 2, Biology 2
 **Cost:** 7 XP
-**AP Cost:** -
 **Tags:** #Skill
 
 ## Short Description

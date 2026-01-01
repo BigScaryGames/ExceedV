@@ -1,9 +1,6 @@
-# Parry This, Parry that
-
 **Requirements:** Tier 3, [[Projectile Parry]], AG3, DX3
 **Attributes:** AG/DX
 **Cost:** 10 XP
-**AP Cost:** 2
 **Tags:** #Combat
 
 ## Short Description

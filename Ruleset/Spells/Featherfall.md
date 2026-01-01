@@ -1,5 +1,3 @@
-# Featherfall
-
 **Tier:** 0
 **Type:** Basic/Advanced
 **AP Cost:** R/1
