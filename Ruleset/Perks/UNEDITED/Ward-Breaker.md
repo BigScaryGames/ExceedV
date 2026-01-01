@@ -1,5 +1,3 @@
-# Glyphwright
-
 **Requirements:** Magical Theory 2
 **Category:** Magic
 **Cost:** 10 XP

@@ -1,7 +1,7 @@
 # Melee Attack
 
 **AP Cost:** 2-4 (based on weapon weight)
-**Traits:** #Attack #Strike
+**Traits:** #Attack 
 
 **Roll:** Martial Domain + Attribute vs defense
 

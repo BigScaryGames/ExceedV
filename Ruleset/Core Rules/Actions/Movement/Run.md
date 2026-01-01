@@ -5,4 +5,3 @@
 
 After Striding, you can turn into a Run, moving your full Speed in a single movement.
 
-*Requires a Stride action immediately before.*

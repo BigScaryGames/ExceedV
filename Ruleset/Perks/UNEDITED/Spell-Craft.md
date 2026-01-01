@@ -1,5 +1,3 @@
-# Spell-Craft
-
 **Requirements:** Magical Theory 3
 **Category:** Magic
 **Cost:** 15 XP

@@ -1,5 +1,3 @@
-# Overpowered Draw
-
 **Requirements:** Tier 3
 **Attributes:** AG/DX
 **Cost:** TBD
@@ -7,7 +5,7 @@
 **Tags:** #Combat 
 
 ## Short Description
-Each aim action adds cumulative +1 to next strike.
+Each aim action adds an extra die of damage?
 
 ## Description
 Each aim action adds a +1 cumulative to the next strike.

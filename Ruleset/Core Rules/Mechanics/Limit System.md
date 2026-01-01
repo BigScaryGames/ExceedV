@@ -1,5 +1,3 @@
-# The Limit System
-
 **Limit** represents your capacity to sustain persistent magical and supernatural effects.
 
 ## Base Limit

@@ -1,7 +1,5 @@
-# Endure
-
-**AP Cost:** - (Reaction)
-**Traits:** #Defense #Mind #Body
+**AP Cost:** - 
+**Traits:** #Defense
 
 **Roll:** Endurance + Will vs effect
 

@@ -1,5 +1,3 @@
-# Riposte
-
 **Requirements:** Tier 3, AG 3
 **Attributes:** AG/DX
 **Cost:** 5 XP

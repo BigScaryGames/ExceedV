@@ -1,10 +1,7 @@
 # ExceedV TTXPG Core Rules Reference
 
-> **Version Status:** This is a 0.4 → 0.5 WIP (Work in Progress)
-> - Martial domain restructure in progress
-> - Weapon training system implementation ongoing
-> - Combat perk overhaul planned
-> - Extra HP deprecation (replacing with Conditioning perks)
+> **Version Status:** Milestone 5 (v0.5) in progress
+> See `/MILESTONES.md` for roadmap through v1.0
 
 ## Game Overview
 - **System:** 2d10 dice system with advantage/disadvantage (3d10 keep 2)
@@ -257,28 +254,34 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 
 ## File Structure Overview
 
-### Main Ruleset Files
-- `Ruleset/1. General.md` - Game overview, quick reference, design notes
-- `Ruleset/2. Basic Mechanics.md` - Core 2d10 system, dice mechanics, check types
-- `Ruleset/3. Character Creation and Point buy Costs.md` - XP system, character creation steps
-- `Ruleset/3.1 Attributes.md` - 8-attribute system, skill-driven progression
-- `Ruleset/3.2 HP And Wounds.md` - Dual HP pools (Stamina/Health), wound system
-- `Ruleset/3.4 Learning and Training.md` - Downtime training, XP progression variants
-- `Ruleset/4. Combat Conflict Resolution.md` - Action economy, attacks, defenses, initiative
-- `Ruleset/4.1 Taking Damage.md` - Damage application rules
-- `Ruleset/4.2 Wounds And Consequences.md` - Wound effects and consequences
-- `Ruleset/5. Skills.md` - Complete skill list with attribute pairings
-- `Ruleset/5.1 Skill And Universal Perks.md` - Skill progression, universal perks
-- `Ruleset/6. Magic System.md` - Limit system, spellcraft domain, spell learning
-- `Ruleset/6.1 Magic Perks.md` - Magic-related perks and abilities
-- `Ruleset/6.1 Summoning.md` - Summoning mechanics and rules
-- `Ruleset/7. Equipment.md` - Weapons, armor, gear mechanics
-- `Ruleset/7.1 Encumbrance.md` - Carrying capacity, weight penalties
-- `Ruleset/8. Social Interactions.md` - Attitude system, social mechanics, trading
-- `Ruleset/8.1 Rank and Status.md` - Social hierarchy, status mechanics
-- `Ruleset/9. Movement and Distance.md` - Speed calculation, movement actions
-- `Ruleset/10. Traits.md` - Spell/ability traits, defense types, bonus stacking
-- `Ruleset/11. Actions.md` - Combat, social, knowledge, and support actions
+### Core Rules Files (Wiki Structure)
+Core Rules use wiki-style organization with hub files embedding mechanics from subfolders.
+
+**Hub Files (numbered):**
+- `Core Rules/0.Index.md` - Navigation index
+- `Core Rules/2. Basic Mechanics.md` - Dice system, check types (embeds from Mechanics/)
+- `Core Rules/3. Character Creation and Point buy Costs.md` - XP system, creation steps
+- `Core Rules/3.1 Attributes.md` - 8-attribute system
+- `Core Rules/3.2 HP And Wounds.md` - Dual HP pools, wound system
+- `Core Rules/3.5 Downtime.md` - Training, recovery, income (embeds from Mechanics/)
+- `Core Rules/4. Combat Conflict Resolution.md` - Action economy, attacks, defenses
+- `Core Rules/4.1 Taking Damage.md` - Damage application
+- `Core Rules/4.2 Wounds And Consequences.md` - Wound effects, treatment
+- `Core Rules/5. Skills.md` - Skill list with attribute pairings
+- `Core Rules/5.1 Skill And Universal Perks.md` - Skill progression, universal perks
+- `Core Rules/6. Types of magic.md` - Limit system, spellcraft domain
+- `Core Rules/7. Equipment.md` - Weapons, armor, gear
+- `Core Rules/8. Social Interactions.md` - Attitude system, trading
+- `Core Rules/8.1 Organizations.md` - Ranks, org benefits/obligations (WIP till MS8)
+- `Core Rules/9. Movement and Distance.md` - Speed, movement actions
+- `Core Rules/10. Traits.md` - Traits, bonus types (embeds from References/)
+- `Core Rules/11. Actions.md` - All action types (embeds from Actions/)
+
+**Subfolders:**
+- `Core Rules/Mechanics/` - Embeddable mechanic files (Action Points, Initiative, Recovery Rules, etc.)
+- `Core Rules/Actions/` - Individual action definitions (Movement/, Combat/, Social/, Support/)
+- `Core Rules/References/` - Reference tables (Bonus Types, Defense Traits, Downtime Quality, Rank System)
+- `Core Rules/Design Philosophy.md` - Design notes and rationale
 
 ### Combat System Files
 - `Ruleset/Combat Skills and perks/1. Martial Domains.md` - Combat skill domains (v0.4, being restructured)
@@ -339,19 +342,19 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 - **Magic Schools:** Search `#Spell`, `#Conjuration`, `#Manipulation`, `#Transformation`
 - **Bonus Types:** Search `#Competence`, `#Morale`, `#Enhancement`, `#Luck`
 
-## File Status Notes (v0.4 → v0.5 WIP)
-- **Modified Files:** Several core files have recent changes (per git status)
-- **Unedited Content:** Some perks in `/UNEDITED/` folder need revision
-- **New Content:** Recent additions in combat perks and main perk list
-- **v0.5 Progress:**
-  - ✅ Ready action implemented (11. Actions.md)
-  - ✅ Weapon training structure defined (8 categories, 5 XP each)
-  - ✅ All weapon training perks complete: Blades, Shield, Brawling, Polearms, Axes, Thrown, Bows, Impact
-  - ✅ Conditioning perks: Replace Extra HP system (7 conditioning types with leveled progression and capstones)
-  - ✅ Shield perk tree organized (9 perks in 3 tiers, based on Shield Training)
-  - ⏳ Combat perk overhaul: Convert from old domains to weapon trait requirements
-  - ⏳ Combat perk tree organization: Shields complete, Leadership/Parrying/other trees pending
-  - ⏳ Archery domain remake (flagged for later)
+## Milestone 5 Progress
+- ✅ Conditioning perks (replaced Extra HP system)
+- ✅ Wiki-style Core Rules restructure (Mechanics/, Actions/, References/ folders)
+- ✅ Unified Downtime system (3.5 Downtime with quality scale)
+- ✅ Organizations framework (8.1 Organizations with leveled benefits/obligations)
+- ✅ Weapon training perks (8 categories)
+- ✅ Shield perk tree
+- ⏳ Switch to 2 core domains (Combat/Magic)
+- ⏳ Combat perks for tiers 1-3
+- ⏳ Archery perk tree
+- ⏳ One more perk tree
+
+See `/MILESTONES.md` for full roadmap.
 
 ## Development Workflow
 - **Templates:** Use Universal templates before creating new content
@@ -442,3 +445,4 @@ Flavor text
 - `#AoE`, `#Melee`, `#Ranged`, `#Movement`
 - dont put random tags where they don't belong.
 - don't write the name of the file in the first line of the file as a header. Name of the file is a header already.
+- DONT ADD UNNEEDED TAGS

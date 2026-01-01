@@ -1,5 +1,3 @@
-# Enchanter
-
 **Requirements:** Magical Theory 2
 **Cost:** 5 XP
 **AP Cost:** -

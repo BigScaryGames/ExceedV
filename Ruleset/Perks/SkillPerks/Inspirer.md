@@ -1,5 +1,3 @@
-# Inspirer
-
 **Requirements:** - Charisma 2
 **Cost:** 5 XP
 **AP Cost:** -

@@ -1,5 +1,3 @@
-# Librarian
-
 **Requirements:** History 1
 **Category:** Universal
 **Cost:** 5 XP

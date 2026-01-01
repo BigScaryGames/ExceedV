@@ -1,5 +1,3 @@
-# Tamer
-
 **Requirements:** -
 **Category:** Universal
 **Cost:** 15 XP

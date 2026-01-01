@@ -1,5 +1,3 @@
-# Comedian
-
 **Requirements:** Fast-Talk 2, Charisma 1
 **Attributes:** CH/PR
 **Cost:** 3 XP

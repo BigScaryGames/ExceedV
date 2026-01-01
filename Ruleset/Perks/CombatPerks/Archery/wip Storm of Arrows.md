@@ -1,6 +1,6 @@
 # Storm of Arrows
 
-**Requirements:** Tier 5, [[wip Rapid Draw]], AG 3
+**Requirements:** Tier 5, [[Mobile Draw]], AG 3
 **Attributes:** AG/DX
 **Cost:** 20 XP
 **AP Cost:** x AP

@@ -1,7 +1,5 @@
-# Block
-
-**AP Cost:** - (Reaction)
-**Traits:** #Defense #Strike #Projectile
+**AP Cost:** -
+**Traits:** #Defense
 
 **Roll:** Shield Domain + Agility/Endurance/Might vs attack
 

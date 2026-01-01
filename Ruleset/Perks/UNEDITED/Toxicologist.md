@@ -1,5 +1,3 @@
-# Toxicologist
-
 **Requirements:** Poison Resistance, Medicine 3
 **Category:** Skill-based
 **Cost:** 15 XP

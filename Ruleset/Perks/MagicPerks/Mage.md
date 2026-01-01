@@ -1,5 +1,3 @@
-# Mage
-
 **Requirements:** GM permission
 **Attributes:** WL
 **Cost:** 5 XP

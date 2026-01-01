@@ -1,5 +1,3 @@
-# Spell Shot
-
 **Requirements:** Tier 3, [[Mage]]
 **Attributes:** AG/DX
 **Cost:** TBD

@@ -1,5 +1,3 @@
-# Linguist
-
 **Requirements:** History 3
 **Category:** Universal
 **Cost:** 15 XP

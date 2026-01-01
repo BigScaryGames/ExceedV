@@ -1,7 +1,5 @@
-# Parry
-
-**AP Cost:** - (Reaction)
-**Traits:** #Defense #Strike
+**AP Cost:** 
+**Traits:** #Defense 
 
 **Roll:** Martial Domain + Agility/Dexterity vs attack
 

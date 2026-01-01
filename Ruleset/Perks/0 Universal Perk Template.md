@@ -95,9 +95,10 @@ Narrative description, lore, and context (optional - can be omitted if Grants se
 ```
 **AP Cost:** 2
 **AP Cost:** 4
-**AP Cost:** -
-```
+**AP Cost:** ActionType (e.g. weapon attack) +1
 
+```
+Some abilities don't have fixed AP cost but modify the AP cost of an existing abilities.
 ### **Tags:**
 - Use hashtags: `#Tag1 #Tag2`
 - Common tags: `#Combat`, `#Social`, `#Magic`, `#Instant`, `#Passive`, `#Leveling`

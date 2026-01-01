@@ -1,5 +1,3 @@
-# Tracker
-
 **Requirements:** Tracking 2,
 **Cost:** 5 XP
 **AP Cost:** -

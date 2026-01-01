@@ -1,5 +1,3 @@
-# Leader
-
 **Requirements:** Public Speaker, Inspirer
 **Category:** Universal
 **Cost:** 15 XP

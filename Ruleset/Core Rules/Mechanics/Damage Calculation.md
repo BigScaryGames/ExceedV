@@ -1,5 +1,3 @@
-# Damage Calculation
-
 ## Damage Formula
 `Damage = Weapon Dice + Might + Bonuses`
 

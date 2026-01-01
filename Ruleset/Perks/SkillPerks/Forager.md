@@ -1,5 +1,3 @@
-# Forager
-
 **Requirements:** -
 **Cost:** 5 XP
 **AP Cost:** -

@@ -10,6 +10,6 @@
 Shooting is not only about drawing and knocking an arrow.
 ## Grants
 
-![[Ability - Aim]] 
+![[Aim]] 
 ## Description
 Shooting is not only about drawing and knocking an arrow. Well, on short distances it might be. Longer ones require you to take a breather and adjust where you shoot.

@@ -1,5 +1,3 @@
-# Haggler
-
 **Requirements:** FastTalk 2
 **Cost:** 2 XP
 **AP Cost:** -

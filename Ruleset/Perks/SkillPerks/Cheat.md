@@ -1,5 +1,3 @@
-# Cheat
-
 **Requirements:** Liar Liar, Attractive
 **Attributes:** CH
 **Cost:** 5 XP
