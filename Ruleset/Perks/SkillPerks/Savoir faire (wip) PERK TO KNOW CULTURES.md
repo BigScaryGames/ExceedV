@@ -1,0 +1,1 @@
+(Charisma/Wit) - Knowledge of the appropriate behavior in a subculture that has an established code of conduct.??? Select the subculture when - should I make this a perk, Streetwise already exists. Maybe a perk - good manners, propper ettiquete, cultural familiarity?

@@ -1,5 +1,3 @@
-# Stride
-
 **AP Cost:** 1
 **Traits:** #Move
 

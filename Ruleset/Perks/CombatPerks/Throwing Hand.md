@@ -1,5 +1,5 @@
 **Requirements:** Tier 1, [[Thrown Training]]
-**Attributes:** DX/Per
+**Attributes:** DX/PR
 **Cost:** 2 XP
 **Tags:** #Combat 
 

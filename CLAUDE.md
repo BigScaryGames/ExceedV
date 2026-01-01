@@ -342,18 +342,7 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 - **Magic Schools:** Search `#Spell`, `#Conjuration`, `#Manipulation`, `#Transformation`
 - **Bonus Types:** Search `#Competence`, `#Morale`, `#Enhancement`, `#Luck`
 
-## Milestone 5 Progress
-- ✅ Conditioning perks (replaced Extra HP system)
-- ✅ Wiki-style Core Rules restructure (Mechanics/, Actions/, References/ folders)
-- ✅ Unified Downtime system (3.5 Downtime with quality scale)
-- ✅ Organizations framework (8.1 Organizations with leveled benefits/obligations)
-- ✅ Weapon training perks (8 categories)
-- ✅ Shield perk tree
-- ⏳ Switch to 2 core domains (Combat/Magic)
-- ⏳ Combat perks for tiers 1-3
-- ⏳ Archery perk tree
-- ⏳ One more perk tree
-
+## Milestones
 See `/MILESTONES.md` for full roadmap.
 
 ## Development Workflow

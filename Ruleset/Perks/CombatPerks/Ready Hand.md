@@ -1,6 +1,6 @@
 **Requirements:** Tier 1, [[Blades Training]]
 **Attributes:** AG
-**Cost:** -
+**Cost:** 2
 **Tags:** #Combat 
 
 ## Short Description

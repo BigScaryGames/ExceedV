@@ -17,12 +17,16 @@ Milestone 6. - content update, editing.
 - [ ]  Size and HP rules (for big ass monsters and small nasty ones)
 - [ ]  Conditions revamp. (current ones suck)
 - [ ] Tag cleanup - there are random AI gen one from conversion and some from previous iterations going back to 0.1
+- [ ] Fix max wounds and extra wound wording in [[HP Calculation]]
+- [ ] Criticals for weapons and spells.
+- [ ] Extended Crits unified logic.
 
 Milestone 7. - Enemies, Content, 
 - [ ]  Simplified enemy character sheet(static enemy DCs) with a challenge rating calculator.
 - [ ]  Spells to tier 3.
 - [ ] Summoning.
 - [ ]  Items and pricing.
+- [ ] High quality variants, maybe item builder.
 - [ ] Quest rewards
 - [ ]  Exploration
 

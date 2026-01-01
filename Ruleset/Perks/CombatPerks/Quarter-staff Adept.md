@@ -1,5 +1,5 @@
 **Requirements:** Tier 1, [[Polearms Training]]
-**Attributes:** AG +SaS
+**Attributes:** AG
 **Cost:** 10 XP
 **Tags:** #Combat 
 
