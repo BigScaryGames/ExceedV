@@ -1,14 +1,13 @@
 Quality level determines how efficiently you can train, recover, or live during downtime. The same scale applies to training conditions, medical care, and lodging.
 
-| Level | Name | Multiplier | Examples |
-|-------|------|------------|----------|
-| 0 | **Nonexistent** | ×0.1 (10× slower) | No teacher/materials, no care, homeless/exposed |
-| 1 | **Poor** | ×0.5 (2× slower) | Bad manual, distracted mentor, unsafe rest, slums |
-| 2 | **Adequate** | ×1 (base) | Competent teacher OR manual, safe shelter, basic care |
-| 3 | **Good** | ×2 (2× faster) | Skilled teacher AND materials, trained medic, private room |
-| 4 | **Excellent** | ×4 (4× faster) | Master teacher, full facilities, expert care, fine suite |
-| 5 | **Exceptional** | ×10 (1 mag faster) | Legendary master, perfect setup, master healer + magic, palace |
-
+| Level | Name            | Multiplier         | Examples                                                       | Rest |
+| ----- | --------------- | ------------------ | -------------------------------------------------------------- | ---- |
+| 0     | **Nonexistent** | ×0.1 (10× slower)  | No teacher/materials, no care, homeless/exposed                | -1   |
+| 1     | **Poor**        | ×0.5 (2× slower)   | Bad manual, distracted mentor, unsafe rest, slums              | 0    |
+| 2     | **Adequate**    | ×1 (base)          | Competent teacher OR manual, safe shelter, basic care          | 1    |
+| 3     | **Good**        | ×2 (2× faster)     | Skilled teacher AND materials, trained medic, private room     | 2    |
+| 4     | **Excellent**   | ×4 (4× faster)     | Master teacher, full facilities, expert care, fine suite       | 3    |
+| 5     | **Exceptional** | ×10 (1 mag faster) | Legendary master, perfect setup, master healer + magic, palace | 3    |
 
 # WIP till MS 8
 ## Rank and Access

@@ -1,5 +1,5 @@
 **AP Cost:** 
-**Traits:** #Defense 
+**Traits:** #Defend
 
 **Roll:** Martial Domain + Agility/Dexterity vs attack
 

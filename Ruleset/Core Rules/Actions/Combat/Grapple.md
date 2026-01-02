@@ -1,5 +1,5 @@
 **AP Cost:** 3
-**Traits:**
+**Traits:** #Attack 
 
 **Requirements:** One free hand
 

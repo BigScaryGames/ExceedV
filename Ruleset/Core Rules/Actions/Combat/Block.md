@@ -1,5 +1,5 @@
 **AP Cost:** -
-**Traits:** #Defense
+**Traits:** #Defend
 
 **Roll:** Shield Domain + Agility/Endurance/Might vs attack
 

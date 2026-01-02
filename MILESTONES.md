@@ -5,14 +5,21 @@ Milestone 5 - Get it playable.
 - [x] Some amount of perks for skills.
 - [x] Perk trees for Archery, 
 - [x] Perk tree for Shields
+- [x] Perks for Rogue-style play
+- [x] Prediction (Sherlock RDJ) type perks 
 - [x] and one other Combat perk tree.
 - [x]  Wiki restructure part 1.
+- [x] resting basic rules
+- [x] Prone/Crawl/Stand
+- [ ] 
 - [ ] polish perks for playing
 
 Milestone 6. - content update, editing.
 
 - [ ]  Skill perks - enough for 1-3 tiers. at least 100 overall skill perks
+- [ ] Skill actions like [[Deduce]]
 - [ ]  Combat perks adjustment.
+- [ ] Move/Step/Run - reactions on moving outside range and inside range fix.
 - [ ] Clarify or edit dual-wielding
 - [ ]  Flanking and ganging rules.
 - [ ]  Spells - make them work in GAS paradigm. (Wiki reconstruction 2)

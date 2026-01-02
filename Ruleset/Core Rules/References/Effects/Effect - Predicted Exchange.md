@@ -1,0 +1,1 @@
+When using [[Predictive Strike]] roll the enemy's defense as well. This predicts the rolls, but doesn't prevent enemy to use reactions and other abilities and effects to modify the end result.

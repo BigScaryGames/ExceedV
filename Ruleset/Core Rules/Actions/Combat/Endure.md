@@ -1,5 +1,5 @@
 **AP Cost:** - 
-**Traits:** #Defense
+**Traits:** #Defend
 
 **Roll:** Endurance + Will vs effect
 
