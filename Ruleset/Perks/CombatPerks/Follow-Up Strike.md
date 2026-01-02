@@ -10,5 +10,8 @@ Reduce AP cost for consecutive attacks on same target.
 
 ![[Effect - Follow-Up Momentum]]
 
+Make an edit, this Should be an ability - if your previous strike was a hit, make one basic strike with -1 AP cost.
+
+
 ## Description
 [Flavor text to be written]

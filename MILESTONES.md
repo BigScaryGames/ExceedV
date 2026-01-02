@@ -7,7 +7,7 @@ Milestone 5 - Get it playable.
 - [x] Perk tree for Shields
 - [x] and one other Combat perk tree.
 - [x]  Wiki restructure part 1.
-- [ ] polish for playing
+- [ ] polish perks for playing
 
 Milestone 6. - content update, editing.
 - [ ]  Skill perks - enough for 1-3 tiers. at least 100 overall skill perks

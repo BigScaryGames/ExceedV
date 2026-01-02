@@ -67,6 +67,19 @@
 ### Combat Perk Trees (v0.5)
 Combat perks with 5+ interconnected requirements form perk trees organized into subfolders.
 
+**Perk Folder Structure (`Perks/CombatPerks/`):**
+- `WeaponTraining/` - 8 weapon category training perks
+- `Conditioning/` - HP progression perks (replaces Extra HP system)
+- `Shields/` - Complete shield tree
+- `Archery/` - Complete archery tree
+- `Footwork/` - Evasion and movement perks
+- `Blades/` - Blade-specific techniques
+- `Polearms/` - Polearm techniques
+- `Dual Wielding/` - Two-weapon fighting
+- `Parrying And Riposte/` - Defensive counter-attacks
+- `Thrown/` - Thrown weapon techniques
+- Loose files - Universal combat perks, social perks (Cult, Leader, Loner), etc.
+
 #### Shield Tree (`Perks/CombatPerks/Shields/`)
 **Base Requirement:** Shield Training (from WeaponTraining)
 

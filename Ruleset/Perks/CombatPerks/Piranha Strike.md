@@ -1,14 +1,15 @@
 **Requirements:** Tier 2
 **Attributes:** AG/DX
-**Cost:** 10 XP
-**Tags:** #Combat 
+**Cost:** 5 XP
+**Tags:** #Combat
 
 ## Short Description
-Deal extra damage when striking off guard targets.
+Sacrifice accuracy for devastating damage against vulnerable foes with light weapons.
 
 ## Grants
 
-![[Effect - Off-Guard Exploitation]]
+![[Ability - Piranha Strike]]
 
 ## Description
-[Flavor text to be written]
+You know where to strike when they can't defend. Against flanked or off-guard targets, you may take a penalty to your attack roll to increase your weapon damage die.
+

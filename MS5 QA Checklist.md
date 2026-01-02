@@ -1,3 +1,0 @@
-- [ ] Index - references a lot of outdated things and wrong pages
-- [x] 2. Basic Mechanics - No critical rules
-- [ ] 3. Charcreation - fixed magic, not sure on mental and physical actions.
