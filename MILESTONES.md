@@ -10,8 +10,10 @@ Milestone 5 - Get it playable.
 - [ ] polish perks for playing
 
 Milestone 6. - content update, editing.
+
 - [ ]  Skill perks - enough for 1-3 tiers. at least 100 overall skill perks
 - [ ]  Combat perks adjustment.
+- [ ] Clarify or edit dual-wielding
 - [ ]  Flanking and ganging rules.
 - [ ]  Spells - make them work in GAS paradigm. (Wiki reconstruction 2)
 - [ ]  Size and HP rules (for big ass monsters and small nasty ones)

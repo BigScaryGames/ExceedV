@@ -1,3 +1,3 @@
-You can strike with the shield boss without losing the defense bonus from it.
+Shield counts as a weapon for dual wielding.
 
-**Tags:** #Passive #Shield #Defense
+**Tags:** #Strike #Block

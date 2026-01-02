@@ -4,13 +4,13 @@
 **Tags:** #Combat 
 
 ## Short Description
-Reduce AP cost for consecutive attacks on same target.
+After hitting the enemy, use your momentum to strike again but quicker. 
 
 ## Grants
 
-![[Effect - Follow-Up Momentum]]
+![[Ability - Follow-Up Strike]]
 
-Make an edit, this Should be an ability - if your previous strike was a hit, make one basic strike with -1 AP cost.
+
 
 
 ## Description

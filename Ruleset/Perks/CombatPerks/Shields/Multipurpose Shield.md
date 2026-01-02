@@ -4,8 +4,7 @@
 **Tags:** #Combat #Shield
 
 ## Short Description
-Strike with shield boss without losing defensive bonus.
-
+Use your shield as an off-hand weapon in dual-wielding techniques.
 ## Grants
 
 ![[Effect - Multipurpose Shield]]

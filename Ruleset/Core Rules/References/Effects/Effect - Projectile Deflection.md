@@ -1,3 +1,3 @@
-You can parry physical ranged attacks and thrown weapons without penalty.
+You can use Parry defense against ranged physical attacks (arrows, thrown weapons, etc.) using a melee weapon.
 
-**Tags:** #Passive #Parry #Projectile
+**Tags:** #Parry #Ranged

@@ -1,0 +1,1 @@
+Your off-hand and main hand weapons can both be non-light, and you won't suffer a penalty while [[Dual Wielding]].
