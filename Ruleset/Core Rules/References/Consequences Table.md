@@ -1,12 +1,12 @@
 ## Roll 1-30: Severity 0 Consequences
 
-| Roll | Location | Effect |
-|------|----------|--------|
-| 1-6 | Head 0 | Cosmetic injury - broken nose/black eye etc. |
-| 7-12 | Sensory 0 | Dazzled: Everything concealed until end of turn |
-| 13-18 | Limb 0 | -1 to speed or -1 to all actions involving the bruised arm until end of combat |
-| 19-24 | Internal 0 | Lose 1 AP next turn |
-| 25-30 | Torso 0 | -1 to all physical actions until end of turn |
+| Roll  | Location   | Effect                                                                         |
+| ----- | ---------- | ------------------------------------------------------------------------------ |
+| 1-6   | Head 0     | Cosmetic injury - broken nose/black eye etc.                                   |
+| 7-12  | Sensory 0  | Dazzled: Everything concealed until end of turn                                |
+| 13-18 | Limb 0     | -1 to speed or -1 to all actions involving the bruised arm until end of combat |
+| 19-24 | Internal 0 | Lose 1 AP next turn                                                            |
+| 25-30 | Torso 0    | -1 to all physical actions until end of turn                                   |
 
 ## Roll 31-60: Severity 1 Consequences
 

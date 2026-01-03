@@ -1,4 +1,4 @@
-Both grappler and grappled gain this condition.
+Both grappler and grappled gain this condition.(To fix in ms6)
 
 - -2 to all attacking and manipulating actions
 - Actions requiring intricacy roll at disadvantage

@@ -18,6 +18,7 @@
 - **Standard Roll:** 2d10 + Skill + Attribute + Bonuses/Penalties
 - **Advantage:** 3d10 take 2
 - **Disadvantage:** 3d10 keep 2 lowest
+- **Screwed:** 1d10 (worst case - blinded, unconscious, severe curses)
 - **Criticals:** Doubles on kept dice (success → critical success, failure → critical failure)
 
 ### Check Types
@@ -68,41 +69,26 @@
 Combat perks with 5+ interconnected requirements form perk trees organized into subfolders.
 
 **Perk Folder Structure (`Perks/CombatPerks/`):**
-- `WeaponTraining/` - 8 weapon category training perks
-- `Conditioning/` - HP progression perks (replaces Extra HP system)
-- `Shields/` - Complete shield tree
-- `Archery/` - Complete archery tree
-- `Footwork/` - Evasion and movement perks
-- `Blades/` - Blade-specific techniques
-- `Polearms/` - Polearm techniques
-- `Dual Wielding/` - Two-weapon fighting
-- `Parrying And Riposte/` - Defensive counter-attacks
-- `Thrown/` - Thrown weapon techniques
-- Loose files - Universal combat perks, social perks (Cult, Leader, Loner), etc.
 
-#### Shield Tree (`Perks/CombatPerks/Shields/`)
-**Base Requirement:** Shield Training (from WeaponTraining)
+**Weapon Trees (Complete):**
+- `WeaponTraining/` - 8 weapon category training perks (Ax, Blades, Bow, Brawling, Impact, Polearms, Shield, Thrown)
+- `Shields/` - Complete shield tree (9 perks: Shield Rush, Multipurpose Shield, Shield Warden, Perfect Block, Spell Guard, Shield Guardian, Behind the Shield Strike, The Wall, Guardian Aura)
+- `Archery/` - Complete archery tree (15 perks: Aim, Double Shot, Fast Archer, Tower, Hair Trigger, Mobile Draw, Tower Defender, Artillery, Spell Shot, Overpowered Draw, Close Quarters Shooter, Defensive Archer, Zen Archer, Don't Turn Your Back On Me, WIP: Ricochet Shot, Storm of Arrows)
+- `Footwork/` - Evasion and movement (8 perks: Footwork, Light Steps, Small Steps, Big Steps, Dodging Step, Elusive, Dodge-Roll, Dodge Behind Your Back)
+- `Polearms/` - Polearm techniques (8 perks: Quarter-staff Adept, Walking Stick, Pointy Stick, Grip Switch, Spinning Staff, Monkey King Strike, Staff Acrobat, Spear Brothers)
+- `Parrying And Riposte/` - Defensive counter-attacks (5 perks: Parry This Parry That, Painful Parry, Repose This Repose That, Riposte, Projectile Parry)
+- `Dual Wielding/` - Two-weapon fighting (3 perks: Twin Parry, Double Strike, Ambidexterity)
+- `Blades/` - Blade-specific techniques (3 perks: Ready Hand, Long Knives, The Edgelord)
+- `Thrown/` - Thrown weapon techniques (2 perks: Throwing Hand, Throwing Distraction)
 
-**Tier 1 (5-10 XP):**
-- Shield Warden (5 XP, PR/EN) - Use Shield Block to protect allies taking damage
-- Shield Rush (2 XP, MG/EN, req: MG1) - Move and strike with shield, adding Might to damage twice
-- Multipurpose Shield (3 XP, AG/MG) - Strike with shield boss without losing defensive bonus
+**Other Categories:**
+- `Conditioning/` - HP progression perks (7 perks: Poison Resistance, Waterfall Training, Mental Resilience, Cold Conditioning, Heat Conditioning, Magical Conditioning, Battle Scarred)
+- `Combat Maneuvers/` - Universal combat techniques (7 perks: Calf Strike, Tripping Strike, Piranha Strike, Mighty Charge, Follow-Up Strike, Two Birds, All the Birds)
+- `Predictive/` - Experimental predictive combat system (6 files)
 
-**Tier 2 (3-10 XP):**
-- Shield Guardian (10 XP, PR/AG, req: Shield Warden) - Block attacks targeting adjacent allies
-- Spell Guard (5 XP, PR/AG) - Block magical effects and spells with shield
-- Perfect Block (5 XP, MG/EN) - Critical block makes attacker off-guard
-- Behind the Shield Strike (3 XP, AG/CH) - Strike from behind shield with enemy penalties to defense
-
-**Tier 3 (10-15 XP):**
-- The Wall (15 XP, EN/MG, req: Shield Warden) - Allow adjacent allies to hide behind you and heavy shield
-- The Guardian Aura (10 XP, EN/MG, req: Spell Guard + Shield Warden) - Provide defensive advantages to allies within aura range
-
-**Tree Branches:**
-- **Guardian Branch:** Shield Training → Shield Warden → Shield Guardian / The Wall
-- **Spell Defense Branch:** Shield Training → Spell Guard → Guardian Aura (also requires Shield Warden)
-- **Offensive Techniques:** Shield Training → Shield Rush / Multipurpose Shield / Behind Shield Strike
-- **Defensive Tech:** Shield Training → Perfect Block
+**Social/Universal (Loose files and folders):**
+- `Leadership/` - Social leadership perks (4 perks: The Aspiring Hero, The Leader, The Cult Inner Member, The Cult Leader)
+- Backstab, Plot Armor, Reactive, Reactive Strike, That Type of a Person, The Loner, Too Selfish, Watching your back
 
 ## Hit Points & Health
 
@@ -206,6 +192,7 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 - **#Burst:** Dodge (Block/Parry with perks)
 - **#Mind:** Endure
 - **#Body:** Endure
+- **#Defend:** Generic trait for all defensive actions (Block, Parry, Dodge, Endure) - used for buffs like "All in Defense"
 
 ### Effect Types
 - **#Boon:** Beneficial effects
@@ -216,7 +203,48 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 ### Bonus Types (Stacking Rules)
 - **Same type:** Don't stack, take higher
 - **Different types:** Stack together
-- **Types:** #Competence, #Morale, #Enhancement, #Luck/#Unluck, #Equipment, #Situational, #Armor, #Size
+- **Types:** #Competence, #Morale, #Enhancement, #Luck, #Equipment, #Situational, #Armor, #Size
+- **Condition stacking:** Same condition = highest applies, opposites negate, different types stack
+- **Condition range:** +3 to -3
+
+## Conditions System
+
+Conditions are stored in `/Core Rules/References/Conditions/` and defined in `4.3 Conditions.md`
+
+### Duration Presets
+1. **One-Time Use** - Next qualifying action (luck effects, feint Off-Guard)
+2. **End of Turn** - Fades at turn end (Shaken, Flash Blinded)
+3. **Until Removed** - Source specifies removal (Grabbed, Off-Guard while flanked, Dazzled until cleared)
+
+### Enhancement Conditions (Attribute Modifiers)
+- **Grace X:** ±X to Agility/Dexterity rolls
+- **Vigor X:** ±X to Might/Endurance rolls
+- **Focus X:** ±X to Willpower/Perception rolls
+- **Sharpness X:** ±X to Charisma/Wit rolls
+- **Quickened X:** ±X actions at start of turn
+
+### Morale Conditions
+- **Shaken X:** X morale penalty on all rolls
+- **Inspired X:** X morale bonus on all rolls
+
+### Luck Conditions
+- **Jinxed:** Next roll at disadvantage
+- **Blessed:** Next roll at advantage
+
+### Situational Conditions
+- **Prone:** Disadvantage on Martial Domain (attacks, Parry, Block). Advantage on Dodge/Endure vs #Projectile and #Burst. Cannot Step/Stride/Run - only Crawl or Stand Up.
+- **Grabbed:** -2 to attacking/manipulating, intricate actions at disadvantage, no reach weapons vs grappler. Grappler releases free; grappled must Escape.
+- **Off-Guard:** -1 to defend against attacks. Applied by effects like Flanked.
+- **Blinded:** All sight-reliant checks are Screwed (1d10).
+- **Dazzled:** All sight-reliant checks at disadvantage.
+- **Unconscious:** Block/Parry/Dodge are Screwed, Perception at disadvantage.
+
+### Rest Conditions
+- **Fatigued X:** -X to all rolls, -2X to exploration/downtime. At Fatigue 4, unconscious.
+- **Well Rested:** +1 to +3 to Downtime/Exploration until Fatigued or night's rest.
+
+### DOT Conditions (Musings)
+- Bleed X, Fragile X, Pinned X, Stunned X - to be defined
 
 ## Social Interactions
 
@@ -241,9 +269,14 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 - **Step:** 1m, no reactions provoked
 - **Stride:** Speed/2 rounded up
 - **Run:** Full speed (after striding)
+- **Crawl:** Move 1m while prone (1 AP)
+- **Stand Up:** Remove Prone condition (2 AP)
 
 ### Combat Actions
 - **Basic Attack:** 2-4 AP based on weapon weight
+- **All in Defense:** 2 AP - Gain advantage on all #Defend actions until your next turn (requires no offensive action this turn)
+- **Grapple:** 3 AP - Attempt to grab opponent (Brawling + Might/Agility vs defense). On success, both gain Grabbed condition.
+- **Escape:** 1 AP - Attempt to break free from Grabbed condition (Athletics or Escape Artist vs grappler's Brawling)
 - **Ready (v0.5):** Variable AP (activity cost) - prepare action with trigger, execute as Reaction
   - Examples: Ready strike, ready spell, ready movement
   - Most combat preparations are obvious to observers
@@ -292,18 +325,15 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 
 **Subfolders:**
 - `Core Rules/Mechanics/` - Embeddable mechanic files (Action Points, Initiative, Recovery Rules, etc.)
-- `Core Rules/Actions/` - Individual action definitions (Movement/, Combat/, Social/, Support/)
-- `Core Rules/References/` - Reference tables (Bonus Types, Defense Traits, Downtime Quality, Rank System)
+- `Core Rules/Actions/` - Individual action definitions (Movement/, Combat/, Social/, Support/, Abilities/)
+- `Core Rules/References/` - Reference tables (Bonus Types, Defense Traits, Downtime Quality, Rank System, Effects/, Conditions/)
 - `Core Rules/Design Philosophy.md` - Design notes and rationale
 
 ### Combat System Files
-- `Ruleset/Combat Skills and perks/1. Martial Domains.md` - Combat skill domains (v0.4, being restructured)
-- `Ruleset/Combat Skills and perks/0 Combat Perk Template.md` - Template for combat perks
-- `Ruleset/Combat Skills and perks/Perks/` - Individual combat perk definitions
-- `Ruleset/Combat Skills and perks/Conditions/` - Status effects and conditions
-- `Ruleset/Perks/CombatPerks/WeaponTraining/` - Weapon training perks (v0.5)
-- `Ruleset/Perks/CombatPerks/Conditioning/` - Conditioning perks for HP progression (v0.5)
-- `Ruleset/Perks/CombatPerks/Shields/` - Shield perk tree (v0.5)
+- `Ruleset/Perks/CombatPerks/` - All combat perks organized into folders
+- `Ruleset/Perks/SkillPerks/` - Skill-based perks
+- `Ruleset/Perks/MagicPerks/` - Magic-related perks
+- `Ruleset/Core Rules/Mechanics/Dual Wielding.md` - Dual wielding rules (WIP)
 - `Ruleset/Combat Perk Design Guidelines.md` - Comprehensive perk design document
 
 ### Spell System Files
@@ -312,8 +342,11 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 - `Ruleset/Team Ritual.md` - Team formation and ritual mechanics
 
 ### Perk System Files
-- `Ruleset/Perks List/` - Individual perk definitions
-- `Ruleset/Perks List/UNEDITED/` - Perks pending revision
+- `Ruleset/Perks/0 Universal Perk Template.md` - Template for creating new perks
+- `Ruleset/Perks/CombatPerks/` - Combat perks organized by weapon/type
+- `Ruleset/Perks/SkillPerks/` - Non-combat skill perks
+- `Ruleset/Perks/MagicPerks/` - Magic system perks
+- `Ruleset/Perks/UNEDITED/` - Perks pending revision
 
 ### Special Character Files
 - `Ruleset/Mage.md` - Mage character type and requirements
@@ -338,9 +371,11 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 - **Social Rules:** Files 8.x, search `attitude`, `favor`, `negotiation`
 
 ### Finding Content by Type
-- **Perks:** `Ruleset/Perks List/` or `Ruleset/Combat Skills and perks/Perks/`
+- **Perks:** `Ruleset/Perks/CombatPerks/`, `Ruleset/Perks/SkillPerks/`
 - **Spells:** `Ruleset/Spells/` organized by tier folders
-- **Conditions:** `Ruleset/Combat Skills and perks/Conditions/`
+- **Conditions:** `Core Rules/References/Conditions/`
+- **Effects:** `Core Rules/References/Effects/`
+- **Abilities:** `Core Rules/Actions/Abilities/`
 - **Templates:** Search `Template.md` for creation guidelines
 
 ### Search by Game Element
@@ -350,10 +385,11 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 - **Movement:** File 9, search `speed`, `step`, `stride`, `run`
 
 ### Trait and Tag Searches
-- **Defense Traits:** Search `#Strike`, `#Projectile`, `#Burst`, `#Mind`, `#Body`
+- **Defense Traits:** Search `#Strike`, `#Projectile`, `#Burst`, `#Mind`, `#Body`, `#Defend`
 - **Effect Types:** Search `#Boon`, `#Bane`, `#Protection`, `#Healing`
 - **Magic Schools:** Search `#Spell`, `#Conjuration`, `#Manipulation`, `#Transformation`
 - **Bonus Types:** Search `#Competence`, `#Morale`, `#Enhancement`, `#Luck`
+- **Conditions:** Search `#Condition`, `#Situational`
 
 ## Milestones
 See `/MILESTONES.md` for full roadmap.
