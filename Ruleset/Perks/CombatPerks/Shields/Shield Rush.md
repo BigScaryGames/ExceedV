@@ -1,4 +1,4 @@
-**Requirements:** Tier 1, [[Shield Training]],  MG1,
+**Requirements:** Martial 1, [[Shield Training]],  MG1,
 **Attributes:** MG/EN
 **Cost:** 2 XP
 **Tags:** #Combat #Shield

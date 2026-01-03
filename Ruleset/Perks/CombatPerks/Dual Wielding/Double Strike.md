@@ -1,4 +1,4 @@
-**Requirements:** Tier 1
+**Requirements:** Martial 1
 **Attributes:** AG/MG
 **Cost:** 5 XP
 **Tags:** #Combat 

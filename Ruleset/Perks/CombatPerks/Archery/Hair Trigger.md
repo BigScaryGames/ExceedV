@@ -1,4 +1,4 @@
-**Requirements:** Tier 2
+**Requirements:** Martial 2
 **Attributes:** PR/AG
 **Cost:** 10 XP
 **Tags:**

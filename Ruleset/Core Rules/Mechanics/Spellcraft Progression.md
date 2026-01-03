@@ -1,4 +1,4 @@
-# Spellcraft Domain
+# Spellcraft
 
 Spellcraft is a Domain (skill following special progression rules). It progresses as the player learns spells and spellcraft perks.
 

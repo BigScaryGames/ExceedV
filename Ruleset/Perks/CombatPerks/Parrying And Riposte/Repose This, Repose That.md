@@ -1,4 +1,4 @@
-**Requirements:** Tier 4, [[Parry This, Parry that]], WL3,
+**Requirements:** Martial 4, [[Parry This, Parry that]], WL3,
 **Attributes:** WL
 **Cost:** 10 XP
 **Tags:** #Combat 

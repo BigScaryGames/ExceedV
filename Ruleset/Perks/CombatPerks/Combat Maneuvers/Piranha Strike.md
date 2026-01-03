@@ -1,4 +1,4 @@
-**Requirements:** Tier 2
+**Requirements:** Martial 2
 **Attributes:** AG/DX
 **Cost:** 5 XP
 **Tags:** #Combat

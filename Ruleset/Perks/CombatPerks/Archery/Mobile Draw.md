@@ -1,4 +1,4 @@
-**Requirements:** Tier 4, [[Fast Archer]]
+**Requirements:** Martial 4, [[Fast Archer]]
 **Attributes:** AG/DX
 **Cost:** 10 XP
 **Tags:**

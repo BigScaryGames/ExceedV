@@ -50,7 +50,7 @@
 - **Regular Skills:** 2/+4/+6/+8/+10 XP per level
 - **Domains (Special Skills):**
   - Spellcraft: 10/+20/+30/+40/+50 XP (progressed by learning spells)
-  - Martial Domain: 10/+20/+30/+40/+50 XP (progressed by learning perks and weapon training)
+  - Martial: 10/+20/+30/+40/+50 XP (progressed by learning perks and weapon training)
 
 ### Weapon Training System (v0.5)
 - **8 Weapon Categories:** Brawling, Shield, Blades, Axes, Impact, Polearms, Bows, Thrown

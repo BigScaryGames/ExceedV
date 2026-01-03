@@ -1,4 +1,4 @@
-**Requirements:** Tier 3, [[Dodging Step]]
+**Requirements:** Martial 3, [[Dodging Step]]
 **Attributes:** AG/PR
 **Cost:** 10 XP
 **Tags:** 

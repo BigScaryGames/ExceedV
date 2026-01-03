@@ -1,4 +1,4 @@
-**Requirements:** Tier 2, [[Throwing Hand]]
+**Requirements:** Martial 2, [[Throwing Hand]]
 **Attributes:** DX/PR
 **Cost:** 10 XP
 **Tags:** #Combat 

@@ -1,4 +1,4 @@
-**Requirements:** Tier 1, [[Polearms Training]]
+**Requirements:** Martial 1, [[Polearms Training]]
 **Attributes:** AG
 **Cost:** 10 XP
 **Tags:** #Combat 

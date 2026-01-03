@@ -1,4 +1,4 @@
-**Requirements:** Tier 1, [[Footwork]]
+**Requirements:** Martial 1, [[Footwork]]
 **Attributes:** AG/MG
 **Cost:** 5 XP
 **Tags:** 

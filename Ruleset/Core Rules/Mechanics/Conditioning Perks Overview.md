@@ -11,7 +11,7 @@ Conditioning perks are **leveled perks** found in `/Ruleset/Perks/CombatPerks/Co
 | **Mental Resilience** | Will 2 | Resist mental effects |
 | **Cold Conditioning** | Survival 1 | Thrive in cold |
 | **Heat Conditioning** | Survival 1 | Thrive in heat |
-| **Battle Scarred** | Martial Domain 1 | Easier to heal |
+| **Battle Scarred** | Martial 1 | Easier to heal |
 | **Magical Conditioning** | Mage, Spellcraft 1 | Resist transmutation |
 
 ## Progression

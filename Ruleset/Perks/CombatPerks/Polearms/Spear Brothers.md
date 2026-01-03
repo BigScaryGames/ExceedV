@@ -1,4 +1,4 @@
-**Requirements:** Tier 1, [[Polearms Training]]
+**Requirements:** Martial 1, [[Polearms Training]]
 **Attributes:** CH/WL
 **Cost:** 3 XP
 **Tags:** #Combat 

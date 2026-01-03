@@ -1,4 +1,4 @@
-**Requirements:** Tier 4
+**Requirements:** Martial 4
 **Attributes:** WT/DX
 **Cost:** 10 XP
 **Tags:** #Combat

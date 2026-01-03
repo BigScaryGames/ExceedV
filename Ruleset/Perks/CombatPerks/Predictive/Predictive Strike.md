@@ -1,4 +1,4 @@
-**Requirements:** Tier 1, Wit 2 
+**Requirements:** Martial 1, Wit 2 
 **Attributes:** WT/PR 
 **Cost:** 7 XP 
 **Tags:** #Combat 

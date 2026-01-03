@@ -1,4 +1,4 @@
-**Requirements:** Tier 3, AG3, [[Staff Acrobat]]
+**Requirements:** Martial 3, AG3, [[Staff Acrobat]]
 **Attributes:** AG/MG
 **Cost:** 15 XP
 **Tags:** #Combat 

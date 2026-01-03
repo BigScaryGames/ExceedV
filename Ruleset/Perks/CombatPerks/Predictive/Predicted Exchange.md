@@ -1,4 +1,4 @@
-**Requirements:** Tier 3, Wit 3, [[Predictive Strike]]
+**Requirements:** Martial 3, Wit 3, [[Predictive Strike]]
 **Attributes:** WT/PR
 **Cost:** 10 XP
 **Tags:** #Combat

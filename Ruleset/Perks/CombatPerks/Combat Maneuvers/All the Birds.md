@@ -1,4 +1,4 @@
-**Requirements:** Tier 4, MG4, [[Two Birds]]
+**Requirements:** Martial 4, MG4, [[Two Birds]]
 **Attributes:** MG/AG
 **Cost:** 15 XP
 **Tags:** #Combat 

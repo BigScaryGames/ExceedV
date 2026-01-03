@@ -1,4 +1,4 @@
-**Requirements:** Tier 2, [[Shield Training]]
+**Requirements:** Martial 2, [[Shield Training]]
 **Attributes:** AG/CH
 **Cost:** 3 XP
 **Tags:** #Combat #Shield

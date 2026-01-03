@@ -1,4 +1,4 @@
-**Requirements:** Tier 2, [[Calf Strike]]
+**Requirements:** Martial 2, [[Calf Strike]]
 **Attributes:** MG/AG 
 **Cost:** 5 XP
 **Tags:** #Combat 

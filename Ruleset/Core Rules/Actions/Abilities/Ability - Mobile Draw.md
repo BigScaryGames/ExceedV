@@ -4,4 +4,4 @@ Declare a ranged attack. Gain Stride AP equal to the attack's AP cost. You may S
 
 Requires: Not Grabbed, not Prone.
 
-**Tags:** #Ranged #Movement
+**Tags:** #Ranged #Movement #Move 

@@ -1,4 +1,4 @@
-**Requirements:** Tier 3, [[Shield Warden]]
+**Requirements:** Martial 3, [[Shield Warden]]
 **Attributes:** EN/MG
 **Cost:** 15 XP
 **Tags:** #Combat #Shield

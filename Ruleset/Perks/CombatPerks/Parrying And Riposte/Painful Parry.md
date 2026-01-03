@@ -1,4 +1,4 @@
-**Requirements:** Tier 2, [[Twin Parry]]
+**Requirements:** Martial 2, [[Twin Parry]]
 **Attributes:** DX/PR
 **Cost:** 5 XP
 **Tags:** #Combat

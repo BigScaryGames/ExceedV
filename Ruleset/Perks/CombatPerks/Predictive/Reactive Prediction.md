@@ -1,4 +1,4 @@
-**Requirements:** Tier 3, Perception 3, [[Predictive Defense]]
+**Requirements:** Martial 3, Perception 3, [[Predictive Defense]]
 **Attributes:** PR/AG
 **Cost:** 10 XP
 **Tags:** #Combat

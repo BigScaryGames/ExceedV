@@ -1,4 +1,4 @@
-**Requirements:** Tier 2, [[Shield Warden]
+**Requirements:** Martial 2, [[Shield Warden]
 **Attributes:** PR/AG
 **Cost:** 10 XP
 **Tags:** #Combat #Shield

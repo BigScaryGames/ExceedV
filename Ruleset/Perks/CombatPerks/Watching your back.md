@@ -1,5 +1,5 @@
-**Requirements:** Tier 2,
-**Attributes:** CH + MD
+**Requirements:** Martial 2,
+**Attributes:** CH + Martial
 **Cost:** 5 XP
 **Tags:** #Combat 
 

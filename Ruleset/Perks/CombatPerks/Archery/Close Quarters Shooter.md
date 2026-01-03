@@ -1,4 +1,4 @@
-**Requirements:** Tier 3
+**Requirements:** Martial 3
 **Attributes:** AG/DX
 **Cost:** TBD
 **Tags:** #Combat 

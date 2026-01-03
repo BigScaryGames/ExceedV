@@ -1,4 +1,4 @@
-**Requirements:** Tier 3, [[Projectile Parry]], AG3, DX3
+**Requirements:** Martial 3, [[Projectile Parry]], AG3, DX3
 **Attributes:** AG/DX
 **Cost:** 10 XP
 **Tags:** #Combat

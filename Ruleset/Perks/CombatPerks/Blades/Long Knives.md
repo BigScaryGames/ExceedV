@@ -1,4 +1,4 @@
-**Requirements:** Tier 1, [[Blades Training]]
+**Requirements:** Martial 1, [[Blades Training]]
 **Attributes:** AG/DX
 **Cost:** 2 XP
 **Tags:** #Combat 

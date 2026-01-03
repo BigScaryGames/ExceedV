@@ -1,4 +1,4 @@
-**Requirements:** Tier 2, [[Light Steps]] or [[Small Steps]]
+**Requirements:** Martial 2, [[Light Steps]] or [[Small Steps]]
 **Attributes:** AG/DX
 **Cost:** 8 XP
 **Tags:** 

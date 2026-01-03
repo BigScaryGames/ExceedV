@@ -3,7 +3,7 @@
 
 **Requirements:** One free hand
 
-**Roll:** MD + Might/Agility vs Parry/Block/Dodge
+**Roll:** Martial + Might/Agility vs Parry/Block/Dodge
 
 Attempt to grab an opponent. On success, if you are the same size you enter the same square and the target gains the [[Effect - Grabbed]] condition.
 

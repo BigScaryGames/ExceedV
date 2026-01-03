@@ -1,4 +1,4 @@
-**Requirements:** Tier 3, [[Spell Guard]], [[Shield Warden]]
+**Requirements:** Martial 3, [[Spell Guard]], [[Shield Warden]]
 **Attributes:** EN/MG
 **Cost:** 10 XP
 **Tags:** #Combat #Shield

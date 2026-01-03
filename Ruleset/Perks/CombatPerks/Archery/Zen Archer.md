@@ -1,4 +1,4 @@
-**Requirements:** Tier 1, [[Bow Training]]
+**Requirements:** Martial 1, [[Bow Training]]
 **Attributes:** PR
 **Cost:** 5 XP
 **Tags:** #Combat

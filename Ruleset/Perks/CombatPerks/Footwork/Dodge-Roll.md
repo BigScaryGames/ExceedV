@@ -1,4 +1,4 @@
-**Requirements:** Tier 3, [[Dodging Step]], AG 3
+**Requirements:** Martial 3, [[Dodging Step]], AG 3
 **Attributes:** AG/EN
 **Cost:** 10 XP
 **Tags:** 

@@ -11,7 +11,7 @@ Perk Costs by Level:
  - Level 4: Cinematic effects (arbitrary costs)
   - Legendary techniques
 
-This cost logic is applied to both Spellcraft and Martial Domains. Despite Martial domains requiring half the cost, the other half in Spellcraft can be substituted by spells.
+This cost logic is applied to both Spellcraft and Martial. Despite Martial requiring half the cost, the other half in Spellcraft can be substituted by spells.
 
 Spell Cost by Level
 Cost to reach next levels. 10 to reach lvl1, 20 to reach lvl2, 30 to reach lvl 3, 40 to reach level 4 and 50 for level 5.

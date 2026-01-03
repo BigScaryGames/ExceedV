@@ -1,4 +1,4 @@
-**Requirements:** Tier 4, [[Tower]]
+**Requirements:** Martial 4, [[Tower]]
 **Attributes:** AG/DX
 **Cost:** TBD
 **Tags:** #Combat 

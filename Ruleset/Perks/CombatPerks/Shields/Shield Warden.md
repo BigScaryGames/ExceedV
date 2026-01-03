@@ -1,4 +1,4 @@
-**Requirements:** Tier 1, [[Shield Training]],
+**Requirements:** Martial 1, [[Shield Training]],
 **Attributes:** PR/EN
 **Cost:** 5 XP
 **Tags:** #Combat #Shield

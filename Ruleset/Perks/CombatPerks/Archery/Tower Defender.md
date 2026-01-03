@@ -1,4 +1,4 @@
-**Requirements:** Tier 3, [[Hair Trigger]], [[Tower]]
+**Requirements:** Martial 3, [[Hair Trigger]], [[Tower]]
 **Attributes:** PR/WT
 **Cost:** 15 XP
 **Tags:**

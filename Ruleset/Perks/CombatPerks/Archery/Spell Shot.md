@@ -1,4 +1,4 @@
-**Requirements:** Tier 3, [[Mage]]
+**Requirements:** Martial 3, [[Mage]], [[Bow Training]], 
 **Attributes:** AG/DX
 **Cost:** TBD
 **Tags:** #Combat 

@@ -1,4 +1,4 @@
-**Requirements:** Tier 5, [[Mobile Draw]], AG 3
+**Requirements:** Martial 5, [[Mobile Draw]], AG 3
 **Attributes:** AG/DX
 **Cost:** 20 XP
 **Tags:** #Combat

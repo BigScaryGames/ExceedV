@@ -1,4 +1,4 @@
-**Requirements:** Martial Domain 1
+**Requirements:** Martial 1
 **Attributes:** EN/WL
 **Cost:** Variable (Max_Wounds × level)
 **Tags:** #Combat #Conditioning #Leveled

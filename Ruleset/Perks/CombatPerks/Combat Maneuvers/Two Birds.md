@@ -1,4 +1,4 @@
-**Requirements:** Tier 3, MG2
+**Requirements:** Martial 3, MG2
 **Attributes:** MG/AG
 **Cost:** 10 XP
 **Tags:** #Combat

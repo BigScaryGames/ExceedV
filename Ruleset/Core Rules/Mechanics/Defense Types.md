@@ -2,7 +2,7 @@ There are 4 main defensive options in the game.
 
 | Defense | Formula |
 |---------|---------|
-| **Parry** | Martial Domain + Agility/Dexterity (based on weapon type) |
+| **Parry** | Martial + Agility/Dexterity (based on weapon type) |
 | **Block** | Shield Domain + Agility/Endurance/Might (based on shield type) |
 | **Dodge** | Agility + Perception |
 | **Endure** | Endurance + Will |
