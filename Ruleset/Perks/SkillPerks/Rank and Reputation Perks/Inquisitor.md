@@ -1,5 +1,6 @@
 **Requirements:** Theology 3, Ordained
-**Cost:** 5 XP
+**Attributes:** -
+**Cost:** -
 **Tags:** #Skill #Rank
 
 ## Short Description

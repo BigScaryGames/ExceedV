@@ -1,4 +1,5 @@
-**Requirements:** Street Wisdom 1
+**Requirements:** Streetwise 1
+**Attributes:** CH/WT
 **Cost:** 5 XP
 **Tags:** #Skill
 

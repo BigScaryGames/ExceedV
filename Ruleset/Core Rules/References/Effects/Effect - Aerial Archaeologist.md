@@ -1,0 +1,1 @@
+While airborne you can can scan 200m radius on the ground underneath for potential remains buried underground. Roll History+PR against GM set DC. You are limited by the speed of your flight or flying device.

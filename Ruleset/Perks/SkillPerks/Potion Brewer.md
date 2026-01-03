@@ -1,4 +1,5 @@
 **Requirements:** Medicine 2, Chemistry 2, Biology 2
+**Attributes:** WT/PR
 **Cost:** 7 XP
 **Tags:** #Skill
 

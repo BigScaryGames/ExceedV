@@ -1,5 +1,6 @@
-**Requirements:** #Streetwise 2, Known in criminal upper echelons  #Rank in cri
-**Cost:** 10 XP
+**Requirements:** Streetwise 2, Known in criminal upper echelons
+**Attributes:** -
+**Cost:** -
 **Tags:** #Skill #Rank
 
 ## Short Description

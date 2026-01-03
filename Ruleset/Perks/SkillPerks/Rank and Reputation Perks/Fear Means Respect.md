@@ -1,6 +1,7 @@
-**Requirements:** Street Wisdom 3, Created reputation rumors about power/viciousness
-**Cost:** 15 XP
-**Tags:** #Skill
+**Requirements:** Streetwise 3, Created reputation rumors about power/viciousness
+**Attributes:** -
+**Cost:** -
+**Tags:** #Skill #Rank
 
 ## Short Description
 Your fearsome reputation causes people to avoid investigating your activities and look the other way when you're involved.

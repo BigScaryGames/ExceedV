@@ -1,5 +1,6 @@
 **Requirements:** Licensed Healer, Medicine 3, Court appointment
-**Cost:** 15 XP
+**Attributes:** -
+**Cost:** -
 **Tags:** #Skill #Rank
 
 ## Short Description

@@ -1,4 +1,5 @@
-**Requirements:** - Survival 3
+**Requirements:** Survival 3
+**Attributes:** EN/AG
 **Cost:** 7 XP
 **Tags:** #Skill
 

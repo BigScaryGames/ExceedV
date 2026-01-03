@@ -1,7 +1,7 @@
 **Requirements:** -
 **Attributes:** AG/EN
 **Cost:** 5 XP
-**Tags:** 
+**Tags:** #Combat 
 ## Short Description
 Foundation for mobile combat techniques.
 

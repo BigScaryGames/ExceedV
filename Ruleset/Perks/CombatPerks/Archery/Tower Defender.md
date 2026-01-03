@@ -1,7 +1,7 @@
 **Requirements:** Martial 3, [[Hair Trigger]], [[Tower]]
 **Attributes:** PR/WT
 **Cost:** 15 XP
-**Tags:**
+**Tags:** #Combat
 
 ## Short Description
 Shoot at everything that moves.

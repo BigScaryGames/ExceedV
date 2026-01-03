@@ -1,7 +1,7 @@
 **Requirements:** Martial 4, [[Fast Archer]]
 **Attributes:** AG/DX
 **Cost:** 10 XP
-**Tags:**
+**Tags:** #Combat
 
 ## Short Description
 Move and shoot at the same time.

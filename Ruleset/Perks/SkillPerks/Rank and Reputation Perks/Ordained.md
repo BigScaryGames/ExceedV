@@ -1,6 +1,7 @@
 **Requirements:** Theology 1
-**Cost:** 5 XP
-**Tags:** #Skill
+**Attributes:** -
+**Cost:** -
+**Tags:** #Skill #Rank
 
 ## Short Description
 You are a licensed priest of a deity with official standing and religious authority.

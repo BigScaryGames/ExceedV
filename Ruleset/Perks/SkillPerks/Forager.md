@@ -1,4 +1,5 @@
-**Requirements:** -
+**Requirements:** Survival 1
+**Attributes:** PR/WT
 **Cost:** 5 XP
 **Tags:** #Skill
 

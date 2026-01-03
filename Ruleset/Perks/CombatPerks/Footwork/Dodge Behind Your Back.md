@@ -1,7 +1,7 @@
 **Requirements:** Martial 3, [[Dodging Step]], AG 4, Stealth 4
 **Attributes:** AG/DX
 **Cost:** 10 XP
-**Tags:**
+**Tags:** #Combat
 
 ## Short Description
 Disappear and reappear behind enemies when you dodge.

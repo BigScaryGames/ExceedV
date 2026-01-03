@@ -1,7 +1,7 @@
 **Requirements:** GM permission
 **Attributes:** WL
 **Cost:** 5 XP
-**Tags:** #Instant #Magic
+**Tags:** #Spellcraft #Instant 
 
 ## Short Description
 Awaken your magical talent and unlock spellcasting.

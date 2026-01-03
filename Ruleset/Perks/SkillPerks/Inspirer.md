@@ -1,4 +1,5 @@
-**Requirements:** - Charisma 2
+**Requirements:** Charisma 2
+**Attributes:** CH/WL
 **Cost:** 5 XP
 **Tags:** #Skill
 

@@ -1,15 +1,14 @@
 **Requirements:** Stealth 2
+**Attributes:** AG/DX
 **Cost:** 5 XP
-**Tags:** #Skill #Exploration 
+**Tags:** #Skill #Combat #Exploration
 
-## **Short Description**
-
+## Short Description
 Move swiftly without breaking silence.
 
-### **Effect**
+## Grants
 
-- Sneaking in **combat** no longer reduces your movement speed.
-- You may move at **half speed** to gain **+2** to Stealth rolls that depend on sound.
-- When **Scouting**, reduce the **Speed Penalty** from 2 to **1**.
+![[Effect - Silent Steps]]
+
 ## Description
 You know how to move quickly and quietly as a second nature.

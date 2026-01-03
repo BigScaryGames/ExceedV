@@ -1,4 +1,5 @@
-**Requirements:** Street Wisdom 2
+**Requirements:** Streetwise 2
+**Attributes:** CH/PR
 **Cost:** 5 XP
 **Tags:** #Skill
 

@@ -1,9 +1,10 @@
 **Requirements:** History 1
+**Attributes:** WT/WL
 **Cost:** 2 XP
 **Tags:** #Skill
 
 ## Short Description
 You have learned of heraldic symbolism and historic context for it.
-
+## Grants
+![[Effect - Heraldist]]
 ## Description
-When trying to identify heraldry you roll deduce with +2. When identifying unknown heraldics you can attempt to deduce the symbolism attached,

@@ -1,5 +1,6 @@
-**Requirements:** Street Wisdom 3, Started a criminal organization
-**Cost:** 15 XP
+**Requirements:** Streetwise 3, Started a criminal organization
+**Attributes:** -
+**Cost:** -
 **Tags:** #Skill #Rank
 
 ## Short Description

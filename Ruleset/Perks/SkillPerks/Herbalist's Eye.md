@@ -1,17 +1,14 @@
-**Requirements:** Medicine 1, Biology 1  
+**Requirements:** Medicine 1, Biology 1
+**Attributes:** PR/WT
 **Cost:** 3 XP
 **Tags:** #Skill #Exploration
 
-## **Short Description**
-
+## Short Description
 Gather herbs on the move without slowing down.
 
-### **Effect**
+## Grants
 
-When foraging for herbs while marching, choose one:
-1. **Ignore the –1 Speed penalty** for gathering on the move.
-2. **Ignore the +2 DC penalty** for gathering on the move.
+![[Effect - Herbalist's Eye]]
 
 ## Description
-Your trained eye instantly distinguishes useful plants from weeds and poisonous ones.  
-You gather herbal materials efficiently, even while traveling, keeping your pouch stocked for elixirs, salves, and poisons.
+Your trained eye instantly distinguishes useful plants from weeds and poisonous ones.

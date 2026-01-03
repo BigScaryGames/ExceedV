@@ -1,7 +1,7 @@
 **Requirements:** Martial 1, [[Footwork]]
 **Attributes:** AG/MG
 **Cost:** 5 XP
-**Tags:** 
+**Tags:** #Combat 
 ## Short Description
 Your first Stride doesn't trigger reactions.
 

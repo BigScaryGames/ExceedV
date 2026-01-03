@@ -1,0 +1,1 @@
+Knowledge of the appropriate behavior in a subculture that has an established code of conduct. Basically you know the rules of said specific society. 

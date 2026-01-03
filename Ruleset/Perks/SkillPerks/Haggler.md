@@ -1,9 +1,12 @@
 **Requirements:** FastTalk 2
+**Attributes:** CH/WT
 **Cost:** 2 XP
-**Tags:** #Skill
+**Tags:** #Skill #Downtime 
 
 ## Short Description
 Experienced Haggler doesn't make thing worse.
 
+## Grants
+![[Effect - Haggler]]
 ## Description
 When bargaining, you don't worsen the bargain on a failure.

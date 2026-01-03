@@ -2,7 +2,7 @@
 **Requirements:** Spellcraft 1, 
 **Attributes:** WI/WT
 **Cost:** 5 XP
-**Tags:** #Magic #Spellcraft #Spellshape
+**Tags:** #Spellcraft #Spellshape
 
 ## **Description**
 When you select this perk, select attribute it is going to work with.

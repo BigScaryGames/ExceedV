@@ -1,5 +1,6 @@
-**Requirements:** Street Wisdom 3, Created reputation rumors
-**Cost:** 15 XP
+**Requirements:** Streetwise 3, Created reputation rumors
+**Attributes:** -
+**Cost:** -
 **Tags:** #Skill #Rank
 
 ## Short Description

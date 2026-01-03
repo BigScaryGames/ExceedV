@@ -1,7 +1,7 @@
 **Requirements:** Spellcraft 1, 
 **Attributes:** WI/WT
 **Cost:** 5 XP
-**Tags:** #Magic #Spellcraft #Spellshape
+**Tags:** #Spellcraft #Spellshape
 
 ## **Description**
 You learn the [[Basic Elemental Invokation]], a universal spell 

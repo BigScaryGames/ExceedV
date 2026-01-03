@@ -1,7 +1,7 @@
 **Requirements:** Martial 2
 **Attributes:** PR/AG
 **Cost:** 10 XP
-**Tags:**
+**Tags:** #Combat
 
 ## Short Description
 Ready a strike that triggers without spending a Reaction.

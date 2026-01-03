@@ -1,4 +1,5 @@
-**Requirements:** Tracking 2,
+**Requirements:** Tracking 2
+**Attributes:** PR/WT
 **Cost:** 5 XP
 **Tags:** #Skill
 

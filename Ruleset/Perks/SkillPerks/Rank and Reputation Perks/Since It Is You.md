@@ -1,5 +1,6 @@
 **Requirements:** History 3, Published author, Participated in conference
-**Cost:** 15 XP
+**Attributes:** -
+**Cost:** -
 **Tags:** #Skill #Rank
 
 ## Short Description

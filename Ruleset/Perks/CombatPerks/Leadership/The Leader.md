@@ -1,7 +1,7 @@
 **Requirements:** Lead.1
 **Attributes:** CH
 **Cost:** 5 XP
-**Tags:** #Skill
+**Tags:** #Combat #Skill
 
 ## Short Description
 Lead your team's resistance against fear effects.

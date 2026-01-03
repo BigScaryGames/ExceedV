@@ -1,10 +1,11 @@
 **Requirements:** History 2
 **Attributes:** WT/PR
 **Cost:** 2 XP
-**Tags:** #Skill
+**Tags:** #Skill #Exploration 
 
 ## Short Description
 From the birds eye view you can see the hints of ruins undergound.
-
+## Grants
+![[Effect - Aerial Archaeologist]] 
+ 
 ## Description
-While airborne you can scan 200m radius on the ground underneath for potential remains buried underground. Roll History+PR against GM set DC. You are limited by the speed of your flight or flying device.

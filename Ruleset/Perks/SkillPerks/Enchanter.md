@@ -1,4 +1,5 @@
 **Requirements:** Magical Theory 2
+**Attributes:** WT/WL
 **Cost:** 5 XP
 **Tags:** #Skill
 
