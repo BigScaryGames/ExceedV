@@ -6,5 +6,6 @@
 ## Short Description
 Change attacking attribute of bows from Dexterity to Perception.
 
-## Description
-You can change the attacking attribute of the bow from Dexterity to Perception.
+## Grants
+
+![[Effect - Zen Archer]]
