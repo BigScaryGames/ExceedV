@@ -3,12 +3,9 @@
 **Cost:** 5 XP
 **Tags:** #Combat #Shield
 
-## Short Description
+## Description
 Make attacker off-guard after critical block success.
 
 ## Grants
 
 ![[Effect - Perfect Block]]
-
-## Description
-[Flavor text to be written]

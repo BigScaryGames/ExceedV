@@ -2,7 +2,7 @@
 **Attributes:** AG/EN
 **Cost:** 8 XP
 **Tags:** #Combat 
-## Short Description
+## Description
 Stride covers your full speed.
 
 ## Grants

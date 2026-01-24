@@ -3,7 +3,7 @@
 **Cost:** 5 XP
 **Tags:** #Combat
 
-## Short Description
+## Description
 Change attacking attribute of bows from Dexterity to Perception.
 
 ## Grants

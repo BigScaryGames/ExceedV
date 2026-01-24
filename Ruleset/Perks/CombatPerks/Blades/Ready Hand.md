@@ -1,14 +1,11 @@
 **Requirements:** Martial 1, [[Blades Training]]
 **Attributes:** AG
-**Cost:** 2
+**Cost:** 2 AP
 **Tags:** #Combat 
 
-## Short Description
+## Description
 Draw your weapon instinctively when combat starts.
 
 ## Grants
 
 ![[Effect - Ready Hand]]
-
-## Description
-[Flavor text to be written]

@@ -4,10 +4,11 @@
 **Traits:** -
 
 
-## Short Description
+## Description
 Monsters are less hostile towards you and have difficulty targeting or perceiving you effectively.
 
-## Effect
+## Grants
+
 - Monsters are less hostile until you make aggressive actions toward them
 - When randomly choosing targets, monsters don't prioritize you
 - Monsters have -2 penalty to Perception checks against you
@@ -17,6 +18,3 @@ Monsters are less hostile towards you and have difficulty targeting or perceivin
 - Can allow for peaceful negotiation or withdrawal from dangerous encounters
 - Represents an aura of divine protection or natural intimidation
 - Useful for avoiding unnecessary conflicts and surviving dangerous areas
-
-## Description
-Monsters are less hostile towards you and have difficulty targeting or perceiving you effectively.

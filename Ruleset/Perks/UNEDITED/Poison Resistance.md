@@ -4,10 +4,9 @@
 **Traits:** -
 
 
-## Short Description
-Learn Potion Brewing
-## Effect
+## Description
 Through constant exposure to small doses of various toxins, you have developed a remarkable resistance to poisons and gained the ability to identify them safely through sensory examination.
 
-## Description
+## Grants
+
 Through constant exposure to small doses of various toxins, you have developed a remarkable resistance to poisons and gained the ability to identify them safely through sensory examination.

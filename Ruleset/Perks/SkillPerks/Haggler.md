@@ -3,10 +3,11 @@
 **Cost:** 2 XP
 **Tags:** #Skill #Downtime 
 
-## Short Description
+## Description
 Experienced Haggler doesn't make thing worse.
 
-## Grants
-![[Effect - Haggler]]
-## Description
 When bargaining, you don't worsen the bargain on a failure.
+
+## Grants
+
+![[Effect - Haggler]]

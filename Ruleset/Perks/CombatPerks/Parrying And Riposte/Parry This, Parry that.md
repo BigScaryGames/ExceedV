@@ -3,12 +3,9 @@
 **Cost:** 10 XP
 **Tags:** #Combat
 
-## Short Description
+## Description
 Parry magical effects and protect those behind you.
 
 ## Grants
 
 ![[Effect - Magical Deflection]]
-
-## Description
-[Flavor text to be written]

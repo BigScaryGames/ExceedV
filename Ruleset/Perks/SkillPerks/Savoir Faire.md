@@ -3,11 +3,11 @@
 **Cost:** 3 XP
 **Tags:** #Skill
 
-## Short Description
+## Description
 Learn the rules of behavior in a culture, that is not your own. Can be taken Multiple times.
 
-## Grants
-![[Effect - Savoir Faire]]
- 
-## Description 
 More than 1 is not supported by the current up i the current version. Make a custom feat for this.
+
+## Grants
+
+![[Effect - Savoir Faire]]

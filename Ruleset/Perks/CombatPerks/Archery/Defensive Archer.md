@@ -3,7 +3,7 @@
 **Cost:** 5 XP
 **Tags:** #Combat
 
-## Short Description
+## Description
 Parry with a bow without risking breaking it.
 
 ## Grants

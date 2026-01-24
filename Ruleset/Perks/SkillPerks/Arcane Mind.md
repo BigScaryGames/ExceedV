@@ -3,12 +3,11 @@
 **Cost:** 7 XP
 **Tags:** #Skill
 
-## Short Description
+## Description
 Your knowledge in magic aids you in protecting your mind against it.
+
+Your deep understanding of mental magic allows you to recognize and defend against such threats with your own magic.
 
 ## Grants
 
 ![[Ability - Arcane Mind]]
-
-## Description
-Your deep understanding of mental magic allows you to recognize and defend against such threats with your own magic.

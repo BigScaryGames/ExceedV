@@ -6,10 +6,11 @@
 **Traits:** -
 
 
-## Short Description
+## Description
 You and your party ignore speed reductions due to natural terrain while traveling.
 
-## Effect
+## Grants
+
 - Party ignores movement speed penalties from natural terrain
 - Applies to difficult terrain like thick forests, rocky ground, mud, etc.
 - Does not affect supernatural or magical terrain obstacles
@@ -19,6 +20,3 @@ You and your party ignore speed reductions due to natural terrain while travelin
 - Beneficial for long-distance travel and tactical movement
 - GM determines what constitutes "natural terrain" versus artificial obstacles
 - Can significantly reduce travel times in wilderness areas
-
-## Description
-You and your party ignore speed reductions due to natural terrain while traveling.

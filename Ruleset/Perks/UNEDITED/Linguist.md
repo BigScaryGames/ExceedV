@@ -4,10 +4,11 @@
 **Traits:** -
 
 
-## Short Description
+## Description
 You can communicate with any humanoid and learn languages at accelerated rates.
 
-## Effect
+## Grants
+
 - Develop sign and sound language to communicate with any humanoid within a breather
 - Learn any language at broken level within one week
 - Achieve native-level fluency within one month of study
@@ -17,6 +18,3 @@ You can communicate with any humanoid and learn languages at accelerated rates.
 - May provide insights into cultural concepts through linguistic understanding
 - Particularly useful for diplomacy, trade, and cultural exchange
 - Can serve as translator for parties in multilingual environments
-
-## Description
-You can communicate with any humanoid and learn languages at accelerated rates.

@@ -1,3 +1,3 @@
-Each aim action adds a +1 cumulative to the next strike.
+Each aim action adds a +1 damage per weapon damage die to the next strike.
 
 **Tags:** #Passive

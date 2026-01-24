@@ -3,12 +3,9 @@
 **Cost:** 20 XP
 **Tags:** #Combat 
 
-## Short Description
+## Description
 Your mind and body are primed to move with lightning speed.
 
 ## Grants
 
 ![[Effect - Second Reaction]]
-
-## Description
-[Flavor text to be written]

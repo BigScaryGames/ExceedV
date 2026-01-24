@@ -3,12 +3,9 @@
 **Cost:** 5 XP
 **Tags:** #Combat 
 
-## Short Description
+## Description
 You know how to use enemy's momentum against them.
 
 ## Grants
 
 ![[Effect - Enhanced Defensive Stance]]
-
-## Description
-[Flavor text to be written]

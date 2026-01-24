@@ -3,12 +3,9 @@
 **Cost:** 5 XP
 **Tags:** #Combat
 
-## Short Description
+## Description
 Counter-attack with light weapon after critical parry success.
 
 ## Grants
 
 ![[Ability - Painful Parry]]
-
-## Description
-[Flavor text to be written]

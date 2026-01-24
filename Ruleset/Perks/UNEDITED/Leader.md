@@ -4,10 +4,11 @@
 **Traits:** -
 
 
-## Short Description
+## Description
 You not only lead but inspire people under your command, providing bonuses to their performance.
 
-## Effect
+## Grants
+
 - During combat: spend an action to give commands to teammates
 - Teammates who follow instructions gain +1 to appropriate rolls
 - Outside combat: add your full skill bonus to collective tasks
@@ -17,6 +18,3 @@ You not only lead but inspire people under your command, providing bonuses to th
 - Collective task bonus applies to group efforts like construction, research, etc.
 - May allow coordination of complex multi-person actions
 - Particularly effective for large-scale projects or tactical combat situations
-
-## Description
-You not only lead but inspire people under your command, providing bonuses to their performance.

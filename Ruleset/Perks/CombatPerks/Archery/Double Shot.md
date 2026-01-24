@@ -3,7 +3,7 @@
 **Cost:** 10 XP
 **Tags:** #Combat
 
-## Short Description
+## Description
 Shoot two different targets with one attack (+2 AP).
 
 ## Grants

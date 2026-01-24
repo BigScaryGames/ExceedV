@@ -3,12 +3,11 @@
 **Cost:** 5 XP
 **Tags:** #Skill #Illusion
 
-## Short Description
+## Description
 Skill to hide from scrying.
+
+You have learned specialized techniques to mask your magical presence and emanations, making it difficult for creatures relying on magical senses, and wards to detect you.
 
 ## Grants
 
 ![[Effect - Arcane Veil]]
-
-## Description
-You have learned specialized techniques to mask your magical presence and emanations, making it difficult for creatures relying on magical senses, and wards to detect you.

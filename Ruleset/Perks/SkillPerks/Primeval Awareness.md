@@ -3,7 +3,7 @@
 **Cost:** 3 XP
 **Tags:** #Skill
 
-## Short Description
+## Description
 You know of animals' habitats.
 
 ## Grants

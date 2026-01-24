@@ -2,7 +2,7 @@
 **Attributes:** AG/PR
 **Cost:** 10 XP
 **Tags:** #Combat 
-## Short Description
+## Description
 Each successful dodge makes the next one easier.
 
 ## Grants

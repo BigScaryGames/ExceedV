@@ -3,12 +3,9 @@
 **Cost:** 20 XP
 **Tags:** #Combat 
 
-## Short Description
+## Description
 Fight alone with enhanced capabilities but no allies.
 
 ## Grants
 
 ![[Effect - The Loner]]
-
-## Description
-[Flavor text to be written]

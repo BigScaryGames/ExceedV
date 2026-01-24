@@ -3,12 +3,11 @@
 **Cost:** 10 XP
 **Tags:** #Combat
 
-## Short Description
+## Description
 React to danger by glimpsing alternate defensive outcomes.
+
+Your mind builds multitude of outcomes, enough to make a difference, but not enough to guarantee an outcome.
 
 ## Grants
 
 ![[Ability - Reactive Prediction]]
-
-## Description
-Your mind builds multitude of outcomes, enough to make a difference, but not enough to guarantee an outcome.

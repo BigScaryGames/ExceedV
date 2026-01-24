@@ -3,7 +3,7 @@
 **Cost:** 10 XP
 **Tags:** #Combat
 
-## Short Description
+## Description
 Count as flanking partner within weapon's first range.
 
 ## Grants

@@ -3,12 +3,9 @@
 **Cost:** 10 XP
 **Tags:** #Combat 
 
-## Short Description
+## Description
 Gain defensive bonuses when wielding quarterstaffs and warstaves.
 
 ## Grants
 
 ![[Effect - Quarterstaff Defense]]
-
-## Description
-[Flavor text to be written]

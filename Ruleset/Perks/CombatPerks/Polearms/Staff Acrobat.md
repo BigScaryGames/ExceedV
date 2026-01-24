@@ -3,12 +3,9 @@
 **Cost:** 2 XP
 **Tags:** #Combat
 
-## Short Description
+## Description
 Use your staff to enhance jumping and balance.
 
 ## Grants
 
 ![[Effect - Staff Acrobat]]
-
-## Description
-[Flavor text to be written]

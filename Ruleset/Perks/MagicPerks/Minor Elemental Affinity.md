@@ -4,7 +4,7 @@
 **Cost:** 5 XP
 **Tags:** #Spellcraft #Spellshape
 
-## **Description**
+## Description
 When you select this perk, select attribute it is going to work with.
 
 When **surrounded by or adjacent to** an element, or if you were attacked by a spell with that **elemental trait** on the previous turn, the **AP cost of casting a spell of that same element is reduced by 1** (minimum 1).

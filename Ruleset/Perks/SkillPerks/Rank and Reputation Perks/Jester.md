@@ -3,12 +3,11 @@
 **Cost:** -
 **Tags:** #Skill #GM
 
-## Short Description
+## Description
 You gain the Jester immunity.
+
+You can't offend people who know of you and your reputation of a clown. At least they can't admit it publicly.
 
 ## Grants
 
 ![[Effect - Jester]]
-
-## Description
-You can't offend people who know of you and your reputation of a clown. At least they can't admit it publicly.

@@ -2,12 +2,11 @@
 **Attributes:** AG/EN
 **Cost:** 5 XP
 **Tags:** #Combat 
-## Short Description
+## Description
 Foundation for mobile combat techniques.
+
+You've trained to fight light on your feet, using movement as defense.
 
 ## Grants
 
 ![[Effect - Footwork]]
-
-## Description
-You've trained to fight light on your feet, using movement as defense.

@@ -4,10 +4,11 @@
 **Traits:** -
 
 
-## Short Description
+## Description
 You know how to use bureaucratic mechanisms to arrange appointments where you would normally have difficulty gaining access.
 
-## Effect
+## Grants
+
 - Navigate bureaucratic systems to arrange meetings with important figures
 - Can arrange audiences with officials, nobles, scholars, and other influential people
 - Uses knowledge of proper procedures, protocols, and channels
@@ -17,6 +18,3 @@ You know how to use bureaucratic mechanisms to arrange appointments where you wo
 - Can bypass normal waiting periods or access restrictions through proper channels
 - Requires understanding of local governmental and social systems
 - May take time to arrange meetings through proper bureaucratic processes
-
-## Description
-You know how to use bureaucratic mechanisms to arrange appointments where you would normally have difficulty gaining access.

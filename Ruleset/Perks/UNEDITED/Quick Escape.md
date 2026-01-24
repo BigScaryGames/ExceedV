@@ -4,10 +4,11 @@
 **Traits:** -
 
 
-## Short Description
+## Description
 You gain a +2 bonus to checks made to escape from law enforcement or dangerous situations in urban environments.
 
-## Effect
+## Grants
+
 - +2 bonus to all escape attempts in urban areas
 - Applies to escaping law enforcement, guards, pursuers
 - Works for dangerous situations like building collapses, fires, etc.
@@ -17,6 +18,3 @@ You gain a +2 bonus to checks made to escape from law enforcement or dangerous s
 - Bonus applies to both physical escape and evasion tactics
 - Can be combined with other stealth or agility bonuses
 - Particularly useful for criminal activities and investigations
-
-## Description
-You gain a +2 bonus to checks made to escape from law enforcement or dangerous situations in urban environments.

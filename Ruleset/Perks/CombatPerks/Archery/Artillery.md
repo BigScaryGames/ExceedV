@@ -3,7 +3,7 @@
 **Cost:** TBD
 **Tags:** #Combat
 
-## Short Description
+## Description
 Standing still greatly extends weapon range based on aim.
 
 ## Grants

@@ -3,12 +3,11 @@
 **Cost:** 5 XP
 **Tags:** #Skill #Combat #Exploration
 
-## Short Description
+## Description
 Move swiftly without breaking silence.
+
+You know how to move quickly and quietly as a second nature.
 
 ## Grants
 
 ![[Effect - Silent Steps]]
-
-## Description
-You know how to move quickly and quietly as a second nature.

@@ -3,12 +3,9 @@
 **Cost:** -
 **Tags:** #Skill #Rank
 
-## Short Description
+## Description
 You are a licensed priest of a deity with official standing and religious authority.
 
 ## Grants
 
 ![[Effect - Ordained]]
-
-## Description
-You are a licensed priest of a deity with official standing and religious authority.

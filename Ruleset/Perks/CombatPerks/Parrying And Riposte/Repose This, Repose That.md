@@ -3,12 +3,9 @@
 **Cost:** 10 XP
 **Tags:** #Combat 
 
-## Short Description
+## Description
 Reflect spells back at their casters on critical parries.
 
 ## Grants
 
 ![[Ability - Spell Reflection]]
-
-## Description
-[Flavor text to be written]

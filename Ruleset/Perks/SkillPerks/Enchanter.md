@@ -3,12 +3,11 @@
 **Cost:** 5 XP
 **Tags:** #Skill
 
-## Short Description
+## Description
 You learn Enchantement.
+
+Your understanding of magical theory extends to the practical application of imbuing mundane items with magical properties.
 
 ## Grants
 
 ![[Effect - Enchanter]]
-
-## Description
-Your understanding of magical theory extends to the practical application of imbuing mundane items with magical properties.

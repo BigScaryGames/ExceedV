@@ -2,9 +2,11 @@
 **Attributes:** WT/PR 
 **Cost:** 7 XP 
 **Tags:** #Combat 
-## Short Description 
-Preroll your next attack using analytical prediction. 
-## Grants
-![[Ability - Predictive Strike]]
-## Description 
+## Description
+Preroll your next attack using analytical prediction.
+
 You calculate trajectories, timing, and openings before committing to an attack.
+
+## Grants
+
+![[Ability - Predictive Strike]]

@@ -3,12 +3,9 @@
 **Cost:** 5 XP
 **Tags:** #Combat #Shield
 
-## Short Description
+## Description
 Block magical effects and spells with your shield.
 
 ## Grants
 
 ![[Effect - Spell Guard]]
-
-## Description
-[Flavor text to be written]

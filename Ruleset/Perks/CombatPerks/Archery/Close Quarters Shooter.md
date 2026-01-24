@@ -3,7 +3,7 @@
 **Cost:** TBD
 **Tags:** #Combat
 
-## Short Description
+## Description
 Aimed shots at close range deal extra damage.
 
 ## Grants

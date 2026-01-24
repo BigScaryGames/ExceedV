@@ -3,12 +3,9 @@
 **Cost:** 5 XP
 **Tags:** #Skill
 
-## Short Description
+## Description
 Procuring food in the wilderness is a second nature.
 
 ## Grants
 
 ![[Effect - Forager]]
-
-## Description
-[Flavor text to be written]

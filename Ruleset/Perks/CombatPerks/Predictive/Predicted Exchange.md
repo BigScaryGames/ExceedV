@@ -3,11 +3,9 @@
 **Cost:** 10 XP
 **Tags:** #Combat
 
-## Short Description
+## Description
 Your predictive Strike now predicts enemy's reaction as well.
 
 ## Grants
 
 ![[Effect - Predicted Exchange]]
-
-## Description

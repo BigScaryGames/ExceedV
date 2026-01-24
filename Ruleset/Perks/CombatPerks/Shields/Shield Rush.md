@@ -3,12 +3,9 @@
 **Cost:** 2 XP
 **Tags:** #Combat #Shield
 
-## Short Description
+## Description
 Move and strike with shield, adding might to damage twice.
 
 ## Grants
 
 ![[Ability - Shield Rush]]
-
-## Description
-[Flavor text to be written]

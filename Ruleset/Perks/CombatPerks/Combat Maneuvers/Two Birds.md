@@ -3,12 +3,9 @@
 **Cost:** 10 XP
 **Tags:** #Combat
 
-## Short Description
+## Description
 Strike multiple adjacent targets with one attack.
 
 ## Grants
 
 ![[Ability - Two Birds]]
-
-## Description
-[Flavor text to be written]

@@ -2,7 +2,7 @@
 **Attributes:** AG/DX
 **Cost:** 5 XP
 **Tags:** #Combat 
-## Short Description
+## Description
 Step as part of your first attack each turn.
 
 ## Grants

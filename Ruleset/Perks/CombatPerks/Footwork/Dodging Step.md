@@ -2,7 +2,7 @@
 **Attributes:** AG/DX
 **Cost:** 8 XP
 **Tags:** #Combat 
-## Short Description
+## Description
 Step freely when you successfully dodge a melee attack.
 
 ## Grants

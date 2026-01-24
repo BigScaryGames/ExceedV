@@ -3,8 +3,8 @@
 **Cost:** TBD
 **Tags:** #Combat
 
-## Short Description
-Each aim action adds a +1 cumulative bonus to the next strike.
+## Description
+The longer you aim, the harder you shoot.
 
 ## Grants
 

@@ -3,12 +3,9 @@
 **Cost:** 5 XP
 **Tags:** #Combat
 
-## Short Description
+## Description
 Parry ranged physical attacks with melee weapons.
 
 ## Grants
 
 ![[Effect - Projectile Deflection]]
-
-## Description
-[Flavor text to be written]

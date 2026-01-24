@@ -3,12 +3,9 @@
 **Cost:** 5 XP
 **Tags:** #Combat #Skill
 
-## Short Description
+## Description
 Lead your team's resistance against fear effects.
 
 ## Grants
 
 ![[Ability - The Leader]]
-
-## Description
-[Flavor text to be written]

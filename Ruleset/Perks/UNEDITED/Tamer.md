@@ -4,10 +4,11 @@
 **Traits:** -
 
 
-## Short Description
+## Description
 TBD - Advanced ability to train and work with wild animals.
 
-## Effect
+## Grants
+
 - TBD - Mechanics to be determined
 - Likely involves training wild animals as companions or mounts
 - May allow temporary control or direction of natural creatures
@@ -16,6 +17,3 @@ TBD - Advanced ability to train and work with wild animals.
 - Details subject to further development and playtesting
 - Probably requires significant time investment to train animals
 - May have limitations based on creature intelligence and temperament
-
-## Description
-TBD - Advanced ability to train and work with wild animals.

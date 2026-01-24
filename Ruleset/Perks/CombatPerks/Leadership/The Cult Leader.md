@@ -3,12 +3,9 @@
 **Cost:** 10 XP
 **Tags:** #Combat #Skill 
 
-## Short Description
+## Description
 Lead fanatical followers who have sworn loyalty to you.
 
 ## Grants
 
 ![[Ability - Drive into Fervor]]
-
-## Description
-[Flavor text to be written]

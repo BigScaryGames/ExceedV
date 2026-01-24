@@ -3,11 +3,11 @@
 **Cost:** 8 XP
 **Traits:** #Mind
 
-## Short Description
-Use Might attribute when Demoralizing and Coercing
-
-## Effect
-Use Might attribute when Demoralizing and Coercing
-
 ## Description
+Use Might attribute when Demoralizing and Coercing.
+
 Your imposing physical presence and implied threat of violence makes your intimidation far more compelling than words alone.
+
+## Grants
+
+Use Might attribute when Demoralizing and Coercing

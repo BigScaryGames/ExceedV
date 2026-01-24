@@ -3,7 +3,7 @@
 **Cost:** 5 XP
 **Tags:** #Spellcraft #Spellshape
 
-## **Description**
+## Description
 You learn the [[Basic Elemental Invokation]], a universal spell 
 
 ### **Mechanics**

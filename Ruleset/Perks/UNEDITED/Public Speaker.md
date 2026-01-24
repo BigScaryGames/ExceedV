@@ -4,10 +4,11 @@
 **Traits:** -
 
 
-## Short Description
+## Description
 You reduce penalties when organizing large groups and naturally command attention.
 
-## Effect
+## Grants
+
 - Reduce penalties based on group size when trying to organize collectives
 - People naturally accept your leadership and find it comfortable to follow your commands
 - Effective for rallying crowds, organizing work parties, or leading expeditions
@@ -17,6 +18,3 @@ You reduce penalties when organizing large groups and naturally command attentio
 - Helps overcome the chaos and confusion of group coordination
 - GM determines penalty reductions based on group size and circumstances
 - Can turn potentially hostile crowds neutral through skilled oratory
-
-## Description
-You reduce penalties when organizing large groups and naturally command attention.

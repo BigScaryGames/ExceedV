@@ -4,10 +4,11 @@
 **Traits:** -
 
 
-## Short Description
+## Description
 By spending a week in a settlement, you learn of the existence or lack of secret societies and traces of other actors affecting the place.
 
-## Effect
+## Grants
+
 - Requires one week of investigation in a settlement
 - Reveals presence or absence of secret societies operating in the area
 - Identifies traces of external actors influencing local affairs
@@ -17,6 +18,3 @@ By spending a week in a settlement, you learn of the existence or lack of secret
 - Particularly useful for political intrigue and conspiracy investigation
 - May reveal multiple layers of influence or competing secret factions
 - Can help identify who really holds power behind official structures
-
-## Description
-By spending a week in a settlement, you learn of the existence or lack of secret societies and traces of other actors affecting the place.

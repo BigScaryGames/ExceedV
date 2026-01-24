@@ -4,10 +4,11 @@
 **Traits:** -
 
 
-## Short Description
+## Description
 You are deeply connected to rumor networks and can trade information for influence or cash.
 
-## Effect
+## Grants
+
 - Trade rumors for influence, cash, or other rumors during downtime
 - Learn additional rumors and information through your network connections
 - GM determines what rumors you learn based on your location and connections
@@ -17,6 +18,3 @@ You are deeply connected to rumor networks and can trade information for influen
 - Requires maintaining relationships with informants, gossips, and socialites
 - Some rumors may be false, outdated, or deliberately misleading
 - Particularly useful in urban environments with active social scenes
-
-## Description
-You are deeply connected to rumor networks and can trade information for influence or cash.

@@ -3,7 +3,7 @@
 **Cost:** TBD
 **Tags:** #Combat
 
-## Short Description
+## Description
 Store offensive spell in arrow for later delivery.
 
 ## Grants

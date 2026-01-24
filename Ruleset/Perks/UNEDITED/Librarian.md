@@ -4,10 +4,11 @@
 **Traits:** -
 
 
-## Short Description
+## Description
 You get easier access to books and libraries, including private collections, and spend half the normal time researching.
 
-## Effect
+## Grants
+
 - Gain access to libraries and book collections normally closed to public
 - Includes private libraries, academic collections, and restricted sections
 - Research time is halved for all knowledge-gathering activities
@@ -17,6 +18,3 @@ You get easier access to books and libraries, including private collections, and
 - May provide contacts among other scholars and librarians
 - Does not guarantee access to truly secret or forbidden knowledge
 - Research bonus applies to any knowledge-based downtime activities
-
-## Description
-You get easier access to books and libraries, including private collections, and spend half the normal time researching.

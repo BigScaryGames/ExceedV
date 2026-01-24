@@ -3,12 +3,9 @@
 **Cost:** 2 XP
 **Tags:** #Combat 
 
-## Short Description
+## Description
 Switch weapon grip freely during offensive actions.
 
 ## Grants
 
 ![[Effect - Grip Switch]]
-
-## Description
-[Flavor text to be written]

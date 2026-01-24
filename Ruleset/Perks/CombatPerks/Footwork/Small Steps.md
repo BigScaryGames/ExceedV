@@ -2,7 +2,7 @@
 **Attributes:** AG/MG
 **Cost:** 5 XP
 **Tags:** #Combat 
-## Short Description
+## Description
 Your first Stride doesn't trigger reactions.
 
 ## Grants

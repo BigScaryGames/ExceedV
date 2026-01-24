@@ -4,10 +4,11 @@
 **Traits:** -
 
 
-## Short Description
+## Description
 You know the locations of safe houses and hideouts in urban areas, providing secure places to rest and evade authorities.
 
-## Effect
+## Grants
+
 - Once per day, can find a secure location in urban areas
 - Provides hiding place for a full day
 - Authorities searching for you must roll against your Streetwise skill +4
@@ -16,6 +17,3 @@ You know the locations of safe houses and hideouts in urban areas, providing sec
 - Does not work in areas where you have no connections
 - Overuse may compromise future safe house availability
 - Particularly useful for laying low after criminal activities or investigations
-
-## Description
-You know the locations of safe houses and hideouts in urban areas, providing secure places to rest and evade authorities.

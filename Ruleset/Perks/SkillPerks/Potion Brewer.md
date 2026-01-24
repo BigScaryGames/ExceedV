@@ -3,12 +3,11 @@
 **Cost:** 7 XP
 **Tags:** #Skill
 
-## Short Description
+## Description
 Learn Potion Brewing.
+
+Your understanding of medicine and chemistry extends to the magical properties contained in them allowing to effectively brew quickly acting potions.
 
 ## Grants
 
 ![[Effect - Potion Brewer]]
-
-## Description
-Your understanding of medicine and chemistry extends to the magical properties contained in them allowing to effectively brew quickly acting potions.

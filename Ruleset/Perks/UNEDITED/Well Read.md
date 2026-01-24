@@ -4,10 +4,11 @@
 **Traits:** -
 
 
-## Short Description
+## Description
 If there is a book on a topic that has been quoted, you know its name, author, and general direction on where to seek that knowledge.
 
-## Effect
+## Grants
+
 - When encountering quotes, references, or citations, automatically know the source
 - Provides book title, author name, and general location guidance
 - Helps track down original sources for further research
@@ -17,6 +18,3 @@ If there is a book on a topic that has been quoted, you know its name, author, a
 - Does not provide the book itself, only information about where to find it
 - May reveal connections between different works and authors
 - Useful for building comprehensive research on complex topics
-
-## Description
-If there is a book on a topic that has been quoted, you know its name, author, and general direction on where to seek that knowledge.

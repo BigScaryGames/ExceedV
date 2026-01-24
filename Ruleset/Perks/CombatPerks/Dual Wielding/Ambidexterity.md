@@ -3,12 +3,9 @@
 **Cost:** 5 XP
 **Tags:** #Combat 
 
-## Short Description
+## Description
 You use both of your hands equally well or equally poor.
 
 ## Grants
 
 ![[Effect - Ambidexterity]]
-
-## Description
-[Flavor text to be written]

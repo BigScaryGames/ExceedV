@@ -3,12 +3,9 @@
 **Cost:** 5 XP
 **Tags:** #Combat 
 
-## Short Description
+## Description
 Strike enemy's leg to knock them prone.
 
 ## Grants
 
 ![[Ability - Tripping Strike]]
-
-## Description
-[Flavor text to be written]

@@ -3,7 +3,7 @@
 **Cost:** 5 XP
 **Tags:** #Combat
 
-## Short Description
+## Description
 Aim as a free action during a Stride (max Aim1).
 
 ## Grants

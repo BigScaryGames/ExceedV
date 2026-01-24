@@ -3,12 +3,9 @@
 **Cost:** -
 **Tags:** #Skill #Rank
 
-## Short Description
+## Description
 There is a chance you will be recognized and gain preferential treatment from scholars and nobles.
 
 ## Grants
 
 ![[Effect - Since It Is You]]
-
-## Description
-There is a chance you will be recognized and gain preferential treatment from scholars and nobles.

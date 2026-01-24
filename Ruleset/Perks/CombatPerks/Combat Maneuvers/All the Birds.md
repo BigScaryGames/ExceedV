@@ -3,12 +3,9 @@
 **Cost:** 15 XP
 **Tags:** #Combat 
 
-## Short Description
+## Description
 Strike all targets within reach simultaneously.
 
 ## Grants
 
 ![[Ability - All the Birds]]
-
-## Description
-[Flavor text to be written]

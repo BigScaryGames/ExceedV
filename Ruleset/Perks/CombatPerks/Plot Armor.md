@@ -3,12 +3,9 @@
 **Cost:** 50 XP
 **Tags:** #Combat 
 
-## Short Description
+## Description
 Heroic destiny grants supernatural protection.
 
 ## Grants
 
 ![[Effect - Plot Armor]]
-
-## Description
-[Flavor text to be written]

@@ -3,12 +3,9 @@
 **Cost:** -
 **Tags:** #Skill #Rank
 
-## Short Description
+## Description
 Your criminal syndicate generates passive income as you establish yourself as a significant power in the underworld.
 
 ## Grants
 
 ![[Effect - King on the Hill]]
-
-## Description
-Your criminal syndicate generates passive income as you establish yourself as a significant power in the underworld.

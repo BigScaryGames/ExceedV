@@ -4,10 +4,11 @@
 **Traits:** -
 
 
-## Short Description
+## Description
 You can roll initiative using your social skills while attempting to demoralize enemies at combat's start.
 
-## Effect
+## Grants
+
 - Roll initiative using your social skill instead of Perception
 - Simultaneously attempt to demoralize enemies through shouting, threats, or intimidation
 - Combines tactical awareness with psychological warfare
@@ -17,6 +18,3 @@ You can roll initiative using your social skills while attempting to demoralize 
 - Success may cause some enemies to hesitate or act less effectively
 - Represents using commanding presence and battle cries to seize initiative
 - Can set the tone for the entire encounter through psychological dominance
-
-## Description
-You can roll initiative using your social skills while attempting to demoralize enemies at combat's start.

@@ -3,12 +3,11 @@
 **Cost:** 3 XP
 **Tags:** #Skill
 
-## Short Description
+## Description
 First responder training.
+
+You have seen some terrible wounds and know the best practice to handle them quickly and efficiently.
 
 ## Grants
 
 ![[Effect - First Responder]]
-
-## Description
-You have seen some terrible wounds and know the best practice to handle them quickly and efficiently.

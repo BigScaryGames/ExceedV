@@ -3,12 +3,11 @@
 **Cost:** 15 XP
 **Tags:** #Combat
 
-## Short Description
+## Description
 Shoot at everything that moves.
+
+You keep your tower stance and wait for the enemies to arrive, meeting them with utmost contempt.
 
 ## Grants
 
 ![[Ability - Tower Defender]]
-
-## Description
-You keep your tower stance and wait for the enemies to arrive, meeting them with utmost contempt.

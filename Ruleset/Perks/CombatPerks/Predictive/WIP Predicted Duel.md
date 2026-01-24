@@ -3,7 +3,7 @@
 **Cost:** 10 XP
 **Tags:** #Combat
 
-## Short Description
+## Description
 TBD
 
 ## Grants
