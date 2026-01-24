@@ -1,3 +1,0 @@
-
-"smart_sources:V2/Core/Fatigue.md": {"path":"V2/Core/Fatigue.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"13luosb","at":1755010332380},"class_name":"SmartSource","last_import":{"mtime":1754867616350,"size":1139,"at":1755010332383,"hash":"13luosb"},"blocks":{"#":[1,19],"##{1}":[2,2],"##{2}":[3,3],"##{3}":[4,7],"##{4}":[8,8],"##{5}":[9,9],"##{6}":[10,12],"##{7}":[13,13],"##{8}":[14,16],"##{9}":[17,17],"##{10}":[18,19],"###Mana Recovery":[20,22],"###Mana Recovery#{1}":[21,22]},"outlinks":[{"title":"Exhaused","target":"Exhaused","line":7}]},
-"smart_sources:V2/Core/Fatigue.md": null,

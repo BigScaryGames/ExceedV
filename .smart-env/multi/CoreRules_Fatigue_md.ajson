@@ -1,3 +1,0 @@
-
-"smart_sources:CoreRules/Fatigue.md": {"path":"CoreRules/Fatigue.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"1abdb9w","at":1749977510353},"class_name":"SmartSource","last_import":{"mtime":1749977487350,"size":1130,"at":1749977510356,"hash":"1abdb9w"},"blocks":{"#":[1,19],"##{1}":[2,2],"##{2}":[3,3],"##{3}":[4,7],"##{4}":[8,8],"##{5}":[9,9],"##{6}":[10,12],"##{7}":[13,13],"##{8}":[14,16],"##{9}":[17,17],"##{10}":[18,19],"###Mana Recovery":[20,22],"###Mana Recovery#{1}":[21,22]},"outlinks":[{"title":"Exhaused","target":"Exhaused","line":7}]},
-"smart_sources:CoreRules/Fatigue.md": null,
