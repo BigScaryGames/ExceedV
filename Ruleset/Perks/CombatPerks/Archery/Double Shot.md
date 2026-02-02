@@ -1,4 +1,4 @@
-**Requirements:** Martial 2
+1**Requirements:** Martial 2
 **Attributes:** AG/DX
 **Cost:** 10 XP
 **Tags:** #Combat

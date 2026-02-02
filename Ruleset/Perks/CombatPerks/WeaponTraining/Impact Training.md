@@ -1,5 +1,5 @@
 **Requirements:** -
-**Attributes:**  DX/AG
+**Attributes:**  MG/AG
 **Cost:** 5 XP
 **Tags:** #Combat #WeaponTraining 
 

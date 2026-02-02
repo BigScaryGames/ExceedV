@@ -1,13 +1,13 @@
 Ranged attacks must overcome a **Distance DC** before the defender rolls.
 
 | Range Increment | Distance DC |
-|-----------------|-------------|
-| 0 (point blank) | 10 |
-| 1 | 12 |
-| 2 | 14 |
-| 3 | 16 |
-| 4 | 18 |
-| 5 | 20 |
+| --------------- | ----------- |
+| 0 (point blank) | 10          |
+| 1               | 12          |
+| 2               | 14          |
+| 3               | 16          |
+| 4               | 18          |
+| 5               | 20          |
 
 Attacks that roll below the Distance DC miss automatically - the shot goes wide before reaching the target.
 
