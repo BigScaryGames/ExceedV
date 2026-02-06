@@ -12,7 +12,6 @@ Core Rules Index: "*A skill-based fantasy tabletop role-playing game*"
 | [[3.3 Downtime\|Downtime]]                                        | Downtime: training, resting, earning income    |
 
 ---
-
 ## Combat
 
 | Topic | Description |
