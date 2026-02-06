@@ -20,7 +20,7 @@ Milestone 6. - content update, editing.
 - [ ]  Skill perks - enough for 1-3 tiers. at least 100 overall skill perks
 - [ ] Skill actions like [[Deduce]]
 - [ ]  Combat perks adjustment.
-- [ ] Move/Step/Run - reactions on moving outside range and inside range fix.
+- [x] Move/Step/Run - reactions on moving outside range and inside range fix.
 - [ ] Clarify or edit dual-wielding
 - [ ]  Flanking and ganging rules.
 - [ ]  Spells - make them work in GAS paradigm. (Wiki reconstruction 2)
@@ -30,6 +30,7 @@ Milestone 6. - content update, editing.
 - [ ] Fix max wounds and extra wound wording in [[HP Calculation]]
 - [ ] Criticals for weapons and spells.
 - [ ] Extended Crits unified logic.
+- [x]  Webpage
 
 Milestone 7. - Enemies, Content, 
 - [ ]  Simplified enemy character sheet(static enemy DCs) with a challenge rating calculator.
@@ -48,6 +49,7 @@ Milestone 8 Social Layer, Polishing
 5. Combat perks to tier 4.
 6. Spells to tier 4.
 7. Spell permanency 
+
 
 Milestone 9 Expanded downtime
 1. Crafting 
