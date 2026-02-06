@@ -1,5 +1,6 @@
 [
   "obsidian-local-rest-api",
   "obsidian-git",
-  "obsidian-markdown-export-plugin"
+  "obsidian-markdown-export-plugin",
+  "quartz-syncer"
 ]
