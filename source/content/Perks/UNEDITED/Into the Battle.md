@@ -1,5 +1,5 @@
 **Requirements:** -
-**Category:** Universal
+**Category:** Combat
 **Cost:** 15 XP
 **Traits:** -
 

@@ -1,5 +1,5 @@
 **Requirements:** Public Speaker, Inspirer
-**Category:** Universal
+**Category:** Skill
 **Cost:** 15 XP
 **Traits:** -
 

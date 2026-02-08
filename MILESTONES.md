@@ -18,6 +18,8 @@ Milestone 5 - Get it playable.
 Milestone 6. - content update, editing.
 
 - [ ]  Skill perks - enough for 1-3 tiers. at least 100 overall skill perks
+- [ ] Disadvantage Perks
+- [ ] Negative stats
 - [ ] Skill actions like [[Deduce]]
 - [ ]  Combat perks adjustment.
 - [x] Move/Step/Run - reactions on moving outside range and inside range fix.
@@ -34,6 +36,7 @@ Milestone 6. - content update, editing.
 
 Milestone 7. - Enemies, Content, 
 - [ ]  Simplified enemy character sheet(static enemy DCs) with a challenge rating calculator.
+- [ ] Persistent DoTs consequences
 - [ ]  Spells to tier 3.
 - [ ] Summoning.
 - [ ]  Items and pricing.

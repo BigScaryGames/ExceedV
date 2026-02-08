@@ -26,10 +26,10 @@ Conditioning perks are **leveled perks** found in `/Ruleset/Perks/CombatPerks/Co
 
 Character with 2 Max_Wounds, 0 Endurance, +2 Armor:
 
-| Level | XP Cost | HP Gain | Totals |
-|-------|---------|---------|--------|
-| 1 | 2 XP | +1 HP | 11 Health, 4 Stamina = 15 HP |
-| 2 | 4 XP | +1 HP | 12 Health, 4 Stamina = 16 HP |
-| 3 | 6 XP | +1 HP | 13 Health, 4 Stamina = 17 HP |
-| 4 | 8 XP | +1 HP | 14 Health, 4 Stamina = 18 HP |
-| 5 | 10 XP | +1 Max Wounds + Capstone | 15 Health, 6 Stamina = 21 HP |
+| Level | Total  XP Cost | HP Gain                  | Totals                       |
+| ----- | -------------- | ------------------------ | ---------------------------- |
+| 1     | 2 XP           | +1 HP                    | 11 Health, 4 Stamina = 15 HP |
+| 2     | 4 XP           | +1 HP                    | 12 Health, 4 Stamina = 16 HP |
+| 3     | 6 XP           | +1 HP                    | 13 Health, 4 Stamina = 17 HP |
+| 4     | 8 XP           | +1 HP                    | 14 Health, 4 Stamina = 18 HP |
+| 5     | 10 XP          | +1 Max Wounds + Capstone | 15 Health, 6 Stamina = 21 HP |

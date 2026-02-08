@@ -110,7 +110,7 @@ The game aims to fix 3 problems recurrent in TTRPGs
   For this it offers its USPs as solutions.
 The Limit system in [[6. Magic System]] - limiting the active buffs and magical effects a character can sustain on self and group.
 
-[[3.2 HP And Wounds]]. - where Armor works as ablation multiplied by the character's resilience.
+[[3.3 HP And Wounds]]. - where Armor works as ablation multiplied by the character's resilience.
   2. [[3.1 Attributes]] - Attributes deriving from skills, creating positive feedback loops, separation of social and combat XP based on the session contents.
 ### Target Audience
 Skill-based TTRPG enjoyers. Earned progression connoisseurs.

@@ -209,7 +209,7 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 
 ## Conditions System
 
-Conditions are stored in `/Core Rules/References/Conditions/` and defined in `4.3 Conditions.md`
+Conditions are stored in `/source/content/Rules/References/Conditions/` and defined in `4.3 Conditions.md`
 
 ### Duration Presets
 1. **One-Time Use** - Next qualifying action (luck effects, feint Off-Guard)
@@ -303,56 +303,66 @@ Conditions are stored in `/Core Rules/References/Conditions/` and defined in `4.
 ### Core Rules Files (Wiki Structure)
 Core Rules use wiki-style organization with hub files embedding mechanics from subfolders.
 
+
 **Hub Files (numbered):**
-- `Core Rules/0.Index.md` - Navigation index
-- `Core Rules/2. Basic Mechanics.md` - Dice system, check types (embeds from Mechanics/)
-- `Core Rules/3. Character Creation and Point buy Costs.md` - XP system, creation steps
-- `Core Rules/3.1 Attributes.md` - 8-attribute system
-- `Core Rules/3.2 HP And Wounds.md` - Dual HP pools, wound system
-- `Core Rules/3.5 Downtime.md` - Training, recovery, income (embeds from Mechanics/)
-- `Core Rules/4. Combat Conflict Resolution.md` - Action economy, attacks, defenses
-- `Core Rules/4.1 Taking Damage.md` - Damage application
-- `Core Rules/4.2 Wounds And Consequences.md` - Wound effects, treatment
-- `Core Rules/5. Skills.md` - Skill list with attribute pairings
-- `Core Rules/5.1 Skill And Universal Perks.md` - Skill progression, universal perks
-- `Core Rules/6. Types of magic.md` - Limit system, spellcraft domain
-- `Core Rules/7. Equipment.md` - Weapons, armor, gear
-- `Core Rules/8. Social Interactions.md` - Attitude system, trading
-- `Core Rules/8.1 Organizations.md` - Ranks, org benefits/obligations (WIP till MS8)
-- `Core Rules/9. Movement and Distance.md` - Speed, movement actions
-- `Core Rules/10. Traits.md` - Traits, bonus types (embeds from References/)
-- `Core Rules/11. Actions.md` - All action types (embeds from Actions/)
+- `source/content/Rules/0.Index.md` - Navigation index
+- `source/content/Rules/1.0 Introduction.md` - Overview and introduction to ExceedV
+- `source/content/Rules/2. Basic Mechanics.md` - Dice system, check types (embeds from Mechanics/)
+- `source/content/Rules/3. Character Creation and Point buy Costs.md` - XP system, creation steps
+- `source/content/Rules/3.1 Attributes.md` - 8-attribute system
+- `source/content/Rules/3.2 Perks and Flaws.md` - Perks and flaws system
+- `source/content/Rules/3.3 HP And Wounds.md` - Dual HP pools, wound system
+- `source/content/Rules/4. Combat Conflict Resolution.md` - Action economy, attacks, defenses
+- `source/content/Rules/4.1 Taking Damage.md` - Damage application
+- `source/content/Rules/4.2 Wounds And Consequences.md` - Wound effects, treatment
+- `source/content/Rules/4.3 Conditions.md` - Condition system
+- `source/content/Rules/4.4 Weapons and Combat Training.md` - Weapon training and combat techniques
+- `source/content/Rules/5. Skills.md` - Skill list with attribute pairings
+- `source/content/Rules/5.1 Skill And Universal Perks.md` - Skill progression, universal perks
+- `source/content/Rules/6. Magic System.md` - Magic system overview
+- `source/content/Rules/6. Types of magic.md` - Limit system, spellcraft domain
+- `source/content/Rules/6.1 Summoning.md` - Summoning mechanics
+- `source/content/Rules/6.2 Magic Perks.md` - Magic-related perks
+- `source/content/Rules/7. Equipment.md` - Weapons, armor, gear
+- `source/content/Rules/7.1 Encumbrance.md` - Encumbrance system
+- `source/content/Rules/8. Social Interactions.md` - Attitude system, trading
+- `source/content/Rules/8.1 Organizations.md` - Ranks, org benefits/obligations (WIP till MS8)
+- `source/content/Rules/9. Movement and Distance.md` - Speed, movement actions
+- `source/content/Rules/9.1 Time and Travel.md` - Time and travel mechanics
+- `source/content/Rules/9.2 Downtime and Training.md` - Training, recovery, income (embeds from Mechanics/)
+- `source/content/Rules/9.3 Exploration and Out of combat Activities.md` - Exploration, downtime activities
+- `source/content/Rules/10. Traits.md` - Traits, bonus types (embeds from References/)
+- `source/content/Rules/11. Actions.md` - All action types (embeds from Actions/)
 
 **Subfolders:**
-- `Core Rules/Mechanics/` - Embeddable mechanic files (Action Points, Initiative, Recovery Rules, etc.)
-- `Core Rules/Actions/` - Individual action definitions (Movement/, Combat/, Social/, Support/, Abilities/)
-- `Core Rules/References/` - Reference tables (Bonus Types, Defense Traits, Downtime Quality, Rank System, Effects/, Conditions/)
-- `Core Rules/Design Philosophy.md` - Design notes and rationale
-
+- `source/content/Rules/Mechanics/` - Embeddable mechanic files (Action Points, Initiative, Recovery Rules, etc.)
+- `source/content/Rules/Actions/` - Individual action definitions (Movement/, Combat/, Social/, Support/, Abilities/)
+- `source/content/Rules/References/` - Reference tables (Bonus Types, Defense Traits, Downtime Quality, Rank System, Effects/, Conditions/)
+- `source/content/Rules/Design Philosophy.md` - Design notes and rationale
 ### Combat System Files
-- `Ruleset/Perks/CombatPerks/` - All combat perks organized into folders
-- `Ruleset/Perks/SkillPerks/` - Skill-based perks
-- `Ruleset/Perks/MagicPerks/` - Magic-related perks
-- `Ruleset/Core Rules/Mechanics/Dual Wielding.md` - Dual wielding rules (WIP)
-- `Ruleset/Combat Perk Design Guidelines.md` - Comprehensive perk design document
+- `source/content/Perks/CombatPerks/` - All combat perks organized into folders
+- `source/content/Perks/SkillPerks/` - Skill-based perks
+- `source/content/Perks/MagicPerks/` - Magic-related perks
+- `source/content/Rules/Mechanics/Dual Wielding.md` - Dual wielding rules (WIP)
+- `source/content/Design Guidelines.md` - Comprehensive perk design document
 
 ### Spell System Files
-- `Ruleset/Spells/` - Individual spell definitions organized by tier
-- `Ruleset/Universal Spell Template.md` - Template for creating new spells
-- `Ruleset/Team Ritual.md` - Team formation and ritual mechanics
+- `source/content/Spells/` - Individual spell definitions organized by tier
+- `source/content/Spells/0 Spell Template.md` - Template for creating new spells
+- `source/content/Spells/Rituals/Team Ritual.md` - Team formation and ritual mechanics
 
 ### Perk System Files
-- `Ruleset/Perks/0 Universal Perk Template.md` - Template for creating new perks
-- `Ruleset/Perks/CombatPerks/` - Combat perks organized by weapon/type
-- `Ruleset/Perks/SkillPerks/` - Non-combat skill perks
-- `Ruleset/Perks/MagicPerks/` - Magic system perks
-- `Ruleset/Perks/UNEDITED/` - Perks pending revision
+- `source/content/Perks/0 Universal Perk Template.md` - Template for creating new perks
+- `source/content/Perks/CombatPerks/` - Combat perks organized by weapon/type
+- `source/content/Perks/SkillPerks/` - Non-combat skill perks
+- `source/content/Perks/MagicPerks/` - Magic system perks
+- `source/content/Perks/UNEDITED/` - Perks pending revision
 
 ### Special Character Files
 - `Ruleset/Mage.md` - Mage character type and requirements
 
 ### Design Documentation
-- `Ruleset/Design Guidelines.md` - Design philosophy and guidelines
+- `source/content/Design Guidelines.md` - Design philosophy and guidelines
 
 ## Quick Search Patterns
 
@@ -371,11 +381,11 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 - **Social Rules:** Files 8.x, search `attitude`, `favor`, `negotiation`
 
 ### Finding Content by Type
-- **Perks:** `Ruleset/Perks/CombatPerks/`, `Ruleset/Perks/SkillPerks/`
-- **Spells:** `Ruleset/Spells/` organized by tier folders
-- **Conditions:** `Core Rules/References/Conditions/`
-- **Effects:** `Core Rules/References/Effects/`
-- **Abilities:** `Core Rules/Actions/Abilities/`
+- **Perks:** `source/content/Perks/CombatPerks/`, `source/content/Perks/SkillPerks/`
+- **Spells:** `source/content/Spells/` organized by tier folders
+- **Conditions:** `source/content/Rules/References/Conditions/`
+- **Effects:** `source/content/Rules/References/Effects/`
+- **Abilities:** `source/content/Rules/Actions/Abilities/`
 - **Templates:** Search `Template.md` for creation guidelines
 
 ### Search by Game Element
@@ -410,7 +420,7 @@ The system uses Unreal Engine GAS (Gameplay Ability System) naming conventions:
 ```
 /Ruleset/Abilities/Ability - Name.md    → Contains ability mechanics only
 /Ruleset/Effects/Effect - Name.md       → Contains effect mechanics only
-/Ruleset/Perks/Category/Perk Name.md    → Contains XP cost, requirements, embeds ability/effect
+/source/content/Perks/Category/Perk Name.md    → Contains XP cost, requirements, embeds ability/effect
 ```
 
 ### Ability vs Effect Decision Tree

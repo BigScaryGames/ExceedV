@@ -1,5 +1,5 @@
 **Requirements:** Medicine 3
-**Category:** Skill-based
+**Category:** Skill
 **Cost:** 15 XP
 **Traits:** -
 

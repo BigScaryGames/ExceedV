@@ -1,5 +1,5 @@
 **Requirements:** History 1
-**Category:** Universal
+**Category:** Skill
 **Cost:** 5 XP
 **Traits:** -
 

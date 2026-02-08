@@ -5,11 +5,11 @@ Core Rules Index: "*A skill-based fantasy tabletop role-playing game*"
 
 | Topic                                                             | Description                                    |
 | ----------------------------------------------------------------- | ---------------------------------------------- |
-| [[2. Basic Mechanics\|Base Mechanics]]                            | 2d10 system, advantage/disadvantage, criticals |
+| [[2. Core Resolution System\|Base Mechanics]]                            | 2d10 system, advantage/disadvantage, criticals |
 | [[3. Character Creation and Point buy Costs\|Character Creation]] | 5-step character creation process, XP costs    |
 | [[3.1 Attributes\|Attributes]]                                    | 8 core attributes, progression thresholds      |
 | [[5. Skills\|Skills]]                                             | Complete skill list, attribute pairings        |
-| [[3.3 Downtime\|Downtime]]                                        | Downtime: training, resting, earning income    |
+| [[9.2 Downtime and Training\|Downtime]]                                        | Downtime: training, resting, earning income    |
 
 ---
 ## Combat
@@ -67,7 +67,7 @@ Core Rules Index: "*A skill-based fantasy tabletop role-playing game*"
 
 | Topic | Description |
 |-------|-------------|
-| [[3.2 HP And Wounds\|Health System]] | Stamina, Health, Max Wounds |
+| [[3.3 HP And Wounds\|Health System]] | Stamina, Health, Max Wounds |
 | [[4.1 Taking Damage\|Damage & Consequences]] | What happens when you take damage |
 | [[4.2 Wounds And Consequences\|Treatment & Recovery]] | First aid, surgery, healing |
 
@@ -81,19 +81,6 @@ Core Rules Index: "*A skill-based fantasy tabletop role-playing game*"
 | [[Design Philosophy\|Design Philosophy]] | Game design notes and rationale |
 
 ---
-
-## Quick Reference
-
-### Core Formula
-`Roll = 2d10 + Skill + Attribute + Bonuses/Penalties`
-
-### Advantage/Disadvantage
-- **Advantage:** 3d10, keep 2 highest
-- **Disadvantage:** 3d10, keep 2 lowest
-
-### Criticals
-Doubles on kept dice: Success → Critical Success, Failure → Critical Failure
-
 ### Action Economy
 - **Base:** 5 AP + 1 Reaction per turn
 - **Bonus AP:** +1 per 5 Mental/Physical attribute points
