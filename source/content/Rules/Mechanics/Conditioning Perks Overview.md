@@ -1,6 +1,6 @@
 Hit points can be increased through **Conditioning** perks - specialized training regimens that build both physical resilience and provide unique benefits at mastery.
 
-Conditioning perks are **leveled perks** found in `/Ruleset/Perks/CombatPerks/Conditioning/`. Each can be taken multiple times and provides both HP progression and a thematic capstone reward.
+Conditioning perks are **leveled perks** found in  Perks/CombatPerks/Conditioning.
 
 ## Available Conditioning Perks
 
@@ -17,7 +17,7 @@ Conditioning perks are **leveled perks** found in `/Ruleset/Perks/CombatPerks/Co
 ## Progression
 
 - **Cost:** Max_Wounds × level XP
-- **Levels 1-4:** Gain +1 HP per level
+- **Levels 1-4:** Gain Level of perk HP (1 instance) 
 - **Level 5:** Consolidates into +1 Max_Wounds AND grants capstone effect
   - The new wound operates like all others (gains full armor and endurance bonuses)
   - Capstone effects vary by conditioning type (see individual perk descriptions)
