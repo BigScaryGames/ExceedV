@@ -60,7 +60,7 @@
   - **Shield:** Shield Block reaction (damage reduction on failed blocks)
   - **Brawling:** 2 AP and 3 AP unarmed attacks (supplementary)
   - **Polearms:** Ready strikes cost -1 AP (defensive stance)
-  - **Axes:** Overswing (Reaction: +2 vs Block defense when declared)
+  - **Axes:** Overswing (Reaction: +2 vs Deflect defense when declared, -2 to attackers defends till the start of next turn)
   - **Thrown:** Skirmisher's Strike (Step back as part of thrown attack, once per turn)
   - **Bows:** Learn Aim action (works with all ranged weapons)
   - **Impact:** Shoving Strike (+1 AP; on hit target rolls Endure or shoved 1m/2m on crit)
@@ -112,25 +112,25 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 - **Surprise/Ambush:** Coordinated initiative, stunned targets lose 3 AP
 
 ### Defenses
-- **Parry:** Martial Domain + Agility/Dexterity
-- **Block:** Shield Domain + Agility/Endurance/Might (also: magical barriers, natural armor, some monsters)
+- **Deflect:** Martial + Agility/Dexterity/Might (based on weapon type) + Equipment Defense bonus
 - **Dodge:** Agility + Perception
-- **Endure:** Endurance + Will
+- **Resolve:** Will + Charisma
+- **Endure:** Endurance + Might
 
 ### Combat Resolution Sequence (v0.5)
 1. **Attacker declares activity:** "I swing at you"
-2. **Defender declares defense type:** "I Block/Dodge/Parry/Endure"
+2. **Defender declares defense type:** "I Deflect/Dodge/Resolve/Endure"
 3. **Attacker declares pre-roll boosts:** Spending reactions, stances, abilities
 4. **Defender declares pre-roll boosts and reactions:** Defensive abilities, buffs
 5. **Both roll**
 6. **Resolve outcome**
 
 ### Defense Applications by Attack Type
-- **Strike:** Parry, Block, Dodge (melee, touch spells)
-- **Projectile:** Block, Dodge (arrows, ranged spells)
-- **Burst:** Dodge only (explosions, AoE)
-- **Mental:** Endure (fear, charm, mind control)
-- **Physical:** Endure (poison, disease, exhaustion)
+- **Strike:** Deflect, Dodge (melee, touch spells)
+- **Projectile:** Dodge, Deflect (with shield or perks)
+- **Burst:** Dodge (Deflect with perks)
+- **Mind:** Resolve (fear, charm, mind control)
+- **Body:** Endure (poison, disease, exhaustion)
 
 ### Attacks & Damage
 - **Weapon Stats:** Agility for all, Heavy allows Might, Finesse allows Dexterity
@@ -187,12 +187,12 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 ## Traits System
 
 ### Defense Traits
-- **#Strike:** Block, Parry, Dodge
-- **#Projectile:** Block, Dodge (Parry with perks)
-- **#Burst:** Dodge (Block/Parry with perks)
-- **#Mind:** Endure
+- **#Strike:** Deflect, Dodge
+- **#Projectile:** Dodge, Deflect (with shield or perks)
+- **#Burst:** Dodge (Deflect with perks)
+- **#Mind:** Resolve
 - **#Body:** Endure
-- **#Defend:** Generic trait for all defensive actions (Block, Parry, Dodge, Endure) - used for buffs like "All in Defense"
+- **#Defend:** Generic trait for all defensive actions (Deflect, Dodge, Resolve, Endure) - used for buffs like "All in Defense"
 
 ### Effect Types
 - **#Boon:** Beneficial effects
@@ -232,12 +232,12 @@ Conditions are stored in `/source/content/Rules/References/Conditions/` and defi
 - **Blessed:** Next roll at advantage
 
 ### Situational Conditions
-- **Prone:** Disadvantage on Martial Domain (attacks, Parry, Block). Advantage on Dodge/Endure vs #Projectile and #Burst. Cannot Step/Stride/Run - only Crawl or Stand Up.
+- **Prone:** Disadvantage on Martial Domain (attacks, Deflect). Advantage on Dodge/Resolve/Endure vs #Projectile and #Burst. Cannot Step/Stride/Run - only Crawl or Stand Up.
 - **Grabbed:** -2 to attacking/manipulating, intricate actions at disadvantage, no reach weapons vs grappler. Grappler releases free; grappled must Escape.
 - **Off-Guard:** -1 to defend against attacks. Applied by effects like Flanked.
 - **Blinded:** All sight-reliant checks are Screwed (1d10).
 - **Dazzled:** All sight-reliant checks at disadvantage.
-- **Unconscious:** Block/Parry/Dodge are Screwed, Perception at disadvantage.
+- **Unconscious:** Deflect/Dodge are Screwed, Perception at disadvantage.
 
 ### Rest Conditions
 - **Fatigued X:** -X to all rolls, -2X to exploration/downtime. At Fatigue 4, unconscious.
@@ -369,7 +369,7 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 ### Finding Core Mechanics
 - **Dice System:** Search `2d10`, `advantage`, `disadvantage`, `doubles`
 - **Attributes:** Search `Perception`, `Will`, `Charisma`, `Wit`, `Might`, `Endurance`, `Agility`, `Dexterity`
-- **Combat:** Search `AP`, `action points`, `initiative`, `parry`, `block`, `dodge`, `endure`
+- **Combat:** Search `AP`, `action points`, `initiative`, `deflect`, `dodge`, `resolve`, `endure`
 - **Magic:** Search `Limit`, `spellcraft`, `persistent`, `active spell`
 
 ### Finding Specific Rules
@@ -488,7 +488,7 @@ Flavor text
 
 **Mechanic tags** (in ability/effect file):
 - `#Strike`, `#Projectile`, `#Burst`, `#Reaction`
-- `#Passive`, `#Dodge`, `#Parry`, `#Block`, `#Endure`
+- `#Passive`, `#Dodge`, `#Deflect`, `#Endure`, `#Resolve`
 - `#Damage`, `#Healing`, `#Buff`, `#Debuff`
 - `#AoE`, `#Melee`, `#Ranged`, `#Movement`
 - dont put random tags where they don't belong.

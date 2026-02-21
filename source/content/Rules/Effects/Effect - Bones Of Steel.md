@@ -1,4 +1,4 @@
 Increase the damage die of your Punch and Kick attacks by 1.
-You can parry weapon strikes using your limbs. 
+You can deflect weapon strikes without a weapon. 
 
-**Tags:** #Passive #Body #Parry
+**Tags:** #Passive #Body #Deflect 

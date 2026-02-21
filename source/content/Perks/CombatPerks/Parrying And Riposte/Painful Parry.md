@@ -4,7 +4,7 @@
 **Tags:** #Combat
 
 ## Description
-Counter-attack with light weapon after critical parry success.
+Counter-attack with light weapon after critical deflect success.
 
 ## Grants
 

@@ -4,7 +4,7 @@
 **Tags:** #Combat
 
 ## Description
-Parry with a bow without risking breaking it.
+Deflect with a bow without risking breaking it.
 
 ## Grants
 

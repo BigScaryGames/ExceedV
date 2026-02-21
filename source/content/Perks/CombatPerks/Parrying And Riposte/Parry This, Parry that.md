@@ -4,7 +4,7 @@
 **Tags:** #Combat
 
 ## Description
-Parry magical effects and protect those behind you.
+Deflect magical effects and protect those behind you.
 
 ## Grants
 

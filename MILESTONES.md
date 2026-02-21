@@ -14,6 +14,13 @@ Milestone 5 - Get it playable.
 - [x] Prone/Crawl/Stand
 - [ ] 
 - [ ] polish perks for playing
+Code updates
+1. Remove rules,
+2. update the folders
+3. Remake the defenses
+4. next
+
+
 
 Milestone 6. - content update, editing.
 

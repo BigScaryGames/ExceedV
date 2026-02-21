@@ -4,7 +4,7 @@
 **Tags:** #Combat
 
 ## Description
-Parry ranged physical attacks with melee weapons.
+Deflect ranged physical attacks with melee weapons.
 
 ## Grants
 

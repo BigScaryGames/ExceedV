@@ -4,7 +4,7 @@
 **Tags:** #Combat 
 
 ## Description
-Strike with both weapons, but second misses if first is blocked.
+Strike with both weapons, but second misses if first is deflected.
 
 ## Grants
 

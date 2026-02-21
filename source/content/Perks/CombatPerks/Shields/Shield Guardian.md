@@ -4,7 +4,7 @@
 **Tags:** #Combat #Shield
 
 ## Description
-Block attacks targeting adjacent allies instead of them.
+Deflect attacks targeting adjacent allies instead of them.
 
 ## Grants
 

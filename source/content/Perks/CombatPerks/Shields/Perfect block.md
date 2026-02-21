@@ -4,7 +4,7 @@
 **Tags:** #Combat #Shield
 
 ## Description
-Make attacker off-guard after critical block success.
+Make attacker off-guard after critical deflect with a shield.
 
 ## Grants
 

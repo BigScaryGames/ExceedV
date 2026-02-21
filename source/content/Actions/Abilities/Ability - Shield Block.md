@@ -1,6 +1,6 @@
 **AP Cost:** R
 
-**Trigger:** You fail at a Block defense, but haven't applied damage yet.
+**Trigger:** You fail at a Deflect with a Shield, but haven't applied damage yet.
 **Effect:** Reduce the damage by Shield Negation.
 
-**Tags:** #Reaction #Block
+**Tags:** #Deflect #Block

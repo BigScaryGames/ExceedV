@@ -4,7 +4,7 @@
 **Tags:** #Combat
 
 ## Description
-Preroll your next Parry or Dodge defenses using foresight.
+Preroll your next Defense using foresight.
 
 You read your opponent's attack patterns, predicting where the strike will come before it's thrown.
 

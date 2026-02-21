@@ -2,7 +2,7 @@
 Medical skill check against Treatment DC
 - **Trained:** 4 actions to perform
 - **Untrained:** 3 rounds, cannot be performed during combat
-- *Note: Exiting combat to perform first aid prevents dodging, blocking, and parrying*
+- *Note: Exiting combat to perform first aid prevents dodging, and deflecting*
 - **Effect:** Stops bleeding, prevents or delays escalation
 
 ### Treat Wounds

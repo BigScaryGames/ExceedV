@@ -1,5 +1,5 @@
 **AP Cost:** R
 
-When critically succeeding on a Parry defense against a melee attack, make a free light weapon strike as a reaction.
+When critically succeeding deflecting against a melee attack, make a free light weapon strike as a reaction.
 
-**Tags:** #Reaction #Parry #Strike
+**Tags:** #Reaction #Deflect #Strike
