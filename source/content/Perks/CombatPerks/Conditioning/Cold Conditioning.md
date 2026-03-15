@@ -3,17 +3,15 @@
 **Cost:** Variable (Max_Wounds × level)
 **Tags:** #Combat #Conditioning #Leveled
 
+## Short Description
+Adapt to extreme cold through exposure; at mastery thrive in freezing environments.
+
+## Grants by Stage
+- **Stage 1:** ![[Effect - Extra HP 1]]
+- **Stage 2:** ![[Effect - Extra HP 2]]
+- **Stage 3:** ![[Effect - Extra HP 3]]
+- **Stage 4:** ![[Effect - Extra HP 4]]
+- **Stage 5:** ![[Effect - Cold Conditioning]] + ![[Effect - Extra Wound]]
+
 ## Description
-Adapt to extreme cold through exposure; at mastery thrive in frigid environments.
-
-Whether through necessity or deliberate training, you've spent extensive time in freezing conditions. Your body has learned to conserve heat more efficiently, your blood flows better in cold temperatures, and you've developed techniques for maintaining function when others would succumb to hypothermia. Ice baths, winter survival training, or years in arctic climates have transformed your relationship with cold. At mastery, you move through blizzards as easily as others walk through spring rain.
-
-## Grants
-
-**Levels 1-4:**
-![[Effect - Extra HP]]
-
-**Level 5 (Capstone):**
-![[Effect - Cold Conditioning]]
-
-When this conditioning reaches level 5, it consolidates into +1 Max_Wounds and grants the capstone effect.
+Through arctic expeditions, ice swimming, winter survival training, or deliberate cold exposure, your body has adapted to function in temperatures that would incapacitate others. You have learned to conserve heat, prevent frostbite, and maintain dexterity when cold threatens to freeze your muscles. Whether from polar exploration, ice fishing, or systematic cold shower training, your tolerance for cold has been forged through experience. At mastery, you move through blinding blizzards as comfortably as others enjoy a crisp autumn day.
