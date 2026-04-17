@@ -13,7 +13,7 @@ Empower weapons with magic for extra damage
 
 ## Advanced Version
 **Limit Cost:** Self 0 / Party 1
-**Effect:** Weapons of your allies deal +1 damage
+**Effect:** Weapons of your allies deal +1 damage 
 
 ## Description
 [Flavor text to be written]

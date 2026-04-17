@@ -15,3 +15,4 @@ Bind target with magical chains to restrict movement
 [Flavor text to be written]
 
 **Duration:** 3 rounds
+

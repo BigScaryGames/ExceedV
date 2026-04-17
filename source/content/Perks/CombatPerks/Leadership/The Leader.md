@@ -7,5 +7,4 @@
 Lead your team's resistance against fear effects.
 
 ## Grants
-
 ![[Ability - The Leader]]
