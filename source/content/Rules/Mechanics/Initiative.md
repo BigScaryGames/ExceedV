@@ -1,5 +1,4 @@
 **Standard Encounters:** Initiative = 2d10 + Perception
-- Reflects awareness, reaction time, and mental preparedness when combat begins unexpectedly.
 
 **Ambushes or Prepared Battles:** When initiating an ambush, you can roll relevant skills for said ambush.
 

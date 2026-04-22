@@ -26,7 +26,7 @@ Milestone 6. - content update, editing.
 
 - [ ]  Skill perks - enough for 1-3 tiers. at least 100 overall skill perks
 - [ ] Disadvantage Perks
-- [ ] Negative stats
+- [x] Negative stats
 - [ ] Skill actions like [[Deduce]]
 - [ ]  Combat perks adjustment.
 - [x] Move/Step/Run - reactions on moving outside range and inside range fix.

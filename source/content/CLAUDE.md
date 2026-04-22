@@ -36,15 +36,13 @@
 1. **Concept:** Name and character concept
 2. **Starting XP:** GM awards Combat XP and Skill XP separately
 3. **Spend XP:** Skills, perks, spells (each shows which attributes benefit)
-4. **Calculate Bonus Actions:** Every 5 Mental/Physical attribute points = +1 action of that type
+4. **Calculate AP:** Base 5 AP + Domain Tiers (Martial/Spellcraft)
 5. **Starting Gear:** Equipment and final statistics
 
 ### Attribute System
 - **8 Core Attributes:** Perception, Will, Charisma, Wit, Might, Endurance, Agility, Dexterity
 - **Cannot buy directly:** Only increase through skills/abilities
 - **Threshold Progression:** 10/30/60/100/150 points = +1 to attribute
-- **Mental Actions:** Every 5 total Mental attributes = +1 Mental AP
-- **Physical Actions:** Every 5 total Physical attributes = +1 Physical AP
 
 ### Skill Progression
 - **Regular Skills:** 2/+4/+6/+8/+10 XP per level
@@ -107,7 +105,7 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 
 ### Action Economy
 - **Base:** 5 AP + 1 Reaction per turn
-- **Reaction Usage:** Reduces next turn's AP by 1
+- **Domain AP:** Each Tier in Martial provides 1 AP usable with #combat abilities. Each Tier in Spellcraft provides 1 AP usable with #spellcraft abilities.
 - **Initiative:** 2d10 + Perception
 - **Surprise/Ambush:** Coordinated initiative, stunned targets lose 3 AP
 
@@ -232,9 +230,9 @@ Conditions are stored in `/source/content/Rules/References/Conditions/` and defi
 - **Blessed:** Next roll at advantage
 
 ### Situational Conditions
-- **Prone:** Disadvantage on Martial Domain (attacks, Deflect). Advantage on Dodge/Resolve/Endure vs #Projectile and #Burst. Cannot Step/Stride/Run - only Crawl or Stand Up.
+- **Prone:** Disadvantage on Martial Domain (attacks, Deflect). Advantage on Dodge/Resolve/Endure vs #Projectile and #Burst. Movement speed reduced to 1.
 - **Grabbed:** -2 to attacking/manipulating, intricate actions at disadvantage, no reach weapons vs grappler. Grappler releases free; grappled must Escape.
-- **Off-Guard:** -1 to defend against attacks. Applied by effects like Flanked.
+- **Off-Guard:** -1 to defend against attacks.
 - **Blinded:** All sight-reliant checks are Screwed (1d10).
 - **Dazzled:** All sight-reliant checks at disadvantage.
 - **Unconscious:** Deflect/Dodge are Screwed, Perception at disadvantage.
@@ -265,12 +263,11 @@ Conditions are stored in `/source/content/Rules/References/Conditions/` and defi
 
 ## Key Actions
 
-### Movement (1 AP each)
-- **Step:** 1m, no reactions provoked
-- **Stride:** Speed/2 rounded up
-- **Run:** Full speed (after striding)
-- **Crawl:** Move 1m while prone (1 AP)
-- **Stand Up:** Remove Prone condition (2 AP)
+### Movement
+- **Engage:** 1 AP - Enter a skirmish within a zone
+- **Disengage:** 1 AP - Leave a skirmish without provoking reactions
+- **Stride:** Variable AP - Move between zones (Cost = ceil((Distance × Multiplier) / Speed))
+- **Stand Up:** 2 AP - Remove Prone condition
 
 ### Combat Actions
 - **Basic Attack:** 2-4 AP based on weapon weight
@@ -312,6 +309,7 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 - `source/content/Rules/3.1 Attributes.md` - 8-attribute system
 - `source/content/Rules/3.2 Perks and Flaws.md` - Perks and flaws system
 - `source/content/Rules/3.3 HP And Wounds.md` - Dual HP pools, wound system
+- `source/content/Rules/4.0 Lines and Zones.md` - Zone-based movement and positioning system
 - `source/content/Rules/4. Combat Conflict Resolution.md` - Action economy, attacks, defenses
 - `source/content/Rules/4.1 Taking Damage.md` - Damage application
 - `source/content/Rules/4.2 Wounds And Consequences.md` - Wound effects, treatment
@@ -336,6 +334,7 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 
 **Subfolders:**
 - `source/content/Rules/Mechanics/` - Embeddable mechanic files (Action Points, Initiative, Recovery Rules, etc.)
+- `source/content/Rules/Lines And Zones/` - Zone effects (Skirmish, Crowded, etc.)
 - `source/content/Rules/Actions/` - Individual action definitions (Movement/, Combat/, Social/, Support/, Abilities/)
 - `source/content/Rules/References/` - Reference tables (Bonus Types, Defense Traits, Downtime Quality, Rank System, Effects/, Conditions/)
 - `source/content/Rules/Design Philosophy.md` - Design notes and rationale
@@ -392,7 +391,7 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 - **Specific Skill:** Search skill name in File 5 or related perk files
 - **Combat Mechanics:** Files 4.x, search `strike`, `projectile`, `burst`, `mental`, `physical`
 - **Equipment Rules:** Files 7.x, search weapon/armor names or `encumbrance`
-- **Movement:** File 9, search `speed`, `step`, `stride`, `run`
+- **Movement:** File 4.0 and 9, search `zone`, `line`, `engage`, `disengage`, `stride`
 
 ### Trait and Tag Searches
 - **Defense Traits:** Search `#Strike`, `#Projectile`, `#Burst`, `#Mind`, `#Body`, `#Defend`

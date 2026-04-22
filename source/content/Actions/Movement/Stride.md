@@ -1,4 +1,4 @@
-**AP Cost:** 1
+**AP Cost:** Varies
 **Traits:** #Move
 
-Move up to Speed meters, rounded up.
+Attempt to move between zones.
