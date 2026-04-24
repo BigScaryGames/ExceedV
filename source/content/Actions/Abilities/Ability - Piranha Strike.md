@@ -1,4 +1,4 @@
-When striking a flanked or off-guard target with a Light weapon, you may take a penalty to your attack roll to increase your weapon damage die.
+When striking an off-guard target with a Light weapon, you may take a penalty to your attack roll to increase your weapon damage die.
 
 | Penalty | Damage Die Increase           |
 | ------- | ----------------------------- |

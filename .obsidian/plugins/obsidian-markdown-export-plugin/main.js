@@ -275,12 +275,12 @@ var import_obsidian3 = require("obsidian");
 var path3 = __toESM(require("path"));
 
 // src/config.ts
-var ATTACHMENT_URL_REGEXP = /!\[\[((.*?)\.(\w+))(?:\s*\|\s*(?<width>\d+)\s*(?:[*|x]\s*(?<height>\d+))?)?\]\]/g;
+var ATTACHMENT_URL_REGEXP = /!\[\[((.*?)\.(\w+))(?:\s*\|\s*(?<width>\d+%?)\s*(?:[*|x]\s*(?<height>\d+%?))?)?\]\]/g;
 var MARKDOWN_ATTACHMENT_URL_REGEXP = /!\[(.*?)\]\(((.*?)\.(\w+))\)/g;
 var EMBED_URL_REGEXP = /!\[\[([\s\S]*?)\]\]/g;
 var EMBED_METADATA_REGEXP = /^---(?:\n|\r\n)[\s\S]*?(?:\n|\r\n)---(?:\n|\r\n)?/;
 var GFM_IMAGE_FORMAT = "![]({0})";
-var OUTGOING_LINK_REGEXP = /(?<!!)\[\[(.*?)\]\]/g;
+var OUTGOING_LINK_REGEXP = /(?<!!)\[\[(?:[^|\]]*\|)?(?<alias>[^\]]+)\]\]/g;
 var DEFAULT_SETTINGS = {
   output: "output",
   attachment: "attachment",
@@ -293,8 +293,41 @@ var DEFAULT_SETTINGS = {
   customAttachPath: "",
   relAttachPath: true,
   convertWikiLinksToMarkdown: false,
-  removeYamlHeader: false
+  removeYamlHeader: false,
+  inlineBlockEmbeds: false,
+  textExportBulletPointMap: {
+    0: "\u25CF",
+    4: "\uFFEE",
+    8: "\uFFED",
+    12: "\u25BA",
+    16: "\u2022"
+  },
+  textExportCheckboxUnchecked: "\u2610",
+  textExportCheckboxChecked: "\u2611"
 };
+function resolvePathVariables(pathTemplate, fileName = "", vaultName = "") {
+  const now = new Date();
+  const pad = (num, len = 2) => String(num).padStart(len, "0");
+  const variables = {
+    fileName: fileName.replace(/\.[^/.]+$/, "").replace(/[/\\]/g, ""),
+    date: `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`,
+    time: `${pad(now.getHours())}-${pad(now.getMinutes())}-${pad(now.getSeconds())}`,
+    datetime: `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}-${pad(now.getHours())}-${pad(now.getMinutes())}-${pad(now.getSeconds())}`,
+    timestamp: String(now.getTime()),
+    year: String(now.getFullYear()),
+    month: pad(now.getMonth() + 1),
+    day: pad(now.getDate()),
+    hour: pad(now.getHours()),
+    minute: pad(now.getMinutes()),
+    second: pad(now.getSeconds()),
+    vaultName
+  };
+  let result = pathTemplate;
+  for (const [key, value] of Object.entries(variables)) {
+    result = result.replace(new RegExp(`{{${key}}}`, "g"), value);
+  }
+  return result;
+}
 
 // src/utils.ts
 var path2 = __toESM(require("path"));
@@ -330,6 +363,57 @@ async function getImageLinks(markdown) {
 async function getEmbeds(markdown) {
   const embeds = markdown.matchAll(EMBED_URL_REGEXP);
   return Array.from(embeds);
+}
+function getFilesWithTag(plugin, tag) {
+  const normalizedTag = tag.startsWith("#") ? tag : `#${tag}`;
+  const filesWithTag = [];
+  const markdownFiles = plugin.app.vault.getMarkdownFiles();
+  for (const file of markdownFiles) {
+    const cache = plugin.app.metadataCache.getFileCache(file);
+    if (cache) {
+      if (hasTag(cache, normalizedTag)) {
+        filesWithTag.push(file);
+      }
+    }
+  }
+  return filesWithTag;
+}
+function hasTag(cache, tag) {
+  if (cache.frontmatter && cache.frontmatter.tags) {
+    const frontmatterTags = cache.frontmatter.tags;
+    if (Array.isArray(frontmatterTags)) {
+      for (const t of frontmatterTags) {
+        if (typeof t === "string" && tagsMatch(t, tag)) {
+          return true;
+        }
+      }
+    } else if (typeof frontmatterTags === "string") {
+      const tags = frontmatterTags.split(",").map((t) => t.trim());
+      for (const t of tags) {
+        if (tagsMatch(t, tag)) {
+          return true;
+        }
+      }
+    }
+  }
+  if (cache.tags) {
+    for (const tagObj of cache.tags) {
+      if (tagObj.tag && tagsMatch(tagObj.tag, tag)) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+function tagsMatch(fileTag, searchTag) {
+  const normalizedFileTag = fileTag.startsWith("#") ? fileTag : `#${fileTag}`;
+  if (normalizedFileTag === searchTag) {
+    return true;
+  }
+  if (normalizedFileTag.startsWith(searchTag + "/")) {
+    return true;
+  }
+  return false;
 }
 function allMarkdownParams(file, out, outputFormat = "Markdown" /* MD */, outputSubPath = ".", parentPath = "") {
   try {
@@ -370,6 +454,24 @@ async function tryRun(plugin, file, outputFormat = "Markdown" /* MD */) {
       throw error;
     }
   }
+}
+async function tryRunBatch(plugin, files, outputFormat = "Markdown" /* MD */) {
+  const result = { success: 0, failed: 0, errors: [] };
+  for (const file of files) {
+    try {
+      const params = allMarkdownParams(file, [], outputFormat, ".");
+      for (const param of params) {
+        await tryCopyMarkdownByRead(plugin, param);
+      }
+      result.success++;
+    } catch (error) {
+      result.failed++;
+      const errorMsg = `Failed to export ${file.path}: ${error.message}`;
+      result.errors.push(errorMsg);
+      console.error(errorMsg);
+    }
+  }
+  return result;
 }
 function getResourceOsPath(plugin, resouorce) {
   if (resouorce === null) {
@@ -433,6 +535,8 @@ async function tryCopyImage(plugin, filename, contentPath) {
   try {
     await plugin.app.vault.adapter.read(contentPath).then(async (content) => {
       const imageLinks = await getImageLinks(content);
+      const vaultName = plugin.app.vault.getName();
+      const fileNameWithoutExt = filename.replace(/\.[^/.]+$/, "");
       for (const index in imageLinks) {
         const urlEncodedImageLink = imageLinks[index][7 - imageLinks[index].length];
         let imageLink = decodeURI(urlEncodedImageLink).replace(/\.\.\//g, "");
@@ -440,14 +544,18 @@ async function tryCopyImage(plugin, filename, contentPath) {
           imageLink = imageLink.split("|")[0];
         }
         const fileName = path2.parse(path2.basename(imageLink)).name;
-        const imageLinkMd5 = plugin.settings.fileNameEncode ? (0, import_md5.default)(imageLink) : fileName;
+        const imageLinkMd5 = plugin.settings.fileNameEncode ? (0, import_md5.default)(imageLink) : encodeURI(fileName);
         const imageExt = path2.extname(imageLink);
         const ifile = plugin.app.metadataCache.getFirstLinkpathDest(imageLink, contentPath);
         const filePath = ifile !== null ? ifile.path : path2.join(path2.dirname(contentPath), imageLink);
         if (urlEncodedImageLink.startsWith("http")) {
           continue;
         }
-        const targetPath = path2.join(plugin.settings.relAttachPath ? plugin.settings.output : plugin.settings.attachment, plugin.settings.includeFileName ? filename.replace(".md", "") : "", plugin.settings.relAttachPath ? plugin.settings.attachment : "", imageLinkMd5.concat(imageExt)).replace(/\\/g, "/");
+        const resolvedAttachPath = resolvePathVariables(plugin.settings.attachment, fileNameWithoutExt, vaultName);
+        const targetPath = path2.join(plugin.settings.relAttachPath ? plugin.settings.output : resolvedAttachPath, plugin.settings.includeFileName ? fileNameWithoutExt : "", plugin.settings.relAttachPath ? resolvedAttachPath : "", imageLinkMd5.concat(imageExt)).replace(/\\/g, "/");
+        if (filePath === targetPath) {
+          continue;
+        }
         try {
           if (!fileExists(targetPath)) {
             if (plugin.settings.output.startsWith("/") || path2.win32.isAbsolute(plugin.settings.output)) {
@@ -468,30 +576,224 @@ async function tryCopyImage(plugin, filename, contentPath) {
     }
   }
 }
+async function getHeadingContent(plugin, filePath, heading) {
+  try {
+    const file = plugin.app.vault.getAbstractFileByPath(filePath);
+    if (!(file instanceof import_obsidian2.TFile)) {
+      return null;
+    }
+    const content = await plugin.app.vault.cachedRead(file);
+    const lines = content.split("\n");
+    const normalizedTarget = heading.toLowerCase().trim();
+    let startIndex = -1;
+    let headingLevel = 0;
+    for (let i = 0; i < lines.length; i++) {
+      const headingMatch = lines[i].match(/^(#{1,6})\s+(.+)$/);
+      if (headingMatch) {
+        const level = headingMatch[1].length;
+        const text = headingMatch[2].toLowerCase().trim();
+        if (text === normalizedTarget) {
+          startIndex = i;
+          headingLevel = level;
+          break;
+        }
+      }
+    }
+    if (startIndex === -1) {
+      return null;
+    }
+    let endIndex = lines.length;
+    for (let i = startIndex + 1; i < lines.length; i++) {
+      const nextHeadingMatch = lines[i].match(/^(#{1,6})\s/);
+      if (nextHeadingMatch) {
+        const nextLevel = nextHeadingMatch[1].length;
+        if (nextLevel <= headingLevel) {
+          endIndex = i;
+          break;
+        }
+      }
+    }
+    const headingLines = lines.slice(startIndex, endIndex);
+    return headingLines.join("\n");
+  } catch (error) {
+    console.error("Error getting heading content:", error);
+    return null;
+  }
+}
+async function getEmbedContentFromSource(plugin, embedLink, currentPath) {
+  const parsed = parseEmbedLink(embedLink, currentPath);
+  if (!parsed.filePath) {
+    return null;
+  }
+  try {
+    const file = plugin.app.vault.getAbstractFileByPath(parsed.filePath);
+    if (!(file instanceof import_obsidian2.TFile)) {
+      return null;
+    }
+    let content = await plugin.app.vault.cachedRead(file);
+    if (parsed.blockId) {
+      const blockContent = await getBlockContent(plugin, parsed.filePath, parsed.blockId);
+      if (plugin.settings.removeYamlHeader && blockContent) {
+        return blockContent.replace(EMBED_METADATA_REGEXP, "");
+      }
+      return blockContent;
+    }
+    if (parsed.heading) {
+      const headingContent = await getHeadingContent(plugin, parsed.filePath, parsed.heading);
+      if (plugin.settings.removeYamlHeader && headingContent) {
+        return headingContent.replace(EMBED_METADATA_REGEXP, "");
+      }
+      return headingContent;
+    }
+    if (plugin.settings.removeYamlHeader) {
+      content = content.replace(EMBED_METADATA_REGEXP, "");
+    }
+    return content;
+  } catch (error) {
+    console.error("Error getting embed content from source:", error);
+    return null;
+  }
+}
 async function getEmbedMap(plugin, content, path4) {
   const embedMap = /* @__PURE__ */ new Map();
-  const embedList = Array.from(document.documentElement.getElementsByClassName("internal-embed"));
-  Array.from(embedList).forEach((el) => {
-    const embedContentHtml = el.getElementsByClassName("markdown-embed-content")[0];
-    if (embedContentHtml) {
-      let embedValue = (0, import_obsidian2.htmlToMarkdown)(embedContentHtml.innerHTML);
-      if (plugin.settings.removeYamlHeader) {
-        embedValue = embedValue.replace(EMBED_METADATA_REGEXP, "");
-      }
-      embedValue = "> " + embedValue.replaceAll("# \n\n", "# ").replaceAll("\n", "\n> ");
-      const embedKey = el.getAttribute("src");
-      embedMap.set(embedKey, embedValue);
+  const embeds = await getEmbeds(content);
+  for (const embedMatch of embeds) {
+    const embedLink = embedMatch[1];
+    const rawContent = await getEmbedContentFromSource(plugin, embedLink, path4);
+    if (rawContent !== null) {
+      const embedValue = "> " + rawContent.replaceAll("# \n\n", "# ").replaceAll("\n", "\n> ");
+      embedMap.set(embedLink, embedValue);
     }
-  });
+  }
   return embedMap;
+}
+async function getBlockContent(plugin, filePath, blockId) {
+  try {
+    const file = plugin.app.vault.getAbstractFileByPath(filePath);
+    if (!(file instanceof import_obsidian2.TFile)) {
+      return null;
+    }
+    const content = await plugin.app.vault.cachedRead(file);
+    const metadata = plugin.app.metadataCache.getFileCache(file);
+    if (!metadata || !metadata.blocks) {
+      return null;
+    }
+    const block = metadata.blocks[blockId];
+    if (!block) {
+      return null;
+    }
+    const lines = content.split("\n");
+    const startLine = block.position.start.line;
+    const endLine = block.position.end.line;
+    if (startLine >= lines.length) {
+      return null;
+    }
+    const blockLines = lines.slice(startLine, endLine + 1);
+    let blockContent = blockLines.join("\n");
+    blockContent = blockContent.replace(/\s*\^([a-zA-Z0-9]+)\s*$/, "");
+    return blockContent;
+  } catch (error) {
+    console.error("Error getting block content:", error);
+    return null;
+  }
+}
+function parseEmbedLink(embedLink, currentPath) {
+  const blockMatch = embedLink.match(/^(.*?)#?\^([a-zA-Z0-9]+)$/);
+  if (blockMatch) {
+    const [, filePart, blockId] = blockMatch;
+    let filePath = filePart;
+    if (filePart && filePart.trim()) {
+      const currentDir = currentPath.substring(0, currentPath.lastIndexOf("/"));
+      filePath = currentDir ? `${currentDir}/${filePart}` : filePart;
+      if (!filePath.endsWith(".md")) {
+        filePath += ".md";
+      }
+    } else {
+      filePath = currentPath;
+    }
+    return { filePath, blockId, heading: null };
+  }
+  const headingMatch = embedLink.match(/^(.*?)#([^#]+)$/);
+  if (headingMatch) {
+    const [, filePart, heading] = headingMatch;
+    let filePath = filePart || currentPath;
+    if (filePart && filePart.trim()) {
+      const currentDir = currentPath.substring(0, currentPath.lastIndexOf("/"));
+      filePath = currentDir ? `${currentDir}/${filePart}` : filePart;
+      if (!filePath.endsWith(".md")) {
+        filePath += ".md";
+      }
+    }
+    return { filePath, blockId: null, heading };
+  }
+  if (embedLink.trim()) {
+    const currentDir = currentPath.substring(0, currentPath.lastIndexOf("/"));
+    let filePath = currentDir ? `${currentDir}/${embedLink}` : embedLink;
+    if (!filePath.endsWith(".md")) {
+      filePath += ".md";
+    }
+    return { filePath, blockId: null, heading: null };
+  }
+  return { filePath: null, blockId: null, heading: null };
+}
+function convertMarkdownToText(plugin, markdown) {
+  let text = markdown;
+  text = text.replace(/- \[ \]/g, plugin.settings.textExportCheckboxUnchecked);
+  text = text.replace(/- \[x\]/g, plugin.settings.textExportCheckboxChecked);
+  const lines = text.split("\n");
+  const processedLines = lines.map((line) => {
+    var _a;
+    const leadingWhitespace = ((_a = line.match(/^(\s*)/)) == null ? void 0 : _a[0]) || "";
+    if (line.trim().startsWith("- ")) {
+      const trimmedLine = line.trim();
+      const normalizedIndent = leadingWhitespace.replace(/\t/g, "    ");
+      const indentationLevel = Math.floor(normalizedIndent.length / 4);
+      let bulletPointSymbol = plugin.settings.textExportBulletPointMap[indentationLevel * 4];
+      if (!bulletPointSymbol) {
+        switch (indentationLevel) {
+          case 0:
+            bulletPointSymbol = plugin.settings.textExportBulletPointMap[0] || "\u25CF";
+            break;
+          case 1:
+            bulletPointSymbol = plugin.settings.textExportBulletPointMap[4] || "\uFFEE";
+            break;
+          case 2:
+            bulletPointSymbol = plugin.settings.textExportBulletPointMap[8] || "\uFFED";
+            break;
+          case 3:
+            bulletPointSymbol = plugin.settings.textExportBulletPointMap[12] || "\u25BA";
+            break;
+          case 4:
+            bulletPointSymbol = plugin.settings.textExportBulletPointMap[16] || "\u2022";
+            break;
+          default: {
+            const levels = Object.keys(plugin.settings.textExportBulletPointMap).map(Number).sort((a, b) => a - b);
+            if (levels.length > 0) {
+              const deepestLevel = levels[levels.length - 1];
+              bulletPointSymbol = plugin.settings.textExportBulletPointMap[deepestLevel] || "\u2022";
+            } else {
+              bulletPointSymbol = "\u2022";
+            }
+          }
+        }
+      }
+      return leadingWhitespace + bulletPointSymbol + " " + trimmedLine.slice(2);
+    }
+    return line;
+  });
+  return processedLines.join("\n");
 }
 async function tryCopyMarkdownByRead(plugin, { file, outputFormat, outputSubPath = "." }) {
   try {
     await plugin.app.vault.adapter.read(file.path).then(async (content) => {
       var _a;
       const imageLinks = await getImageLinks(content);
+      const vaultName = plugin.app.vault.getName();
+      const fileNameWithoutExt = file.name.replace(/\.[^/.]+$/, "");
+      const resolvedAttachPath = resolvePathVariables(plugin.settings.attachment, fileNameWithoutExt, vaultName);
+      const resolvedCustomAttachPath = plugin.settings.customAttachPath ? resolvePathVariables(plugin.settings.customAttachPath, fileNameWithoutExt, vaultName) : plugin.settings.customAttachPath;
       if (imageLinks.length > 0) {
-        await tryCreateFolder(plugin, path2.join(plugin.settings.relAttachPath ? plugin.settings.output : plugin.settings.attachment, plugin.settings.includeFileName ? file.name.replace(".md", "") : "", plugin.settings.relAttachPath ? plugin.settings.attachment : ""));
+        await tryCreateFolder(plugin, path2.join(plugin.settings.relAttachPath ? plugin.settings.output : resolvedAttachPath, plugin.settings.includeFileName ? file.name.replace(".md", "") : "", plugin.settings.relAttachPath ? resolvedAttachPath : ""));
       }
       for (const index in imageLinks) {
         const rawImageLink = imageLinks[index][0];
@@ -504,13 +806,19 @@ async function tryCopyMarkdownByRead(plugin, { file, outputFormat, outputSubPath
         const imageLinkMd5 = plugin.settings.fileNameEncode ? (0, import_md5.default)(imageLink) : encodeURI(fileName);
         const imageExt = path2.extname(imageLink);
         const clickSubRoute = getClickSubRoute(outputSubPath);
-        const hashLink = path2.join(clickSubRoute, plugin.settings.relAttachPath ? plugin.settings.attachment : path2.join(plugin.settings.customAttachPath ? plugin.settings.customAttachPath : plugin.settings.attachment, plugin.settings.includeFileName ? file.name.replace(".md", "") : ""), imageLinkMd5.concat(imageExt)).replace(/\\/g, "/");
+        const baseAttachPath = plugin.settings.relAttachPath ? resolvedAttachPath : path2.join(resolvedCustomAttachPath ? resolvedCustomAttachPath : resolvedAttachPath, plugin.settings.includeFileName ? file.name.replace(".md", "") : "");
+        const hashLink = path2.join(clickSubRoute, baseAttachPath, imageLinkMd5.concat(imageExt)).replace(/\\/g, "/");
         if (urlEncodedImageLink.startsWith("http")) {
           continue;
         }
         if (plugin.settings.displayImageAsHtml) {
           const { width = null, height = null } = ((_a = imageLinks[index]) == null ? void 0 : _a.groups) || {};
-          const style = width && height ? ` style='width: {${width}}px; height: ${height}px;'` : width ? ` style='width: ${width}px;'` : height ? ` style='height: ${height}px;'` : "";
+          const formatSize = (value) => {
+            if (!value)
+              return "";
+            return value.includes("%") ? value : `${value}px`;
+          };
+          const style = width && height ? ` style='width: ${formatSize(width)}; height: ${formatSize(height)};'` : width ? ` style='width: ${formatSize(width)};'` : height ? ` style='height: ${formatSize(height)};'` : "";
           content = content.replace(rawImageLink, `<img src="${hashLink}"${style} />`);
         } else if (plugin.settings.GFM) {
           content = content.replace(rawImageLink, GFM_IMAGE_FORMAT.format(hashLink));
@@ -521,20 +829,31 @@ async function tryCopyMarkdownByRead(plugin, { file, outputFormat, outputSubPath
       if (plugin.settings.removeOutgoingLinkBrackets) {
         content = content.replaceAll(OUTGOING_LINK_REGEXP, "$1");
       }
+      const embedMap = await getEmbedMap(plugin, content, file.path);
+      const embeds = await getEmbeds(content);
+      for (const index in embeds) {
+        const embedMatch = embeds[index];
+        const fullMatch = embedMatch[0];
+        const embedLink = embedMatch[1];
+        let replacement = embedMap.get(embedLink);
+        if (replacement === void 0 && plugin.settings.inlineBlockEmbeds) {
+          const parsed = parseEmbedLink(embedLink, file.path);
+          if (parsed.blockId && parsed.filePath) {
+            const blockContent = await getBlockContent(plugin, parsed.filePath, parsed.blockId);
+            if (blockContent !== null) {
+              replacement = "> " + blockContent.replace(/\n/g, "\n> ");
+            }
+          }
+        }
+        if (replacement !== void 0) {
+          content = content.replace(fullMatch, replacement);
+        }
+      }
       if (plugin.settings.convertWikiLinksToMarkdown) {
         content = content.replace(/\[\[(.*?)\]\]/g, (match, linkText) => {
           const encodedLink = encodeURIComponent(linkText);
           return `[${linkText}](${encodedLink})`;
         });
-      }
-      const cfile = plugin.app.workspace.getActiveFile();
-      if (cfile != void 0) {
-        const embedMap = await getEmbedMap(plugin, content, cfile.path);
-        const embeds = await getEmbeds(content);
-        for (const index in embeds) {
-          const url = embeds[index][1];
-          content = content.replace(embeds[index][0], embedMap.get(url));
-        }
       }
       await tryCopyImage(plugin, file.name, file.path);
       const outDir = path2.join(plugin.settings.output, plugin.settings.customFileName != "" || plugin.settings.includeFileName && plugin.settings.relAttachPath ? file.name.replace(".md", "") : "", outputSubPath);
@@ -563,6 +882,18 @@ async function tryCopyMarkdownByRead(plugin, { file, outputFormat, outputSubPath
           await tryCreate(plugin, targetFile, content);
           break;
         }
+        case "Text" /* TEXT */: {
+          let filename;
+          if (plugin.settings.customFileName) {
+            filename = plugin.settings.customFileName + ".md";
+          } else {
+            filename = file.name;
+          }
+          const targetFile = path2.join(outDir, filename.replace(".md", ".txt"));
+          const textContent = convertMarkdownToText(plugin, content);
+          await tryCreate(plugin, targetFile, textContent);
+          break;
+        }
       }
     });
   } catch (error) {
@@ -573,6 +904,81 @@ async function tryCopyMarkdownByRead(plugin, { file, outputFormat, outputSubPath
 }
 
 // src/main.ts
+var TagInputModal = class extends import_obsidian3.Modal {
+  constructor(app2, onSubmit) {
+    super(app2);
+    this.onSubmit = onSubmit;
+  }
+  onOpen() {
+    const { contentEl } = this;
+    contentEl.createEl("h2", { text: "Export notes by tag" });
+    contentEl.createEl("p", {
+      text: "Enter the tag to export (e.g. 'blog' or '#blog')"
+    });
+    const inputContainer = contentEl.createDiv();
+    this.inputEl = inputContainer.createEl("input", {
+      type: "text",
+      placeholder: "blog"
+    });
+    this.inputEl.style.width = "100%";
+    this.inputEl.style.padding = "8px";
+    this.inputEl.style.marginTop = "10px";
+    this.errorEl = contentEl.createEl("p", {
+      text: "Please enter a tag",
+      cls: "mod-warning"
+    });
+    this.errorEl.style.marginTop = "10px";
+    this.errorEl.style.display = "none";
+    const buttonContainer = contentEl.createDiv({
+      cls: "modal-button-container"
+    });
+    buttonContainer.style.marginTop = "20px";
+    buttonContainer.style.display = "flex";
+    buttonContainer.style.justifyContent = "flex-end";
+    buttonContainer.style.gap = "10px";
+    const cancelButton = buttonContainer.createEl("button", {
+      text: "Cancel",
+      cls: "mod-cancel"
+    });
+    cancelButton.addEventListener("click", () => this.close());
+    const submitButton = buttonContainer.createEl("button", {
+      text: "Export",
+      cls: "mod-cta"
+    });
+    submitButton.addEventListener("click", () => {
+      const tag = this.inputEl.value.trim();
+      if (tag) {
+        this.errorEl.style.display = "none";
+        this.onSubmit(tag);
+        this.close();
+      } else {
+        this.errorEl.style.display = "block";
+      }
+    });
+    this.inputEl.addEventListener("keypress", (e) => {
+      if (e.key === "Enter") {
+        const tag = this.inputEl.value.trim();
+        if (tag) {
+          this.errorEl.style.display = "none";
+          this.onSubmit(tag);
+          this.close();
+        } else {
+          this.errorEl.style.display = "block";
+        }
+      }
+    });
+    this.inputEl.addEventListener("input", () => {
+      if (this.inputEl.value.trim()) {
+        this.errorEl.style.display = "none";
+      }
+    });
+    setTimeout(() => this.inputEl.focus(), 10);
+  }
+  onClose() {
+    const { contentEl } = this;
+    contentEl.empty();
+  }
+};
 var MarkdownExportPlugin = class extends import_obsidian3.Plugin {
   async onload() {
     await this.loadSettings();
@@ -580,7 +986,11 @@ var MarkdownExportPlugin = class extends import_obsidian3.Plugin {
     this.registerEvent(this.app.workspace.on("file-menu", (menu, file) => {
       this.registerDirMenu(menu, file);
     }));
-    for (const outputFormat of ["Markdown" /* MD */, "HTML" /* HTML */]) {
+    for (const outputFormat of [
+      "Markdown" /* MD */,
+      "HTML" /* HTML */,
+      "Text" /* TEXT */
+    ]) {
       this.addCommand({
         id: "export-to-" + outputFormat,
         name: `Export to ${outputFormat}`,
@@ -594,9 +1004,46 @@ var MarkdownExportPlugin = class extends import_obsidian3.Plugin {
         }
       });
     }
+    for (const outputFormat of [
+      "Markdown" /* MD */,
+      "HTML" /* HTML */,
+      "Text" /* TEXT */
+    ]) {
+      this.addCommand({
+        id: "export-by-tag-to-" + outputFormat,
+        name: `Export notes by tag to ${outputFormat}`,
+        callback: async () => {
+          this.exportByTag(outputFormat);
+        }
+      });
+    }
+  }
+  async exportByTag(outputFormat) {
+    new TagInputModal(this.app, async (tag) => {
+      const trimmedTag = tag.trim();
+      const files = getFilesWithTag(this, trimmedTag);
+      if (files.length === 0) {
+        new import_obsidian3.Notice(`No files found with tag '${trimmedTag}'`);
+        return;
+      }
+      new import_obsidian3.Notice(`Exporting ${files.length} file(s) with tag '${trimmedTag}' to ${outputFormat}...`);
+      const result = await tryRunBatch(this, files, outputFormat);
+      if (result.failed === 0) {
+        new import_obsidian3.Notice(`Successfully exported ${result.success} file(s) with tag '${trimmedTag}' to ${outputFormat}`);
+      } else {
+        new import_obsidian3.Notice(`Exported ${result.success} file(s), ${result.failed} failed. Check console for details.`);
+        for (const error of result.errors) {
+          console.error(error);
+        }
+      }
+    }).open();
   }
   registerDirMenu(menu, file) {
-    for (const outputFormat of ["Markdown" /* MD */, "HTML" /* HTML */]) {
+    for (const outputFormat of [
+      "Markdown" /* MD */,
+      "HTML" /* HTML */,
+      "Text" /* TEXT */
+    ]) {
       const addMenuItem = (item) => {
         item.setTitle(`Export to ${outputFormat}`);
         item.onClick(async () => {
@@ -631,12 +1078,17 @@ var MarkdownExportSettingTab = class extends import_obsidian3.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    containerEl.createEl("h2", { text: "Markdown Export" });
+    containerEl.createEl("h1", { text: "Obsidian Markdown Export" });
+    containerEl.createEl("p", { text: "Created by " }).createEl("a", {
+      text: "bingryan \u{1F913}",
+      href: "https://github.com/bingryan"
+    });
+    containerEl.createEl("h3", { text: "Baisc Setting" });
     new import_obsidian3.Setting(containerEl).setName("Output Path").setDesc("default directory for one-click export").addText((text) => text.setPlaceholder("Enter default output path").setValue(this.plugin.settings.output).onChange(async (value) => {
       this.plugin.settings.output = value;
       await this.plugin.saveSettings();
     }));
-    new import_obsidian3.Setting(containerEl).setName("Attachment Path (optional)").setDesc("attachment path, relative to the output path").addText((text) => text.setPlaceholder("Enter attachment path").setValue(this.plugin.settings.attachment).onChange(async (value) => {
+    new import_obsidian3.Setting(containerEl).setName("Attachment Path (optional)").setDesc("attachment path, relative to the output path. Supports variables: {{fileName}}, {{date}}, {{time}}, {{datetime}}, {{timestamp}}, {{year}}, {{month}}, {{day}}, {{hour}}, {{minute}}, {{second}}, {{vaultName}}. Example: 'images/{{date}}' becomes 'images/2024-12-06'").addText((text) => text.setPlaceholder("Enter attachment path").setValue(this.plugin.settings.attachment).onChange(async (value) => {
       this.plugin.settings.attachment = value;
       await this.plugin.saveSettings();
     }));
@@ -676,8 +1128,49 @@ var MarkdownExportSettingTab = class extends import_obsidian3.PluginSettingTab {
       this.plugin.settings.convertWikiLinksToMarkdown = value;
       await this.plugin.saveSettings();
     }));
+    new import_obsidian3.Setting(containerEl).setName("Inline Block Embeds").setDesc("If enabled, block embeds like ![[#^blockid]] will be replaced with the actual block content. If disabled, block embeds will be preserved as-is (may not work in exported markdown).").addToggle((toggle) => toggle.setValue(this.plugin.settings.inlineBlockEmbeds).onChange(async (value) => {
+      this.plugin.settings.inlineBlockEmbeds = value;
+      await this.plugin.saveSettings();
+    }));
     new import_obsidian3.Setting(containerEl).setName("Remove YAML Metadata Header").setDesc("If enabled, the YAML metadata header will be removed from embedded files when exporting.").addToggle((toggle) => toggle.setValue(this.plugin.settings.removeYamlHeader).onChange(async (value) => {
       this.plugin.settings.removeYamlHeader = value;
+      await this.plugin.saveSettings();
+    }));
+    containerEl.createEl("h3", { text: "Export Text Setting" });
+    containerEl.createEl("h6", { text: "Bullet Point Symbols" });
+    containerEl.createEl("p", {
+      text: "Configure symbols for different indentation levels of bullet points."
+    });
+    new import_obsidian3.Setting(containerEl).setName("Level 0 Bullet Point").setDesc("Symbol for top-level bullet points").addText((text) => text.setPlaceholder("\u25CF").setValue(this.plugin.settings.textExportBulletPointMap[0] || "\u25CF").onChange(async (value) => {
+      this.plugin.settings.textExportBulletPointMap[0] = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian3.Setting(containerEl).setName("Level 1 Bullet Point").setDesc("Symbol for first-level indented bullet points (4 spaces)").addText((text) => text.setPlaceholder("\uFFEE").setValue(this.plugin.settings.textExportBulletPointMap[4] || "\uFFEE").onChange(async (value) => {
+      this.plugin.settings.textExportBulletPointMap[4] = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian3.Setting(containerEl).setName("Level 2 Bullet Point").setDesc("Symbol for second-level indented bullet points (8 spaces)").addText((text) => text.setPlaceholder("\uFFED").setValue(this.plugin.settings.textExportBulletPointMap[8] || "\uFFED").onChange(async (value) => {
+      this.plugin.settings.textExportBulletPointMap[8] = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian3.Setting(containerEl).setName("Level 3 Bullet Point").setDesc("Symbol for third-level indented bullet points (12 spaces)").addText((text) => text.setPlaceholder("\u25BA").setValue(this.plugin.settings.textExportBulletPointMap[12] || "\u25BA").onChange(async (value) => {
+      this.plugin.settings.textExportBulletPointMap[12] = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian3.Setting(containerEl).setName("Level 4 Bullet Point").setDesc("Symbol for fourth-level indented bullet points (16 spaces)").addText((text) => text.setPlaceholder("\u2022").setValue(this.plugin.settings.textExportBulletPointMap[16] || "\u2022").onChange(async (value) => {
+      this.plugin.settings.textExportBulletPointMap[16] = value;
+      await this.plugin.saveSettings();
+    }));
+    containerEl.createEl("h6", { text: "Checkbox Symbols" });
+    containerEl.createEl("p", {
+      text: "Configure symbols for checkboxes."
+    });
+    new import_obsidian3.Setting(containerEl).setName("Unchecked Checkbox").setDesc("Symbol for unchecked checkboxes").addText((text) => text.setPlaceholder("\u2610").setValue(this.plugin.settings.textExportCheckboxUnchecked || "\u2610").onChange(async (value) => {
+      this.plugin.settings.textExportCheckboxUnchecked = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian3.Setting(containerEl).setName("Checked Checkbox").setDesc("Symbol for checked checkboxes").addText((text) => text.setPlaceholder("\u2611").setValue(this.plugin.settings.textExportCheckboxChecked || "\u2611").onChange(async (value) => {
+      this.plugin.settings.textExportCheckboxChecked = value;
       await this.plugin.saveSettings();
     }));
   }

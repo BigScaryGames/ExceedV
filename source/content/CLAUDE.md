@@ -1,6 +1,6 @@
 # ExceedV TTXPG Core Rules Reference
 
-> **Version Status:** Milestone 5 (v0.5) in progress
+> **Version Status:** Milestone 6 (v0.6) in progress - Lines and Zones transition
 > See `/MILESTONES.md` for roadmap through v1.0
 
 ## Game Overview
@@ -115,6 +115,21 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 - **Resolve:** Will + Charisma
 - **Endure:** Endurance + Might
 
+### Combat Resolution Sequence (v0.6)
+1. **Attacker declares activity:** "I swing at you"
+2. **Defender declares defense type:** "I Deflect/Dodge/Resolve/Endure"
+3. **Attacker declares pre-roll boosts:** Spending reactions, stances, abilities
+4. **Defender declares pre-roll boosts and reactions:** Defensive abilities, buffs
+5. **Both roll**
+6. **Resolve outcome**
+
+### Movement System (v0.6)
+- **Lines and Zones:** Primary positioning system. Zones are abstract areas (rooms, squares, etc.). Lines connect zones with distance stats.
+- **Skirmishes:** Groups in melee range within a zone. Engage all targets in a skirmish with one action.
+- **Numeric Advantage:** -1 to deflect/dodge per disadvantage in skirmish (capped at -4). 4+ allies = no disadvantage (back-to-back).
+- **Reach Weapons:** Attack without entering skirmish, count for numeric advantage.
+- **Ranged Attacks:** Range increment = ceil(Total Distance / Weapon Range). Same skirmish = point blank.
+
 ### Combat Resolution Sequence (v0.5)
 1. **Attacker declares activity:** "I swing at you"
 2. **Defender declares defense type:** "I Deflect/Dodge/Resolve/Endure"
@@ -212,7 +227,7 @@ Conditions are stored in `/source/content/Rules/References/Conditions/` and defi
 ### Duration Presets
 1. **One-Time Use** - Next qualifying action (luck effects, feint Off-Guard)
 2. **End of Turn** - Fades at turn end (Shaken, Flash Blinded)
-3. **Until Removed** - Source specifies removal (Grabbed, Off-Guard while flanked, Dazzled until cleared)
+3. **Until Removed** - Source specifies removal (Grabbed, Off-Guard while prone, Dazzled until cleared)
 
 ### Enhancement Conditions (Attribute Modifiers)
 - **Grace X:** ±X to Agility/Dexterity rolls
