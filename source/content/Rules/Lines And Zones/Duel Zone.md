@@ -1,0 +1,2 @@
+#Zonal #effect
+Duel zones are ones that can hold only 2 combatants of opposing factions in a skirmish. Trying to pass through will require a check of GMs specification (TBD MS8-9, for now a check with defender having +4, or a free attack with no defense). 

@@ -1,11 +1,9 @@
-# Melee Attack
-
 **AP Cost:** 2-4 (based on weapon weight)
 **Traits:** #Attack 
 
 **Roll:** Martial + Attribute vs defense
 
-Attack a target in melee range with your weapon. You may step 1 meter toward the enemy as part of this action.
+Attack a target in the Skirmish. 
 
 | Weapon Weight | AP Cost |
 |---------------|---------|

@@ -1,6 +1,6 @@
-**AP Cost:** 4
+**AP Cost:** -1
 **Requirement:** You are holding non-light melee weapon.
 
-Make a melee strike against adjacent targets within your reach. Resolve strikes one after another. Roll attack and damage once.
+Make a melee strike 2 targets within skirmish. Resolve strikes one after another. Roll attack and damage once.
 
 **Tags:** #Strike #AoE

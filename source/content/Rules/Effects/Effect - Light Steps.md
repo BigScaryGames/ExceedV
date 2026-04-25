@@ -1,1 +1,1 @@
-While Unencumbered, make a Step as part of your first attack each turn. You can Step before or after the strike.
+While Unencumbered, engage as a part of an attack.

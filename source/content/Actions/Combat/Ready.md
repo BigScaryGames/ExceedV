@@ -18,7 +18,7 @@ Most combat readying is obvious to observers - you've summoned a ball of fire an
 
 ## Examples
 
-- **Ready a strike:** Spend weapon AP, trigger "when enemy enters reach," execute strike as Reaction
+- **Ready a strike:** Spend weapon AP, trigger "when enemy enters zone," execute strike as Reaction
 - **Ready a spell:** Spend spell AP, trigger "when ally falls below half HP," cast spell as Reaction
 - **Ready movement:** Spend movement AP, trigger "when enemy charges," move as Reaction
 

@@ -1,5 +1,4 @@
 **AP Cost:** +2
-
-Climb up your weapon, jump and strike all enemies in a line (length = reach + 1).
+Disengage, engage a different skirmish attacking up to 3 targets.
 
 **Tags:** #Strike #AoE

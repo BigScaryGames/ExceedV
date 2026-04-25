@@ -2,6 +2,6 @@ You are lying on the ground.
 
 - **Disadvantage** on all Martial checks (Attack, Deflect)
 - **Advantage** on Dodge and Endure defenses against #Projectile and #Burst attacks
-- **Movement:** Cannot [[Disengage]], [[Stride]], or [[Run]]. You can only [[Crawl]] or [[Stand Up]]
+- **Movement:** Cannot [[Disengage]], [[Move]], or [[Run]]. You can only [[Crawl]] or [[Stand Up]]
 
 **Tags:** #Condition

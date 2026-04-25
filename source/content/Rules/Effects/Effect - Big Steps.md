@@ -1,1 +1,1 @@
-While Unencumbered, you can Stride up to your full Speed instead of half.
+While Unencumbered, entering a new zone you can engage without spending an AP.

@@ -14,14 +14,14 @@ Core Rules Index: "*A skill-based fantasy tabletop role-playing game*"
 ---
 ## Combat
 
-| Topic | Description |
-|-------|-------------|
+| Topic                                           | Description                                   |
+| ----------------------------------------------- | --------------------------------------------- |
 | [[4. Combat Conflict Resolution\|Combat Rules]] | Action economy, initiative, attacks, defenses |
-| [[9. Movement and Distance\|Movement]] | Speed calculation, movement actions |
-| [[11. Actions\|Actions]] | Combat, social, and support actions |
-| [[4.3 Conditions\|Conditions]] | Status effects and their mechanics |
-| [[4.1 Taking Damage\|Taking Damage]] | Damage application, consequences |
-| [[4.2 Wounds And Consequences\|Wounds]] | Wound system, treatment, recovery |
+| [[4.0 Lines and Zones\|Lines and Zones]]        | How the space, movement and alike work.       |
+| [[11. Actions\|Actions]]                        | Combat, social, and support actions           |
+| [[4.3 Conditions\|Conditions]]                  | Status effects and their mechanics            |
+| [[4.1 Taking Damage\|Taking Damage]]            | Damage application, consequences              |
+| [[4.2 Wounds And Consequences\|Wounds]]         | Wound system, treatment, recovery             |
 
 ---
 

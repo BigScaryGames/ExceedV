@@ -1,5 +1,5 @@
 **AP Cost:** R
 
-When an enemy strides or runs out of your reach, make a free strike as a reaction before they leave their space.
+When an enemy attempts to leave the skirmish without disengaging first, make a free strike as a reaction before they leave their space.
 
 **Tags:** #Reaction #Strike

@@ -1,1 +1,2 @@
-While Unencumbered, your first Stride each turn doesn't trigger reactions (except readied actions).
+While Unencumbered, you get +4 to dodge against reactions for leaving a skirmish without disengagment.
+
