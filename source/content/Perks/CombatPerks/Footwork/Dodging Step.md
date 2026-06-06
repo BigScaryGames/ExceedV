@@ -3,7 +3,7 @@
 **Cost:** 8 XP
 **Tags:** #Combat 
 ## Description
-Step freely when you successfully dodge a melee attack.
+Disengage after dodging a melee attack.
 
 ## Grants
 

@@ -1,7 +1,7 @@
 **AP Cost:** R
 
 **Trigger:** You successfully Dodge a melee attack.
-
-While Unencumbered, you may move to any space adjacent to the attacker. You are Hidden until the end of your next turn or until you attack.
+**Req**: You are unencumbered,
+Attempt a stealth check against your attacker's perception with -5. On success you are [[Condition - Hidden| Hidden]].
 
 **Tags:** #Reaction #Dodge #Movement #Stealth

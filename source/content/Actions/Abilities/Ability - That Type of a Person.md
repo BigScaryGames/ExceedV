@@ -1,5 +1,9 @@
 **AP Cost:** R
 
-When an ally is downed within your zone and an adjacent zone you can reach in 1 turn, move to that space as a free action. This movement doesn't provoke reactions. When you stand on your downed ally's space you enter whatever skirmish they are in, and all offensive actions including AOE directed at the ally are directed at you instead. You can't leave the ally until the end of combat or until the ally loses the unconscious condition.
+When an ally is downed within your or an adjacent zone within 2 Action reach, move to that space as a free action and enter the skirmish in place of the incapacitated ally. 
+All checks - including defend - required to reach the destination are rolled with an advantage.
+
+
+All offensive actions - including AOE - directed at the ally are directed at you instead. You can't leave the ally until the end of combat or until the ally is no longer incapacitated.
 
 **Tags:** #Reaction #Move 

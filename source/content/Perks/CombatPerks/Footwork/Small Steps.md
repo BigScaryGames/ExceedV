@@ -3,7 +3,7 @@
 **Cost:** 5 XP
 **Tags:** #Combat 
 ## Description
-Your first Stride doesn't trigger reactions.
+You are adept at leaving without declarations.
 
 ## Grants
 
