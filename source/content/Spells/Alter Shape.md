@@ -1,7 +1,8 @@
 **Tier:** 1
 **Type:** Basic/Advanced
-**AP Cost:** 1m
+**AP Cost:** 1 minute (out of combat)
 **Attributes:** CH/PR
+**Base Target/Range:** Self (Advanced: you and allies in your zone)
 **Traits:** #Spell #Attuned #Boon #Transformation #Illusion
 
 ## Short Description

@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** -
 **Attributes:** WT/CH
+**Base Target/Range:** Appliances in your zone
 **Traits:** #Spell #Attuned #Manipulation
 
 ## Short Description

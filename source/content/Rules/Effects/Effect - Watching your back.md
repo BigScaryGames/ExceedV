@@ -1,3 +1,3 @@
-While adjacent to you, your allies are immune to numerical disadvantage in skirmishes. Because you always are watching their backs.
+Allies in your skirmish are immune to numerical disadvantage. Because you always are watching their backs.
 
 **Tags:** #Passive #Team #Defense 

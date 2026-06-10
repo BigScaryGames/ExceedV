@@ -24,7 +24,7 @@
 |------|----------|--------|
 | 61-66 | Head 2 | -2 to mental actions |
 | 67-72 | Sensory 2 | -4 to Perception checks until healed |
-| 73-78 | Limb 2 | Movement reduced to 1m per action, -3 to dodge OR can't use the broken arm |
+| 73-78 | Limb 2 | [[Engage]] and [[Disengage]] cost 3 AP and Speed is reduced to 1, -3 to dodge OR can't use the broken arm |
 | 79-84 | Internal 2 | -2 AP per turn |
 | 85-90 | Torso 2 | -3 to physical actions, -2 to Endure checks |
 

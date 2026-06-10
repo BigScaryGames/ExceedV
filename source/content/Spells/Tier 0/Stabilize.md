@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** 5
 **Attributes:** WL/DX
+**Base Target/Range:** 1 ally in your skirmish
 **Traits:** #Spell #Healing
 
 ## Short Description

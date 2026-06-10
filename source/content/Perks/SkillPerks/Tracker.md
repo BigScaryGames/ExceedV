@@ -6,7 +6,7 @@
 ## Description
 Tracking is your second nature.
 
-You have honed your skills in reading the subtle signs left by creatures passing through the wilderness, and can do so while maintaining normal movement speed without sacrificing accuracy.
+You have honed your skills in reading the subtle signs left by creatures passing through the wilderness, and can do so while maintaining normal travel pace without sacrificing accuracy.
 
 ## Grants
 

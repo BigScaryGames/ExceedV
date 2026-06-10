@@ -3,7 +3,7 @@
 **Cost:** 10 XP
 **Tags:** #Combat 
 ## Description
-Strike enemies as they retreat from your reach.
+Strike enemies as they leave your skirmish without disengaging.
 
 ## Grants
 

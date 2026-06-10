@@ -4,7 +4,7 @@
 **Tags:** #Combat #Shield
 
 ## Description
-Allow adjacent allies to hide behind you and your heavy shield.
+Allow allies in your skirmish to hide behind you and your heavy shield.
 
 ## Grants
 

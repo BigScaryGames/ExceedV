@@ -9,9 +9,9 @@ All human characters start with:
 - **5 HP Per Wound**
 ## Formulas
 
-| Pool           | Formula                              |
-| -------------- | ------------------------------------ |
-| **Stamina**    | (Armor + Endurance) × Max Wounds     |
-| **Health**     | HP Per Wound × Max Wounds + Extra HP |
-| **Total HP**   | Stamina + Health                     |
-| **Max Wounds** | 2+ full Conditioning Perks           |
+| Pool           | Formula                                       |
+| -------------- | --------------------------------------------- |
+| **Stamina**    | (Armor + Endurance) × Max Wounds              |
+| **Health**     | HP Per Wound × Max Wounds (+ bonuses from effects) |
+| **Total HP**   | Stamina + Health                              |
+| **Max Wounds** | 2, +1 per completed Conditioning perk line    |

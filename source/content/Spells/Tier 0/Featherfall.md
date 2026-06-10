@@ -2,6 +2,7 @@
 **Type:** Basic/Advanced
 **AP Cost:** R/1
 **Attributes:** EN/DX
+**Base Target/Range:** 1 target in your zone (Advanced: multiple targets in your zone)
 **Traits:** #Spell #Boon #Protection
 
 ## Short Description

@@ -3,7 +3,7 @@
 **Cost:** 5 XP
 **Tags:** #Combat 
 ## Description
-Step as part of your first attack each turn.
+Engage as part of an attack while unencumbered.
 
 ## Grants
 

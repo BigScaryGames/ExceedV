@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** 2
 **Attributes:** WL/PR
+**Base Target/Range:** 1 object in your zone
 **Traits:** #Spell #Manipulation
 
 ## Short Description
@@ -9,7 +10,7 @@ Telekinetic manipulation of small objects
 
 ## Basic Version
 **Limit Cost:** -
-**Effect:** 2kg max, 10m range, 2 meters per AP, hard to aim to drop things
+**Effect:** 2kg max; move the object within your zone, moving it to a connected zone costs 1 AP; hard to aim to drop things
 
 ## Description
 [Flavor text to be written]

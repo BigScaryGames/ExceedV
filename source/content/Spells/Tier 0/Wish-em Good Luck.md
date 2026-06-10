@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** 2
 **Attributes:** WL/CH
+**Base Target/Range:** 1 ally in your zone
 **Traits:** #Spell #Boon #Luck 
 
 ## Short Description

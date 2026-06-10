@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** 5
 **Attributes:** CH/WT
+**Base Target/Range:** 1 target in your zone
 **Traits:** #Spell #Bane #Body
 
 ## Short Description

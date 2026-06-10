@@ -6,6 +6,8 @@
 
 **Modifiers:** Spells, abilities, and circumstances can provide bonuses to initiative rolls.
 
+All actors are considered outside skirmishes at the start of the combat unless the zone is crowded, or a group is declared to be in a tight formation. (note from GM, not always good, considering Skirmish size offensive spells)
+
 **Delaying:** Done before the beginning of your turn to a predetermined point, only once per round. All beginning/end of turn effects are delayed with your action.
 
 ![[Surprise Rounds]]

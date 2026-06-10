@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** 1
 **Attributes:** AG/MG
+**Base Target/Range:** Self
 **Traits:** #Spell #Conjuration
 
 ## Short Description

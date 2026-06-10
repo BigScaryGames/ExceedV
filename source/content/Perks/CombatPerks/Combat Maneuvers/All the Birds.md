@@ -4,7 +4,7 @@
 **Tags:** #Combat 
 
 ## Description
-Strike all targets within reach simultaneously.
+Strike all targets in your skirmish simultaneously.
 
 ## Grants
 

@@ -2,10 +2,11 @@
 **Type:** Advanced
 **AP Cost:** -
 **Attributes:** CH/EN
+**Base Target/Range:** Allies in your zone
 **Traits:** #Spell #Attuned #Boon #Enhancement 
 
 ## Short Description
-Increase team movement speed
+Increase team Speed
 
 ## Advanced Version
 **Limit Cost:** 1

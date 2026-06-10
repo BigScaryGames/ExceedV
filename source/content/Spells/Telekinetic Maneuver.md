@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** 3
 **Attributes:** MG/WL
+**Base Target/Range:** 1 target in your zone
 **Traits:** #Spell #Manipulation #Offensive #Strike
 
 ## Short Description

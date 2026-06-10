@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** -
 **Attributes:** WL/EN
+**Base Target/Range:** Self
 **Traits:** #Spell #Attuned #Boon #Protection #Conjuration 
 
 ## Short Description

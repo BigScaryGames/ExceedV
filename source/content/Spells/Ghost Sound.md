@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** 2
 **Attributes:** CH
+**Base Target/Range:** Your zone or one zone you can see
 **Traits:** #Spell #Illusion
 
 ## Short Description

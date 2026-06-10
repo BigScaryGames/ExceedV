@@ -61,7 +61,7 @@
   - **Axes:** Overswing (Reaction: +2 vs Deflect defense when declared, -2 to attackers defends till the start of next turn)
   - **Thrown:** Skirmisher's Strike (Step back as part of thrown attack, once per turn)
   - **Bows:** Learn Aim action (works with all ranged weapons)
-  - **Impact:** Shoving Strike (+1 AP; on hit target rolls Endure or shoved 1m/2m on crit)
+  - **Impact:** Shoving Strike (+1 AP, Impact or Unarmed; on hit target rolls Endure vs attack roll or is Shoved out of the skirmish)
 
 ### Combat Perk Trees (v0.5)
 Combat perks with 5+ interconnected requirements form perk trees organized into subfolders.
@@ -71,18 +71,20 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 **Weapon Trees (Complete):**
 - `WeaponTraining/` - 8 weapon category training perks (Ax, Blades, Bow, Brawling, Impact, Polearms, Shield, Thrown)
 - `Shields/` - Complete shield tree (9 perks: Shield Rush, Multipurpose Shield, Shield Warden, Perfect Block, Spell Guard, Shield Guardian, Behind the Shield Strike, The Wall, Guardian Aura)
-- `Archery/` - Complete archery tree (15 perks: Aim, Double Shot, Fast Archer, Tower, Hair Trigger, Mobile Draw, Tower Defender, Artillery, Spell Shot, Overpowered Draw, Close Quarters Shooter, Defensive Archer, Zen Archer, Don't Turn Your Back On Me, WIP: Ricochet Shot, Storm of Arrows)
-- `Footwork/` - Evasion and movement (8 perks: Footwork, Light Steps, Small Steps, Big Steps, Dodging Step, Elusive, Dodge-Roll, Dodge Behind Your Back)
+- `Archery/` - Complete archery tree (15 files: Double Shot, Fast Archer, Tower, Hair Trigger, Mobile Draw, Tower Defender, Artillery, Spell Shot, Overpowered Draw, Close Quarters Shooter, Defensive Archer, Zen Archer, Don't Turn Your Back On Me (Deprecated), WIP: Ricochet Shot, Storm of Arrows)
+- `Footwork/` - Evasion and movement (9 perks: Footwork, Light Steps, Small Steps, Big Steps, Dodging Step, Elusive, Dodge-Roll, Dodge Behind Your Back, Come and Get Me)
 - `Polearms/` - Polearm techniques (8 perks: Quarter-staff Adept, Walking Stick, Pointy Stick, Grip Switch, Spinning Staff, Monkey King Strike, Staff Acrobat, Spear Brothers)
 - `Parrying And Riposte/` - Defensive counter-attacks (5 perks: Parry This Parry That, Painful Parry, Repose This Repose That, Riposte, Projectile Parry)
 - `Dual Wielding/` - Two-weapon fighting (3 perks: Twin Parry, Double Strike, Ambidexterity)
+- `Wrestling/` - Grappling tree (8 perks: Takedown, Drag Along, Wrestler's Control, Iron Grip, Counter Grab, Weapon Thief, Chokehold, Throw)
 - `Blades/` - Blade-specific techniques (3 perks: Ready Hand, Long Knives, The Edgelord)
 - `Thrown/` - Thrown weapon techniques (2 perks: Throwing Hand, Throwing Distraction)
 
 **Other Categories:**
-- `Conditioning/` - HP progression perks (7 perks: Poison Resistance, Waterfall Training, Mental Resilience, Cold Conditioning, Heat Conditioning, Magical Conditioning, Battle Scarred)
-- `Combat Maneuvers/` - Universal combat techniques (7 perks: Calf Strike, Tripping Strike, Piranha Strike, Mighty Charge, Follow-Up Strike, Two Birds, All the Birds)
-- `Predictive/` - Experimental predictive combat system (6 files)
+- `Conditioning/` - HP progression perks (8 perks: Poison Resistance, Waterfall Training, Mental Resilience, Cold Conditioning, Heat Conditioning, Magical Conditioning, Battle Scarred, Bones of Steel)
+- `Combat Maneuvers/` - Universal combat techniques (10 perks: Calf Strike, Tripping Strike, Piranha Strike, Mighty Charge, Follow-Up Strike, Two Birds, All the Birds; Duelist line: Spend Some Time with You, Just the Two of Us, You and I)
+- `Shoving/` - Forced-movement strike line (4 perks: Herding Strike, Home Run, Bowling Strike, WIP Rocket Strike; builds on basic Shove action + Shoving Strike)
+- `Predictive/` - Experimental predictive combat system (6 files: Predicted Exchange, Predictive Defense, Predictive Strike, Reactive Prediction, WIP Predict A Perfect Ambush, WIP Predicted Duel)
 
 **Social/Universal (Loose files and folders):**
 - `Leadership/` - Social leadership perks (4 perks: The Aspiring Hero, The Leader, The Cult Inner Member, The Cult Leader)
@@ -92,7 +94,7 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 
 ### HP Pools
 - **Stamina:** (Armor + Endurance) × Max Wounds (depleted first)
-- **Health:** HP Per Wound × Max Wounds + Extra HP
+- **Health:** HP Per Wound × Max Wounds (+ bonuses from effects, e.g. Conditioning stages)
 - **Starting:** 2 Max Wounds, 5 HP Per Wound
 
 ### Increasing HP
@@ -126,17 +128,9 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 ### Movement System (v0.6)
 - **Lines and Zones:** Primary positioning system. Zones are abstract areas (rooms, squares, etc.). Lines connect zones with distance stats.
 - **Skirmishes:** Groups in melee range within a zone. Engage all targets in a skirmish with one action.
-- **Numeric Advantage:** -1 to deflect/dodge per disadvantage in skirmish (capped at -4). 4+ allies = no disadvantage (back-to-back).
+- **Numeric Advantage:** -1 to deflect/dodge per disadvantage in skirmish (capped at -4). With at least 3 allies in your skirmish (or counting as having 3), no numeric disadvantage (back-to-back).
 - **Reach Weapons:** Attack without entering skirmish, count for numeric advantage.
 - **Ranged Attacks:** Range increment = ceil(Total Distance / Weapon Range). Same skirmish = point blank.
-
-### Combat Resolution Sequence (v0.5)
-1. **Attacker declares activity:** "I swing at you"
-2. **Defender declares defense type:** "I Deflect/Dodge/Resolve/Endure"
-3. **Attacker declares pre-roll boosts:** Spending reactions, stances, abilities
-4. **Defender declares pre-roll boosts and reactions:** Defensive abilities, buffs
-5. **Both roll**
-6. **Resolve outcome**
 
 ### Defense Applications by Attack Type
 - **Strike:** Deflect, Dodge (melee, touch spells)
@@ -175,6 +169,14 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 | 3    | 7     | 10       | +30             |
 | 4    | 10    | 15       | +40             |
 | 5    | 15    | 25       | +50             |
+
+### Metamagic (v0.6)
+- Spell-modifying options granted by #Spellcraft #Metamagic perks (`Perks/MagicPerks/Metamagic/`); perk XP counts toward Spellcraft tiers like spells
+- Each application adds an AP surcharge and a casting DC surcharge (per-option); cap = Spellcraft tier per cast
+- #Attuned spells pay +1 Limit per application instead of DC
+- Grand Weaving (Spellcraft 3) removes the cap and allows multi-turn casting
+- Options: Reaching, Subtle, Lingering, Split, Widened, Empowered + Grand Weaving
+- Specializations (bonus inside/penalty outside): Mage of an Element, Inward Focus, Withering Focus
 
 ## Skills List
 
@@ -256,8 +258,12 @@ Conditions are stored in `/source/content/Rules/References/Conditions/` and defi
 - **Fatigued X:** -X to all rolls, -2X to exploration/downtime. At Fatigue 4, unconscious.
 - **Well Rested:** +1 to +3 to Downtime/Exploration until Fatigued or night's rest.
 
-### DOT Conditions (Musings)
-- Bleed X, Fragile X, Pinned X, Stunned X - to be defined
+### Damage Riders (no ticking DOTs — temp design v0.6)
+- No damage-over-time; lingering harm = front-loaded damage, one-time riders, or zone hazards (track the map, not tokens)
+- **Bleed X:** next movement action → take X, then clears (First Aid clears safely)
+- **Fragile X:** next damage instance +X, then clears
+- **Pinned X:** next movement action +X AP, or 1 AP to remove projectile
+- **Stunned X (defined):** Lose X AP at start of turn, no reactions until next turn; excess carries over
 
 ## Social Interactions
 
@@ -281,7 +287,7 @@ Conditions are stored in `/source/content/Rules/References/Conditions/` and defi
 ### Movement
 - **Engage:** 1 AP - Enter a skirmish within a zone
 - **Disengage:** 1 AP - Leave a skirmish without provoking reactions
-- **Stride:** Variable AP - Move between zones (Cost = ceil((Distance × Multiplier) / Speed))
+- **Move:** Variable AP - Move between zones (Cost = ceil((Distance × Multiplier) / Speed)), no partial movement
 - **Stand Up:** 2 AP - Remove Prone condition
 
 ### Combat Actions
@@ -289,6 +295,10 @@ Conditions are stored in `/source/content/Rules/References/Conditions/` and defi
 - **All in Defense:** 2 AP - Gain advantage on all #Defend actions until your next turn (requires no offensive action this turn)
 - **Grapple:** 3 AP - Attempt to grab opponent (Brawling + Might/Agility vs defense). On success, both gain Grabbed condition.
 - **Escape:** 1 AP - Attempt to break free from Grabbed condition (Athletics or Escape Artist vs grappler's Brawling)
+- **Disarm:** 2 AP - Martial + MG/DX vs target's weapon roll; -5 and free retaliation on failure unless target is Grabbed by you
+- **Trip:** 2 AP - Martial + MG/AG vs Endure; target Prone
+- **Shove:** 3 AP - Martial + MG vs Endure; target forced out of its skirmish (no damage, team tactic)
+- **Feint (WIP):** 1 AP - Martial + CH/DX vs Resolve; target Off-Guard vs your next attack
 - **Ready (v0.5):** Variable AP (activity cost) - prepare action with trigger, execute as Reaction
   - Examples: Ready strike, ready spell, ready movement
   - Most combat preparations are obvious to observers
@@ -317,9 +327,8 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 
 
 **Hub Files (numbered):**
-- `source/content/Rules/0.Index.md` - Navigation index
-- `source/content/Rules/1.0 Introduction.md` - Overview and introduction to ExceedV
-- `source/content/Rules/2. Basic Mechanics.md` - Dice system, check types (embeds from Mechanics/)
+- `source/content/Rules/1. Welcome to Exceed.md` - Overview and introduction to ExceedV
+- `source/content/Rules/2. Core Resolution System.md` - Dice system, check types (embeds from Mechanics/)
 - `source/content/Rules/3. Character Creation and Point buy Costs.md` - XP system, creation steps
 - `source/content/Rules/3.1 Attributes.md` - 8-attribute system
 - `source/content/Rules/3.2 Perks and Flaws.md` - Perks and flaws system
@@ -332,15 +341,13 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 - `source/content/Rules/4.4 Weapons and Combat Training.md` - Weapon training and combat techniques
 - `source/content/Rules/5. Skills.md` - Skill list with attribute pairings
 - `source/content/Rules/5.1 Skill And Universal Perks.md` - Skill progression, universal perks
-- `source/content/Rules/6. Magic System.md` - Magic system overview
-- `source/content/Rules/6. Types of magic.md` - Limit system, spellcraft domain
+- `source/content/Rules/6. Magic System.md` - Magic system overview (Limit system, spellcraft domain, Metamagic, spell lists)
 - `source/content/Rules/6.1 Summoning.md` - Summoning mechanics
 - `source/content/Rules/6.2 Magic Perks.md` - Magic-related perks
 - `source/content/Rules/7. Equipment.md` - Weapons, armor, gear
 - `source/content/Rules/7.1 Encumbrance.md` - Encumbrance system
 - `source/content/Rules/8. Social Interactions.md` - Attitude system, trading
 - `source/content/Rules/8.1 Organizations.md` - Ranks, org benefits/obligations (WIP till MS8)
-- `source/content/Rules/9. Movement and Distance.md` - Speed, movement actions
 - `source/content/Rules/9.1 Time and Travel.md` - Time and travel mechanics
 - `source/content/Rules/9.2 Downtime and Training.md` - Training, recovery, income (embeds from Mechanics/)
 - `source/content/Rules/9.3 Exploration and Out of combat Activities.md` - Exploration, downtime activities
@@ -349,9 +356,10 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 
 **Subfolders:**
 - `source/content/Rules/Mechanics/` - Embeddable mechanic files (Action Points, Initiative, Recovery Rules, etc.)
-- `source/content/Rules/Lines And Zones/` - Zone effects (Skirmish, Crowded, etc.)
-- `source/content/Rules/Actions/` - Individual action definitions (Movement/, Combat/, Social/, Support/, Abilities/)
-- `source/content/Rules/References/` - Reference tables (Bonus Types, Defense Traits, Downtime Quality, Rank System, Effects/, Conditions/)
+- `source/content/Rules/Lines And Zones/` - Zone effects (Skirmish, Crowded, Duel Zone, Zone Capacity, Fortified Defenders)
+- `source/content/Actions/` - Individual action definitions (Movement/, Combat/, Social/, Support/, Abilities/) - at content root, NOT under Rules/
+- `source/content/Rules/Effects/` - Embeddable effect files (`Effect - Name.md`)
+- `source/content/Rules/References/` - Reference tables (Bonus Types, Defense Traits, Downtime Quality, Rank System, Conditions/)
 - `source/content/Rules/Design Philosophy.md` - Design notes and rationale
 ### Combat System Files
 - `source/content/Perks/CombatPerks/` - All combat perks organized into folders
@@ -373,7 +381,7 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 - `source/content/Perks/UNEDITED/` - Perks pending revision
 
 ### Special Character Files
-- `Ruleset/Mage.md` - Mage character type and requirements
+- `source/content/Perks/MagicPerks/Mage.md` - Mage character type and requirements
 
 ### Design Documentation
 - `source/content/Design Guidelines.md` - Design philosophy and guidelines
@@ -398,15 +406,15 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 - **Perks:** `source/content/Perks/CombatPerks/`, `source/content/Perks/SkillPerks/`
 - **Spells:** `source/content/Spells/` organized by tier folders
 - **Conditions:** `source/content/Rules/References/Conditions/`
-- **Effects:** `source/content/Rules/References/Effects/`
-- **Abilities:** `source/content/Rules/Actions/Abilities/`
+- **Effects:** `source/content/Rules/Effects/`
+- **Abilities:** `source/content/Actions/Abilities/`
 - **Templates:** Search `Template.md` for creation guidelines
 
 ### Search by Game Element
 - **Specific Skill:** Search skill name in File 5 or related perk files
 - **Combat Mechanics:** Files 4.x, search `strike`, `projectile`, `burst`, `mental`, `physical`
 - **Equipment Rules:** Files 7.x, search weapon/armor names or `encumbrance`
-- **Movement:** File 4.0 and 9, search `zone`, `line`, `engage`, `disengage`, `stride`
+- **Movement:** File 4.0 and `Actions/Movement/`, search `zone`, `line`, `engage`, `disengage`, `move`
 
 ### Trait and Tag Searches
 - **Defense Traits:** Search `#Strike`, `#Projectile`, `#Burst`, `#Mind`, `#Body`, `#Defend`
@@ -432,8 +440,8 @@ The system uses Unreal Engine GAS (Gameplay Ability System) naming conventions:
 
 ### File Structure
 ```
-/Ruleset/Abilities/Ability - Name.md    → Contains ability mechanics only
-/Ruleset/Effects/Effect - Name.md       → Contains effect mechanics only
+/source/content/Actions/Abilities/Ability - Name.md    → Contains ability mechanics only
+/source/content/Rules/Effects/Effect - Name.md         → Contains effect mechanics only
 /source/content/Perks/Category/Perk Name.md    → Contains XP cost, requirements, embeds ability/effect
 ```
 
@@ -489,7 +497,7 @@ Flavor text
 
 ### Creating New Abilities/Effects
 1. Determine if it's an Ability (active) or Effect (passive)
-2. Create file in `/Ruleset/Abilities/` or `/Ruleset/Effects/`
+2. Create file in `Actions/Abilities/` or `Rules/Effects/`
 3. Name file: `Ability - Descriptive Name.md` or `Effect - Descriptive Name.md`
 4. Write mechanics (no "Ability:" or "Effect:" label needed - filename shows type)
 5. Add relevant tags for mechanics (NOT perk-level tags like #Combat)

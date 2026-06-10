@@ -2,6 +2,7 @@
 **Type:** Advanced
 **AP Cost:** -
 **Attributes:** WT/CH
+**Base Target/Range:** Your zone
 **Traits:** #Spell #Attuned #Conjuration
 
 ## Short Description

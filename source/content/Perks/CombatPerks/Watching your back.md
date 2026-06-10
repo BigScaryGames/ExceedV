@@ -4,7 +4,7 @@
 **Tags:** #Combat 
 
 ## Description
-Protect adjacent allies from numerical disadvantage in skirmishes.
+Protect allies in your skirmish from numerical disadvantage.
 
 You watch the back of someone else. Maybe you are just that type of a person who is always there.
 

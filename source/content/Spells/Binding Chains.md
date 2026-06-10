@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** 5
 **Attributes:** EN/WL
+**Base Target/Range:** 1 target in your zone
 **Traits:** #Spell #Conjuration #Bane #Strike
 
 ## Short Description

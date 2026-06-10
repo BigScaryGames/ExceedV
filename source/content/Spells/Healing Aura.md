@@ -2,6 +2,7 @@
 **Type:** Advanced
 **AP Cost:** -
 **Attributes:** WL/CH
+**Base Target/Range:** Allies in your zone
 **Traits:** #Spell #Attuned #Boon #Healing
 
 ## Short Description

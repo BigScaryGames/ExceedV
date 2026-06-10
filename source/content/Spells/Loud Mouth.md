@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** 2
 **Attributes:** CH/MG
+**Base Target/Range:** Self
 **Traits:** #Spell #Boon #Illusion
 
 ## Short Description

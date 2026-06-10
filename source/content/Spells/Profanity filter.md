@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** R
 **Attributes:** CH/WL
+**Base Target/Range:** 1 creature in your zone
 **Traits:** #Spell #Bane #Mind #Protection 
 
 ## Short Description

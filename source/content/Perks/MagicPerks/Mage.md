@@ -1,4 +1,4 @@
-**Requirements:** GM permission, Magical Theory 1/Theology 1
+**Requirements:** GM permission, Magical Theory skill level 1 or Theology skill level 1
 **Attributes:** WL
 **Cost:** 4 XP
 **Tags:** #Spellcraft #Instant #GM 

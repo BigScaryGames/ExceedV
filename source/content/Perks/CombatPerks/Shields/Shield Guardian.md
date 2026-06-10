@@ -4,7 +4,7 @@
 **Tags:** #Combat #Shield
 
 ## Description
-Deflect attacks targeting adjacent allies instead of them.
+Deflect attacks targeting allies in your skirmish instead of them.
 
 ## Grants
 

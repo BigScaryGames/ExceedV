@@ -4,7 +4,7 @@
 **Tags:** #Combat
 
 ## Description
-Strike multiple adjacent targets with one attack.
+Strike two targets in your skirmish with one attack.
 
 ## Grants
 

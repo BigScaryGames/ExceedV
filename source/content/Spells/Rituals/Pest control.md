@@ -1,7 +1,8 @@
 **Tier:** 1
 **Type:** Ritual
-**AP Cost:** 1 shift per 250 m²
+**AP Cost:** 1 shift per zone
 **Attributes:** WT/PR
+**Base Target/Range:** One zone
 **Traits:** #Spell #Manipulation #AOE #Bane #Illusion 
 
 ## Short Description

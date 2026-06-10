@@ -7,10 +7,12 @@ There are 4 main defensive options in the game and they rely on equipment and pe
 
 | Defense     | Formula                                                                          |
 | ----------- | -------------------------------------------------------------------------------- |
-| **Deflect** | Martial + Agility/Dexterity/Might(based on weapon type)+ Equipment Defense bonus |
+| **Deflect** | Martial + weapon's Deflect Stat + Equipment Defense bonus                        |
 | **Dodge**   | Agility + Perception                                                             |
 | **Resolve** | Will+Charisma                                                                    |
 | **Endure**  | Endurance + Might                                                                |
+
+Each weapon's Deflect Stat is listed in the Weapon Weight table in [[7. Equipment]] (Light: DX or AG, Medium/Heavy: AG). Shields follow Shield Deflection rules there (light/medium: AG, medium/heavy: MG).
 ## Usage by Attack Trait
 
 | Trait           | Valid Defenses                               | Examples                                           |

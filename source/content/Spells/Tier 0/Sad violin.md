@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** R
 **Attributes:** CH/DX
+**Base Target/Range:** Your zone
 **Traits:** #Spell #Illusion
 
 ## Short Description

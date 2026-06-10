@@ -17,7 +17,7 @@ Each level of Spellcraft unlocks the ability to learn and cast spells of the app
 
 ## Learning Spells
 
-Spells contribute to appropriate attributes AND to Spellcraft at the same time.
+Spells contribute to appropriate attributes AND to Spellcraft at the same time. All XP spent on spells and #Spellcraft perks ([[Metamagic]] options, specializations) accumulates toward the Spellcraft tier thresholds above ("XP to Next Tier" is cumulative) — the domain is never bought directly.
 
 Some spells have Basic/Advanced variations. Advanced variations require extra XP investment - they usually lower the limit cost, make it team-wide, or modify it in other ways.
 

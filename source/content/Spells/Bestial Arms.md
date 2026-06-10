@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** -
 **Attributes:** AG/DX
+**Base Target/Range:** Self
 **Traits:** #Spell #Attuned #Boon #Transformation 
 
 ## Short Description

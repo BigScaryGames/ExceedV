@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** 3
 **Attributes:** DX/WT
+**Base Target/Range:** Self
 **Traits:** #Spell #Conjuration
 
 ## Short Description

@@ -2,6 +2,7 @@
 **Type:** Basic/Advanced
 **AP Cost:** -
 **Attributes:** EN/AG
+**Base Target/Range:** Self (Advanced: allies in your zone)
 **Traits:** #Spell #Attuned #Boon
 
 ## Short Description

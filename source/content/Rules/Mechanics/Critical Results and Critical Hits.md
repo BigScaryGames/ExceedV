@@ -1,5 +1,5 @@
 ## Critical Results
-Doubles on the kept dice (2 chosen dice for advantage, the 2 lowest for disadvantage, or the 2 dice for normal roll) modify outcomes:
+Doubles on the kept dice modify outcomes. With advantage you choose which 2 of the 3 dice to keep — so you may keep a matching pair on purpose. With disadvantage you must keep the 2 lowest dice. On a normal roll, both dice count.
 - **Success + Doubles:** Critical Success
 - **Failure + Doubles:** Critical Failure (if applicable)
 

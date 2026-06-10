@@ -8,9 +8,12 @@ Lines
 
 Zones:
 
-1. Defensive advantage - the party that controls the zone against the invaders can have bonuses.(For things like defensive cover)
+1. Defensive advantage - the party that controls the zone against the invaders can have bonuses.(For things like defensive cover) See [[Fortified Defenders]].
 2. Hazardous zone - e.g. everything is on fire, everyone in the zone is taking damage/rolling endure/resist.
 3. Ability modifiers. Zone can have a penalty for all perception rolls - e.g. filled with smoke. Have a sticky floor - agility penalties. Reduced gravity and MANY more.
 4. Different magical effects - like healing, buffing team, harming specific types of creatures, etc. 
+
+Some zone effects are not always-on and **require activation** — a team must meet a condition (control the zone, spend AP, succeed a check) to turn the effect on for themselves. The effect states its activation condition.
+
 As an example of effects see :
-[[Zone Capacity]] [[Duel Zone]] [[Crowded]]
+[[Zone Capacity]] [[Duel Zone]] [[Crowded]] [[Fortified Defenders]]

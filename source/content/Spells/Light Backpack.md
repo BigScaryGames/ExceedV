@@ -2,6 +2,7 @@
 **Type:** Basic/Advanced
 **AP Cost:** -
 **Attributes:** EN/MG
+**Base Target/Range:** Self (Advanced: allies in your zone)
 **Traits:** #Spell #Attuned #Boon #Manipulation #Equipment 
 
 ## Short Description

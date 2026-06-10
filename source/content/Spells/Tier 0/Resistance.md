@@ -2,6 +2,7 @@
 **Type:** Basic/Advanced
 **AP Cost:** 3
 **Attributes:** WL/EN
+**Base Target/Range:** Self
 **Traits:** #Spell #Attuned #Boon #Protection
 
 ## Short Description

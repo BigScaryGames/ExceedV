@@ -2,6 +2,7 @@
 **Type:** Basic
 **AP Cost:** 2
 **Attributes:** WT/DX
+**Base Target/Range:** Objects in your zone
 **Traits:** #Spell #Manipulation
 
 ## Short Description

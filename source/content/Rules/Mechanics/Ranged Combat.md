@@ -11,7 +11,7 @@ Ranged attacks must overcome a **Distance DC** before the defender rolls.
 
 Attacks that roll below the Distance DC miss automatically - the shot goes wide before reaching the target.
 
-If the attack equals or exceeds the Distance DC, the defender may use Block or Dodge against the attack roll as normal.
+If the attack equals or exceeds the Distance DC, the defender may use Dodge — or Deflect, with a shield or perks — against the attack roll as normal.
 
 The **[[Aim]]** action reduces the Distance DC by 2.
 
