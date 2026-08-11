@@ -1,14 +1,12 @@
 **Tier:** 1
-**Type:** Basic
 **AP Cost:** 1 minute (out of combat)
 **Attributes:** PR/EN
 **Base Target/Range:** One zone
-**Traits:** #Spell #Ward #Scrying #Ritual 
-
+**Traits:** #Active #Spell #Ward #Scrying #Ritual
 ## Short Description
 Cover one zone with a movement detection spell.
 
-## Basic Version
+## Effect
 **Limit Cost:** -
 **Effect:** Cover one zone in a movement detection ward. Larger areas: apply per zone or use [[Metamagic]] (Widened).
 Alarms all team members when unauthorised creature enters the area. To bypass it, it needs to be first detected and second - carefully broken with Magical Theory, Spellcraft or Lockpicking.

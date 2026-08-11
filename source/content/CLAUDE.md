@@ -161,14 +161,16 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 - **Learning Time:** 1 day per XP spent
 
 ### Spell Costs by Tier
-| Tier | Basic | Advanced | XP to Next Tier |
-|------|-------|----------|-----------------|
-| 0    | 1     | 3        | -               |
-| 1    | 3     | 5        | 10              |
-| 2    | 5     | 7        | +20             |
-| 3    | 7     | 10       | +30             |
-| 4    | 10    | 15       | +40             |
-| 5    | 15    | 25       | +50             |
+| Tier | Cost | XP to Next Tier |
+|------|------|-----------------|
+| 0    | 1    | -               |
+| 1    | 3    | 10              |
+| 2    | 5    | +20             |
+| 3    | 7    | +30             |
+| 4    | 10   | +40             |
+| 5    | 15   | +50             |
+
+> **Note (v0.6):** Advanced spell cost tier removed. Prerequisites now gate access — the Basic/Advanced split is no longer used. All spells cost a flat XP per tier.
 
 ### Metamagic (v0.6)
 - Spell-modifying options granted by #Spellcraft #Metamagic perks (`Perks/MagicPerks/Metamagic/`); perk XP counts toward Spellcraft tiers like spells

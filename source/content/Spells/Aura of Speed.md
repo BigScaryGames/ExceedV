@@ -1,5 +1,4 @@
 **Tier:** 1
-**Type:** Advanced
 **AP Cost:** -
 **Attributes:** CH/EN
 **Base Target/Range:** Allies in your zone
@@ -8,7 +7,7 @@
 ## Short Description
 Increase team Speed
 
-## Advanced Version
+## Effect
 **Limit Cost:** 1
 **Effect:** +1 #Enhancement bonus to Speed to the team
 

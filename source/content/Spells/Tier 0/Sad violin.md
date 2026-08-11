@@ -1,14 +1,12 @@
 **Tier:** 0
-**Type:** Basic
 **AP Cost:** R
 **Attributes:** CH/DX
 **Base Target/Range:** Your zone
-**Traits:** #Spell #Illusion
-
+**Traits:** #Active #Spell #Illusion
 ## Short Description
 Play ambient musical composition for the scene
 
-## Basic Version
+## Effect
 **Limit Cost:** -
 **Effect:** Play prerecorded musical composition as ambient music for the scene
 

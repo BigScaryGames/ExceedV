@@ -10,7 +10,7 @@ Everything with a Limit[N] trait. This usually includes:
 - Personal magical buffs and enchantments (Shield, Invisibility, Enhanced Strength)
 - Communal effects affecting self + allies (Group Fire Resistance, Party Water Walking)
 - Summoned creatures and constructs
-- Active magical items requiring concentration (enchanted armor, magical weapons)
+- Active magical items requiring Limit slots (enchanted armor, magical weapons)
 
 ## Managing Limit
 

@@ -1,14 +1,12 @@
 **Tier:** 0
-**Type:** Basic
 **AP Cost:** 5
 **Attributes:** WL/DX
 **Base Target/Range:** 1 ally in your skirmish
-**Traits:** #Spell #Healing
-
+**Traits:** #Active #Spell #Healing
 ## Short Description
 Conduct magical first aid
 
-## Basic Version
+## Effect
 **Limit Cost:** -
 **Effect:** First aid
 

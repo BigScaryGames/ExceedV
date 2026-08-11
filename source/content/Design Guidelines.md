@@ -15,13 +15,13 @@ This cost logic is applied to both Spellcraft and Martial. Despite Martial requi
 
 Spell Cost by Level
 Cost to reach next levels. 10 to reach lvl1, 20 to reach lvl2, 30 to reach lvl 3, 40 to reach level 4 and 50 for level 5.
-Spell Costs by Tier:
- - Tier 0 Spells: Basic (1), Advanced (3)  (10 basic or 6.6 Advanced) 10cp
- - Tier 1 Spells: Basic (3), Advanced(5)   (6.6 basic or 4 Advanced) 20cp
- - Tier 2 Spells: Basic (5), Advanced(7) (6 basic or 4.3 Advanced) 30cp
- - Tier 3 Spells: Basic (7), Advanced(10)   (5.6 basic or 4 advanced) 40cp
- - Tier 4 Spells: Basic (10), Advanced(15) (5 basic or 3.3 advanced)50cp
- - Tier 5 Spells: Basic (15), Advanced(25)
+Spell Costs by Tier (v0.6: single cost per tier, Advanced removed — prerequisites gate access):
+ - Tier 0: 1 XP   (10 spells = lvl 1)
+ - Tier 1: 3 XP   (~7 spells = lvl 2)
+ - Tier 2: 5 XP   (6 spells = lvl 3)
+ - Tier 3: 7 XP   (~6 spells = lvl 4)
+ - Tier 4: 10 XP  (5 spells = lvl 5)
+ - Tier 5: 15 XP
 
 # Weights
 ## Weapon Weights

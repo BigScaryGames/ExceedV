@@ -1,14 +1,12 @@
 **Tier:** 0
-**Type:** Basic
 **AP Cost:** 2
 **Attributes:** CH
 **Base Target/Range:** Your zone or one zone you can see
-**Traits:** #Spell #Illusion
-
+**Traits:** #Active #Spell #Illusion
 ## Short Description
 Create illusory sounds
 
-## Basic Version
+## Effect
 **Limit Cost:** -
 **Effect:** Audio illusion
 

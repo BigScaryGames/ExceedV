@@ -1,14 +1,12 @@
 **Tier:** 0
-**Type:** Basic
 **AP Cost:** 2
 **Attributes:** CH/MG
 **Base Target/Range:** Self
-**Traits:** #Spell #Boon #Illusion
-
+**Traits:** #Active #Spell #Boon #Illusion
 ## Short Description
 Amplify your voice significantly
 
-## Basic Version
+## Effect
 **Limit Cost:** -
 **Effect:** Amplify your voice 5 times
 

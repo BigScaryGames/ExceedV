@@ -1,14 +1,12 @@
 **Tier:** 0
-**Type:** Basic
 **AP Cost:** 3
 **Attributes:** DX/WT
 **Base Target/Range:** Self
-**Traits:** #Spell #Conjuration
-
+**Traits:** #Active #Spell #Conjuration
 ## Short Description
 Create phantom tools for a skill you have
 
-## Basic Version
+## Effect
 **Limit Cost:** -
 **Effect:** Create phantom tools for a skill you have
 

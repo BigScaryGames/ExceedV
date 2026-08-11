@@ -1,5 +1,4 @@
 **Tier:** 0
-**Type:** Basic
 **AP Cost:** -
 **Attributes:** WL/EN
 **Base Target/Range:** Self
@@ -8,7 +7,7 @@
 ## Short Description
 Summon a light magical armor on self.
 
-## Basic Version
+## Effect
 **Limit Cost:** 1
 **Effect:** Add Armor bonus to Spellcraft Tier (minimum 1) if unarmored. Cannot be re-summoned if dispelled with non-full stamina HP. 
 ## Description

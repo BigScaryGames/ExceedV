@@ -1,5 +1,4 @@
 **Tier:** 1
-**Type:** Basic
 **AP Cost:** -
 **Attributes:** AG/DX
 **Base Target/Range:** Self
@@ -8,7 +7,7 @@
 ## Short Description
 Grow claws and defensive arm covering
 
-## Basic Version
+## Effect
 **Limit Cost:** 1
 **Effect:** You get up to two 1d4 Unarmed or 1H weapons with #Light and #Reach traits. You can unarmed deflect with them. 
 

@@ -1,5 +1,4 @@
 **Tier:** 1
-**Type:** Advanced
 **AP Cost:** -
 **Attributes:** WL/CH
 **Base Target/Range:** Allies in your zone
@@ -8,7 +7,7 @@
 ## Short Description
 Heal surface injuries of your team.
 
-## Advanced Version
+## Effect
 **Limit Cost:** 2
 **Effect:** Spellcraft HP of healing per turn for all allies. Heals first health then stamina damage. Stacks with similar healing effects.
 

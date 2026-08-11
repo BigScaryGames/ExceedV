@@ -1,14 +1,13 @@
 **Tier:** 1
-**Type:** Advanced
 **AP Cost:** -
 **Attributes:** WT/CH
 **Base Target/Range:** Your zone
-**Traits:** #Spell #Attuned #Conjuration
+**Traits:** #Spell #Attuned #Conjuration #Active #Attuned
 
 ## Short Description
 Summon skeleton minions for combat
 
-## Advanced Version
+## Effect
 **Limit Cost:** VAR
 **Effect:** #TODO Summoning rules. I have the vision, just need to formalize it.
 

@@ -8,7 +8,7 @@
 ## Short Description
 Control pest population in a small area.
 
-## Basic Version
+## Effect
 **Limit Cost:** -
 **Effect:** This ritual has 3 modes of operation. 
 1. Extermination . - this exterminates the non-unit pests, leaving their dead bodies for you to collect. 

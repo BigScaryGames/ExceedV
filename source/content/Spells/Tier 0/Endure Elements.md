@@ -1,20 +1,15 @@
 **Tier:** 0
-**Type:** Basic/Advanced
 **AP Cost:** 3
 **Attributes:** EN/WL
-**Base Target/Range:** Self (Advanced: allies in your zone)
+**Base Target/Range:** Self, or allies in your zone
 **Traits:** #Spell #Attuned #Boon #Protection #Enhancement
 
 ## Short Description
 Resist environmental extremes
 
-## Basic Version
-**Limit Cost:** 1
+## Effect
+**Limit Cost:** Self 1 / Party 1
 **Effect:** Ignore minor environmental effects, like rain or dust storm. #TODO Environmental rules are not yet written
-
-## Advanced Version
-**Limit Cost:** Self 0 / Party 1
-**Effect:** Ignore minor environmental effects, like rain or dust storm
 
 ## Description
 [Flavor text to be written]

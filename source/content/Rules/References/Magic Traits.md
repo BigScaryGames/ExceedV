@@ -11,4 +11,4 @@
 | #Scrying | Effects that enhance or modify senses |
 | #Illusion | Abilities creating or barring sensory effects (detected with Perception and #Scrying) |
 | #Ward | Defensive/perceptive barriers. No duration = bypassable/disableable. With duration = bypassable/destroyable only |
-| #Attuned | Spells and item effects that require Limit slots to maintain (not all persistent effects require attunement) |
+| #Attuned | Spells and item effects that require Limit slots to maintain (not all persistent effects require Limit) |

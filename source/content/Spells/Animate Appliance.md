@@ -1,5 +1,4 @@
 **Tier:** 1
-**Type:** Basic
 **AP Cost:** -
 **Attributes:** WT/CH
 **Base Target/Range:** Appliances in your zone
@@ -7,7 +6,7 @@
 
 ## Short Description
 Animate household appliances to do simple menial labor
-## Basic Version
+## Effect
 **Limit Cost:** 1
 **Effect:** Animate a number of appliances equal to your Spellcraft to do the work for you.
 ## Description

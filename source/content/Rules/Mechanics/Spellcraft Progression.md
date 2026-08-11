@@ -6,20 +6,20 @@ Each level of Spellcraft unlocks the ability to learn and cast spells of the app
 
 ## Spell Costs by Tier
 
-| Tier | Basic Price | Advanced Price | XP to Next Tier |
-|------|-------------|----------------|-----------------|
-| 0 | 1 | 3 | - |
-| 1 | 3 | 5 | 10 |
-| 2 | 5 | 7 | +20 |
-| 3 | 7 | 10 | +30 |
-| 4 | 10 | 15 | +40 |
-| 5 | 15 | 25 | +50 |
+| Tier | Cost | XP to Next Tier |
+|------|------|-----------------|
+| 0 | 1 | - |
+| 1 | 3 | 10 |
+| 2 | 5 | +20 |
+| 3 | 7 | +30 |
+| 4 | 10 | +40 |
+| 5 | 15 | +50 |
 
 ## Learning Spells
 
 Spells contribute to appropriate attributes AND to Spellcraft at the same time. All XP spent on spells and #Spellcraft perks ([[Metamagic]] options, specializations) accumulates toward the Spellcraft tier thresholds above ("XP to Next Tier" is cumulative) — the domain is never bought directly.
 
-Some spells have Basic/Advanced variations. Advanced variations require extra XP investment - they usually lower the limit cost, make it team-wide, or modify it in other ways.
+Spells can require other spells as prerequisites. More powerful effects are gated behind prerequisites, not a separate cost tier.
 
 ### Requirements
 

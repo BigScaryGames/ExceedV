@@ -1,10 +1,10 @@
-**Requirements:** Martial 2
+**Requirements:** Martial 2, [[Fast Archer]]
 **Attributes:** AG/DX
 **Cost:** 10 XP
 **Tags:** #Combat
 
 ## Description
-Count as flanking partner within weapon's first range.
+Your quick movements force enemies to pay attention to you.
 
 ## Grants
 

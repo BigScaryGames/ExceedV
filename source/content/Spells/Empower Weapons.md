@@ -1,20 +1,15 @@
 **Tier:** 1
-**Type:** Basic/Advanced
 **AP Cost:** -
 **Attributes:** WT/AG
-**Base Target/Range:** Self (Advanced: allies in your zone)
+**Base Target/Range:** Self, or allies in your zone
 **Traits:** #Spell #Attuned #Boon #Equipment 
 
 ## Short Description
 Empower weapons with magic for extra damage
 
-## Basic Version
-**Limit Cost:** 1
-**Effect:** Weapons of you deal +1 damage. This is an Equipment bonus. 
-
-## Advanced Version
-**Limit Cost:** Self 0 / Party 1
-**Effect:** Weapons of your allies deal +1 damage 
+## Effect
+**Limit Cost:** Self 1 / Party 1
+**Effect:** You and/or allies in your zone deal +1 weapon damage. This is an Equipment bonus.
 
 ## Description
 [Flavor text to be written]

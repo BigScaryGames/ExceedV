@@ -4,7 +4,7 @@
 **Tags:** #Spellcraft #Spellshape
 
 ## Description
-You learn the [[Basic Elemental Invokation]], a universal spell 
+You learn the [[Basic Elemental Invocation]], a universal spell
 
 ### **Mechanics**
 
