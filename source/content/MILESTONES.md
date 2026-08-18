@@ -1,4 +1,4 @@
-Milestone 5 - Get it playable.
+Milestone 5 - Get it playable. FINISHED.
 
 - [x] Transition from extra wounds to conditioning (done)
 - [x] Switch to 2 core domains (Combat/Magic) from weapon domains.
@@ -32,7 +32,7 @@ Milestone 6. - content update, editing.
 - [x] Move/Step/Run - reactions on moving outside range and inside range fix.
 - [ ] Clarify or edit dual-wielding
 - [x]  Flanking and ganging rules. (flanking removed; numeric advantage + back-to-back in [[Skirmish]])
-- [ ]  Spells - make them work in GAS paradigm. (Wiki reconstruction 2)
+- [x]  Spells - make them work in GAS paradigm. (Wiki reconstruction 2)
 - [ ]  Size and HP rules (for big ass monsters and small nasty ones)
 - [ ]  Conditions revamp. (current ones suck)
 - [ ] Tag cleanup - there are random AI gen one from conversion and some from previous iterations going back to 0.1
@@ -40,6 +40,7 @@ Milestone 6. - content update, editing.
 - [ ] Criticals for weapons and spells.
 - [ ] Extended Crits unified logic.
 - [x]  Webpage
+- [ ] 
 
 Milestone 7. - Enemies, Content, 
 - [ ]  Simplified enemy character sheet(static enemy DCs) with a challenge rating calculator.
@@ -59,6 +60,7 @@ Milestone 8 Social Layer, Polishing
 5. Combat perks to tier 4.
 6. Spells to tier 4.
 7. Spell permanency 
+8. Spell perks for narrow builds 
 
 
 Milestone 9 Expanded downtime
