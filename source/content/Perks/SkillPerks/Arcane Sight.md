@@ -1,5 +1,5 @@
 **Requirements:** Magical Theory 2, Detect Magic, Spellcraft 2
-**Attributes:** PR, Spellcraft
+**Attributes:** PR
 **Cost:** 7 XP
 **Tags:** #Skill - #Scrying
 

@@ -38,3 +38,5 @@ Rank 2+ can expect basic accommodations from peers by asking a favor.
 - Military defers to higher-equivalent nobility
 - Religious authority supersedes civilian rank in matters of faith
 - Academic rank carries weight in scholarly circles regardless of social standing
+
+**Tags:** #Social

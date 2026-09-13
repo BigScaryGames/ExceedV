@@ -19,3 +19,5 @@ Metamagic lets a caster push a spell beyond its baseline at the cost of a harder
 | [[Widened Spell]] | +2 AP / +4 DC (counts as 2 applications) | Single target → whole skirmish; applied twice → whole zone |
 | [[Empowered Spell]] | +1 AP / +2 DC | +1 damage die |
 | [[Grand Weaving]] | — | Removes the cap; allows weaving a cast across multiple turns |
+
+**Tags:** #Magic

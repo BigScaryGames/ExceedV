@@ -11,3 +11,5 @@ All actors are considered outside skirmishes at the start of the combat unless t
 **Delaying:** Done before the beginning of your turn to a predetermined point, only once per round. All beginning/end of turn effects are delayed with your action.
 
 ![[Surprise Rounds]]
+
+**Tags:** #Combat

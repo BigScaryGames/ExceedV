@@ -7,3 +7,5 @@ Strain is the cost of overreaching magic: failed casts accumulate it, strain mak
 5. **1 Breather** → all Strain clears. Wounds caused by strain recover under normal wound rules - see [[Severity Levels]] and [[Recovery Rules]].
 
 >Note: Wounds gained from strain can lead to character death as all normal wounds.
+
+**Tags:** #Magic

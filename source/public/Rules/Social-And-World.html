@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>Social And World</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Social And World"/><meta property="og:description" content="Social And World Interacting with the world: social mechanics, organizations, equipment and encumbrance. Transclude of 7.-Equipment Transclude of 7.1-Encumbrance Transclude of 8.-Social-Interactions Transclude of 8.1-Organizations."/><meta property="og:image" content="https://https://bigscarygames.github.io/ExceedV//static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Social And World Interacting with the world: social mechanics, organizations, equipment and encumbrance. Transclude of 7.-Equipment Transclude of 7.1-Encumbrance Transclude of 8.-Social-Interactions Transclude of 8.1-Organizations."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script></head><body data-slug="Rules/Social-And-World"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Exceed V 0.5</a></h2><div class="spacer mobile-only"></div><div class="search"><button class="search-button" id="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="search-layout" data-preview="true"></div></div></div></div><button class="darkmode" id="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="open" data-savestate="true" data-tree="[{&quot;path&quot;:&quot;Actions&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Actions/Abilities&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Actions/Combat&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Actions/Movement&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Actions/Social&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Actions/Support&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/Archery&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/Blades&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/Combat-Maneuvers&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/Conditioning&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/Dual-Wielding&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/Footwork&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/Leadership&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/Parrying-And-Riposte&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/Polearms&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/Predictive&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/Shields&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/Shoving&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/Thrown&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/WeaponTraining&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/CombatPerks/Wrestling&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/MagicPerks&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/MagicPerks/Metamagic&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/SkillPerks&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/SkillPerks/Rank-and-Reputation-Perks&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Perks/UNEDITED&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Rules&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Rules/Effects&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Rules/Lines-And-Zones&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Rules/Mechanics&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Rules/References&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Rules/References/Conditions&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Spells&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Spells/Rituals&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Spells/Tier-0&quot;,&quot;collapsed&quot;:false},{&quot;path&quot;:&quot;Spells/Trees&quot;,&quot;collapsed&quot;:false}]" aria-controls="explorer-content" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li><div class="folder-outer open"><ul style="padding-left:0;" class="content" data-folderul><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Actions"><button class="folder-button"><span class="folder-title">Actions</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Actions"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Actions/Abilities"><button class="folder-button"><span class="folder-title">Abilities</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Actions/Abilities"><li><a href="../Actions/Abilities/Ability---All-the-Birds" data-for="Actions/Abilities/Ability---All-the-Birds">Ability - All the Birds</a></li><li><a href="../Actions/Abilities/Ability---Anatomical-Knowledge" data-for="Actions/Abilities/Ability---Anatomical-Knowledge">Ability - Anatomical Knowledge</a></li><li><a href="../Actions/Abilities/Ability---Arcane-Mind" data-for="Actions/Abilities/Ability---Arcane-Mind">Ability - Arcane Mind</a></li><li><a href="../Actions/Abilities/Ability---Behind-the-Shield-Strike" data-for="Actions/Abilities/Ability---Behind-the-Shield-Strike">Ability - Behind the Shield Strike</a></li><li><a href="../Actions/Abilities/Ability---Bowling-Strike" data-for="Actions/Abilities/Ability---Bowling-Strike">Ability - Bowling Strike</a></li><li><a href="../Actions/Abilities/Ability---Calf-Strike" data-for="Actions/Abilities/Ability---Calf-Strike">Ability - Calf Strike</a></li><li><a href="../Actions/Abilities/Ability---Chokehold" data-for="Actions/Abilities/Ability---Chokehold">Ability - Chokehold</a></li><li><a href="../Actions/Abilities/Ability---Come-and-Get-Me" data-for="Actions/Abilities/Ability---Come-and-Get-Me">Ability - Come and Get Me</a></li><li><a href="../Actions/Abilities/Ability---Counter-Grab" data-for="Actions/Abilities/Ability---Counter-Grab">Ability - Counter Grab</a></li><li><a href="../Actions/Abilities/Ability---Dodge-Roll" data-for="Actions/Abilities/Ability---Dodge-Roll">Ability - Dodge-Roll</a></li><li><a href="../Actions/Abilities/Ability---Double-Shot" data-for="Actions/Abilities/Ability---Double-Shot">Ability - Double Shot</a></li><li><a href="../Actions/Abilities/Ability---Double-Strike" data-for="Actions/Abilities/Ability---Double-Strike">Ability - Double Strike</a></li><li><a href="../Actions/Abilities/Ability---Drive-into-Fervor" data-for="Actions/Abilities/Ability---Drive-into-Fervor">Ability - Drive into Fervor</a></li><li><a href="../Actions/Abilities/Ability---Follow-Up-Strike" data-for="Actions/Abilities/Ability---Follow-Up-Strike">Ability - Follow-Up Strike</a></li><li><a href="../Actions/Abilities/Ability---Guardian-Aura" data-for="Actions/Abilities/Ability---Guardian-Aura">Ability - Guardian Aura</a></li><li><a href="../Actions/Abilities/Ability---Hair-Trigger" data-for="Actions/Abilities/Ability---Hair-Trigger">Ability - Hair Trigger</a></li><li><a href="../Actions/Abilities/Ability---Herding-Strike" data-for="Actions/Abilities/Ability---Herding-Strike">Ability - Herding Strike</a></li><li><a href="../Actions/Abilities/Ability---Home-Run" data-for="Actions/Abilities/Ability---Home-Run">Ability - Home Run</a></li><li><a href="../Actions/Abilities/Ability---Inspirer" data-for="Actions/Abilities/Ability---Inspirer">Ability - Inspirer</a></li><li><a href="../Actions/Abilities/Ability---Just-the-Two-of-Us" data-for="Actions/Abilities/Ability---Just-the-Two-of-Us">Ability - Just the Two of Us</a></li><li><a href="../Actions/Abilities/Ability---Mighty-Charge" data-for="Actions/Abilities/Ability---Mighty-Charge">Ability - Mighty Charge</a></li><li><a href="../Actions/Abilities/Ability---Mobile-Draw" data-for="Actions/Abilities/Ability---Mobile-Draw">Ability - Mobile Draw</a></li><li><a href="../Actions/Abilities/Ability---Monkey-King-Strike" data-for="Actions/Abilities/Ability---Monkey-King-Strike">Ability - Monkey King Strike</a></li><li><a href="../Actions/Abilities/Ability---Overswing" data-for="Actions/Abilities/Ability---Overswing">Ability - Overswing</a></li><li><a href="../Actions/Abilities/Ability---Painful-Parry" data-for="Actions/Abilities/Ability---Painful-Parry">Ability - Painful Parry</a></li><li><a href="../Actions/Abilities/Ability---Piranha-Strike" data-for="Actions/Abilities/Ability---Piranha-Strike">Ability - Piranha Strike</a></li><li><a href="../Actions/Abilities/Ability---Predictive-Defense" data-for="Actions/Abilities/Ability---Predictive-Defense">Ability - Predictive Defense</a></li><li><a href="../Actions/Abilities/Ability---Predictive-Strike" data-for="Actions/Abilities/Ability---Predictive-Strike">Ability - Predictive Strike</a></li><li><a href="../Actions/Abilities/Ability---Reactive-Prediction" data-for="Actions/Abilities/Ability---Reactive-Prediction">Ability - Reactive Prediction</a></li><li><a href="../Actions/Abilities/Ability---Reactive-Strike" data-for="Actions/Abilities/Ability---Reactive-Strike">Ability - Reactive Strike</a></li><li><a href="../Actions/Abilities/Ability---Ricochet-Shot" data-for="Actions/Abilities/Ability---Ricochet-Shot">Ability - Ricochet Shot</a></li><li><a href="../Actions/Abilities/Ability---Riposte" data-for="Actions/Abilities/Ability---Riposte">Ability - Riposte</a></li><li><a href="../Actions/Abilities/Ability---Rocket-Strike" data-for="Actions/Abilities/Ability---Rocket-Strike">Ability - Rocket Strike</a></li><li><a href="../Actions/Abilities/Ability---Shield-Block" data-for="Actions/Abilities/Ability---Shield-Block">Ability - Shield Block</a></li><li><a href="../Actions/Abilities/Ability---Shield-Guardian" data-for="Actions/Abilities/Ability---Shield-Guardian">Ability - Shield Guardian</a></li><li><a href="../Actions/Abilities/Ability---Shield-Rush" data-for="Actions/Abilities/Ability---Shield-Rush">Ability - Shield Rush</a></li><li><a href="../Actions/Abilities/Ability---Shield-Warden" data-for="Actions/Abilities/Ability---Shield-Warden">Ability - Shield Warden</a></li><li><a href="../Actions/Abilities/Ability---Shoving-Strike" data-for="Actions/Abilities/Ability---Shoving-Strike">Ability - Shoving Strike</a></li><li><a href="../Actions/Abilities/Ability---Skirmisher's-Strike" data-for="Actions/Abilities/Ability---Skirmisher's-Strike">Ability - Skirmisher's Strike</a></li><li><a href="../Actions/Abilities/Ability---Spell-Reflection" data-for="Actions/Abilities/Ability---Spell-Reflection">Ability - Spell Reflection</a></li><li><a href="../Actions/Abilities/Ability---Spell-Shot" data-for="Actions/Abilities/Ability---Spell-Shot">Ability - Spell Shot</a></li><li><a href="../Actions/Abilities/Ability---Spend-Some-Time-with-You" data-for="Actions/Abilities/Ability---Spend-Some-Time-with-You">Ability - Spend Some Time with You</a></li><li><a href="../Actions/Abilities/Ability---Spinning-Staff" data-for="Actions/Abilities/Ability---Spinning-Staff">Ability - Spinning Staff</a></li><li><a href="../Actions/Abilities/Ability---Storm-of-Arrows" data-for="Actions/Abilities/Ability---Storm-of-Arrows">Ability - Storm of Arrows</a></li><li><a href="../Actions/Abilities/Ability---That-Type-of-a-Person" data-for="Actions/Abilities/Ability---That-Type-of-a-Person">Ability - That Type of a Person</a></li><li><a href="../Actions/Abilities/Ability---The-Leader" data-for="Actions/Abilities/Ability---The-Leader">Ability - The Leader</a></li><li><a href="../Actions/Abilities/Ability---The-Wall" data-for="Actions/Abilities/Ability---The-Wall">Ability - The Wall</a></li><li><a href="../Actions/Abilities/Ability---Throw" data-for="Actions/Abilities/Ability---Throw">Ability - Throw</a></li><li><a href="../Actions/Abilities/Ability---Throwing-Distraction" data-for="Actions/Abilities/Ability---Throwing-Distraction">Ability - Throwing Distraction</a></li><li><a href="../Actions/Abilities/Ability---Too-Selfish" data-for="Actions/Abilities/Ability---Too-Selfish">Ability - Too Selfish</a></li><li><a href="../Actions/Abilities/Ability---Tower-Defender" data-for="Actions/Abilities/Ability---Tower-Defender">Ability - Tower Defender</a></li><li><a href="../Actions/Abilities/Ability---Tripping-Strike" data-for="Actions/Abilities/Ability---Tripping-Strike">Ability - Tripping Strike</a></li><li><a href="../Actions/Abilities/Ability---Two-Birds" data-for="Actions/Abilities/Ability---Two-Birds">Ability - Two Birds</a></li><li><a href="../Actions/Abilities/Ability---Unarmed-Combat" data-for="Actions/Abilities/Ability---Unarmed-Combat">Ability - Unarmed Combat</a></li><li><a href="../Actions/Abilities/Ability---Vanishing-Step" data-for="Actions/Abilities/Ability---Vanishing-Step">Ability - Vanishing Step</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Actions/Combat"><button class="folder-button"><span class="folder-title">Combat</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Actions/Combat"><li><a href="../Actions/Combat/Aim" data-for="Actions/Combat/Aim">Aim</a></li><li><a href="../Actions/Combat/All-in-Defense" data-for="Actions/Combat/All-in-Defense">All in Defense</a></li><li><a href="../Actions/Combat/Deflect" data-for="Actions/Combat/Deflect">Deflect</a></li><li><a href="../Actions/Combat/Disarm" data-for="Actions/Combat/Disarm">Disarm</a></li><li><a href="../Actions/Combat/Dodge" data-for="Actions/Combat/Dodge">Dodge</a></li><li><a href="../Actions/Combat/Endure" data-for="Actions/Combat/Endure">Endure</a></li><li><a href="../Actions/Combat/Escape" data-for="Actions/Combat/Escape">Escape</a></li><li><a href="../Actions/Combat/Feint-(WIP)" data-for="Actions/Combat/Feint-(WIP)">Feint (WIP)</a></li><li><a href="../Actions/Combat/Grapple" data-for="Actions/Combat/Grapple">Grapple</a></li><li><a href="../Actions/Combat/Melee-Attack" data-for="Actions/Combat/Melee-Attack">Melee Attack</a></li><li><a href="../Actions/Combat/Ranged-Attack" data-for="Actions/Combat/Ranged-Attack">Ranged Attack</a></li><li><a href="../Actions/Combat/Ready" data-for="Actions/Combat/Ready">Ready</a></li><li><a href="../Actions/Combat/Resolve" data-for="Actions/Combat/Resolve">Resolve</a></li><li><a href="../Actions/Combat/Shove" data-for="Actions/Combat/Shove">Shove</a></li><li><a href="../Actions/Combat/Taunt" data-for="Actions/Combat/Taunt">Taunt</a></li><li><a href="../Actions/Combat/Trip" data-for="Actions/Combat/Trip">Trip</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Actions/Movement"><button class="folder-button"><span class="folder-title">Movement</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Actions/Movement"><li><a href="../Actions/Movement/Disengage" data-for="Actions/Movement/Disengage">Disengage</a></li><li><a href="../Actions/Movement/Engage" data-for="Actions/Movement/Engage">Engage</a></li><li><a href="../Actions/Movement/Move" data-for="Actions/Movement/Move">Move</a></li><li><a href="../Actions/Movement/Stand-Up" data-for="Actions/Movement/Stand-Up">Stand Up</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Actions/Social"><button class="folder-button"><span class="folder-title">Social</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Actions/Social"><li><a href="../Actions/Social/Ability---Comedian" data-for="Actions/Social/Ability---Comedian">Ability - Comedian</a></li><li><a href="../Actions/Social/Deduce" data-for="Actions/Social/Deduce">Deduce</a></li><li><a href="../Actions/Social/Demoralize" data-for="Actions/Social/Demoralize">Demoralize</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Actions/Support"><button class="folder-button"><span class="folder-title">Support</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Actions/Support"><li><a href="../Actions/Support/Aid" data-for="Actions/Support/Aid">Aid</a></li><li><a href="../Actions/Support/First-Aid" data-for="Actions/Support/First-Aid">First Aid</a></li></ul></div></li></ul></div></li><li><div class="folder-outer open"><ul style="padding-left:0;" class="content" data-folderul></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks"><button class="folder-button"><span class="folder-title">Perks</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks"><button class="folder-button"><span class="folder-title">CombatPerks</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/Archery"><button class="folder-button"><span class="folder-title">Archery</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/Archery"><li><a href="../Perks/CombatPerks/Archery/Artillery" data-for="Perks/CombatPerks/Archery/Artillery">Artillery</a></li><li><a href="../Perks/CombatPerks/Archery/Close-Quarters-Shooter" data-for="Perks/CombatPerks/Archery/Close-Quarters-Shooter">Close Quarters Shooter</a></li><li><a href="../Perks/CombatPerks/Archery/Defensive-Archer" data-for="Perks/CombatPerks/Archery/Defensive-Archer">Defensive Archer</a></li><li><a href="../Perks/CombatPerks/Archery/Don't-Turn-Your-Back-On-Me" data-for="Perks/CombatPerks/Archery/Don't-Turn-Your-Back-On-Me">Don't Turn Your Back On Me</a></li><li><a href="../Perks/CombatPerks/Archery/Double-Shot" data-for="Perks/CombatPerks/Archery/Double-Shot">Double Shot</a></li><li><a href="../Perks/CombatPerks/Archery/Fast-Archer" data-for="Perks/CombatPerks/Archery/Fast-Archer">Fast Archer</a></li><li><a href="../Perks/CombatPerks/Archery/Hair-Trigger" data-for="Perks/CombatPerks/Archery/Hair-Trigger">Hair Trigger</a></li><li><a href="../Perks/CombatPerks/Archery/Mobile-Draw" data-for="Perks/CombatPerks/Archery/Mobile-Draw">Mobile Draw</a></li><li><a href="../Perks/CombatPerks/Archery/Overpowered-Draw" data-for="Perks/CombatPerks/Archery/Overpowered-Draw">Overpowered Draw</a></li><li><a href="../Perks/CombatPerks/Archery/Spell-Shot" data-for="Perks/CombatPerks/Archery/Spell-Shot">Spell Shot</a></li><li><a href="../Perks/CombatPerks/Archery/Tower" data-for="Perks/CombatPerks/Archery/Tower">Tower</a></li><li><a href="../Perks/CombatPerks/Archery/Tower-Defender" data-for="Perks/CombatPerks/Archery/Tower-Defender">Tower Defender</a></li><li><a href="../Perks/CombatPerks/Archery/wip-Ricochet-Shot" data-for="Perks/CombatPerks/Archery/wip-Ricochet-Shot">wip Ricochet Shot</a></li><li><a href="../Perks/CombatPerks/Archery/wip-Storm-of-Arrows" data-for="Perks/CombatPerks/Archery/wip-Storm-of-Arrows">wip Storm of Arrows</a></li><li><a href="../Perks/CombatPerks/Archery/Zen-Archer" data-for="Perks/CombatPerks/Archery/Zen-Archer">Zen Archer</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/Blades"><button class="folder-button"><span class="folder-title">Blades</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/Blades"><li><a href="../Perks/CombatPerks/Blades/Long-Knives" data-for="Perks/CombatPerks/Blades/Long-Knives">Long Knives</a></li><li><a href="../Perks/CombatPerks/Blades/Ready-Hand" data-for="Perks/CombatPerks/Blades/Ready-Hand">Ready Hand</a></li><li><a href="../Perks/CombatPerks/Blades/The-Edgelord" data-for="Perks/CombatPerks/Blades/The-Edgelord">The Edgelord</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/Combat-Maneuvers"><button class="folder-button"><span class="folder-title">Combat Maneuvers</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/Combat-Maneuvers"><li><a href="../Perks/CombatPerks/Combat-Maneuvers/All-the-Birds" data-for="Perks/CombatPerks/Combat-Maneuvers/All-the-Birds">All the Birds</a></li><li><a href="../Perks/CombatPerks/Combat-Maneuvers/Calf-Strike" data-for="Perks/CombatPerks/Combat-Maneuvers/Calf-Strike">Calf Strike</a></li><li><a href="../Perks/CombatPerks/Combat-Maneuvers/Follow-Up-Strike" data-for="Perks/CombatPerks/Combat-Maneuvers/Follow-Up-Strike">Follow-Up Strike</a></li><li><a href="../Perks/CombatPerks/Combat-Maneuvers/Just-the-Two-of-Us" data-for="Perks/CombatPerks/Combat-Maneuvers/Just-the-Two-of-Us">Just the Two of Us</a></li><li><a href="../Perks/CombatPerks/Combat-Maneuvers/Mighty-Charge" data-for="Perks/CombatPerks/Combat-Maneuvers/Mighty-Charge">Mighty Charge</a></li><li><a href="../Perks/CombatPerks/Combat-Maneuvers/Piranha-Strike" data-for="Perks/CombatPerks/Combat-Maneuvers/Piranha-Strike">Piranha Strike</a></li><li><a href="../Perks/CombatPerks/Combat-Maneuvers/Spend-Some-Time-with-You" data-for="Perks/CombatPerks/Combat-Maneuvers/Spend-Some-Time-with-You">Spend Some Time with You</a></li><li><a href="../Perks/CombatPerks/Combat-Maneuvers/Tripping-Strike" data-for="Perks/CombatPerks/Combat-Maneuvers/Tripping-Strike">Tripping Strike</a></li><li><a href="../Perks/CombatPerks/Combat-Maneuvers/Two-Birds" data-for="Perks/CombatPerks/Combat-Maneuvers/Two-Birds">Two Birds</a></li><li><a href="../Perks/CombatPerks/Combat-Maneuvers/You-and-I" data-for="Perks/CombatPerks/Combat-Maneuvers/You-and-I">You and I</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/Conditioning"><button class="folder-button"><span class="folder-title">Conditioning</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/Conditioning"><li><a href="../Perks/CombatPerks/Conditioning/Battle-Scarred" data-for="Perks/CombatPerks/Conditioning/Battle-Scarred">Battle Scarred</a></li><li><a href="../Perks/CombatPerks/Conditioning/Bones-of-Steel" data-for="Perks/CombatPerks/Conditioning/Bones-of-Steel">Bones of Steel</a></li><li><a href="../Perks/CombatPerks/Conditioning/Cold-Conditioning" data-for="Perks/CombatPerks/Conditioning/Cold-Conditioning">Cold Conditioning</a></li><li><a href="../Perks/CombatPerks/Conditioning/Heat-Conditioning" data-for="Perks/CombatPerks/Conditioning/Heat-Conditioning">Heat Conditioning</a></li><li><a href="../Perks/CombatPerks/Conditioning/Magical-Conditioning" data-for="Perks/CombatPerks/Conditioning/Magical-Conditioning">Magical Conditioning</a></li><li><a href="../Perks/CombatPerks/Conditioning/Mental-Resilience" data-for="Perks/CombatPerks/Conditioning/Mental-Resilience">Mental Resilience</a></li><li><a href="../Perks/CombatPerks/Conditioning/Poison-Resistance" data-for="Perks/CombatPerks/Conditioning/Poison-Resistance">Poison Resistance</a></li><li><a href="../Perks/CombatPerks/Conditioning/Waterfall-Training" data-for="Perks/CombatPerks/Conditioning/Waterfall-Training">Waterfall Training</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/Dual-Wielding"><button class="folder-button"><span class="folder-title">Dual Wielding</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/Dual-Wielding"><li><a href="../Perks/CombatPerks/Dual-Wielding/Ambidexterity" data-for="Perks/CombatPerks/Dual-Wielding/Ambidexterity">Ambidexterity</a></li><li><a href="../Perks/CombatPerks/Dual-Wielding/Double-Strike" data-for="Perks/CombatPerks/Dual-Wielding/Double-Strike">Double Strike</a></li><li><a href="../Perks/CombatPerks/Dual-Wielding/Twin-Parry" data-for="Perks/CombatPerks/Dual-Wielding/Twin-Parry">Twin Parry</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/Footwork"><button class="folder-button"><span class="folder-title">Footwork</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/Footwork"><li><a href="../Perks/CombatPerks/Footwork/Big-Steps" data-for="Perks/CombatPerks/Footwork/Big-Steps">Big Steps</a></li><li><a href="../Perks/CombatPerks/Footwork/Come-and-Get-Me" data-for="Perks/CombatPerks/Footwork/Come-and-Get-Me">Come and Get Me</a></li><li><a href="../Perks/CombatPerks/Footwork/Dodge-Behind-Your-Back" data-for="Perks/CombatPerks/Footwork/Dodge-Behind-Your-Back">Dodge Behind Your Back</a></li><li><a href="../Perks/CombatPerks/Footwork/Dodge-Roll" data-for="Perks/CombatPerks/Footwork/Dodge-Roll">Dodge-Roll</a></li><li><a href="../Perks/CombatPerks/Footwork/Dodging-Step" data-for="Perks/CombatPerks/Footwork/Dodging-Step">Dodging Step</a></li><li><a href="../Perks/CombatPerks/Footwork/Elusive" data-for="Perks/CombatPerks/Footwork/Elusive">Elusive</a></li><li><a href="../Perks/CombatPerks/Footwork/Footwork" data-for="Perks/CombatPerks/Footwork/Footwork">Footwork</a></li><li><a href="../Perks/CombatPerks/Footwork/Light-Steps" data-for="Perks/CombatPerks/Footwork/Light-Steps">Light Steps</a></li><li><a href="../Perks/CombatPerks/Footwork/Small-Steps" data-for="Perks/CombatPerks/Footwork/Small-Steps">Small Steps</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/Leadership"><button class="folder-button"><span class="folder-title">Leadership</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/Leadership"><li><a href="../Perks/CombatPerks/Leadership/The-Aspiring-Hero" data-for="Perks/CombatPerks/Leadership/The-Aspiring-Hero">The Aspiring Hero</a></li><li><a href="../Perks/CombatPerks/Leadership/The-Cult-Inner-Member" data-for="Perks/CombatPerks/Leadership/The-Cult-Inner-Member">The Cult Inner Member</a></li><li><a href="../Perks/CombatPerks/Leadership/The-Cult-Leader" data-for="Perks/CombatPerks/Leadership/The-Cult-Leader">The Cult Leader</a></li><li><a href="../Perks/CombatPerks/Leadership/The-Leader" data-for="Perks/CombatPerks/Leadership/The-Leader">The Leader</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/Parrying-And-Riposte"><button class="folder-button"><span class="folder-title">Parrying And Riposte</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/Parrying-And-Riposte"><li><a href="../Perks/CombatPerks/Parrying-And-Riposte/Painful-Parry" data-for="Perks/CombatPerks/Parrying-And-Riposte/Painful-Parry">Painful Parry</a></li><li><a href="../Perks/CombatPerks/Parrying-And-Riposte/Parry-This,-Parry-that" data-for="Perks/CombatPerks/Parrying-And-Riposte/Parry-This,-Parry-that">Parry This, Parry that</a></li><li><a href="../Perks/CombatPerks/Parrying-And-Riposte/Projectile-Parry" data-for="Perks/CombatPerks/Parrying-And-Riposte/Projectile-Parry">Projectile Parry</a></li><li><a href="../Perks/CombatPerks/Parrying-And-Riposte/Repose-This,-Repose-That" data-for="Perks/CombatPerks/Parrying-And-Riposte/Repose-This,-Repose-That">Repose This, Repose That</a></li><li><a href="../Perks/CombatPerks/Parrying-And-Riposte/Riposte" data-for="Perks/CombatPerks/Parrying-And-Riposte/Riposte">Riposte</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/Polearms"><button class="folder-button"><span class="folder-title">Polearms</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/Polearms"><li><a href="../Perks/CombatPerks/Polearms/Grip-Switch" data-for="Perks/CombatPerks/Polearms/Grip-Switch">Grip Switch</a></li><li><a href="../Perks/CombatPerks/Polearms/Monkey-King-Strike" data-for="Perks/CombatPerks/Polearms/Monkey-King-Strike">Monkey King Strike</a></li><li><a href="../Perks/CombatPerks/Polearms/Pointy-stick" data-for="Perks/CombatPerks/Polearms/Pointy-stick">Pointy stick</a></li><li><a href="../Perks/CombatPerks/Polearms/Quarter-staff-Adept" data-for="Perks/CombatPerks/Polearms/Quarter-staff-Adept">Quarter-staff Adept</a></li><li><a href="../Perks/CombatPerks/Polearms/Spear-Brothers" data-for="Perks/CombatPerks/Polearms/Spear-Brothers">Spear Brothers</a></li><li><a href="../Perks/CombatPerks/Polearms/Spinning-Staff" data-for="Perks/CombatPerks/Polearms/Spinning-Staff">Spinning Staff</a></li><li><a href="../Perks/CombatPerks/Polearms/Staff-Acrobat" data-for="Perks/CombatPerks/Polearms/Staff-Acrobat">Staff Acrobat</a></li><li><a href="../Perks/CombatPerks/Polearms/Walking-Stick" data-for="Perks/CombatPerks/Polearms/Walking-Stick">Walking Stick</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/Predictive"><button class="folder-button"><span class="folder-title">Predictive</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/Predictive"><li><a href="../Perks/CombatPerks/Predictive/Predicted-Exchange" data-for="Perks/CombatPerks/Predictive/Predicted-Exchange">Predicted Exchange</a></li><li><a href="../Perks/CombatPerks/Predictive/Predictive-Defense" data-for="Perks/CombatPerks/Predictive/Predictive-Defense">Predictive Defense</a></li><li><a href="../Perks/CombatPerks/Predictive/Predictive-Strike" data-for="Perks/CombatPerks/Predictive/Predictive-Strike">Predictive Strike</a></li><li><a href="../Perks/CombatPerks/Predictive/Reactive-Prediction" data-for="Perks/CombatPerks/Predictive/Reactive-Prediction">Reactive Prediction</a></li><li><a href="../Perks/CombatPerks/Predictive/WIP-Predict-A-Perfect-ambush" data-for="Perks/CombatPerks/Predictive/WIP-Predict-A-Perfect-ambush">WIP Predict A Perfect ambush</a></li><li><a href="../Perks/CombatPerks/Predictive/WIP-Predicted-Duel" data-for="Perks/CombatPerks/Predictive/WIP-Predicted-Duel">WIP Predicted Duel</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/Shields"><button class="folder-button"><span class="folder-title">Shields</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/Shields"><li><a href="../Perks/CombatPerks/Shields/Behind-the-Shield-strike" data-for="Perks/CombatPerks/Shields/Behind-the-Shield-strike">Behind the Shield strike</a></li><li><a href="../Perks/CombatPerks/Shields/Multipurpose-Shield" data-for="Perks/CombatPerks/Shields/Multipurpose-Shield">Multipurpose Shield</a></li><li><a href="../Perks/CombatPerks/Shields/Perfect-block" data-for="Perks/CombatPerks/Shields/Perfect-block">Perfect block</a></li><li><a href="../Perks/CombatPerks/Shields/Shield-Guardian" data-for="Perks/CombatPerks/Shields/Shield-Guardian">Shield Guardian</a></li><li><a href="../Perks/CombatPerks/Shields/Shield-Rush" data-for="Perks/CombatPerks/Shields/Shield-Rush">Shield Rush</a></li><li><a href="../Perks/CombatPerks/Shields/Shield-Warden" data-for="Perks/CombatPerks/Shields/Shield-Warden">Shield Warden</a></li><li><a href="../Perks/CombatPerks/Shields/Spell-Guard" data-for="Perks/CombatPerks/Shields/Spell-Guard">Spell Guard</a></li><li><a href="../Perks/CombatPerks/Shields/The-Guardian-Aura" data-for="Perks/CombatPerks/Shields/The-Guardian-Aura">The Guardian Aura</a></li><li><a href="../Perks/CombatPerks/Shields/The-Wall" data-for="Perks/CombatPerks/Shields/The-Wall">The Wall</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/Shoving"><button class="folder-button"><span class="folder-title">Shoving</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/Shoving"><li><a href="../Perks/CombatPerks/Shoving/Bowling-Strike" data-for="Perks/CombatPerks/Shoving/Bowling-Strike">Bowling Strike</a></li><li><a href="../Perks/CombatPerks/Shoving/Herding-Strike" data-for="Perks/CombatPerks/Shoving/Herding-Strike">Herding Strike</a></li><li><a href="../Perks/CombatPerks/Shoving/Home-Run" data-for="Perks/CombatPerks/Shoving/Home-Run">Home Run</a></li><li><a href="../Perks/CombatPerks/Shoving/Rocket-Strike" data-for="Perks/CombatPerks/Shoving/Rocket-Strike">Rocket Strike</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/Thrown"><button class="folder-button"><span class="folder-title">Thrown</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/Thrown"><li><a href="../Perks/CombatPerks/Thrown/Throwing-Distraction" data-for="Perks/CombatPerks/Thrown/Throwing-Distraction">Throwing Distraction</a></li><li><a href="../Perks/CombatPerks/Thrown/Throwing-Hand" data-for="Perks/CombatPerks/Thrown/Throwing-Hand">Throwing Hand</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/WeaponTraining"><button class="folder-button"><span class="folder-title">WeaponTraining</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/WeaponTraining"><li><a href="../Perks/CombatPerks/WeaponTraining/Ax-Training" data-for="Perks/CombatPerks/WeaponTraining/Ax-Training">Ax Training</a></li><li><a href="../Perks/CombatPerks/WeaponTraining/Blades-Training" data-for="Perks/CombatPerks/WeaponTraining/Blades-Training">Blades Training</a></li><li><a href="../Perks/CombatPerks/WeaponTraining/Bow-Training" data-for="Perks/CombatPerks/WeaponTraining/Bow-Training">Bow Training</a></li><li><a href="../Perks/CombatPerks/WeaponTraining/Brawling-Training" data-for="Perks/CombatPerks/WeaponTraining/Brawling-Training">Brawling Training</a></li><li><a href="../Perks/CombatPerks/WeaponTraining/Impact-Training" data-for="Perks/CombatPerks/WeaponTraining/Impact-Training">Impact Training</a></li><li><a href="../Perks/CombatPerks/WeaponTraining/Polearms-Training" data-for="Perks/CombatPerks/WeaponTraining/Polearms-Training">Polearms Training</a></li><li><a href="../Perks/CombatPerks/WeaponTraining/Shield-Training" data-for="Perks/CombatPerks/WeaponTraining/Shield-Training">Shield Training</a></li><li><a href="../Perks/CombatPerks/WeaponTraining/Thrown-Training" data-for="Perks/CombatPerks/WeaponTraining/Thrown-Training">Thrown Training</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/CombatPerks/Wrestling"><button class="folder-button"><span class="folder-title">Wrestling</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/CombatPerks/Wrestling"><li><a href="../Perks/CombatPerks/Wrestling/Chokehold" data-for="Perks/CombatPerks/Wrestling/Chokehold">Chokehold</a></li><li><a href="../Perks/CombatPerks/Wrestling/Counter-Grab" data-for="Perks/CombatPerks/Wrestling/Counter-Grab">Counter Grab</a></li><li><a href="../Perks/CombatPerks/Wrestling/Drag-Along" data-for="Perks/CombatPerks/Wrestling/Drag-Along">Drag Along</a></li><li><a href="../Perks/CombatPerks/Wrestling/Iron-Grip" data-for="Perks/CombatPerks/Wrestling/Iron-Grip">Iron Grip</a></li><li><a href="../Perks/CombatPerks/Wrestling/Takedown" data-for="Perks/CombatPerks/Wrestling/Takedown">Takedown</a></li><li><a href="../Perks/CombatPerks/Wrestling/Throw" data-for="Perks/CombatPerks/Wrestling/Throw">Throw</a></li><li><a href="../Perks/CombatPerks/Wrestling/Weapon-Thief" data-for="Perks/CombatPerks/Wrestling/Weapon-Thief">Weapon Thief</a></li><li><a href="../Perks/CombatPerks/Wrestling/Wrestler's-Control" data-for="Perks/CombatPerks/Wrestling/Wrestler's-Control">Wrestler's Control</a></li></ul></div></li><li><a href="../Perks/CombatPerks/Backstab" data-for="Perks/CombatPerks/Backstab">Backstab</a></li><li><a href="../Perks/CombatPerks/Plot-Armor" data-for="Perks/CombatPerks/Plot-Armor">Plot Armor</a></li><li><a href="../Perks/CombatPerks/Reactive" data-for="Perks/CombatPerks/Reactive">Reactive</a></li><li><a href="../Perks/CombatPerks/Reactive-Strike" data-for="Perks/CombatPerks/Reactive-Strike">Reactive Strike</a></li><li><a href="../Perks/CombatPerks/That-Type-of-a-Person" data-for="Perks/CombatPerks/That-Type-of-a-Person">That Type of a Person</a></li><li><a href="../Perks/CombatPerks/The-Loner" data-for="Perks/CombatPerks/The-Loner">The Loner</a></li><li><a href="../Perks/CombatPerks/Too-Selfish" data-for="Perks/CombatPerks/Too-Selfish">Too Selfish</a></li><li><a href="../Perks/CombatPerks/Watching-your-back" data-for="Perks/CombatPerks/Watching-your-back">Watching your back</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/MagicPerks"><button class="folder-button"><span class="folder-title">MagicPerks</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/MagicPerks"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/MagicPerks/Metamagic"><button class="folder-button"><span class="folder-title">Metamagic</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/MagicPerks/Metamagic"><li><a href="../Perks/MagicPerks/Metamagic/Empowered-Spell" data-for="Perks/MagicPerks/Metamagic/Empowered-Spell">Empowered Spell</a></li><li><a href="../Perks/MagicPerks/Metamagic/Grand-Weaving" data-for="Perks/MagicPerks/Metamagic/Grand-Weaving">Grand Weaving</a></li><li><a href="../Perks/MagicPerks/Metamagic/Lingering-Spell" data-for="Perks/MagicPerks/Metamagic/Lingering-Spell">Lingering Spell</a></li><li><a href="../Perks/MagicPerks/Metamagic/Reaching-Spell" data-for="Perks/MagicPerks/Metamagic/Reaching-Spell">Reaching Spell</a></li><li><a href="../Perks/MagicPerks/Metamagic/Split-Spell" data-for="Perks/MagicPerks/Metamagic/Split-Spell">Split Spell</a></li><li><a href="../Perks/MagicPerks/Metamagic/Subtle-Casting" data-for="Perks/MagicPerks/Metamagic/Subtle-Casting">Subtle Casting</a></li><li><a href="../Perks/MagicPerks/Metamagic/Widened-Spell" data-for="Perks/MagicPerks/Metamagic/Widened-Spell">Widened Spell</a></li></ul></div></li><li><a href="../Perks/MagicPerks/Elemental-Mage" data-for="Perks/MagicPerks/Elemental-Mage">Elemental Mage</a></li><li><a href="../Perks/MagicPerks/Inward-Focus" data-for="Perks/MagicPerks/Inward-Focus">Inward Focus</a></li><li><a href="../Perks/MagicPerks/Mage" data-for="Perks/MagicPerks/Mage">Mage</a></li><li><a href="../Perks/MagicPerks/Mage-of-an-Element" data-for="Perks/MagicPerks/Mage-of-an-Element">Mage of an Element</a></li><li><a href="../Perks/MagicPerks/Minor-Elemental-Affinity" data-for="Perks/MagicPerks/Minor-Elemental-Affinity">Minor Elemental Affinity</a></li><li><a href="../Perks/MagicPerks/Withering-Focus" data-for="Perks/MagicPerks/Withering-Focus">Withering Focus</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/SkillPerks"><button class="folder-button"><span class="folder-title">SkillPerks</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/SkillPerks"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/SkillPerks/Rank-and-Reputation-Perks"><button class="folder-button"><span class="folder-title">Rank and Reputation Perks</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/SkillPerks/Rank-and-Reputation-Perks"><li><a href="../Perks/SkillPerks/Rank-and-Reputation-Perks/Crime-in-Law" data-for="Perks/SkillPerks/Rank-and-Reputation-Perks/Crime-in-Law">Crime in-Law</a></li><li><a href="../Perks/SkillPerks/Rank-and-Reputation-Perks/Fear-Means-Respect" data-for="Perks/SkillPerks/Rank-and-Reputation-Perks/Fear-Means-Respect">Fear Means Respect</a></li><li><a href="../Perks/SkillPerks/Rank-and-Reputation-Perks/Inquisitor" data-for="Perks/SkillPerks/Rank-and-Reputation-Perks/Inquisitor">Inquisitor</a></li><li><a href="../Perks/SkillPerks/Rank-and-Reputation-Perks/Jester" data-for="Perks/SkillPerks/Rank-and-Reputation-Perks/Jester">Jester</a></li><li><a href="../Perks/SkillPerks/Rank-and-Reputation-Perks/King-on-the-Hill" data-for="Perks/SkillPerks/Rank-and-Reputation-Perks/King-on-the-Hill">King on the Hill</a></li><li><a href="../Perks/SkillPerks/Rank-and-Reputation-Perks/Licensed-Healer" data-for="Perks/SkillPerks/Rank-and-Reputation-Perks/Licensed-Healer">Licensed Healer</a></li><li><a href="../Perks/SkillPerks/Rank-and-Reputation-Perks/Ordained" data-for="Perks/SkillPerks/Rank-and-Reputation-Perks/Ordained">Ordained</a></li><li><a href="../Perks/SkillPerks/Rank-and-Reputation-Perks/Robin-Hood" data-for="Perks/SkillPerks/Rank-and-Reputation-Perks/Robin-Hood">Robin Hood</a></li><li><a href="../Perks/SkillPerks/Rank-and-Reputation-Perks/Since-It-Is-You" data-for="Perks/SkillPerks/Rank-and-Reputation-Perks/Since-It-Is-You">Since It Is You</a></li></ul></div></li><li><a href="../Perks/SkillPerks/Aerial-Archaeologist" data-for="Perks/SkillPerks/Aerial-Archaeologist">Aerial Archaeologist</a></li><li><a href="../Perks/SkillPerks/Anatomical-Knowledge" data-for="Perks/SkillPerks/Anatomical-Knowledge">Anatomical Knowledge</a></li><li><a href="../Perks/SkillPerks/Animal-Affinity" data-for="Perks/SkillPerks/Animal-Affinity">Animal Affinity</a></li><li><a href="../Perks/SkillPerks/Arcane-Mind" data-for="Perks/SkillPerks/Arcane-Mind">Arcane Mind</a></li><li><a href="../Perks/SkillPerks/Arcane-Sight" data-for="Perks/SkillPerks/Arcane-Sight">Arcane Sight</a></li><li><a href="../Perks/SkillPerks/Arcane-Veil" data-for="Perks/SkillPerks/Arcane-Veil">Arcane Veil</a></li><li><a href="../Perks/SkillPerks/Avid-Gosspier" data-for="Perks/SkillPerks/Avid-Gosspier">Avid Gosspier</a></li><li><a href="../Perks/SkillPerks/Bribery-Expert" data-for="Perks/SkillPerks/Bribery-Expert">Bribery Expert</a></li><li><a href="../Perks/SkillPerks/Cartographer's-Mind" data-for="Perks/SkillPerks/Cartographer's-Mind">Cartographer's Mind</a></li><li><a href="../Perks/SkillPerks/Cheat" data-for="Perks/SkillPerks/Cheat">Cheat</a></li><li><a href="../Perks/SkillPerks/Comedian" data-for="Perks/SkillPerks/Comedian">Comedian</a></li><li><a href="../Perks/SkillPerks/Cultural-Explorer" data-for="Perks/SkillPerks/Cultural-Explorer">Cultural Explorer</a></li><li><a href="../Perks/SkillPerks/Enchanter" data-for="Perks/SkillPerks/Enchanter">Enchanter</a></li><li><a href="../Perks/SkillPerks/Environmental-Grace" data-for="Perks/SkillPerks/Environmental-Grace">Environmental Grace</a></li><li><a href="../Perks/SkillPerks/First-Responder" data-for="Perks/SkillPerks/First-Responder">First Responder</a></li><li><a href="../Perks/SkillPerks/Forager" data-for="Perks/SkillPerks/Forager">Forager</a></li><li><a href="../Perks/SkillPerks/Fuck-I'm-Out" data-for="Perks/SkillPerks/Fuck-I'm-Out">Fuck I'm Out</a></li><li><a href="../Perks/SkillPerks/Haggler" data-for="Perks/SkillPerks/Haggler">Haggler</a></li><li><a href="../Perks/SkillPerks/Heraldist" data-for="Perks/SkillPerks/Heraldist">Heraldist</a></li><li><a href="../Perks/SkillPerks/Herbalist's-Eye" data-for="Perks/SkillPerks/Herbalist's-Eye">Herbalist's Eye</a></li><li><a href="../Perks/SkillPerks/In-the-Know" data-for="Perks/SkillPerks/In-the-Know">In the Know</a></li><li><a href="../Perks/SkillPerks/Inspirer" data-for="Perks/SkillPerks/Inspirer">Inspirer</a></li><li><a href="../Perks/SkillPerks/Liar-Liar" data-for="Perks/SkillPerks/Liar-Liar">Liar Liar</a></li><li><a href="../Perks/SkillPerks/Lock-Consul" data-for="Perks/SkillPerks/Lock-Consul">Lock Consul</a></li><li><a href="../Perks/SkillPerks/Natural-Predator" data-for="Perks/SkillPerks/Natural-Predator">Natural Predator</a></li><li><a href="../Perks/SkillPerks/Not-Sherlock" data-for="Perks/SkillPerks/Not-Sherlock">Not Sherlock</a></li><li><a href="../Perks/SkillPerks/Potion-Brewer" data-for="Perks/SkillPerks/Potion-Brewer">Potion Brewer</a></li><li><a href="../Perks/SkillPerks/Primeval-Awareness" data-for="Perks/SkillPerks/Primeval-Awareness">Primeval Awareness</a></li><li><a href="../Perks/SkillPerks/Savoir-Faire" data-for="Perks/SkillPerks/Savoir-Faire">Savoir Faire</a></li><li><a href="../Perks/SkillPerks/Silent-Steps" data-for="Perks/SkillPerks/Silent-Steps">Silent Steps</a></li><li><a href="../Perks/SkillPerks/Sitting-on-the-Fence" data-for="Perks/SkillPerks/Sitting-on-the-Fence">Sitting on the Fence</a></li><li><a href="../Perks/SkillPerks/Tracker" data-for="Perks/SkillPerks/Tracker">Tracker</a></li><li><a href="../Perks/SkillPerks/Wargame-master" data-for="Perks/SkillPerks/Wargame-master">Wargame master</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Perks/UNEDITED"><button class="folder-button"><span class="folder-title">UNEDITED</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Perks/UNEDITED"><li><a href="../Perks/UNEDITED/I-See-a-Secret-Hand" data-for="Perks/UNEDITED/I-See-a-Secret-Hand">I See a Secret Hand</a></li><li><a href="../Perks/UNEDITED/Into-the-Battle" data-for="Perks/UNEDITED/Into-the-Battle">Into the Battle</a></li><li><a href="../Perks/UNEDITED/Language-Expert" data-for="Perks/UNEDITED/Language-Expert">Language Expert</a></li><li><a href="../Perks/UNEDITED/Leader" data-for="Perks/UNEDITED/Leader">Leader</a></li><li><a href="../Perks/UNEDITED/Librarian" data-for="Perks/UNEDITED/Librarian">Librarian</a></li><li><a href="../Perks/UNEDITED/Life-and-Death" data-for="Perks/UNEDITED/Life-and-Death">Life and Death</a></li><li><a href="../Perks/UNEDITED/Linguist" data-for="Perks/UNEDITED/Linguist">Linguist</a></li><li><a href="../Perks/UNEDITED/Master-Brewer" data-for="Perks/UNEDITED/Master-Brewer">Master Brewer</a></li><li><a href="../Perks/UNEDITED/Master-of-Fables" data-for="Perks/UNEDITED/Master-of-Fables">Master of Fables</a></li><li><a href="../Perks/UNEDITED/Master-of-Invitations" data-for="Perks/UNEDITED/Master-of-Invitations">Master of Invitations</a></li><li><a href="../Perks/UNEDITED/Plague-Ward" data-for="Perks/UNEDITED/Plague-Ward">Plague Ward</a></li><li><a href="../Perks/UNEDITED/Public-Speaker" data-for="Perks/UNEDITED/Public-Speaker">Public Speaker</a></li><li><a href="../Perks/UNEDITED/Quick-Escape" data-for="Perks/UNEDITED/Quick-Escape">Quick Escape</a></li><li><a href="../Perks/UNEDITED/Respect-Means-Fear" data-for="Perks/UNEDITED/Respect-Means-Fear">Respect Means Fear</a></li><li><a href="../Perks/UNEDITED/Rumour-Monger" data-for="Perks/UNEDITED/Rumour-Monger">Rumour Monger</a></li><li><a href="../Perks/UNEDITED/Safe-Camp" data-for="Perks/UNEDITED/Safe-Camp">Safe Camp</a></li><li><a href="../Perks/UNEDITED/Safe-Houses" data-for="Perks/UNEDITED/Safe-Houses">Safe Houses</a></li><li><a href="../Perks/UNEDITED/Scary-Brute" data-for="Perks/UNEDITED/Scary-Brute">Scary Brute</a></li><li><a href="../Perks/UNEDITED/Sole-Ritualist" data-for="Perks/UNEDITED/Sole-Ritualist">Sole Ritualist</a></li><li><a href="../Perks/UNEDITED/Spell-Identification" data-for="Perks/UNEDITED/Spell-Identification">Spell Identification</a></li><li><a href="../Perks/UNEDITED/Spell-Memory" data-for="Perks/UNEDITED/Spell-Memory">Spell Memory</a></li><li><a href="../Perks/UNEDITED/Spell-Craft" data-for="Perks/UNEDITED/Spell-Craft">Spell-Craft</a></li><li><a href="../Perks/UNEDITED/Surgeon's-Precision" data-for="Perks/UNEDITED/Surgeon's-Precision">Surgeon's Precision</a></li><li><a href="../Perks/UNEDITED/Tamer" data-for="Perks/UNEDITED/Tamer">Tamer</a></li><li><a href="../Perks/UNEDITED/Toxicologist" data-for="Perks/UNEDITED/Toxicologist">Toxicologist</a></li><li><a href="../Perks/UNEDITED/Ward-Breaker" data-for="Perks/UNEDITED/Ward-Breaker">Ward-Breaker</a></li><li><a href="../Perks/UNEDITED/Well-Read" data-for="Perks/UNEDITED/Well-Read">Well Read</a></li></ul></div></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Rules"><button class="folder-button"><span class="folder-title">Rules</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Rules"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Rules/Effects"><button class="folder-button"><span class="folder-title">Effects</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Rules/Effects"><li><a href="../Rules/Effects/Effect---Aerial-Archaeologist" data-for="Rules/Effects/Effect---Aerial-Archaeologist">Effect - Aerial Archaeologist</a></li><li><a href="../Rules/Effects/Effect---Ambidexterity" data-for="Rules/Effects/Effect---Ambidexterity">Effect - Ambidexterity</a></li><li><a href="../Rules/Effects/Effect---Animal-Affinity" data-for="Rules/Effects/Effect---Animal-Affinity">Effect - Animal Affinity</a></li><li><a href="../Rules/Effects/Effect---Arcane-Sight" data-for="Rules/Effects/Effect---Arcane-Sight">Effect - Arcane Sight</a></li><li><a href="../Rules/Effects/Effect---Arcane-Veil" data-for="Rules/Effects/Effect---Arcane-Veil">Effect - Arcane Veil</a></li><li><a href="../Rules/Effects/Effect---Artillery" data-for="Rules/Effects/Effect---Artillery">Effect - Artillery</a></li><li><a href="../Rules/Effects/Effect---Avid-Gossiper" data-for="Rules/Effects/Effect---Avid-Gossiper">Effect - Avid Gossiper</a></li><li><a href="../Rules/Effects/Effect---Backstab" data-for="Rules/Effects/Effect---Backstab">Effect - Backstab</a></li><li><a href="../Rules/Effects/Effect---Battle-Scarred" data-for="Rules/Effects/Effect---Battle-Scarred">Effect - Battle Scarred</a></li><li><a href="../Rules/Effects/Effect---Big-Steps" data-for="Rules/Effects/Effect---Big-Steps">Effect - Big Steps</a></li><li><a href="../Rules/Effects/Effect---Bones-Of-Steel" data-for="Rules/Effects/Effect---Bones-Of-Steel">Effect - Bones Of Steel</a></li><li><a href="../Rules/Effects/Effect---Bribery-Expert" data-for="Rules/Effects/Effect---Bribery-Expert">Effect - Bribery Expert</a></li><li><a href="../Rules/Effects/Effect---Cartographer's-Mind" data-for="Rules/Effects/Effect---Cartographer's-Mind">Effect - Cartographer's Mind</a></li><li><a href="../Rules/Effects/Effect---Cheat" data-for="Rules/Effects/Effect---Cheat">Effect - Cheat</a></li><li><a href="../Rules/Effects/Effect---Close-Quarters-Shooter" data-for="Rules/Effects/Effect---Close-Quarters-Shooter">Effect - Close Quarters Shooter</a></li><li><a href="../Rules/Effects/Effect---Cold-Conditioning" data-for="Rules/Effects/Effect---Cold-Conditioning">Effect - Cold Conditioning</a></li><li><a href="../Rules/Effects/Effect---Crime-in-Law" data-for="Rules/Effects/Effect---Crime-in-Law">Effect - Crime in-Law</a></li><li><a href="../Rules/Effects/Effect---Cultural-Explorer" data-for="Rules/Effects/Effect---Cultural-Explorer">Effect - Cultural Explorer</a></li><li><a href="../Rules/Effects/Effect---Defensive-Archer" data-for="Rules/Effects/Effect---Defensive-Archer">Effect - Defensive Archer</a></li><li><a href="../Rules/Effects/Effect---Defensive-Stance" data-for="Rules/Effects/Effect---Defensive-Stance">Effect - Defensive Stance</a></li><li><a href="../Rules/Effects/Effect---Dodging-Step" data-for="Rules/Effects/Effect---Dodging-Step">Effect - Dodging Step</a></li><li><a href="../Rules/Effects/Effect---Don't-Turn-Your-Back-On-Me" data-for="Rules/Effects/Effect---Don't-Turn-Your-Back-On-Me">Effect - Don't Turn Your Back On Me</a></li><li><a href="../Rules/Effects/Effect---Drag-Along" data-for="Rules/Effects/Effect---Drag-Along">Effect - Drag Along</a></li><li><a href="../Rules/Effects/Effect---Elusive" data-for="Rules/Effects/Effect---Elusive">Effect - Elusive</a></li><li><a href="../Rules/Effects/Effect---Empowered-Spell" data-for="Rules/Effects/Effect---Empowered-Spell">Effect - Empowered Spell</a></li><li><a href="../Rules/Effects/Effect---Enchanter" data-for="Rules/Effects/Effect---Enchanter">Effect - Enchanter</a></li><li><a href="../Rules/Effects/Effect---Enhanced-Defensive-Stance" data-for="Rules/Effects/Effect---Enhanced-Defensive-Stance">Effect - Enhanced Defensive Stance</a></li><li><a href="../Rules/Effects/Effect---Enhanced-Knives" data-for="Rules/Effects/Effect---Enhanced-Knives">Effect - Enhanced Knives</a></li><li><a href="../Rules/Effects/Effect---Environmental-Grace" data-for="Rules/Effects/Effect---Environmental-Grace">Effect - Environmental Grace</a></li><li><a href="../Rules/Effects/Effect---Expanded-Blade-Critical-Range" data-for="Rules/Effects/Effect---Expanded-Blade-Critical-Range">Effect - Expanded Blade Critical Range</a></li><li><a href="../Rules/Effects/Effect---Extra-HP" data-for="Rules/Effects/Effect---Extra-HP">Effect - Extra HP</a></li><li><a href="../Rules/Effects/Effect---Extra-HP-1" data-for="Rules/Effects/Effect---Extra-HP-1">Effect - Extra HP 1</a></li><li><a href="../Rules/Effects/Effect---Extra-HP-2" data-for="Rules/Effects/Effect---Extra-HP-2">Effect - Extra HP 2</a></li><li><a href="../Rules/Effects/Effect---Extra-HP-3" data-for="Rules/Effects/Effect---Extra-HP-3">Effect - Extra HP 3</a></li><li><a href="../Rules/Effects/Effect---Extra-HP-4" data-for="Rules/Effects/Effect---Extra-HP-4">Effect - Extra HP 4</a></li><li><a href="../Rules/Effects/Effect---Extra-Wound" data-for="Rules/Effects/Effect---Extra-Wound">Effect - Extra Wound</a></li><li><a href="../Rules/Effects/Effect---Fast-Archer" data-for="Rules/Effects/Effect---Fast-Archer">Effect - Fast Archer</a></li><li><a href="../Rules/Effects/Effect---Fear-Means-Respect" data-for="Rules/Effects/Effect---Fear-Means-Respect">Effect - Fear Means Respect</a></li><li><a href="../Rules/Effects/Effect---First-Responder" data-for="Rules/Effects/Effect---First-Responder">Effect - First Responder</a></li><li><a href="../Rules/Effects/Effect---Footwork" data-for="Rules/Effects/Effect---Footwork">Effect - Footwork</a></li><li><a href="../Rules/Effects/Effect---Forager" data-for="Rules/Effects/Effect---Forager">Effect - Forager</a></li><li><a href="../Rules/Effects/Effect---Fuck-I'm-Out" data-for="Rules/Effects/Effect---Fuck-I'm-Out">Effect - Fuck I'm Out</a></li><li><a href="../Rules/Effects/Effect---Grabbed" data-for="Rules/Effects/Effect---Grabbed">Effect - Grabbed</a></li><li><a href="../Rules/Effects/Effect---Grand-Weaving" data-for="Rules/Effects/Effect---Grand-Weaving">Effect - Grand Weaving</a></li><li><a href="../Rules/Effects/Effect---Grip-Switch" data-for="Rules/Effects/Effect---Grip-Switch">Effect - Grip Switch</a></li><li><a href="../Rules/Effects/Effect---Haggler" data-for="Rules/Effects/Effect---Haggler">Effect - Haggler</a></li><li><a href="../Rules/Effects/Effect---Heat-Conditioning" data-for="Rules/Effects/Effect---Heat-Conditioning">Effect - Heat Conditioning</a></li><li><a href="../Rules/Effects/Effect---Heraldist" data-for="Rules/Effects/Effect---Heraldist">Effect - Heraldist</a></li><li><a href="../Rules/Effects/Effect---Herbalist's-Eye" data-for="Rules/Effects/Effect---Herbalist's-Eye">Effect - Herbalist's Eye</a></li><li><a href="../Rules/Effects/Effect---In-the-Know" data-for="Rules/Effects/Effect---In-the-Know">Effect - In the Know</a></li><li><a href="../Rules/Effects/Effect---Inquisitor" data-for="Rules/Effects/Effect---Inquisitor">Effect - Inquisitor</a></li><li><a href="../Rules/Effects/Effect---Inward-Focus" data-for="Rules/Effects/Effect---Inward-Focus">Effect - Inward Focus</a></li><li><a href="../Rules/Effects/Effect---Iron-Grip" data-for="Rules/Effects/Effect---Iron-Grip">Effect - Iron Grip</a></li><li><a href="../Rules/Effects/Effect---Jester" data-for="Rules/Effects/Effect---Jester">Effect - Jester</a></li><li><a href="../Rules/Effects/Effect---King-on-the-Hill" data-for="Rules/Effects/Effect---King-on-the-Hill">Effect - King on the Hill</a></li><li><a href="../Rules/Effects/Effect---Liar-Liar" data-for="Rules/Effects/Effect---Liar-Liar">Effect - Liar Liar</a></li><li><a href="../Rules/Effects/Effect---Licensed-Healer" data-for="Rules/Effects/Effect---Licensed-Healer">Effect - Licensed Healer</a></li><li><a href="../Rules/Effects/Effect---Light-Steps" data-for="Rules/Effects/Effect---Light-Steps">Effect - Light Steps</a></li><li><a href="../Rules/Effects/Effect---Lingering-Spell" data-for="Rules/Effects/Effect---Lingering-Spell">Effect - Lingering Spell</a></li><li><a href="../Rules/Effects/Effect---Lock-Consul" data-for="Rules/Effects/Effect---Lock-Consul">Effect - Lock Consul</a></li><li><a href="../Rules/Effects/Effect---Mage" data-for="Rules/Effects/Effect---Mage">Effect - Mage</a></li><li><a href="../Rules/Effects/Effect---Mage-of-an-Element" data-for="Rules/Effects/Effect---Mage-of-an-Element">Effect - Mage of an Element</a></li><li><a href="../Rules/Effects/Effect---Magical-Conditioning" data-for="Rules/Effects/Effect---Magical-Conditioning">Effect - Magical Conditioning</a></li><li><a href="../Rules/Effects/Effect---Magical-Deflection" data-for="Rules/Effects/Effect---Magical-Deflection">Effect - Magical Deflection</a></li><li><a href="../Rules/Effects/Effect---Mental-Resilience" data-for="Rules/Effects/Effect---Mental-Resilience">Effect - Mental Resilience</a></li><li><a href="../Rules/Effects/Effect---Multipurpose-Shield" data-for="Rules/Effects/Effect---Multipurpose-Shield">Effect - Multipurpose Shield</a></li><li><a href="../Rules/Effects/Effect---Natural-Predator" data-for="Rules/Effects/Effect---Natural-Predator">Effect - Natural Predator</a></li><li><a href="../Rules/Effects/Effect---Not-Sherlock" data-for="Rules/Effects/Effect---Not-Sherlock">Effect - Not Sherlock</a></li><li><a href="../Rules/Effects/Effect---Ordained" data-for="Rules/Effects/Effect---Ordained">Effect - Ordained</a></li><li><a href="../Rules/Effects/Effect---Overpowered-Draw" data-for="Rules/Effects/Effect---Overpowered-Draw">Effect - Overpowered Draw</a></li><li><a href="../Rules/Effects/Effect---Perfect-Ambush" data-for="Rules/Effects/Effect---Perfect-Ambush">Effect - Perfect Ambush</a></li><li><a href="../Rules/Effects/Effect---Perfect-Block" data-for="Rules/Effects/Effect---Perfect-Block">Effect - Perfect Block</a></li><li><a href="../Rules/Effects/Effect---Plot-Armor" data-for="Rules/Effects/Effect---Plot-Armor">Effect - Plot Armor</a></li><li><a href="../Rules/Effects/Effect---Poison-Resistance" data-for="Rules/Effects/Effect---Poison-Resistance">Effect - Poison Resistance</a></li><li><a href="../Rules/Effects/Effect---Potion-Brewer" data-for="Rules/Effects/Effect---Potion-Brewer">Effect - Potion Brewer</a></li><li><a href="../Rules/Effects/Effect---Predicted-Duel" data-for="Rules/Effects/Effect---Predicted-Duel">Effect - Predicted Duel</a></li><li><a href="../Rules/Effects/Effect---Predicted-Exchange" data-for="Rules/Effects/Effect---Predicted-Exchange">Effect - Predicted Exchange</a></li><li><a href="../Rules/Effects/Effect---Primeval-Awareness" data-for="Rules/Effects/Effect---Primeval-Awareness">Effect - Primeval Awareness</a></li><li><a href="../Rules/Effects/Effect---Projectile-Deflection" data-for="Rules/Effects/Effect---Projectile-Deflection">Effect - Projectile Deflection</a></li><li><a href="../Rules/Effects/Effect---Quarterstaff-Defense" data-for="Rules/Effects/Effect---Quarterstaff-Defense">Effect - Quarterstaff Defense</a></li><li><a href="../Rules/Effects/Effect---Reaching-Spell" data-for="Rules/Effects/Effect---Reaching-Spell">Effect - Reaching Spell</a></li><li><a href="../Rules/Effects/Effect---Ready-Hand" data-for="Rules/Effects/Effect---Ready-Hand">Effect - Ready Hand</a></li><li><a href="../Rules/Effects/Effect---Robin-Hood" data-for="Rules/Effects/Effect---Robin-Hood">Effect - Robin Hood</a></li><li><a href="../Rules/Effects/Effect---Savoir-Faire" data-for="Rules/Effects/Effect---Savoir-Faire">Effect - Savoir Faire</a></li><li><a href="../Rules/Effects/Effect---Second-Reaction" data-for="Rules/Effects/Effect---Second-Reaction">Effect - Second Reaction</a></li><li><a href="../Rules/Effects/Effect---Silent-Steps" data-for="Rules/Effects/Effect---Silent-Steps">Effect - Silent Steps</a></li><li><a href="../Rules/Effects/Effect---Since-It-Is-You" data-for="Rules/Effects/Effect---Since-It-Is-You">Effect - Since It Is You</a></li><li><a href="../Rules/Effects/Effect---Sitting-on-the-Fence" data-for="Rules/Effects/Effect---Sitting-on-the-Fence">Effect - Sitting on the Fence</a></li><li><a href="../Rules/Effects/Effect---Small-Steps" data-for="Rules/Effects/Effect---Small-Steps">Effect - Small Steps</a></li><li><a href="../Rules/Effects/Effect---Spear-Brothers" data-for="Rules/Effects/Effect---Spear-Brothers">Effect - Spear Brothers</a></li><li><a href="../Rules/Effects/Effect---Spell-Guard" data-for="Rules/Effects/Effect---Spell-Guard">Effect - Spell Guard</a></li><li><a href="../Rules/Effects/Effect---Split-Spell" data-for="Rules/Effects/Effect---Split-Spell">Effect - Split Spell</a></li><li><a href="../Rules/Effects/Effect---Staff-Acrobat" data-for="Rules/Effects/Effect---Staff-Acrobat">Effect - Staff Acrobat</a></li><li><a href="../Rules/Effects/Effect---Subtle-Casting" data-for="Rules/Effects/Effect---Subtle-Casting">Effect - Subtle Casting</a></li><li><a href="../Rules/Effects/Effect---Takedown" data-for="Rules/Effects/Effect---Takedown">Effect - Takedown</a></li><li><a href="../Rules/Effects/Effect---The-Aspiring-Hero" data-for="Rules/Effects/Effect---The-Aspiring-Hero">Effect - The Aspiring Hero</a></li><li><a href="../Rules/Effects/Effect---The-Cult-Inner-Member" data-for="Rules/Effects/Effect---The-Cult-Inner-Member">Effect - The Cult Inner Member</a></li><li><a href="../Rules/Effects/Effect---The-Edgelord" data-for="Rules/Effects/Effect---The-Edgelord">Effect - The Edgelord</a></li><li><a href="../Rules/Effects/Effect---The-Loner" data-for="Rules/Effects/Effect---The-Loner">Effect - The Loner</a></li><li><a href="../Rules/Effects/Effect---Throwing-Hand" data-for="Rules/Effects/Effect---Throwing-Hand">Effect - Throwing Hand</a></li><li><a href="../Rules/Effects/Effect---Tower" data-for="Rules/Effects/Effect---Tower">Effect - Tower</a></li><li><a href="../Rules/Effects/Effect---Tracker" data-for="Rules/Effects/Effect---Tracker">Effect - Tracker</a></li><li><a href="../Rules/Effects/Effect---Twin-Parry" data-for="Rules/Effects/Effect---Twin-Parry">Effect - Twin Parry</a></li><li><a href="../Rules/Effects/Effect---Walking-Stick" data-for="Rules/Effects/Effect---Walking-Stick">Effect - Walking Stick</a></li><li><a href="../Rules/Effects/Effect---Wargame-Master" data-for="Rules/Effects/Effect---Wargame-Master">Effect - Wargame Master</a></li><li><a href="../Rules/Effects/Effect---Watching-your-back" data-for="Rules/Effects/Effect---Watching-your-back">Effect - Watching your back</a></li><li><a href="../Rules/Effects/Effect---Waterfall-Training" data-for="Rules/Effects/Effect---Waterfall-Training">Effect - Waterfall Training</a></li><li><a href="../Rules/Effects/Effect---Weapon-Thief" data-for="Rules/Effects/Effect---Weapon-Thief">Effect - Weapon Thief</a></li><li><a href="../Rules/Effects/Effect---Widened-Spell" data-for="Rules/Effects/Effect---Widened-Spell">Effect - Widened Spell</a></li><li><a href="../Rules/Effects/Effect---Withering-Focus" data-for="Rules/Effects/Effect---Withering-Focus">Effect - Withering Focus</a></li><li><a href="../Rules/Effects/Effect---Wrestler's-Control" data-for="Rules/Effects/Effect---Wrestler's-Control">Effect - Wrestler's Control</a></li><li><a href="../Rules/Effects/Effect---You-and-I" data-for="Rules/Effects/Effect---You-and-I">Effect - You and I</a></li><li><a href="../Rules/Effects/Effect---Zen-Archer" data-for="Rules/Effects/Effect---Zen-Archer">Effect - Zen Archer</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Rules/Lines-And-Zones"><button class="folder-button"><span class="folder-title">Lines And Zones</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Rules/Lines-And-Zones"><li><a href="../Rules/Lines-And-Zones/Crowded" data-for="Rules/Lines-And-Zones/Crowded">Crowded</a></li><li><a href="../Rules/Lines-And-Zones/Duel-Zone" data-for="Rules/Lines-And-Zones/Duel-Zone">Duel Zone</a></li><li><a href="../Rules/Lines-And-Zones/Fortified-Defenders" data-for="Rules/Lines-And-Zones/Fortified-Defenders">Fortified Defenders</a></li><li><a href="../Rules/Lines-And-Zones/Skirmish" data-for="Rules/Lines-And-Zones/Skirmish">Skirmish</a></li><li><a href="../Rules/Lines-And-Zones/Zone-Capacity" data-for="Rules/Lines-And-Zones/Zone-Capacity">Zone Capacity</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Rules/Mechanics"><button class="folder-button"><span class="folder-title">Mechanics</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Rules/Mechanics"><li><a href="../Rules/Mechanics/Action-Points" data-for="Rules/Mechanics/Action-Points">Action Points</a></li><li><a href="../Rules/Mechanics/Attitude-System" data-for="Rules/Mechanics/Attitude-System">Attitude System</a></li><li><a href="../Rules/Mechanics/Basic-Attack" data-for="Rules/Mechanics/Basic-Attack">Basic Attack</a></li><li><a href="../Rules/Mechanics/Conditioning-Perks-Overview" data-for="Rules/Mechanics/Conditioning-Perks-Overview">Conditioning Perks Overview</a></li><li><a href="../Rules/Mechanics/Consequence-Roll" data-for="Rules/Mechanics/Consequence-Roll">Consequence Roll</a></li><li><a href="../Rules/Mechanics/Critical-Results-and-Critical-Hits" data-for="Rules/Mechanics/Critical-Results-and-Critical-Hits">Critical Results and Critical Hits</a></li><li><a href="../Rules/Mechanics/Damage-Calculation" data-for="Rules/Mechanics/Damage-Calculation">Damage Calculation</a></li><li><a href="../Rules/Mechanics/Defense-Types" data-for="Rules/Mechanics/Defense-Types">Defense Types</a></li><li><a href="../Rules/Mechanics/Dual-Wielding" data-for="Rules/Mechanics/Dual-Wielding">Dual Wielding</a></li><li><a href="../Rules/Mechanics/Earning-Income" data-for="Rules/Mechanics/Earning-Income">Earning Income</a></li><li><a href="../Rules/Mechanics/Encounter-Setup" data-for="Rules/Mechanics/Encounter-Setup">Encounter Setup</a></li><li><a href="../Rules/Mechanics/Flaws" data-for="Rules/Mechanics/Flaws">Flaws</a></li><li><a href="../Rules/Mechanics/Flaws-Guidelines" data-for="Rules/Mechanics/Flaws-Guidelines">Flaws Guidelines</a></li><li><a href="../Rules/Mechanics/HP-Calculation" data-for="Rules/Mechanics/HP-Calculation">HP Calculation</a></li><li><a href="../Rules/Mechanics/Initiative" data-for="Rules/Mechanics/Initiative">Initiative</a></li><li><a href="../Rules/Mechanics/Limit-System" data-for="Rules/Mechanics/Limit-System">Limit System</a></li><li><a href="../Rules/Mechanics/Metamagic" data-for="Rules/Mechanics/Metamagic">Metamagic</a></li><li><a href="../Rules/Mechanics/Opposed-Checks" data-for="Rules/Mechanics/Opposed-Checks">Opposed Checks</a></li><li><a href="../Rules/Mechanics/Ranged-Combat" data-for="Rules/Mechanics/Ranged-Combat">Ranged Combat</a></li><li><a href="../Rules/Mechanics/Rank-Benefits" data-for="Rules/Mechanics/Rank-Benefits">Rank Benefits</a></li><li><a href="../Rules/Mechanics/Recovery-Rules" data-for="Rules/Mechanics/Recovery-Rules">Recovery Rules</a></li><li><a href="../Rules/Mechanics/Resting" data-for="Rules/Mechanics/Resting">Resting</a></li><li><a href="../Rules/Mechanics/Severity-Levels" data-for="Rules/Mechanics/Severity-Levels">Severity Levels</a></li><li><a href="../Rules/Mechanics/Skill-Application" data-for="Rules/Mechanics/Skill-Application">Skill Application</a></li><li><a href="../Rules/Mechanics/Spellcraft-Progression" data-for="Rules/Mechanics/Spellcraft-Progression">Spellcraft Progression</a></li><li><a href="../Rules/Mechanics/Strain" data-for="Rules/Mechanics/Strain">Strain</a></li><li><a href="../Rules/Mechanics/Surprise-Rounds" data-for="Rules/Mechanics/Surprise-Rounds">Surprise Rounds</a></li><li><a href="../Rules/Mechanics/Trading-Rules" data-for="Rules/Mechanics/Trading-Rules">Trading Rules</a></li><li><a href="../Rules/Mechanics/Training-Rules" data-for="Rules/Mechanics/Training-Rules">Training Rules</a></li><li><a href="../Rules/Mechanics/Treatment-Methods" data-for="Rules/Mechanics/Treatment-Methods">Treatment Methods</a></li><li><a href="../Rules/Mechanics/Unopposed-Checks" data-for="Rules/Mechanics/Unopposed-Checks">Unopposed Checks</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Rules/References"><button class="folder-button"><span class="folder-title">References</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Rules/References"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Rules/References/Conditions"><button class="folder-button"><span class="folder-title">Conditions</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Rules/References/Conditions"><li><a href="../Rules/References/Conditions/Condition---Blinded" data-for="Rules/References/Conditions/Condition---Blinded">Condition - Blinded</a></li><li><a href="../Rules/References/Conditions/Condition---Dazzled" data-for="Rules/References/Conditions/Condition---Dazzled">Condition - Dazzled</a></li><li><a href="../Rules/References/Conditions/Condition---Fatigued" data-for="Rules/References/Conditions/Condition---Fatigued">Condition - Fatigued</a></li><li><a href="../Rules/References/Conditions/Condition---Hidden" data-for="Rules/References/Conditions/Condition---Hidden">Condition - Hidden</a></li><li><a href="../Rules/References/Conditions/Condition---Immobilized" data-for="Rules/References/Conditions/Condition---Immobilized">Condition - Immobilized</a></li><li><a href="../Rules/References/Conditions/Condition---Off-Guard" data-for="Rules/References/Conditions/Condition---Off-Guard">Condition - Off Guard</a></li><li><a href="../Rules/References/Conditions/Condition---Prone" data-for="Rules/References/Conditions/Condition---Prone">Condition - Prone</a></li><li><a href="../Rules/References/Conditions/Condition---Stunned" data-for="Rules/References/Conditions/Condition---Stunned">Condition - Stunned</a></li><li><a href="../Rules/References/Conditions/Condition---Unconscious" data-for="Rules/References/Conditions/Condition---Unconscious">Condition - Unconscious</a></li><li><a href="../Rules/References/Conditions/Well-Rested" data-for="Rules/References/Conditions/Well-Rested">Well Rested</a></li></ul></div></li><li><a href="../Rules/References/Bonus-Types" data-for="Rules/References/Bonus-Types">Bonus Types</a></li><li><a href="../Rules/References/Consequences-Table" data-for="Rules/References/Consequences-Table">Consequences Table</a></li><li><a href="../Rules/References/Defense-Traits" data-for="Rules/References/Defense-Traits">Defense Traits</a></li><li><a href="../Rules/References/Distance-in-Combat" data-for="Rules/References/Distance-in-Combat">Distance in Combat</a></li><li><a href="../Rules/References/Downtime-Quality" data-for="Rules/References/Downtime-Quality">Downtime Quality</a></li><li><a href="../Rules/References/Effect-Types" data-for="Rules/References/Effect-Types">Effect Types</a></li><li><a href="../Rules/References/Lines-and-Zones-Effects" data-for="Rules/References/Lines-and-Zones-Effects">Lines and Zones Effects</a></li><li><a href="../Rules/References/Magic-Traits" data-for="Rules/References/Magic-Traits">Magic Traits</a></li><li><a href="../Rules/References/Misleading-Rings" data-for="Rules/References/Misleading-Rings">Misleading Rings</a></li><li><a href="../Rules/References/Primary-Traits" data-for="Rules/References/Primary-Traits">Primary Traits</a></li><li><a href="../Rules/References/Rank-System" data-for="Rules/References/Rank-System">Rank System</a></li></ul></div></li><li><a href="../Rules/Combat" data-for="Rules/Combat">Combat</a></li><li><a href="../Rules/Core" data-for="Rules/Core">Core</a></li><li><a href="../Rules/Design-Philosophy" data-for="Rules/Design-Philosophy">Design Philosophy</a></li><li><a href="../Rules/Downtime-And-Exploration" data-for="Rules/Downtime-And-Exploration">Downtime And Exploration</a></li><li><a href="../Rules/Intro" data-for="Rules/Intro">Intro</a></li><li><a href="../Rules/Magic" data-for="Rules/Magic">Magic</a></li><li><a href="../Rules/Rulebook" data-for="Rules/Rulebook">Rulebook</a></li><li><a href="../Rules/Social-And-World" data-for="Rules/Social-And-World">Social And World</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Spells"><button class="folder-button"><span class="folder-title">Spells</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Spells"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Spells/Rituals"><button class="folder-button"><span class="folder-title">Rituals</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Spells/Rituals"><li><a href="../Spells/Rituals/Alarming-Wards" data-for="Spells/Rituals/Alarming-Wards">Alarming Wards</a></li><li><a href="../Spells/Rituals/Consecrate" data-for="Spells/Rituals/Consecrate">Consecrate</a></li><li><a href="../Spells/Rituals/Pest-control" data-for="Spells/Rituals/Pest-control">Pest control</a></li><li><a href="../Spells/Rituals/Team-Ritual" data-for="Spells/Rituals/Team-Ritual">Team Ritual</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Spells/Tier-0"><button class="folder-button"><span class="folder-title">Tier 0</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Spells/Tier-0"><li><a href="../Spells/Tier-0/Arcane-Armor" data-for="Spells/Tier-0/Arcane-Armor">Arcane Armor</a></li><li><a href="../Spells/Tier-0/Basic-Elemental-Invocation" data-for="Spells/Tier-0/Basic-Elemental-Invocation">Basic Elemental Invocation</a></li><li><a href="../Spells/Tier-0/Darkvision" data-for="Spells/Tier-0/Darkvision">Darkvision</a></li><li><a href="../Spells/Tier-0/Detect-Magic" data-for="Spells/Tier-0/Detect-Magic">Detect Magic</a></li><li><a href="../Spells/Tier-0/Endure-Elements" data-for="Spells/Tier-0/Endure-Elements">Endure Elements</a></li><li><a href="../Spells/Tier-0/Featherfall" data-for="Spells/Tier-0/Featherfall">Featherfall</a></li><li><a href="../Spells/Tier-0/Light" data-for="Spells/Tier-0/Light">Light</a></li><li><a href="../Spells/Tier-0/Minor-Elemental-Manipulation" data-for="Spells/Tier-0/Minor-Elemental-Manipulation">Minor Elemental Manipulation</a></li><li><a href="../Spells/Tier-0/Minor-Telekinesis" data-for="Spells/Tier-0/Minor-Telekinesis">Minor Telekinesis</a></li><li><a href="../Spells/Tier-0/Phantom-Tools" data-for="Spells/Tier-0/Phantom-Tools">Phantom Tools</a></li><li><a href="../Spells/Tier-0/Prestidigitation" data-for="Spells/Tier-0/Prestidigitation">Prestidigitation</a></li><li><a href="../Spells/Tier-0/Resistance" data-for="Spells/Tier-0/Resistance">Resistance</a></li><li><a href="../Spells/Tier-0/Sad-violin" data-for="Spells/Tier-0/Sad-violin">Sad violin</a></li><li><a href="../Spells/Tier-0/Stabilize" data-for="Spells/Tier-0/Stabilize">Stabilize</a></li><li><a href="../Spells/Tier-0/Wish-em-Good-Luck" data-for="Spells/Tier-0/Wish-em-Good-Luck">Wish-em Good Luck</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Spells/Trees"><button class="folder-button"><span class="folder-title">Trees</span></button></div></div><div class="folder-outer open"><ul style="padding-left:1.4rem;" class="content" data-folderul="Spells/Trees"><li><a href="../Spells/Trees/Elemental-Tree-Plan" data-for="Spells/Trees/Elemental-Tree-Plan">Elemental Tree Plan</a></li><li><a href="../Spells/Trees/Healing-Tree-Plan" data-for="Spells/Trees/Healing-Tree-Plan">Healing Tree Plan</a></li></ul></div></li><li><a href="../Spells/0-Spell-Template" data-for="Spells/0-Spell-Template">0 Spell Template</a></li><li><a href="../Spells/Alter-Shape" data-for="Spells/Alter-Shape">Alter Shape</a></li><li><a href="../Spells/Animate-Appliance" data-for="Spells/Animate-Appliance">Animate Appliance</a></li><li><a href="../Spells/Aura-of-Health" data-for="Spells/Aura-of-Health">Aura of Health</a></li><li><a href="../Spells/Aura-of-Speed" data-for="Spells/Aura-of-Speed">Aura of Speed</a></li><li><a href="../Spells/Awaken" data-for="Spells/Awaken">Awaken</a></li><li><a href="../Spells/Bestial-Arms" data-for="Spells/Bestial-Arms">Bestial Arms</a></li><li><a href="../Spells/Binding-Chains" data-for="Spells/Binding-Chains">Binding Chains</a></li><li><a href="../Spells/Cleanse-Food-and-Water" data-for="Spells/Cleanse-Food-and-Water">Cleanse Food and Water</a></li><li><a href="../Spells/Cloud-walking" data-for="Spells/Cloud-walking">Cloud walking</a></li><li><a href="../Spells/Control-Weather" data-for="Spells/Control-Weather">Control Weather</a></li><li><a href="../Spells/Cure-Affliction" data-for="Spells/Cure-Affliction">Cure Affliction</a></li><li><a href="../Spells/Elemental-Armor" data-for="Spells/Elemental-Armor">Elemental Armor</a></li><li><a href="../Spells/Elemental-Form" data-for="Spells/Elemental-Form">Elemental Form</a></li><li><a href="../Spells/Elemental-Manipulation" data-for="Spells/Elemental-Manipulation">Elemental Manipulation</a></li><li><a href="../Spells/Elemental-Strike" data-for="Spells/Elemental-Strike">Elemental Strike</a></li><li><a href="../Spells/Elemental-Weapon" data-for="Spells/Elemental-Weapon">Elemental Weapon</a></li><li><a href="../Spells/Empower-Weapons" data-for="Spells/Empower-Weapons">Empower Weapons</a></li><li><a href="../Spells/Ghost-Sound" data-for="Spells/Ghost-Sound">Ghost Sound</a></li><li><a href="../Spells/Halt-Aging" data-for="Spells/Halt-Aging">Halt Aging</a></li><li><a href="../Spells/Healing-Aura" data-for="Spells/Healing-Aura">Healing Aura</a></li><li><a href="../Spells/Healing-Slumber" data-for="Spells/Healing-Slumber">Healing Slumber</a></li><li><a href="../Spells/Lend-Vitality" data-for="Spells/Lend-Vitality">Lend Vitality</a></li><li><a href="../Spells/Levitation" data-for="Spells/Levitation">Levitation</a></li><li><a href="../Spells/Light-Backpack" data-for="Spells/Light-Backpack">Light Backpack</a></li><li><a href="../Spells/Light-Feet" data-for="Spells/Light-Feet">Light Feet</a></li><li><a href="../Spells/Loud-Mouth" data-for="Spells/Loud-Mouth">Loud Mouth</a></li><li><a href="../Spells/Major-Elemental-Manipulation" data-for="Spells/Major-Elemental-Manipulation">Major Elemental Manipulation</a></li><li><a href="../Spells/Major-Healing" data-for="Spells/Major-Healing">Major Healing</a></li><li><a href="../Spells/Message" data-for="Spells/Message">Message</a></li><li><a href="../Spells/Minor-Curse" data-for="Spells/Minor-Curse">Minor Curse</a></li><li><a href="../Spells/Minor-Disruption" data-for="Spells/Minor-Disruption">Minor Disruption</a></li><li><a href="../Spells/Minor-Healing" data-for="Spells/Minor-Healing">Minor Healing</a></li><li><a href="../Spells/Obscure" data-for="Spells/Obscure">Obscure</a></li><li><a href="../Spells/Profanity-filter" data-for="Spells/Profanity-filter">Profanity filter</a></li><li><a href="../Spells/Regeneration" data-for="Spells/Regeneration">Regeneration</a></li><li><a href="../Spells/Resist-Element" data-for="Spells/Resist-Element">Resist Element</a></li><li><a href="../Spells/Restoration" data-for="Spells/Restoration">Restoration</a></li><li><a href="../Spells/Restore-Mind" data-for="Spells/Restore-Mind">Restore Mind</a></li><li><a href="../Spells/Restore-Senses" data-for="Spells/Restore-Senses">Restore Senses</a></li><li><a href="../Spells/Resurrection" data-for="Spells/Resurrection">Resurrection</a></li><li><a href="../Spells/Resuscitate" data-for="Spells/Resuscitate">Resuscitate</a></li><li><a href="../Spells/Simple-barrier" data-for="Spells/Simple-barrier">Simple barrier</a></li><li><a href="../Spells/Summon-Elemental" data-for="Spells/Summon-Elemental">Summon Elemental</a></li><li><a href="../Spells/Summon-Elemental-Weapon" data-for="Spells/Summon-Elemental-Weapon">Summon Elemental Weapon</a></li><li><a href="../Spells/Summon-Skelly-boys" data-for="Spells/Summon-Skelly-boys">Summon Skelly boys</a></li><li><a href="../Spells/Summon-weapon" data-for="Spells/Summon-weapon">Summon weapon</a></li><li><a href="../Spells/Telekinetic-Maneuver" data-for="Spells/Telekinetic-Maneuver">Telekinetic Maneuver</a></li><li><a href="../Spells/Tentacle-arms" data-for="Spells/Tentacle-arms">Tentacle arms</a></li><li><a href="../Spells/Youth" data-for="Spells/Youth">Youth</a></li></ul></div></li><li><a href="../Awaken" data-for="Awaken">Awaken</a></li><li><a href="../CLAUDE" data-for="CLAUDE">CLAUDE</a></li><li><a href="../Design-Guidelines" data-for="Design-Guidelines">Design Guidelines</a></li><li><a href="../Elemental-Affinity" data-for="Elemental-Affinity">Elemental Affinity</a></li><li><a href="../Lend-Vitality" data-for="Lend-Vitality">Lend Vitality</a></li><li><a href="../Minor--Healing" data-for="Minor--Healing">Minor  Healing</a></li></ul></div></li><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../Rules/">Rules</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Social And World</a></div></nav><h1 class="article-title">Social And World</h1><p show-comma="true" class="content-meta"><span>Sep 13, 2026</span><span>1 min read</span></p></div></div><article class="popover-hint"><h1 id="social-and-world">Social And World<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#social-and-world" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Interacting with the world: social mechanics, organizations,
+equipment and encumbrance.</p>
+<p></p><blockquote class="transclude" data-url="7.-Equipment" data-block data-embed-alias="undefined"><h1>7. Equipment</h1><h1 id="weapons">Weapons<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#weapons" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h3 id="weapon-traits">Weapon Traits<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#weapon-traits" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Trait</th><th>Effect</th></tr></thead><tbody><tr><td><strong>Finesse</strong></td><td>Can use DX instead of AG for attacks and parries</td></tr><tr><td><strong>Reach</strong></td><td>While disengaged, can target enemies without engaging with them</td></tr><tr><td><strong>Long Reach</strong></td><td>Can target enemies without engaging with them in the same zone. Even while engaged.</td></tr><tr><td><strong>Range X</strong></td><td>Range increment of your weapon.</td></tr><tr><td><strong>Concealed</strong></td><td>+2 bonus to hide on person</td></tr><tr><td><strong>Conduit</strong></td><td>Hand counts as free for spell-casting purposes.</td></tr><tr><td><strong>Double</strong></td><td>Can deal two types of damage, chosen when attacking</td></tr><tr><td><strong>Nonlethal</strong></td><td>Deals nonlethal damage</td></tr><tr><td><strong>Quick Drawn</strong></td><td>Can draw as part of attacking</td></tr><tr><td><strong>Sweeping</strong></td><td>Each consecutive hit in multi-target abilities deals +1 damage</td></tr><tr><td><strong>Versatile</strong></td><td>Two-handed use with empty off-hand adds +1 damage. When Versatile weapon is used in 2 hands it uses 1 less AP per strike.</td></tr></tbody></table></div>
+<h3 id="weapon-weight">Weapon Weight<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#weapon-weight" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Marker</th><th>AP</th><th>Attack Stat</th><th>Deflect Stat</th></tr></thead><tbody><tr><td>Light (L)</td><td>2</td><td>DX or AG</td><td>DX or AG</td></tr><tr><td>Medium (M)</td><td>3</td><td>AG</td><td>AG</td></tr><tr><td>Heavy (H)</td><td>4</td><td>MG</td><td>AG</td></tr></tbody></table></div>
+<h3 id="weapon-categories">Weapon Categories<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#weapon-categories" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Having training in any listed category allows you to use the weapon without the -2 untrained penalty.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Category</th><th>Weapons</th></tr></thead><tbody><tr><td><strong>Blades</strong></td><td>Daggers, swords, rapiers, greatswords</td></tr><tr><td><strong>Polearms</strong></td><td>Spears, staves, pikes, glaives, halberds</td></tr><tr><td><strong>Axes</strong></td><td>Axes, picks, cleavers</td></tr><tr><td><strong>Impact</strong></td><td>Maces, hammers, clubs, flails, staffs</td></tr><tr><td><strong>Brawling</strong></td><td>Fists, kicks, grappling</td></tr><tr><td><strong>Bows</strong></td><td>Bows, crossbows</td></tr><tr><td><strong>Thrown</strong></td><td>Javelins, darts, throwing axes</td></tr><tr><td><strong>Shield</strong></td><td>Shield boss</td></tr></tbody></table></div>
+<h3 id="melee-weapons">Melee Weapons<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#melee-weapons" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Weapon</th><th>Category</th><th>Damage</th><th>Hands</th><th>Might Req</th><th>Traits</th></tr></thead><tbody><tr><td>Dagger (L)</td><td>Blades, Thrown</td><td>d4</td><td>1</td><td>0</td><td>Quick Drawn, Range 3</td></tr><tr><td>Arming Sword (L)</td><td>Blades</td><td>d6</td><td>1</td><td>0</td><td>Versatile</td></tr><tr><td>Mace (M)</td><td>Impact</td><td>d8</td><td>1</td><td>2</td><td>—</td></tr><tr><td>Javelin (M)</td><td>Polearm, Thrown</td><td>d6</td><td>1</td><td>0</td><td>Quick Drawn, Range 5</td></tr><tr><td>Longspear (M)</td><td>Polearm</td><td>d6</td><td>2</td><td>0</td><td>Reach</td></tr><tr><td>Longsword (M)</td><td>Blades</td><td>d8</td><td>V</td><td>1</td><td>Versatile</td></tr><tr><td>Smallsword (M)</td><td>Blades</td><td>d8</td><td>1</td><td>1</td><td>Conduit</td></tr><tr><td>Danish Axe (H)</td><td>Axes</td><td>d12</td><td>2</td><td>3</td><td>Large, Sweeping</td></tr><tr><td>Zweihander (H)</td><td>Blades</td><td>d12+1</td><td>2</td><td>4</td><td>Large, Reach</td></tr><tr><td>Maul (H)</td><td>Impact</td><td>d10</td><td>2</td><td>2</td><td>Large, Nonlethal</td></tr><tr><td>Greatsword (M)</td><td>Blades</td><td>d10</td><td>2</td><td>2</td><td>Reach</td></tr><tr><td>War Staff (M)</td><td>Polearm, Impact</td><td>d8</td><td>2</td><td>1</td><td>Nonlethal, Conduit</td></tr><tr><td>Quarterstaff (M)</td><td>Polearm, Impact</td><td>d6</td><td>V</td><td>0</td><td>Reach, Nonlethal, Conduit, Versatile</td></tr><tr><td>Pike (M)</td><td>Polearm</td><td>d6</td><td>2</td><td>2</td><td>Long Reach, Large</td></tr><tr><td>SwordStaff (M)</td><td>Blades, Polearm</td><td>d8 slash / d6 blunt</td><td>2</td><td>1</td><td>Reach, Nonlethal, Double</td></tr><tr><td>Shield Boss (L)</td><td>Shield</td><td>d4</td><td>1</td><td>0</td><td>—</td></tr><tr><td>Shield Boss (H)</td><td>Shield</td><td>d6</td><td>1</td><td>0</td><td>—</td></tr></tbody></table></div>
+<h3 id="ranged-weapons">Ranged Weapons<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ranged-weapons" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>All bows have a base strike cost of 3 AP.</p>
+<p><strong>Range Increments:</strong> For thrown weapons, range increment equals Range value.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Weapon</th><th>Category</th><th>Damage</th><th>Might Req</th><th>Range</th><th>Traits</th><th></th></tr></thead><tbody><tr><td>Shortbow</td><td>Bows</td><td>d8 + Might Req</td><td>0-5</td><td>10m</td><td>—</td><td></td></tr><tr><td>Longbow</td><td>Bows</td><td>d10 + Might Req</td><td>1-5</td><td>20m</td><td>Large</td><td></td></tr><tr><td>Recurve Bow</td><td>Bows</td><td>d8 + Might Req</td><td>0-1</td><td>40m</td><td>—</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></div>
+<p><strong>Bow Might Requirements:</strong></p>
+<ul>
+<li>Below minimum Might: -1 to hit per point of deficit</li>
+<li>Meeting or exceeding Might Req: Add Might Req to damage</li>
+</ul>
+<h1 id="armor">Armor<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#armor" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th><strong>Armor Type</strong></th><th><strong>Armor Penalty</strong></th><th><strong>Might Req</strong></th><th><strong>Armor Bonus</strong></th><th>Weight</th></tr></thead><tbody><tr><td><strong>Scout</strong></td><td>0</td><td>0</td><td>+1</td><td>5</td></tr><tr><td><strong>Tactical</strong></td><td>-1</td><td>1</td><td>+2</td><td>10</td></tr><tr><td><strong>Defensive</strong></td><td>-2</td><td>1</td><td>+3</td><td>15</td></tr><tr><td><strong>Protective</strong></td><td>-3/-1</td><td>2</td><td>+4</td><td>20</td></tr><tr><td><strong>Bulwark</strong></td><td>-4/-1</td><td>3</td><td>+5</td><td>30</td></tr><tr><td><strong>Titanic</strong></td><td>-5/-2</td><td>4</td><td>+6</td><td>45</td></tr><tr><td><strong>Colossal</strong></td><td>-6/-2</td><td>5</td><td>+7</td><td>65</td></tr><tr><td><strong>Plot Armor</strong></td><td>0</td><td>0</td><td>+10</td><td>0</td></tr><tr><td><strong>Armor Penalty X/Y:</strong> X = penalty when not meeting Might Req; Y = penalty when meeting Might Req. Penalty applies to Speed and as a flat penalty to Dodge rolls.</td><td></td><td></td><td></td><td></td></tr></tbody></table></div>
+<h3 id="ms5-thumb-rule-on-masterwork-rules"><strong>MS5 Thumb rule</strong>. on masterwork rules<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ms5-thumb-rule-on-masterwork-rules" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>High quality variants cost 2x-5x of the armor cost and provide extra armor bonus up to GM (+1/+2/tbd).</p>
+<h1 id="shields">Shields<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#shields" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th><strong>Shield Name</strong></th><th><strong>Armor Penalty</strong></th><th><strong>Might Req</strong></th><th><strong>Defense Bonus</strong></th><th><strong>Negation</strong></th><th><strong>Traits</strong></th><th>Weight</th></tr></thead><tbody><tr><td>Buckler</td><td>—</td><td>0</td><td>1</td><td>2</td><td>Light</td><td>0.5</td></tr><tr><td>Round Shield</td><td>—</td><td>0</td><td>1</td><td>3</td><td>Medium</td><td>3</td></tr><tr><td>Kite Shield</td><td>1</td><td>1</td><td>2</td><td>4</td><td>Medium</td><td>3</td></tr><tr><td>Tower Shield</td><td>2</td><td>2</td><td>3</td><td>5</td><td>Heavy</td><td>6</td></tr><tr><td>Fortress Shield</td><td>3/-1</td><td>3</td><td>4</td><td>6</td><td>Heavy</td><td>8</td></tr></tbody></table></div>
+<p><strong>Shield Deflection:</strong></p>
+<ul>
+<li>Light and medium shields can use Agility when Deflecting</li>
+<li>Medium and heavy shields can use Might when Deflecting</li>
+<li>This allows medium shields to be used with either Agility or Might</li>
+</ul>
+<p><strong>Armor Penalty:</strong> Combines with worn armor.
+Defense bonus from shield applies to deflect; some perks allow expanding the bonus to other defenses.</p>
+<h1 id="magical-items">Magical Items<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#magical-items" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>MS5 Note:</strong> Magical items are not required for playtesting up to MS 7-8.</p>
+<h2 id="consumables">Consumables<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#consumables" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Tier 0-5 Spells can be made into potions and scrolls. Scrolls require a Spellcraft perk or Arcane Theology skill; potions do not.
+Don’t forget oils.</p>
+<h2 id="mundane-equipment">Mundane Equipment<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#mundane-equipment" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Tools, supplies, and trade goods are available for purchase. GM discretion on pricing and availability.
+repeating 10x
+tier 0 1g
+tier 1 10g
+tuer 2 50
+tier 3 250
+tier 4 1000</p><a href="../Rules/Social-And-World/7.-Equipment" class="internal transclude-src">Link to original</a></blockquote>
+<blockquote class="transclude" data-url="7.1-Encumbrance" data-block data-embed-alias="undefined"><h1>7.1 Encumbrance</h1><p><strong>Capacity:</strong> (5 + Endurance + Might)² kg</p>
+<p>All gear you wear contributes to your total load. Compare your current load to your capacity to determine encumbrance level.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Encumbrance Level</th><th>Load Range</th><th>Speed Penalty</th><th>Dodge Penalty</th><th></th></tr></thead><tbody><tr><td>Unencumbured</td><td>&lt; 0.5 × Capacity</td><td>0</td><td>0</td><td></td></tr><tr><td>Light</td><td>0.5-1.0 × Capacity</td><td>-1</td><td>-1</td><td></td></tr><tr><td>Encumbered</td><td>1.0-1.5 × Capacity</td><td>-2</td><td>-2</td><td></td></tr><tr><td>Heavy</td><td>1.5-2.0 × Capacity</td><td>Half speed</td><td>-4</td><td></td></tr><tr><td>Over-Encumbered</td><td>2.0-3.0 × Capacity</td><td>Quarter speed</td><td>Cannot dodge</td><td></td></tr></tbody></table></div><a href="../Rules/Social-And-World/7.1-Encumbrance" class="internal transclude-src">Link to original</a></blockquote>
+<blockquote class="transclude" data-url="8.-Social-Interactions" data-block data-embed-alias="undefined"><h1>8. Social Interactions</h1><h1 id="8-social-interactions">8. Social Interactions<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8-social-interactions" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Whether conducting negotiations, gathering gossip, conning someone, or talking your way out of jail, social interactions follow a set of rules.</p>
+<h2 id="attitude-system">Attitude System<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#attitude-system" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p></p><blockquote class="transclude" data-url="Attitude-System" data-block data-embed-alias="undefined"><h1>Attitude System</h1><h1 id="attitude-range">Attitude Range<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#attitude-range" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Attitude ranges from <strong>-5</strong> (hostile nemesis, may attack on sight) to <strong>+5</strong> (fanatical love and adoration).</p>
+<h2 id="initial-attitude">Initial Attitude<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#initial-attitude" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>GM determines initial attitude based on:</p>
+<ul>
+<li>Race</li>
+<li>Appearance</li>
+<li>Social class</li>
+<li>Rank</li>
+<li>Prior reputation</li>
+</ul>
+<p><strong>First meeting typical range:</strong> -2 to +2</p>
+<ul>
+<li>+2: Friendly disposition</li>
+<li>-2: Unfriendly disposition</li>
+<li>0: Neutral/indifferent</li>
+</ul>
+<h2 id="attitude-progression">Attitude Progression<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#attitude-progression" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>First interaction can shift to -3/+3 range</li>
+<li>Progressing further requires significant actions or stakes</li>
+<li>Roleplay and actions affect attitude naturally</li>
+</ul>
+<h2 id="attitude-effects-on-favors">Attitude Effects on Favors<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#attitude-effects-on-favors" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Attitude</th><th>Cost Modifier</th></tr></thead><tbody><tr><td>-5</td><td>Triple the cost</td></tr><tr><td>0</td><td>+20% markup</td></tr><tr><td>+3</td><td>Half price or IOU</td></tr><tr><td>+5</td><td>Free (fanatical devotion)</td></tr></tbody></table></div>
+<p><strong>Tags:</strong><a href="../Rules/Mechanics/Attitude-System/../../.././../tags/Social" class="tag-link internal alias" data-slug="tags/Social">Social</a></p><a href="../Rules/Social-And-World/8.-Social-Interactions/../../../Rules/Mechanics/Attitude-System" class="internal transclude-src">Link to original</a></blockquote><p></p>
+<h2 id="social-actions">Social Actions<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#social-actions" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="affect-attitude">Affect Attitude<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#affect-attitude" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>
+<p><strong>Choose a skill:</strong> Negotiations, Manipulation, Gossip, Leadership, Fast-talk (first impression only), Intimidation (efficient for lowering attitude), Streetwise, or situationally appropriate skill (Smithing with a smith, Magical Theory with a mage)</p>
+</li>
+<li>
+<p><strong>Roleplay the interaction</strong> if possible</p>
+</li>
+<li>
+<p><strong>Roll:</strong> Skill + Charisma (or other stat per GM allowance) vs target’s opposing check (GM’s choice)</p>
+</li>
+</ol>
+<p>The target will either change attitude or resist. GM may decide your strategy is particularly effective or counterproductive.</p>
+<h3 id="detect-falsehood">Detect Falsehood<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#detect-falsehood" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>When trying to detect manipulation and lies:</p>
+<ul>
+<li><strong>Roll:</strong> Perception + Manipulation OR Perception + Will (whichever is higher)</li>
+<li>This is a blind GM check</li>
+<li>Result: “Something seems off” or “Nothing seems off” (not deep insight into reasons)</li>
+</ul>
+<h3 id="asking-for-a-favor">Asking for a Favor<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#asking-for-a-favor" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>People don’t need to like you to do a favor - the question is what they’ll ask in return.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Attitude</th><th>Response</th></tr></thead><tbody><tr><td>Negative</td><td>Price higher than cost to them</td></tr><tr><td>Neutral</td><td>Win-win condition</td></tr><tr><td>Positive</td><td>Less than cost, or IOU for future favor</td></tr></tbody></table></div>
+<p>You can use social skills to improve the deal (+1 attitude for this favor). On failure with negative attitude or critical failure, the price increases.</p>
+<p>NPCs can decline, counter offer, or accept.</p>
+<h3 id="fast-talk">Fast-Talk<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#fast-talk" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Roll:</strong> Fast-talk vs Detect Falsehood (or Perception/Will)</p>
+<p>GM adds bonuses from rank and appearance.</p>
+<h2 id="gm-guidelines">GM Guidelines<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#gm-guidelines" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Most calculations happen prior to rolls. Use Appearance, rank difference, and similar factors to set initial attitude.</p>
+<p><strong>First meeting:</strong> Typically -2 to +2 range</p>
+<ul>
+<li>NPCs don’t care much about PCs most of the time</li>
+<li>Friendly NPCs might suggest diplomacy</li>
+<li>Unfriendly ones may pursue conflict when interests align</li>
+</ul>
+<p><strong>Progression:</strong> First interaction can reach -3/+3, further requires actions or stakes.</p>
+<h2 id="trading">Trading<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#trading" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p></p><blockquote class="transclude" data-url="Trading-Rules" data-block data-embed-alias="undefined"><h1>Trading Rules</h1><h1 id="trading-rules">Trading Rules<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#trading-rules" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Most items have a listed price in the rulebook, which is the market selling price.</p>
+<h2 id="base-prices">Base Prices<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#base-prices" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Transaction</th><th>Price Range</th></tr></thead><tbody><tr><td>Shops sell at</td><td>100% of listed price</td></tr><tr><td>Shops buy at</td><td>50% of listed price</td></tr></tbody></table></div>
+<h2 id="bargaining">Bargaining<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#bargaining" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Bargaining and attitude shift the ranges:</p>
+<ul>
+<li><strong>Buying:</strong> 75-125% of listed price</li>
+<li><strong>Selling:</strong> 25-75% of listed price</li>
+<li><strong>Modifier:</strong> ±5% per attitude step</li>
+</ul>
+<h2 id="bargaining-rolls">Bargaining Rolls<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#bargaining-rolls" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Roll a social skill to shift the attitude for this purchase by 1 step:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Purchase Size</th><th>Skill to Use</th></tr></thead><tbody><tr><td>Small</td><td>Fast Talk</td></tr><tr><td>Large</td><td>Negotiations or Manipulation</td></tr></tbody></table></div>
+<p>Roll against seller’s social skill:</p>
+<ul>
+<li><strong>Success:</strong> Treat bargain as 1 step better</li>
+<li><strong>Failure:</strong> Treat bargain as 1 step worse</li>
+</ul>
+<p><strong>Tags:</strong><a href="../Rules/Mechanics/Trading-Rules/../../.././../tags/Downtime" class="tag-link internal alias" data-slug="tags/Downtime">Downtime</a></p><a href="../Rules/Social-And-World/8.-Social-Interactions/../../../Rules/Mechanics/Trading-Rules" class="internal transclude-src">Link to original</a></blockquote><p></p><a href="../Rules/Social-And-World/8.-Social-Interactions" class="internal transclude-src">Link to original</a></blockquote>
+<blockquote class="transclude" data-url="8.1-Organizations" data-block data-embed-alias="undefined"><h1>8.1 Organizations</h1><h1 id="81-organizations">8.1 Organizations<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#81-organizations" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Organizations provide structure, support, and obligations. Your <a href="../Rules/Social-And-World/8.1-Organizations/../../../Rules/References/Rank-System" class="internal alias" data-slug="Rules/References/Rank-System">Rank</a> within an organization determines what benefits you receive and what duties you owe.</p>
+<h1 id="this-page-is-auto-generated-from-scrambled-notes-and-wont-be-operational-prior-to-08">This page is auto-generated from scrambled notes and won’t be operational prior to 0.8.<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#this-page-is-auto-generated-from-scrambled-notes-and-wont-be-operational-prior-to-08" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="rank-system">Rank System<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#rank-system" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p></p><blockquote class="transclude" data-url="Rank-System" data-block data-embed-alias="undefined"><h1>Rank System</h1><p>Rank is your formal standing in organized and semi-organized structures: priesthood, magical accreditation, military, administration, nobility, guilds, criminal networks, etc.</p>
+<h2 id="rank-levels">Rank Levels<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#rank-levels" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Level</th><th>Title Examples</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>Initiate, Apprentice, Corporal, Bachelor, Gang Member</td><td>Entry level, learning the ropes</td></tr><tr><td>2</td><td>Regular, Journeyman, Sergeant, Master’s Degree, Trusted Member</td><td>Full member, independent work</td></tr><tr><td>3</td><td>Specialist, High Journeyman, Lieutenant, Aspirant, Pack Leader</td><td>Recognized expertise, some authority</td></tr><tr><td>4</td><td>Leader, Master, Captain, Professor, Gang Leader</td><td>Commands others, significant influence</td></tr><tr><td>5</td><td>Commander, Guildmaster, General, Rector, Network Boss</td><td>Top of hierarchy, major power</td></tr></tbody></table></div>
+<h2 id="organization-size-limits">Organization Size Limits<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#organization-size-limits" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Ranks are limited by organizational capability. A guildmaster of a small guild counts as Rank 3-4, not 5. A “general” without an army isn’t Rank 5.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Organization Scope</th><th>Max Rank</th></tr></thead><tbody><tr><td>Local (street gang, village guild)</td><td>2-3</td></tr><tr><td>Regional (city guild, barony)</td><td>3-4</td></tr><tr><td>Major (kingdom-wide, major religion)</td><td>4-5</td></tr></tbody></table></div>
+<h2 id="earning-and-losing-rank">Earning and Losing Rank<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#earning-and-losing-rank" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>Earned through:</strong> Service, exams, promotion, inheritance, purchase (money/favors, not XP)</li>
+<li><strong>Requirements:</strong> Many organizations require appropriate skill levels for higher ranks</li>
+<li><strong>No XP value:</strong> Ranks don’t cost XP and don’t increase attributes</li>
+<li><strong>Loss:</strong> Misconduct, treason, incompetence, abandoning duties, or organizational collapse</li>
+</ul>
+<h2 id="rank-and-downtime-quality">Rank and Downtime Quality<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#rank-and-downtime-quality" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Your rank provides typical access to <a href="../Rules/References/Rank-System/../../../Rules/References/Downtime-Quality" class="internal alias" data-slug="Rules/References/Downtime-Quality">Downtime Quality</a> levels:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Rank</th><th>Typical Quality Access</th></tr></thead><tbody><tr><td>1-2</td><td>Adequate (2) without extra cost</td></tr><tr><td>3</td><td>Good (3) from organizational support</td></tr><tr><td>4-5</td><td>Excellent (4) or better through connections</td></tr></tbody></table></div>
+<p>Specific benefits depend on the organization (see <a href="../Rules/References/Rank-System/../../../Rules/Social-And-World/8.1-Organizations" class="internal alias" data-slug="Rules/Social-And-World/8.1-Organizations">8.1 Organizations</a>).</p><a href="../Rules/Social-And-World/8.1-Organizations/../../../Rules/References/Rank-System" class="internal transclude-src">Link to original</a></blockquote><p></p>
+<hr/>
+<h2 id="organizational-benefits">Organizational Benefits<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#organizational-benefits" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p></p><blockquote class="transclude" data-url="Rank-Benefits" data-block data-embed-alias="undefined"><h1>Rank Benefits</h1><h2 id="legal-rights-and-protections">Legal Rights and Protections<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#legal-rights-and-protections" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Different ranks provide specific legal privileges within their domains:</p>
+<p><strong>Inquisitor:</strong> Legal authority to investigate supernatural threats. Can requisition aid from local authorities. Protected under religious law.</p>
+<p><strong>Licensed Healer:</strong> Medical immunity when providing care. Can request authority to quarantine during outbreaks.</p>
+<p><strong>Nobility:</strong> Trial by peers. Immunity from arrest by lower-ranking officials. Authority to levy taxes and conscript militia.</p>
+<p><strong>Guild (Rank 2+):</strong> Journeymen work independently. Masters have authority over apprentices, voting rights. Grandmasters arbitrate disputes.</p>
+<p><strong>Military Officer (Rank 3+):</strong> Authority over troops. Can requisition supplies. May impose martial law in emergencies.</p>
+<h2 id="rules-of-hospitality">Rules of Hospitality<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#rules-of-hospitality" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Rank 2+ can expect basic accommodations from peers by asking a favor.</p>
+<p><strong>Noble Hospitality:</strong> Must provide appropriate accommodation to visiting peers. Breach is a serious social offense.</p>
+<p><strong>Religious Sanctuary:</strong> Ordained clergy can provide sanctuary in temples and holy sites.</p>
+<p><strong>Guild Courtesy:</strong> Masters and Journeymen receive professional courtesy from non-hostile guilds—workspace, tools, consultation.</p>
+<p><strong>Academic Courtesy:</strong> Access to libraries up to your rank, free attendance at lectures, exam-period accommodations.</p>
+<p><strong>Military Courtesy:</strong> Officers from non-hostile forces are entitled to parley rights and honorable treatment.</p>
+<h2 id="recognition-and-verification">Recognition and Verification<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#recognition-and-verification" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>Visual:</strong> Uniforms, badges, seals, heraldry, ceremonial items</li>
+<li><strong>Documentation:</strong> Papers, writs, patents, licenses, certificates</li>
+<li><strong>Knowledge Tests:</strong> Passwords, codes, rituals, specialized knowledge</li>
+<li><strong>Reputation:</strong> High-ranking individuals known by sight in their sphere</li>
+</ul>
+<h2 id="cross-organizational-rank">Cross-Organizational Rank<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#cross-organizational-rank" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Military defers to higher-equivalent nobility</li>
+<li>Religious authority supersedes civilian rank in matters of faith</li>
+<li>Academic rank carries weight in scholarly circles regardless of social standing</li>
+</ul>
+<p><strong>Tags:</strong><a href="../Rules/Mechanics/Rank-Benefits/../../.././../tags/Social" class="tag-link internal alias" data-slug="tags/Social">Social</a></p><a href="../Rules/Social-And-World/8.1-Organizations/../../../Rules/Mechanics/Rank-Benefits" class="internal transclude-src">Link to original</a></blockquote><p></p>
+<hr/>
+<h2 id="organization-benefits">Organization Benefits<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#organization-benefits" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Organizations provide downtime benefits based on your rank. Each organization has different strengths.</p>
+<h3 id="benefit-categories">Benefit Categories<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#benefit-categories" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Category</th><th>Description</th></tr></thead><tbody><tr><td><strong>Lodging</strong></td><td>Quality of accommodations provided</td></tr><tr><td><strong>Medical</strong></td><td>Quality of healing and recovery facilities</td></tr><tr><td><strong>Training</strong></td><td>Quality of instruction and materials available</td></tr><tr><td><strong>Income</strong></td><td>Quality of guaranteed work opportunities</td></tr><tr><td><strong>Special</strong></td><td>Unique access (libraries, armories, contacts, etc.)</td></tr></tbody></table></div>
+<h3 id="reading-organization-benefits">Reading Organization Benefits<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#reading-organization-benefits" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Benefits are expressed as formulas based on your Rank:</p>
+<ul>
+<li><code>= Rank</code> means benefit quality equals your rank</li>
+<li><code>= Rank + 1</code> means one quality level above your rank</li>
+<li><code>(max 3)</code> means capped at that quality level</li>
+<li><code>(min 2)</code> means floor at that quality level</li>
+</ul>
+<hr/>
+<h2 id="example-organizations">Example Organizations<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#example-organizations" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="church--religious-order">Church / Religious Order<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#church--religious-order" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Benefit</th><th>Formula</th><th>Notes</th></tr></thead><tbody><tr><td>Lodging</td><td>= Rank</td><td>Temple quarters, monastery cells</td></tr><tr><td>Medical</td><td>= Rank + 1</td><td>Healing magic and trained healers</td></tr><tr><td>Training</td><td>= Rank (min 2)</td><td>Theological instruction always adequate+</td></tr><tr><td>Income</td><td>= Rank (max 3)</td><td>Charitable work, ceremonies, scribing</td></tr><tr><td>Special</td><td>Sacred texts, sanctuary rights, congregation support</td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Rank</th><th>Obligations</th></tr></thead><tbody><tr><td>1</td><td>Attend services, follow doctrine, tithe (10% income)</td></tr><tr><td>2</td><td>Lead minor ceremonies, provide spiritual counsel to commoners</td></tr><tr><td>3</td><td>Manage temple affairs, train initiates, answer summons</td></tr><tr><td>4</td><td>Oversee multiple temples, represent church politically</td></tr><tr><td>5</td><td>Set doctrine, major religious decisions, lead in crises</td></tr></tbody></table></div>
+<h3 id="thieves-guild--criminal-network">Thieves Guild / Criminal Network<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#thieves-guild--criminal-network" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Benefit</th><th>Formula</th><th>Notes</th></tr></thead><tbody><tr><td>Lodging</td><td>= Rank - 1 (min 1)</td><td>Safe houses, hidden rooms</td></tr><tr><td>Medical</td><td>= Rank (max 3)</td><td>Back-alley surgeons, no questions asked</td></tr><tr><td>Training</td><td>= Rank</td><td>Criminal skills, combat, stealth</td></tr><tr><td>Income</td><td>= Rank</td><td>Fencing goods, contracts, protection</td></tr><tr><td>Special</td><td>Black market access, forged documents, information network</td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Rank</th><th>Obligations</th></tr></thead><tbody><tr><td>1</td><td>Pay tribute (15-20%), respect territory, keep secrets</td></tr><tr><td>2</td><td>Take assigned jobs, mentor newcomers, enforce guild rules</td></tr><tr><td>3</td><td>Run operations, handle disputes, recruit new members</td></tr><tr><td>4</td><td>Manage territory, negotiate with other factions, plan major heists</td></tr><tr><td>5</td><td>Set guild policy, manage alliances/wars, protect the network</td></tr></tbody></table></div>
+<h3 id="mercenary-company">Mercenary Company<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#mercenary-company" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Benefit</th><th>Formula</th><th>Notes</th></tr></thead><tbody><tr><td>Lodging</td><td>= Rank</td><td>Barracks to officer quarters</td></tr><tr><td>Medical</td><td>= Rank</td><td>Company surgeons and healers</td></tr><tr><td>Training</td><td>= Rank + 1</td><td>Combat-focused, excellent facilities</td></tr><tr><td>Income</td><td>= Rank</td><td>Contracts, garrison duty</td></tr><tr><td>Special</td><td>Equipment access, military contacts, letters of marque</td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Rank</th><th>Obligations</th></tr></thead><tbody><tr><td>1</td><td>Follow orders, maintain gear, share spoils (company cut)</td></tr><tr><td>2</td><td>Lead small teams, train recruits, take point on missions</td></tr><tr><td>3</td><td>Plan operations, manage squads, handle logistics</td></tr><tr><td>4</td><td>Negotiate contracts, coordinate multiple units, represent company</td></tr><tr><td>5</td><td>Set company strategy, major contract decisions, maintain reputation</td></tr></tbody></table></div>
+<h3 id="wizard-academy--magical-institution">Wizard Academy / Magical Institution<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#wizard-academy--magical-institution" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Benefit</th><th>Formula</th><th>Notes</th></tr></thead><tbody><tr><td>Lodging</td><td>= Rank</td><td>Student dorms to master suites</td></tr><tr><td>Medical</td><td>= Rank</td><td>Magical healing available</td></tr><tr><td>Training</td><td>= Rank + 1 (max 4)</td><td>Excellent magical instruction</td></tr><tr><td>Income</td><td>= Rank - 1 (min 1)</td><td>Research stipends, enchanting work</td></tr><tr><td>Special</td><td>Library access (= Rank), laboratory facilities, rare components</td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Rank</th><th>Obligations</th></tr></thead><tbody><tr><td>1</td><td>Attend lectures, follow academy rules, assist senior students</td></tr><tr><td>2</td><td>Conduct assigned research, tutor junior students</td></tr><tr><td>3</td><td>Teach courses, publish findings, serve on committees</td></tr><tr><td>4</td><td>Lead research projects, mentor faculty, represent academy</td></tr><tr><td>5</td><td>Set academic policy, major institutional decisions, external relations</td></tr></tbody></table></div>
+<h3 id="noble-house">Noble House<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#noble-house" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Benefit</th><th>Formula</th><th>Notes</th></tr></thead><tbody><tr><td>Lodging</td><td>= Rank + 1</td><td>Estate living, appropriate to station</td></tr><tr><td>Medical</td><td>= Rank</td><td>Personal physicians</td></tr><tr><td>Training</td><td>= Rank (max 3)</td><td>Tutors for social/martial skills</td></tr><tr><td>Income</td><td>= Rank</td><td>Estate income, investments</td></tr><tr><td>Special</td><td>Political connections, legal representation, household staff</td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Rank</th><th>Obligations</th></tr></thead><tbody><tr><td>1</td><td>Maintain appearance, attend social functions, uphold family name</td></tr><tr><td>2</td><td>Manage minor holdings, represent house at local events</td></tr><tr><td>3</td><td>Govern territories, provide justice, maintain infrastructure</td></tr><tr><td>4</td><td>Regional politics, feudal military obligations, major alliances</td></tr><tr><td>5</td><td>Kingdom-level politics, war decisions, dynastic responsibilities</td></tr></tbody></table></div>
+<hr/>
+<h2 id="creating-organizations">Creating Organizations<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#creating-organizations" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Use this template for custom organizations:</p>
+<pre><code>### Organization Name
+
+| Benefit | Formula | Notes |
+|---------|---------|-------|
+| Lodging | | |
+| Medical | | |
+| Training | | |
+| Income | | |
+| Special | |
+
+| Rank | Obligations |
+|------|-------------|
+| 1 | |
+| 2 | |
+| 3 | |
+| 4 | |
+| 5 | |
+</code></pre>
+<p>Consider:</p>
+<ul>
+<li>What is the organization’s primary purpose?</li>
+<li>What resources does it have access to?</li>
+<li>What does it demand from members?</li>
+<li>What is its maximum rank (organizational scope)?</li>
+</ul>
+<hr/>
+<h2 id="full-organization-rules">Full Organization Rules<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#full-organization-rules" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><em>Detailed organization mechanics (influence, resources, conflicts, faction play) planned for v0.8.</em></p><a href="../Rules/Social-And-World/8.1-Organizations" class="internal transclude-src">Link to original</a></blockquote><p></p></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false}"></div><button id="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../Rules/Rulebook" class="internal">Rulebook</a></li></ul></div></div></div></div></body><script type="application/javascript">function c(){let t=this.parentElement;t.classList.toggle("is-collapsed");let l=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=l+"px";let o=t,e=t.parentElement;for(;e;){if(!e.classList.contains("callout"))return;let n=e.classList.contains("is-collapsed")?e.scrollHeight:e.scrollHeight+o.scrollHeight;e.style.maxHeight=n+"px",o=e,e=e.parentElement}}function i(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let l=s.firstElementChild;if(l){l.addEventListener("click",c),window.addCleanup(()=>l.removeEventListener("click",c));let e=s.classList.contains("is-collapsed")?l.scrollHeight:s.scrollHeight;s.style.maxHeight=e+"px"}}}document.addEventListener("nav",i);window.addEventListener("resize",i);
+</script><script type="module">
+          let mermaidImport = undefined
+          document.addEventListener('nav', async () => {
+            if (document.querySelector("code.mermaid")) {
+              mermaidImport ||= await import('https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs')
+              const mermaid = mermaidImport.default
+              const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+              mermaid.initialize({
+                startOnLoad: false,
+                securityLevel: 'loose',
+                theme: darkMode ? 'dark' : 'default'
+              })
+
+              await mermaid.run({
+                querySelector: '.mermaid'
+              })
+            }
+          });
+          </script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

@@ -23,3 +23,5 @@ Flaws create mechanical effects beyond just attribute penalties (roleplay hooks,
 Both affect attributes similarly, but only voluntary ones provide XP during character creation and involuntary ones are up to GM.
 
 ![[Flaws Guidelines]]
+
+**Tags:** #Core

@@ -22,3 +22,5 @@ Roll [[Initiative]] and begin the first round.
 ## Tokens on a Tactical Map
 
 Token position inside a zone does not represent real positioning — only the Zone and Skirmish state matter. As a convention: put your token on your side of the zone, and group tokens that share a skirmish together, each on their side's edge of the cluster.
+
+**Tags:** #Combat

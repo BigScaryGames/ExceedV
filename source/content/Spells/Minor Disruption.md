@@ -7,7 +7,7 @@
 Disrupt a duration spell within range
 
 ## Effect
-**Limit Cost:** -
+**Limit Cost:** - lets check
 **Effect:** Attempt to disrupt a duration spell in your zone, DC=10+CastersBonus, doesn't work on spells in limits
 
 ## Description

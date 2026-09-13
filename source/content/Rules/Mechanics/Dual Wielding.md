@@ -7,3 +7,5 @@ When wielding a weapon in each hand:
 **[[Ambidexterity]]** removes the off-hand penalty for non-Light weapons.
 
 **Shields:** Don't qualify for dual-wield perks/abilities unless you have **[[Multipurpose Shield]]**. You can still make normal shield boss attacks.
+
+**Tags:** #Combat

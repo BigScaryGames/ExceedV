@@ -31,3 +31,5 @@ Certain perks allow you to change the used attribute.
 ## Damage Application
 
 Damage depletes Stamina first, then Health. See [[3.3 HP And Wounds]] for details.
+
+**Tags:** #Combat

@@ -32,3 +32,5 @@ Learning from a teacher bypasses skill requirements.
 ### Duration
 
 As per [[9.2 Downtime and Training||Training]], learning a spell takes 1 unmodified day per XP spent.
+
+**Tags:** #Magic

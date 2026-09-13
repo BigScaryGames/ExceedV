@@ -33,3 +33,5 @@ Character with 2 Max_Wounds, 0 Endurance, +2 Armor:
 | 3     | 6 XP           | +1 HP                    | 13 Health, 4 Stamina = 17 HP |
 | 4     | 8 XP           | +1 HP                    | 14 Health, 4 Stamina = 18 HP |
 | 5     | 10 XP          | +1 Max Wounds + Capstone | 15 Health, 6 Stamina = 21 HP |
+
+**Tags:** #Combat

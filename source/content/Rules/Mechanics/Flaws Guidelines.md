@@ -265,3 +265,5 @@ Effects: Must perform services for entity periodically, entity can claim payment
 10 × 0.5 × 1 × 1.5 = -7.5 ≈ -8 XP
 Attribute: -10 points in Will (bound to another)
 Effects: Debt owed to [entity], entity can compel services
+
+**Tags:** #Core

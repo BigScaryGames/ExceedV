@@ -15,3 +15,5 @@ All human characters start with:
 | **Health**     | HP Per Wound × Max Wounds (+ bonuses from effects) |
 | **Total HP**   | Stamina + Health                              |
 | **Max Wounds** | 2, +1 per completed Conditioning perk line    |
+
+**Tags:** #Combat

@@ -26,3 +26,5 @@ Mages can conduct a simple breather-long [[Team Ritual]] with willing targets to
 - Mage can cast harmful effects on allies bypassing Endure check
 
 To break away from a team: Spend a full round on your turn and succeed a Will roll against the ritualist's Magical Theory skill.
+
+**Tags:** #Magic

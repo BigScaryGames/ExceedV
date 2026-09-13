@@ -1,3 +1,6 @@
+---
+draft: true
+---
 Temporary NPCs don't use the full PC machinery. They don't buy perks and don't track skills they'll never use. Their defenses are static DCs the players roll against; real NPCs roll their attacks, mooks are fully static.
 
 > MS7 draft (early — pulled forward for playtesting). Numbers are first-pass; tune at playtest.
@@ -130,3 +133,5 @@ Attitude 0 | Deflect 9 | Dodge 10 | Resolve 13 | Endure 10 | Health 8
 — Skills: Haggling 2 (DC 13), Bureaucracy 2 (DC 13), Gossip 1 (DC 12)
 — Wants: quiet shifts; Fears: his boss; Lever: flattery about his ledgers
 Initial attitude per [[Attitude System]]. Bribable at −20% for 25g.
+
+**Tags:** #Combat

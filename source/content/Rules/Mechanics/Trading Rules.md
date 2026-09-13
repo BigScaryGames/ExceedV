@@ -28,3 +28,5 @@ Roll a social skill to shift the attitude for this purchase by 1 step:
 Roll against seller's social skill:
 - **Success:** Treat bargain as 1 step better
 - **Failure:** Treat bargain as 1 step worse
+
+**Tags:** #Downtime

@@ -36,3 +36,5 @@ Each weapon defines its own **Range Increment** in meters (e.g., a shortbow migh
 - Total Distance = 30m
 - Range Increment = ceil(30 / 25) = 2
 - Distance DC = 14
+
+**Tags:** #Combat

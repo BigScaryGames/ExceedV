@@ -32,3 +32,5 @@ Base recovery times from [[Severity Levels]] are modified by rest quality:
 During recovery, characters may engage in light downtime activities such as **learning or income work**, as long as the GM judges these do not meaningfully interrupt rest.
 
 See [[9.1 Time and Travel#Exceed TIME||Time in Exceed]] for time magnitude reference.
+
+**Tags:** #Downtime

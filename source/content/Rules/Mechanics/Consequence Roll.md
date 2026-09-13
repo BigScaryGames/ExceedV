@@ -10,3 +10,5 @@ Consequence Roll = 1d100 - (Remaining Wounds × 10).
 3. If it was a DoT - count the consequence as a cosmetic injury.
 
 ![[Consequences Table]]
+
+**Tags:** #Combat

@@ -13,3 +13,5 @@ Every Tier in Domains (Martial/Spellcraft) provide an AP that can be used with a
 
 ~~**Reactions:**~~
 ~~Using a reaction reduces the number of AP at the start of the next turn by 1. If you have Reactive or other perks allowing multiple reactions, reduce the number of actions by the number of reactions used.~~
+
+**Tags:** #Combat

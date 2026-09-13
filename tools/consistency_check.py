@@ -58,7 +58,6 @@ LEGACY_PATTERNS = [
     (r'\btiles?\b', "grid: tile", "high"),
     (r'\bsquares?\b(?!\s*,\s*etc)', "grid: square", "high"),
     (r'\bflank(?:ing|ed)?\b', "removed: flanking", "high"),
-    (r'\b(\d+)\s*(?:meters?|metres|m)\b(?!\s*(?:inute|s|s\b))', "distance: meter (→ zones/lines)", "high"),
     (r'\b(\d+)\s*(?:feet|foot|ft|yards?|yd)\b', "distance: imperial (→ zones/lines)", "high"),
     (r'\badjacent\b', "grid: adjacent (→ same skirmish/zone)", "medium"),
     # Deleted movement actions
@@ -240,12 +239,14 @@ def check_spells(files, contents):
         found = set(SPELL_HEADER_RE.findall(text))
         missing = [f for f in SPELL_REQUIRED if f not in found]
         has_limit = bool(re.search(r'\*\*Limit Cost:', text))
+        is_attuned = '#attuned' in text.lower()
         has_version = bool(re.search(r'## (Basic|Advanced) Version', text))
 
         issues = []
         if missing:
             issues.append(f"missing fields: {', '.join(missing)}")
-        if not has_limit:
+        if is_attuned and not has_limit:
+            # Limit Cost only makes sense for attuned spells (template: "[if #Attuned]")
             issues.append("no 'Limit Cost' field")
         if not has_version:
             issues.append("no Basic/Advanced version sections")

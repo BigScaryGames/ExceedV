@@ -1,3 +1,6 @@
+---
+draft: true
+---
 Milestone 5 - Get it playable. FINISHED.
 
 - [x] Transition from extra wounds to conditioning (done)

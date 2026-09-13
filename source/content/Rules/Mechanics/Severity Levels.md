@@ -19,3 +19,5 @@
 - **Treatment:** First Aid delays escalation by a Breather, recurrent treat wounds can delay the escalation by a Shift; Surgery required for recovery.
 - **Recovery:** Season of unmodified rest after treatment (permanent effects may remain)
 - **Escalation:** After 1 minuta, roll endure - character dies on a failure.
+
+**Tags:** #Combat

@@ -36,3 +36,5 @@ GM decides on any permanent effects.
 **Multiple Wounds:** Characters can suffer multiple consequences simultaneously; when treating a wound you treat one of the wounds
 
 **Permanent Effects:** Severity 3 consequences may leave permanent effects even after successful treatment, up to GM
+
+**Tags:** #Combat

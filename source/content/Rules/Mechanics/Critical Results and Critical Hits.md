@@ -10,3 +10,5 @@ Perks in the game allow to add effects and activate abilities on own critical de
 
 As of MS5 critical hits double damage dice.
 In later iterations weapons will be provided critical modifiers using CritX (where X is the extra damage per damage die).
+
+**Tags:** #Core #Combat

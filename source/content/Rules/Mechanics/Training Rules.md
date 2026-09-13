@@ -36,3 +36,5 @@ This rule is situational and designed for campaigns that utilize downtime. Track
 If players completed a heist or fought a significant battle, you may allow them to level up a skill or gain a perk directly. You can allow XP debt or grant perks with #Instant trait in debt.
 
 This system creates narrative hooks: fighting an ancient lich to gain his spellbook, attending a bankruptcy auction where a fabled sword manual is sold, or seeking out legendary masters.
+
+**Tags:** #Downtime

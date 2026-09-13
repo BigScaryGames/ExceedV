@@ -22,3 +22,5 @@ Each weapon's Deflect Stat is listed in the Weapon Weight table in [[7. Equipmen
 | **#Burst**      | Dodge (Deflect with perks)                   | Explosions, Burst spells                           |
 | **#Mind**       | Resolve                                      | Fear, charm, mind control, mental distortion       |
 | **#Body**       | Endure                                       | Poison, disease, exhaustion, body-affecting curses |
+
+**Tags:** #Combat

@@ -30,3 +30,5 @@ GM determines initial attitude based on:
 | 0 | +20% markup |
 | +3 | Half price or IOU |
 | +5 | Free (fanatical devotion) |
+
+**Tags:** #Social
