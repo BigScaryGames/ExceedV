@@ -108,22 +108,23 @@ SCHEMAS: dict[str, dict] = {
             {"name": "AP Cost", "kind": "apcost", "label": "AP Cost", "optional": True},
             {"name": "Tags", "kind": "tags:perk", "label": "Tags"},
         ],
-        "sections": ["Short Description", "Grants", "Grants by Stage", "Description"],
+        "sections": ["Grants", "Grants by Stage", "Description"],
         "tableColumns": ["Requirements", "Attributes", "Cost", "Tags", "Grants"],
     },
     "spell": {
         "fields": [
-            {"name": "Tier", "kind": "number", "label": "Tier"},
-            {"name": "AP Cost", "kind": "apcost", "label": "AP Cost"},
-            {"name": "XP Cost", "kind": "text", "label": "XP Cost", "optional": True},
-            {"name": "Attributes", "kind": "attributes", "label": "Attributes"},
-            {"name": "Base Target/Range", "kind": "text", "label": "Base Target/Range"},
+            {"name": "Requirements", "kind": "requirements", "label": "Requirements"},
+            {"name": "Tier", "kind": "number", "label": "Tier", "half": True},
+            {"name": "AP Cost", "kind": "apcost", "label": "AP Cost", "half": True},
+            {"name": "XP Cost", "kind": "text", "label": "XP Cost", "optional": True, "half": True},
+            {"name": "Attributes", "kind": "attributes", "label": "Attributes", "half": True},
+            {"name": "Base Target/Range", "kind": "text", "label": "Target"},
             {"name": "Traits", "kind": "tags:spell", "label": "Traits"},
             {"name": "Tags", "kind": "tags:spell", "label": "Tags", "optional": True},
         ],
-        "sections": ["Short Description", "Effect", "Description"],
-        "looseFields": ["Limit Cost", "Duration", "Prerequisites"],
-        "tableColumns": ["Tier", "AP Cost", "Attributes", "Traits", "Prerequisites"],
+        "sections": ["Effect", "Description"],
+        "looseFields": ["Limit Cost", "Duration"],
+        "tableColumns": ["Tier", "AP Cost", "Attributes", "Traits", "Requirements"],
     },
     "ability": {
         "fields": [
@@ -159,8 +160,8 @@ SCHEMAS: dict[str, dict] = {
 # Header fields that are part of the leading block for each type (order).
 HEADER_FIELDS = {
     "perk": ["Requirements", "Attributes", "Cost", "AP Cost", "Tags"],
-    "spell": ["Tier", "AP Cost", "XP Cost", "Attributes", "Base Target/Range",
-              "Traits", "Tags"],
+    "spell": ["Requirements", "Tier", "AP Cost", "XP Cost", "Attributes",
+              "Base Target/Range", "Traits", "Tags"],
     "ability": ["AP Cost"],
     "action": ["AP Cost"],
 }

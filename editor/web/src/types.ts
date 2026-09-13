@@ -29,6 +29,8 @@ export interface SchemaField {
   kind: string
   label: string
   optional?: boolean
+  /** two of these in a row share one form line (space saving) */
+  half?: boolean
 }
 
 export interface Schema {
@@ -117,7 +119,6 @@ export interface Refs {
   embedders: string[]
   linkers: string[]
   requirers: string[]
-  prerequisites: string[]
 }
 
 export interface TreeNode {

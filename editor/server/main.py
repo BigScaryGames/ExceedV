@@ -138,7 +138,8 @@ class SaveBody(BaseModel):
     path: str
     headerFields: dict[str, str] = {}
     looseFields: dict[str, str] = {}
-    sectionBodies: dict[str, str] = {}
+    sectionBodies: dict[str, str | None] = {}
+    sectionRenames: dict[str, str] = {}
     grants: dict | None = None
     intro: str | None = None
     draft: bool | None = None
@@ -152,8 +153,8 @@ def api_save(body: SaveBody) -> dict:
     parsed = vault.get(rel)
     before = parsed.text
     edits = Edits(header_fields=body.headerFields, loose_fields=body.looseFields,
-                  section_bodies=body.sectionBodies, grants=body.grants,
-                  intro=body.intro, draft=body.draft)
+                  section_bodies=body.sectionBodies, section_renames=body.sectionRenames,
+                  grants=body.grants, intro=body.intro, draft=body.draft)
     try:
         after = apply_edits(parsed, edits)
     except ValueError as e:
@@ -273,9 +274,9 @@ def api_checks(force: bool = False) -> dict:
 
 @app.get("/api/refs")
 def api_refs(stem: str) -> dict:
-    """Reverse deps: who embeds / links / requires / prereqs this stem."""
+    """Reverse deps: who embeds / links / requires this stem."""
     from .vault import EMBED_RE, LINK_RE
-    embedders, linkers, requirers, prereqs = [], [], [], []
+    embedders, linkers, requirers = [], [], []
     target_stem = stem.strip()
     for rel in vault.scan():
         if Path(rel).stem == target_stem:
@@ -292,13 +293,9 @@ def api_refs(stem: str) -> dict:
         req = parsed.field_value("Requirements") or ""
         if f"[[{target_stem}]]" in req:
             requirers.append(rel)
-        pre = parsed.field_value("Prerequisites") or ""
-        if f"[[{target_stem}]]" in pre:
-            prereqs.append(rel)
     return {"stem": target_stem, "embedders": sorted(set(embedders)),
             "linkers": sorted(set(linkers) - set(embedders)),
-            "requirers": sorted(set(requirers)),
-            "prerequisites": sorted(set(prereqs))}
+            "requirers": sorted(set(requirers))}
 
 
 @app.get("/api/tree")
@@ -323,13 +320,11 @@ def api_tree(stem: str) -> dict:
                 target = clean_target(m.group(1))
                 resolved = vault.resolve_stem(target)
                 if resolved and resolved != rel:
-                    child_field = "Prerequisites" if field == "Prerequisites" else "Requirements"
-                    children.append(node_for(resolved, child_field, depth + 1, seen))
+                    children.append(node_for(resolved, field, depth + 1, seen))
         return {"path": rel, "name": Path(rel).stem,
                 "type": infer_type(rel)[0], "children": children}
 
-    parsed = vault.get(start)
-    field = "Prerequisites" if parsed.field_value("Prerequisites") is not None else "Requirements"
+    field = "Requirements"
     return {"root": Path(start).stem, "field": field, "tree": node_for(start, field, 0, set())}
 
 

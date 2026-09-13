@@ -33,23 +33,20 @@ PERK_A = (
 )
 EFFECT_FEINT = "You gain +1 to Feints.\n\n**Tags:** #Passive\n"
 SPELL = (
+    "**Requirements:** [[Feint]]\n"
     "**Tier:** 1\n"
     "**AP Cost:** 3\n"
     "**Attributes:** WL/CH\n"
     "**Base Target/Range:** 1 target in your zone\n"
     "**Traits:** #Spell #Active\n"
-    "\n"
-    "## Short Description\n"
-    "Heal.\n"
+    "**Limit Cost:** -\n"
+    "**Duration:** Instant\n"
     "\n"
     "## Effect\n"
-    "**Limit Cost:** -\n"
     "**Effect:** Heal 1d6.\n"
     "\n"
     "## Description\n"
-    "\n"
-    "**Duration:** Instant\n"
-    "**Prerequisites:** [[Feint]]\n"
+    "Heal.\n"
 )
 
 
@@ -113,6 +110,87 @@ def test_save_noop_when_unchanged(client):
         "sectionBodies": {},
     })
     assert r.json()["changed"] is False
+
+
+def test_header_add_field_lands_in_header_block(client):
+    spell_no_duration = (
+        "**Tier:** 1\n"
+        "**AP Cost:** 2\n"
+        "**Attributes:** WL/CH\n"
+        "**Traits:** #Spell #Active\n"
+        "\n"
+        "## Effect\n"
+        "**Effect:** Glow.\n"
+        "\n"
+        "## Description\n"
+        "It glows.\n"
+    )
+    import editor.server.main as m
+    m.vault.write_text("Spells/Glow.md", spell_no_duration)
+    m.vault.invalidate("Spells/Glow.md")
+    r = client.put("/api/record", json={
+        "path": "Spells/Glow.md",
+        "headerFields": {"Limit Cost": "-", "Duration": "Instant"},
+    })
+    assert r.status_code == 200
+    after = read(None, "Spells/Glow.md")
+    assert after == (
+        "**Tier:** 1\n"
+        "**AP Cost:** 2\n"
+        "**Attributes:** WL/CH\n"
+        "**Traits:** #Spell #Active\n"
+        "**Limit Cost:** -\n"
+        "**Duration:** Instant\n"
+        "\n"
+        "## Effect\n"
+        "**Effect:** Glow.\n"
+        "\n"
+        "## Description\n"
+        "It glows.\n"
+    )
+    rec = client.get("/api/record", params={"path": "Spells/Glow.md"}).json()
+    secondary = [f["name"] for f in rec["fields"]
+                 if f["inHeader"] and f["name"] not in ("Tier", "AP Cost", "Attributes", "Traits")]
+    assert secondary == ["Limit Cost", "Duration"]
+
+
+def test_header_remove_field_deletes_line(client):
+    import editor.server.main as m
+    spell_with_fields = (
+        "**Tier:** 1\n"
+        "**AP Cost:** 2\n"
+        "**Attributes:** WL/CH\n"
+        "**Traits:** #Spell #Active\n"
+        "**Limit Cost:** -\n"
+        "**Duration:** Instant\n"
+        "\n"
+        "## Effect\n"
+        "**Effect:** Glow.\n"
+        "\n"
+        "## Description\n"
+        "It glows.\n"
+    )
+    m.vault.write_text("Spells/Glow.md", spell_with_fields)
+    m.vault.invalidate("Spells/Glow.md")
+    r = client.put("/api/record", json={
+        "path": "Spells/Glow.md",
+        "headerFields": {"Limit Cost": "", "Duration": "1 round"},
+    })
+    assert r.status_code == 200
+    after = read(None, "Spells/Glow.md")
+    assert after == (
+        "**Tier:** 1\n"
+        "**AP Cost:** 2\n"
+        "**Attributes:** WL/CH\n"
+        "**Traits:** #Spell #Active\n"
+        "**Duration:** 1 round\n"
+        "\n"
+        "## Effect\n"
+        "**Effect:** Glow.\n"
+        "\n"
+        "## Description\n"
+        "It glows.\n"
+    )
     assert read(None, "Perks/CombatPerks/Feint.md") == PERK_A
 
 
@@ -186,7 +264,7 @@ def test_refs_and_tree(client):
 
     r = client.get("/api/tree", params={"stem": "Heal"})
     assert r.status_code == 200
-    assert r.json()["field"] == "Prerequisites"
+    assert r.json()["field"] == "Requirements"
 
 
 def test_checks_run(client):

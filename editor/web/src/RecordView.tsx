@@ -2,7 +2,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { api } from './api'
 import type { Issue, Meta, RecordData, Refs, TreeNode } from './types'
-import { ApCostEditor, AttributesEditor, buildSavePayload, CostEditor, FieldWidget, GrantsEditor, OtherFieldsPanel, RequirementsEditor, stripVolatile, TagPicker } from './fields'
+import { ApCostEditor, AttributesEditor, buildSavePayload, CostEditor, fieldRemover, FieldWidget, GrantsEditor, OtherFieldsPanel, RequirementsEditor, stripVolatile, TagPicker } from './fields'
 
 interface Props {
   path: string
@@ -131,28 +131,40 @@ export function RecordView({ path, meta, stems, skills, onNavigate, onSaved, onR
 
           {record.schema.fields.length > 0 && (
             <div className="panel">
-              <h2>Fields</h2>
-              <div className="formgrid">
-                {record.schema.fields.map((f) => {
-                  const value = record.headerFields[f.name] ?? ''
-                  return (
+              <h2>Primary fields</h2>
+              <div className="formgrid paircols">
+                {(() => {
+                  const fs = record.schema.fields
+                  const nodes: React.ReactNode[] = []
+                  const cell = (f: (typeof fs)[number], span2: boolean) => (
                     <React.Fragment key={f.name}>
                       <div className="lbl">{f.label}{!f.optional && <span className="req"> *</span>}</div>
-                      <div>
-                        <FieldWidget name={f.name} kind={f.kind} value={value}
+                      <div className={span2 ? 'span2' : undefined}>
+                        <FieldWidget name={f.name} kind={f.kind} value={record.headerFields[f.name] ?? ''}
                           onChange={(v) => setHeader(f.name, v)}
                           meta={meta} stems={stems} skills={skills} />
                       </div>
                     </React.Fragment>
                   )
-                })}
+                  for (let i = 0; i < fs.length;) {
+                    if (fs[i].half && fs[i + 1]?.half) {
+                      nodes.push(cell(fs[i], false), cell(fs[i + 1], false))
+                      i += 2
+                    } else {
+                      nodes.push(cell(fs[i], true))
+                      i += 1
+                    }
+                  }
+                  return nodes
+                })()}
               </div>
             </div>
           )}
 
           {/* every parsed field the schema doesn't cover — never invisible */}
-          <OtherFieldsPanel record={record} meta={meta}
-            setHeader={setHeader} setLoose={setLoose} />
+          <OtherFieldsPanel record={record} orig={orig} meta={meta}
+            setHeader={setHeader} setLoose={setLoose}
+            onRemove={fieldRemover(setRecord, setHeader, setLoose)} />
 
           {record.grants !== null || ['perk'].includes(record.type) ? (
             <div className="panel">
@@ -213,12 +225,6 @@ export function RecordView({ path, meta, stems, skills, onNavigate, onSaved, onR
                   <>
                     <div className="muted" style={{ marginTop: 8 }}>Required by ({refs.requirers.length}):</div>
                     {refs.requirers.map((p) => <a key={p} onClick={() => onNavigate(`#/record?path=${encodeURIComponent(p)}`)}>{p}</a>)}
-                  </>
-                )}
-                {refs.prerequisites.length > 0 && (
-                  <>
-                    <div className="muted" style={{ marginTop: 8 }}>Spell prerequisite of ({refs.prerequisites.length}):</div>
-                    {refs.prerequisites.map((p) => <a key={p} onClick={() => onNavigate(`#/record?path=${encodeURIComponent(p)}`)}>{p}</a>)}
                   </>
                 )}
               </div>

@@ -194,7 +194,9 @@ def test_spell_loose_fields():
     assert parsed.field("Duration").value == "Instant"
     assert parsed.header_block is not None
     assert parsed.field("Tier").in_header_block
-    assert not parsed.field("Prerequisites").in_header_block
+    # Requirements replaced Prerequisites: header field, first in the block
+    assert parsed.field("Requirements").in_header_block
+    assert parsed.field("Prerequisites") is None
 
 
 def test_section_edit_supersedes_loose_field_inside_it():
@@ -287,8 +289,225 @@ def test_new_field_appends_when_no_trailing_tags():
     assert new == "**AP Cost:** 2\n\nMove.\n\n**Trigger:** Something.\n"
 
 
+def test_section_removal_and_rename():
+    doc = (
+        "**Cost:** 5 XP\n"
+        "\n"
+        "## Short Description\n"
+        "One liner.\n"
+        "\n"
+        "## Description\n"
+        "Long text.\n"
+    )
+    parsed = parse_text(doc, rel="Perks/CombatPerks/Test.md")
+    new = apply_edits(parsed, Edits(
+        section_bodies={"Short Description": None},
+        section_renames={"description": "Lore"},
+    ))
+    assert "Short Description" not in new
+    assert "## Lore" in new
+    assert new == "**Cost:** 5 XP\n\n## Lore\nLong text.\n"
+
+
+def test_spell_prerequisites_to_requirements_move():
+    # the Prerequisites → Requirements migration shape: Requirements joins the
+    # header block at its canonical first position, the old line is dropped
+    # from the Description section in the same save
+    spell = (
+        "**Tier:** 1\n"
+        "**AP Cost:** 3\n"
+        "**Attributes:** WL/CH\n"
+        "\n"
+        "## Effect\n"
+        "**Effect:** Heal.\n"
+        "\n"
+        "## Description\n"
+        "\n"
+        "**Prerequisites:** [[Minor Healing]], Medicine 2\n"
+    )
+    parsed = parse_text(spell, rel="Spells/Test.md")
+    new = apply_edits(parsed, Edits(
+        header_fields={"Requirements": "[[Minor Healing]], Medicine 2"},
+        section_bodies={"Description": "\n"}))
+    assert new == (
+        "**Requirements:** [[Minor Healing]], Medicine 2\n"
+        "**Tier:** 1\n"
+        "**AP Cost:** 3\n"
+        "**Attributes:** WL/CH\n"
+        "\n"
+        "## Effect\n"
+        "**Effect:** Heal.\n"
+        "\n"
+        "## Description\n"
+        "\n"
+    )
+
+
 def test_effect_file_without_fields():
     parsed = VAULT.get("Rules/Effects/Effect - Footwork.md")
     assert parsed.fields == []
     assert parsed.sections == []
     assert parsed.intro.strip() == "While Unencumbered, gain +1 to all defenses."
+
+
+def test_header_block_gains_new_field_via_header_fields():
+    # "+ Add field" on a header-block file: Duration is not in the spell
+    # schema and not in the file — setting it via header_fields appends the
+    # line after the last header field, leaving everything else untouched
+    spell = (
+        "**Tier:** 0\n"
+        "**AP Cost:** 5\n"
+        "**Attributes:** WL/CH\n"
+        "**Traits:** #Active #Spell\n"
+        "\n"
+        "## Effect\n"
+        "**Effect:** Disrupt.\n"
+    )
+    parsed = parse_text(spell, rel="Spells/Test.md")
+    new = apply_edits(parsed, Edits(header_fields={"Duration": "Instant"}))
+    assert new == (
+        "**Tier:** 0\n"
+        "**AP Cost:** 5\n"
+        "**Attributes:** WL/CH\n"
+        "**Traits:** #Active #Spell\n"
+        "**Duration:** Instant\n"
+        "\n"
+        "## Effect\n"
+        "**Effect:** Disrupt.\n"
+    )
+
+
+def test_header_new_field_folds_after_last_line_keeps_blank_groups():
+    doc = (
+        "**AP Cost:** 2\n"
+        "\n"
+        "**Trigger:** X.\n"
+        "**Effect:** Y.\n"
+        "\n"
+        "**Tags:** #Reaction\n"
+    )
+    parsed = parse_text(doc, rel="Actions/Abilities/Ability - Test.md")
+    new = apply_edits(parsed, Edits(header_fields={"Roll": "10+"}))
+    assert new == (
+        "**AP Cost:** 2\n"
+        "\n"
+        "**Trigger:** X.\n"
+        "**Effect:** Y.\n"
+        "\n"
+        "**Tags:** #Reaction\n"
+        "**Roll:** 10+\n"
+    )
+
+
+def test_header_new_empty_field_becomes_dash_placeholder():
+    spell = "**Tier:** 1\n\n## Effect\n**Effect:** X.\n"
+    parsed = parse_text(spell, rel="Spells/Test.md")
+    new = apply_edits(parsed, Edits(header_fields={"Duration": ""}))
+    assert new == "**Tier:** 1\n**Duration:** -\n\n## Effect\n**Effect:** X.\n"
+
+
+def test_header_add_skips_name_already_in_body():
+    # Duration already lives in ## Description — a header_fields add alone
+    # must not duplicate it into the header block...
+    spell = (
+        "**Tier:** 1\n"
+        "\n"
+        "## Effect\n"
+        "**Effect:** X.\n"
+        "\n"
+        "## Description\n"
+        "\n"
+        "**Duration:** Instant\n"
+    )
+    parsed = parse_text(spell, rel="Spells/Test.md")
+    assert apply_edits(parsed, Edits(header_fields={"Duration": "Instant"})) == spell
+    # ...but when the same save rewrites the containing section, the
+    # header_fields entry is the field's new home (section → header move)
+    moved = apply_edits(parsed, Edits(
+        header_fields={"Duration": "Instant"},
+        section_bodies={"Description": "\n"}))
+    assert moved == (
+        "**Tier:** 1\n"
+        "**Duration:** Instant\n"
+        "\n"
+        "## Effect\n"
+        "**Effect:** X.\n"
+        "\n"
+        "## Description\n"
+        "\n"
+    )
+
+
+def test_header_field_removal_deletes_line_keeps_groups():
+    doc = (
+        "**AP Cost:** 2\n"
+        "\n"
+        "**Trigger:** X.\n"
+        "**Effect:** Y.\n"
+        "\n"
+        "**Tags:** #Reaction\n"
+    )
+    parsed = parse_text(doc, rel="Actions/Abilities/Ability - Test.md")
+    new = apply_edits(parsed, Edits(header_fields={"Effect": ""}))
+    assert new == (
+        "**AP Cost:** 2\n"
+        "\n"
+        "**Trigger:** X.\n"
+        "\n"
+        "**Tags:** #Reaction\n"
+    )
+
+
+def test_header_removal_plus_value_edit_is_surgical():
+    spell = (
+        "**Tier:** 1\n"
+        "**Limit Cost:** -\n"
+        "**Duration:** Instant\n"
+        "\n"
+        "## Effect\n"
+        "**Effect:** X.\n"
+    )
+    parsed = parse_text(spell, rel="Spells/Test.md")
+    new = apply_edits(parsed, Edits(header_fields={"Tier": "2", "Duration": ""}))
+    assert new == (
+        "**Tier:** 2\n"
+        "**Limit Cost:** -\n"
+        "\n"
+        "## Effect\n"
+        "**Effect:** X.\n"
+    )
+
+
+def test_loose_field_removal_deletes_line():
+    ability = (
+        "**AP Cost:** 2\n"
+        "\n"
+        "Move and draw.\n"
+        "\n"
+        "**Tags:** #Movement #Attack\n"
+        "**Trigger:** You move at least 1 zone.\n"
+    )
+    parsed = parse_text(ability, rel="Actions/Abilities/Ability - Test.md")
+    new = apply_edits(parsed, Edits(loose_fields={"Trigger": ""}))
+    assert new == (
+        "**AP Cost:** 2\n"
+        "\n"
+        "Move and draw.\n"
+        "\n"
+        "**Tags:** #Movement #Attack\n"
+    )
+
+
+def test_loose_field_removal_at_eof_leaves_no_blank():
+    ability = (
+        "**AP Cost:** 2\n"
+        "\n"
+        "Move and draw.\n"
+        "\n"
+        "**Tags:** #Movement\n"
+        "\n"
+        "**Trigger:** You move.\n"
+    )
+    parsed = parse_text(ability, rel="Actions/Abilities/Ability - Test.md")
+    new = apply_edits(parsed, Edits(loose_fields={"Trigger": ""}))
+    assert new == "**AP Cost:** 2\n\nMove and draw.\n\n**Tags:** #Movement\n"

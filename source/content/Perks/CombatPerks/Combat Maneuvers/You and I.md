@@ -3,12 +3,11 @@
 **Cost:** 15 XP
 **Tags:** #Combat
 
-## Short Description
-Your fated duel bends reality — the skirmish becomes a true Duel Zone.
-
 ## Grants
 
 ![[Effect - You and I]]
 
 ## Description
+Your fated duel bends reality — the skirmish becomes a true Duel Zone.
+
 The world itself agrees: no one else belongs in this moment.

@@ -13,10 +13,17 @@ export function stripVolatile(r: RecordData): RecordData {
 export function buildSavePayload(record: RecordData, orig: RecordData): Record<string, unknown> {
   const headerFields: Record<string, string> = {}
   for (const f of record.schema.fields) {
-    if (f.name in record.headerFields) headerFields[f.name] = record.headerFields[f.name]
+    const v = record.headerFields[f.name]
+    if (v === undefined) continue
+    // send only what changed vs the loaded record: absent in orig + "" means
+    // the user typed into an empty field and cleared it — not an add/remove
+    const o = orig.headerFields[f.name]
+    if (o === undefined ? v !== '' : o !== v) headerFields[f.name] = v
   }
   for (const [k, v] of Object.entries(record.headerFields)) {
-    if (!(k in headerFields)) headerFields[k] = v
+    if (k in headerFields) continue
+    const o = orig.headerFields[k]
+    if (o === undefined ? v !== '' : o !== v) headerFields[k] = v
   }
   const looseFields: Record<string, string> = {}
   for (const [k, v] of Object.entries(record.looseFields)) {
@@ -288,19 +295,52 @@ export function TagPicker({ value, onChange, vocab, allowCustom = true, collapsi
   )
 }
 
-// ── "other fields" panel: every parsed field the schema doesn't cover,
+// ── "secondary fields" panel: every parsed field the schema doesn't cover,
 //    plus fields newly added in this session ─────────────────────────────────
 
-const ADDABLE_FIELDS = ['Trigger', 'Effect', 'Roll', 'Limit Cost', 'Duration',
-  'Prerequisites', 'Progression', 'XP Cost', 'Base Target/Range', 'Traits']
+// Removal semantics behind the panel's ✕ buttons: a field already in the
+// file is cleared to "" (the save deletes its **name:** line); a field only
+// added this session is dropped from the unsaved state.
+export function fieldRemover(
+  setRecord: (updater: (r: RecordData | null) => RecordData | null) => void,
+  setHeader: (name: string, v: string) => void,
+  setLoose: (name: string, v: string) => void,
+): (name: string, inHeader: boolean, virtual: boolean) => void {
+  return (name, inHeader, virtual) => {
+    if (!virtual) {
+      ;(inHeader ? setHeader : setLoose)(name, '')
+      return
+    }
+    setRecord((r) => {
+      if (!r) return r
+      if (inHeader) {
+        const headerFields = { ...r.headerFields }
+        delete headerFields[name]
+        return { ...r, headerFields }
+      }
+      const looseFields = { ...r.looseFields }
+      delete looseFields[name]
+      return { ...r, looseFields }
+    })
+  }
+}
 
-export function OtherFieldsPanel({ record, meta, setHeader, setLoose, title = 'Other fields' }:
-  { record: RecordData; meta: Meta
+const ADDABLE_FIELDS = ['Trigger', 'Effect', 'Roll', 'Limit Cost', 'Duration',
+  'Progression', 'XP Cost', 'Base Target/Range', 'Traits']
+
+export function OtherFieldsPanel({ record, orig, meta, setHeader, setLoose, onRemove,
+  title = 'Secondary fields' }:
+  { record: RecordData; orig?: RecordData; meta: Meta
     setHeader: (name: string, v: string) => void; setLoose: (name: string, v: string) => void
+    onRemove?: (name: string, inHeader: boolean, virtual: boolean) => void
     title?: string }) {
   const schemaNames = new Set(record.schema.fields.map((f) => f.name.toLowerCase()))
   const parsedNames = new Set(record.fields.map((f) => f.name.toLowerCase()))
 
+  const origValue = (f: { name: string; inHeader: boolean; value: string }): string =>
+    f.inHeader
+      ? (orig?.headerFields[f.name] ?? f.value)
+      : (orig?.looseFields[f.name] ?? f.value)
   const items = record.fields
     .filter((f) => !schemaNames.has(f.name.toLowerCase()))
     // fields inside a section body are edited in that section's textarea —
@@ -311,29 +351,41 @@ export function OtherFieldsPanel({ record, meta, setHeader, setLoose, title = 'O
       value: f.inHeader
         ? (record.headerFields[f.name] ?? f.value)
         : (record.looseFields[f.name] ?? f.value),
+      origValue: origValue(f),
     }))
+    // a real file value cleared to "" is a pending removal — hide the row
+    .filter((f) => !(f.value === '' && f.origValue !== '' && f.origValue !== undefined))
   // fields added via "+ Add field" that aren't in the file yet
-  for (const [name, value] of Object.entries(record.looseFields)) {
-    if (!parsedNames.has(name.toLowerCase()) && !schemaNames.has(name.toLowerCase())) {
-      items.push({ name, line: -1, inHeader: false, value })
+  const virtual = (src: Record<string, string>, inHeader: boolean) => {
+    for (const [name, value] of Object.entries(src)) {
+      if (!parsedNames.has(name.toLowerCase()) && !schemaNames.has(name.toLowerCase())) {
+        items.push({ name, line: -1, inHeader, value, origValue: '' })
+      }
     }
   }
+  virtual(record.headerFields, true)
+  virtual(record.looseFields, false)
   if (items.length === 0 && ADDABLE_FIELDS.length === 0) return null
 
   const present = new Set([...record.fields.map((f) => f.name.toLowerCase()),
     ...Object.keys(record.headerFields).map((k) => k.toLowerCase()),
     ...Object.keys(record.looseFields).map((k) => k.toLowerCase())])
   const addable = ADDABLE_FIELDS.filter((n) => !present.has(n.toLowerCase()))
+  // files with a leading header block take new fields there; body-first
+  // files (abilities, effects) append them near their trailing Tags line
+  const headerAdds = record.fields.some((f) => f.inHeader)
 
   return <OtherFieldsPanelInner items={items} addable={addable} meta={meta}
-    setHeader={setHeader} setLoose={setLoose} title={title} />
+    setHeader={setHeader} setLoose={setLoose} title={title} headerAdds={headerAdds}
+    onRemove={onRemove} />
 }
 
-function OtherFieldsPanelInner({ items, addable, meta, setHeader, setLoose, title }: {
+function OtherFieldsPanelInner({ items, addable, meta, setHeader, setLoose, title, headerAdds, onRemove }: {
   items: { name: string; line: number; inHeader: boolean; value: string }[]
   addable: string[]; meta: Meta
   setHeader: (name: string, v: string) => void; setLoose: (name: string, v: string) => void
-  title: string
+  title: string; headerAdds: boolean
+  onRemove?: (name: string, inHeader: boolean, virtual: boolean) => void
 }) {
   const [adding, setAdding] = useState('')
   const kindFor = (name: string): string => {
@@ -355,10 +407,20 @@ function OtherFieldsPanelInner({ items, addable, meta, setHeader, setLoose, titl
           return (
             <React.Fragment key={`${f.name}-${f.line}`}>
               <div className="lbl">{f.name}{dup && <span className="faint"> (line {f.line})</span>}</div>
-              <div>
-                <FieldWidget name={f.name} kind={kindFor(f.name)} value={f.value}
-                  onChange={(v) => (f.inHeader ? setHeader(f.name, v) : setLoose(f.name, v))}
-                  meta={meta} stems={[]} skills={[]} />
+              <div className="fieldrow">
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <FieldWidget name={f.name} kind={kindFor(f.name)} value={f.value}
+                    onChange={(v) => (f.inHeader ? setHeader(f.name, v) : setLoose(f.name, v))}
+                    meta={meta} stems={[]} skills={[]} />
+                </div>
+                {onRemove && (
+                  <button className="small danger" onClick={() => onRemove(f.name, f.inHeader, f.line === -1)}
+                    title={f.line === -1
+                      ? 'drop this field (not saved yet)'
+                      : 'remove this field — deletes its **name:** line from the file on save'}>
+                    ✕
+                  </button>
+                )}
               </div>
             </React.Fragment>
           )
@@ -371,10 +433,16 @@ function OtherFieldsPanelInner({ items, addable, meta, setHeader, setLoose, titl
             <option value="">choose…</option>
             {addable.map((n) => <option key={n} value={n}>{n}</option>)}
           </select>
-          <button className="small" onClick={() => { setLoose(adding, ''); setAdding('') }} disabled={!adding}>
+          <button className="small" onClick={() => {
+            if (headerAdds) setHeader(adding, '-')
+            else setLoose(adding, '')
+            setAdding('')
+          }} disabled={!adding}>
             + Add
           </button>
-          <span className="faint">creates a **Name:** line in the file on save</span>
+          <span className="faint">{headerAdds
+            ? 'adds a **Name:** line to the header block on save'
+            : 'creates a **Name:** line in the file on save'}</span>
         </div>
       )}
     </div>
@@ -450,7 +518,9 @@ export function InlineGrantEditor({ target, meta, stems, skills, onNavigate }:
           ))}
         </div>
       )}
-      <OtherFieldsPanel record={record} meta={meta} setHeader={setHeader} setLoose={setLoose} title="Other fields" />
+      <OtherFieldsPanel record={record} orig={orig} meta={meta}
+        setHeader={setHeader} setLoose={setLoose}
+        onRemove={fieldRemover(setRecord, setHeader, setLoose)} />
       {record.intro.trim() !== '' && (
         <div style={{ marginTop: 8 }}>
           <div className="lbl faint">body</div>

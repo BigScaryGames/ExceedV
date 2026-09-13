@@ -1,14 +1,14 @@
+**Requirements:** -
 **Tier:** 0
 **AP Cost:** 2
 **Attributes:** WL/CH
 **Base Target/Range:** 1 ally in your zone
 **Traits:** #Active #Spell #Boon #Luck
-## Short Description
-Give advantage to an ally.
-## Effect
 **Limit Cost:** -
+**Duration:** 1 round
+## Effect
 **Effect:** The ally's next roll is affected by Good #Luck
 ## Description
-[People talk a lot, and mages are no exception. To use this spell you must mean it. Learning this spell is considered a funny challenge in magical community, but not all pass. It requires to speak what you mean for a day while actively interacting with other people. If you lie or say something you don't believe in, the you need to start all over.]
+Give advantage to an ally.
 
-**Duration:** 1 round
+[People talk a lot, and mages are no exception. To use this spell you must mean it. Learning this spell is considered a funny challenge in magical community, but not all pass. It requires to speak what you mean for a day while actively interacting with other people. If you lie or say something you don't believe in, the you need to start all over.]

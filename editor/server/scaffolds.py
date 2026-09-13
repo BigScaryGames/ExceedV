@@ -17,8 +17,6 @@ SCAFFOLDS: dict[str, dict] = {
             "**Cost:** 5 XP\n"
             "**Tags:** #Combat\n"
             "\n"
-            "## Short Description\n"
-            "\n"
             "## Grants\n"
             "\n"
             "## Description\n"
@@ -33,8 +31,6 @@ SCAFFOLDS: dict[str, dict] = {
             "**Attributes:** -\n"
             "**Cost:** 5 XP\n"
             "**Tags:** #Skill\n"
-            "\n"
-            "## Short Description\n"
             "\n"
             "## Grants\n"
             "\n"
@@ -51,8 +47,6 @@ SCAFFOLDS: dict[str, dict] = {
             "**Cost:** 5 XP\n"
             "**Tags:** #Magic\n"
             "\n"
-            "## Short Description\n"
-            "\n"
             "## Grants\n"
             "\n"
             "## Description\n"
@@ -68,8 +62,6 @@ SCAFFOLDS: dict[str, dict] = {
             "**Cost:** -\n"
             "**Tags:** #Flaw\n"
             "\n"
-            "## Short Description\n"
-            "\n"
             "## Grants\n"
             "\n"
             "## Description\n"
@@ -80,22 +72,19 @@ SCAFFOLDS: dict[str, dict] = {
         "defaultFolder": "Spells",
         "folderChoices": "spells",
         "template": (
+            "**Requirements:** -\n"
             "**Tier:** 1\n"
             "**AP Cost:** 2\n"
             "**Attributes:** WL/CH\n"
             "**Base Target/Range:** 1 target in your zone\n"
             "**Traits:** #Spell #Active\n"
-            "\n"
-            "## Short Description\n"
+            "**Limit Cost:** -\n"
+            "**Duration:** Instant\n"
             "\n"
             "## Effect\n"
-            "**Limit Cost:** -\n"
             "**Effect:** \n"
             "\n"
             "## Description\n"
-            "\n"
-            "**Duration:** Instant\n"
-            "**Prerequisites:** -\n"
         ),
     },
     "ritual": {
@@ -103,22 +92,19 @@ SCAFFOLDS: dict[str, dict] = {
         "defaultFolder": "Spells/Rituals",
         "folderChoices": "spells",
         "template": (
+            "**Requirements:** -\n"
             "**Tier:** 1\n"
             "**AP Cost:** 1 minute (out of combat)\n"
             "**Attributes:** WL/CH\n"
             "**Base Target/Range:** 1 target in your zone\n"
             "**Traits:** #Spell #Ritual\n"
-            "\n"
-            "## Short Description\n"
+            "**Limit Cost:** -\n"
+            "**Duration:** -\n"
             "\n"
             "## Effect\n"
-            "**Limit Cost:** -\n"
             "**Effect:** \n"
             "\n"
             "## Description\n"
-            "\n"
-            "**Duration:** \n"
-            "**Prerequisites:** -\n"
         ),
     },
     "ability": {

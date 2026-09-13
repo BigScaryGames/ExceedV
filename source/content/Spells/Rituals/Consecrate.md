@@ -1,12 +1,9 @@
-**Requirements:** Theology 2
+**Requirements:** -
+**Base Target/Range:** One zone
+**Traits:** -
 **Category:** Universal
 **Cost:** 10 XP
-**Traits:** -
-**Base Target/Range:** One zone
 
-
-## Short Description
-Spend an breather consecrating one zone for up to a full day, making it uncomfortable for undead and monsters.
 
 ## Effect
 - Active ability costing 3 Mental Action Points
@@ -20,4 +17,6 @@ Spend an breather consecrating one zone for up to a full day, making it uncomfor
 - Particularly useful for protecting camps, settlements, or important locations
 
 ## Description
+Spend an breather consecrating one zone for up to a full day, making it uncomfortable for undead and monsters.
+
 Spend an breather consecrating one zone for up to a full day, making it uncomfortable for undead and monsters.

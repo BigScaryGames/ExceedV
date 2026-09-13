@@ -1,17 +1,16 @@
+**Requirements:** -
 **Tier:** 1
 **AP Cost:** -
 **Attributes:** AG/DX
 **Base Target/Range:** Self
-**Traits:** #Spell #Attuned #Boon #Transformation 
-
-## Short Description
-Grow claws and defensive arm covering
+**Traits:** #Spell #Attuned #Boon #Transformation
+**Limit Cost:** 1
+**Duration:** -
 
 ## Effect
-**Limit Cost:** 1
 **Effect:** You get up to two 1d4 Unarmed or 1H weapons with #Light and #Reach traits. You can unarmed deflect with them. 
 
 ## Description
-[Basic transformation step on a way to become a furry beast. The utility of this spell is overrated, as a dagger is more versatile.  Authors note: I've only seen druids and furry pervs use this spell, and in Elzmeer we don't teach druidism. This spell won't count for exam qualifications.]
+Grow claws and defensive arm covering
 
-**Duration:** -
+[Basic transformation step on a way to become a furry beast. The utility of this spell is overrated, as a dagger is more versatile.  Authors note: I've only seen druids and furry pervs use this spell, and in Elzmeer we don't teach druidism. This spell won't count for exam qualifications.]

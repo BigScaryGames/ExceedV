@@ -1,18 +1,17 @@
+**Requirements:** [[Elemental Weapon]], [[Summon weapon]]
 **Tier:** 2
 **AP Cost:** —
 **Attributes:** WL/AG
 **Base Target/Range:** Self
 **Traits:** #Spell #Attuned #Conjuration #Equipment
-
-## Short Description
-Summon an elemental weapon
+**Limit Cost:** —
+**Duration:** —
 
 ## Effect
-**Limit Cost:** —
 **Effect:** #TODO
 
 ## Description
+Summon an elemental weapon
+
 [Flavor text to be written]
 
-**Duration:** —
-**Prerequisites:** [[Elemental Weapon]], [[Summon weapon]]

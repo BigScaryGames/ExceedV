@@ -1,17 +1,14 @@
+**Requirements:** -
 **Tier:** 1
 **AP Cost:** 3
 **Attributes:** PR/WT
 **Base Target/Range:** Self, or you and allies in your zone
 **Traits:** #Spell #Attuned #Boon #Illusion
-
-## Short Description
-Make yourself or team less noticeable from distance
+**Limit Cost:** Self 1 / Party 3
+**Duration:** unlimited/3 rounds
 
 ## Effect
-**Limit Cost:** Self 1 / Party 3
 **Effect:** All enemies outside your skirmish roll contested stealth checks against you with disadvantage.
 
 ## Description
-[Flavor text to be written]
-
-**Duration:** unlimited/3 rounds
+Make yourself or team less noticeable from distance

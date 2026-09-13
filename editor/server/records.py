@@ -45,8 +45,6 @@ def record_row(vault: Vault, rel: str) -> dict:
     for name in schema["tableColumns"]:
         if name == "Grants":
             cols[name] = len(grants["embeds"]) if grants else 0
-        elif name == "Prerequisites":
-            cols[name] = val("Prerequisites")
         else:
             cols[name] = val(name)
 

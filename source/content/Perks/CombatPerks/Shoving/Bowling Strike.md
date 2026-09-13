@@ -3,12 +3,11 @@
 **Cost:** 15 XP
 **Tags:** #Combat
 
-## Short Description
-Aim a launched enemy at their friend — one swing, two targets.
-
 ## Grants
 
 ![[Ability - Bowling Strike]]
 
 ## Description
+Aim a launched enemy at their friend — one swing, two targets.
+
 Their formation was the mistake. You're just the consequence.

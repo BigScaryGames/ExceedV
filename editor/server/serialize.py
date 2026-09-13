@@ -19,7 +19,8 @@ from .vault import BOM, EMBED_RE, ParsedFile
 class Edits:
     header_fields: dict[str, str] = dc_field(default_factory=dict)   # canonical header values ("" = remove)
     loose_fields: dict[str, str] = dc_field(default_factory=dict)    # field lines outside the header block
-    section_bodies: dict[str, str] = dc_field(default_factory=dict)  # title-lower -> new body text
+    section_bodies: dict[str, "str | None"] = dc_field(default_factory=dict)  # title-lower -> new body; None = remove section
+    section_renames: dict[str, str] = dc_field(default_factory=dict)  # title-lower -> new title
     grants: dict | None = None                                       # {"mode": "simple"|"staged", ...}
     intro: str | None = None                                         # replace intro region
     draft: bool | None = None                                        # True/False sets draft frontmatter
@@ -89,8 +90,8 @@ def build_splices(parsed: ParsedFile, edits: Edits) -> list[tuple[int, int, str]
         for name in canonical:
             if name in provided or name in existing:
                 value = provided.get(name, existing.get(name, "-"))
-                if value == "" and name in provided:
-                    continue  # explicit removal of an optional field
+                if value == "" and name in provided and name in existing:
+                    continue  # clearing an existing field removes its line
                 final.append((name, value if value not in ("", None) else "-"))
                 used.add(name)
         for name in existing:  # unknown/legacy block fields are preserved
@@ -98,30 +99,75 @@ def build_splices(parsed: ParsedFile, edits: Edits) -> list[tuple[int, int, str]
                 if name in provided and provided[name] == "":
                     continue
                 final.append((name, provided.get(name, existing[name])))
+        # names the schema doesn't know and the file doesn't have yet
+        # ("+ Add field") join the end of an EXISTING header block; body-first
+        # files keep their loose-field convention (no block gets created).
+        # Fields inside a section whose body this same save rewrites don't
+        # count as "already exists" — the rewrite replaces that region, so a
+        # header_fields entry is the field's new home (section→header move).
+        replaced_spans = []
+        for title in edits.section_bodies:
+            sec = parsed.section(title)
+            if sec is not None:
+                replaced_spans.append((sec.heading.start, sec.end))
+
+        def _region_replaced(line_start: int) -> bool:
+            return any(s <= line_start < e for s, e in replaced_spans)
+
+        parsed_ci = {f.name.strip().lower() for f in parsed.fields
+                     if f.in_header_block or not _region_replaced(f.line.start)}
+        in_final = {n for n, _ in final}
+        new_items = [(n, "-" if v == "" else v) for n, v in provided.items()
+                     if n not in in_final and n not in canonical and n.lower() not in parsed_ci]
+        if parsed.header_block:
+            final.extend(new_items)
 
         if not final:
             pass  # nothing belongs in the header block for this edit
-        elif parsed.header_block and [n for n, _ in final] == [n for n in existing]:
-            # same fields in the same order: rewrite each field LINE only —
-            # blank-line grouping inside the block (e.g. Trigger/Effect vs
-            # Tags) is deliberate layout and survives the edit
-            by_name = {n: v for n, v in final}
-            for f in parsed.fields:
-                if f.in_header_block:
+        else:
+            # "" on an existing field removes its line; the remaining fields
+            # keep their lines and order — blank-line grouping inside the
+            # block (e.g. Trigger/Effect vs Tags) is deliberate layout and
+            # survives the edit; freshly added fields fold into the last kept
+            # line's splice so nothing else moves
+            removed = {n for n in existing if provided.get(n) == ""}
+            kept_names = [n for n in existing if n not in removed]
+            final_names = [n for n, _ in final]
+            if parsed.header_block and (kept_names or not new_items) \
+                    and final_names[:len(kept_names)] == kept_names:
+                by_name = {n: v for n, v in final}
+                block_fields = [f for f in parsed.fields if f.in_header_block]
+                by_field = {}
+                for f in block_fields:
+                    by_field.setdefault(f.name.strip(), f)
+                for name in removed:
+                    f = by_field.get(name)
+                    if f is not None:
+                        splices.append((f.line.start, f.line.end_with_eol, ""))
+                kept_fields = [f for f in block_fields if f.name.strip() not in removed]
+                tail = final[len(kept_names):]
+                last = kept_fields[-1] if kept_fields else None
+                for f in kept_fields:
+                    if tail and f is last:
+                        continue
                     new_line = _field_line(f.name, by_name[f.name.strip()])
                     if new_line != f.raw:
                         splices.append((f.line.start, f.line.end, new_line))
-        elif parsed.header_block:
-            block_text = eol.join(_field_line(n, v) for n, v in final)
-            s, e = parsed.header_block
-            splices.append((s, e, block_text))
-        else:
-            # insert a new header block at the top (after frontmatter)
-            block_text = eol.join(_field_line(n, v) for n, v in final)
-            ins = parsed.intro_start
-            following = text[ins:parsed.intro_end] if parsed.intro_end > ins else ""
-            sep = eol + eol if following.strip() else eol
-            splices.append((ins, ins, block_text + sep))
+                if tail and last is not None:
+                    folded = _field_line(last.name, by_name[last.name.strip()])
+                    folded += eol + eol.join(_field_line(n, v) for n, v in tail)
+                    splices.append((last.line.start, last.line.end, folded))
+            elif parsed.header_block:
+                block_text = eol.join(_field_line(n, v) for n, v in final)
+                s, e = parsed.header_block
+                splices.append((s, e, block_text))
+            else:
+                # insert a new header block at the top (after frontmatter)
+                block_text = eol.join(_field_line(n, v) for n, v in final)
+                ins = parsed.intro_start
+                following = text[ins:parsed.intro_end] if parsed.intro_end > ins else ""
+                sep = eol + eol if following.strip() else eol
+                splices.append((ins, ins, block_text + sep))
 
     # ---- 2. loose field lines (outside the header block) ------------------
     for raw_name, value in edits.loose_fields.items():
@@ -132,8 +178,16 @@ def build_splices(parsed: ParsedFile, edits: Edits) -> list[tuple[int, int, str]
                 target = f
                 break
         if target is not None:
-            splices.append((target.line.start, target.line.end,
-                            _field_line(target.name, value)))
+            if value == "":
+                # "" removes the whole line (including its EOL); if the line
+                # is last and its removal leaves a trailing blank, eat that too
+                s, e = target.line.start, target.line.end_with_eol
+                if e >= len(text) and text[:s].endswith(eol + eol):
+                    s -= len(eol)
+                splices.append((s, e, ""))
+            else:
+                splices.append((target.line.start, target.line.end,
+                                _field_line(target.name, value)))
         else:
             # new field line: prefer inserting just before a trailing
             # Tags/Traits line (abilities/actions keep meta fields above
@@ -156,10 +210,17 @@ def build_splices(parsed: ParsedFile, edits: Edits) -> list[tuple[int, int, str]
     for title, body in edits.section_bodies.items():
         sec = parsed.section(title)
         if sec is None:
+            if body is None:
+                continue  # removing a section that doesn't exist
             # append a new section at the end
             add = eol if text.endswith(eol) else ""
             add += eol + f"## {title}" + eol + _norm_body(body, eol)
             splices.append((len(text), len(text), add))
+            continue
+        if body is None:
+            # remove the whole section (heading + body); the blank line above
+            # the heading stays, so the neighbours keep single-line separation
+            splices.append((sec.heading.start, sec.end, ""))
             continue
         new_body = _norm_body(body, eol)
         old_body = text[sec.body_start:sec.end]
@@ -168,6 +229,15 @@ def build_splices(parsed: ParsedFile, edits: Edits) -> list[tuple[int, int, str]
         if sec.end == len(text) and old_body.endswith(eol) and not new_body.endswith(eol):
             new_body += eol
         splices.append((sec.body_start, sec.end, new_body))
+
+    # ---- 3b. section renames (heading line only) ---------------------------
+    for title, new_title in edits.section_renames.items():
+        sec = parsed.section(title)
+        if sec is None:
+            continue
+        new_heading = f"{'#' * sec.level} {new_title}"
+        if new_heading != sec.heading.content:
+            splices.append((sec.heading.start, sec.heading.end, new_heading))
 
     # ---- 4. grants section regeneration ------------------------------------
     if edits.grants is not None:
@@ -209,10 +279,10 @@ def build_splices(parsed: ParsedFile, edits: Edits) -> list[tuple[int, int, str]
             new_intro += eol
         splices.append((parsed.intro_start, parsed.intro_end, new_intro))
 
-    # Loose field lines can live inside a section body (spell Duration /
-    # Prerequisites sit inside ## Description) or inside the intro region
-    # (ability **Tags:** at end of body-first files). When the user edited
-    # that containing region as text, the region edit wins and the
+    # Loose field lines can live inside a section body (a spell's Duration /
+    # Prerequisites used to sit inside ## Description) or inside the intro
+    # region (ability **Tags:** at end of body-first files). When the user
+    # edited that containing region as text, the region edit wins and the
     # structured field edit within it is dropped.
     regions = [(s, e) for (s, e, rep) in splices if rep and e > s]
     kept: list[tuple[int, int, str]] = []

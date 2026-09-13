@@ -223,9 +223,9 @@ def check_perks(files, contents):
 # CHECK 5: Spell template violations
 # ═══════════════════════════════════════════════════════════════════════════
 
-SPELL_REQUIRED = ["Tier", "AP Cost", "Attributes"]
+SPELL_REQUIRED = ["Requirements", "Tier", "AP Cost", "Attributes"]
 # Matches **Tier:** (colon inside bold, the actual format)
-SPELL_HEADER_RE = re.compile(r'\*\*(Tier|AP Cost|Attributes):', re.M)
+SPELL_HEADER_RE = re.compile(r'\*\*(Requirements|Tier|AP Cost|Attributes):', re.M)
 
 def check_spells(files, contents):
     violations = []
@@ -248,8 +248,9 @@ def check_spells(files, contents):
         if is_attuned and not has_limit:
             # Limit Cost only makes sense for attuned spells (template: "[if #Attuned]")
             issues.append("no 'Limit Cost' field")
-        if not has_version:
-            issues.append("no Basic/Advanced version sections")
+        if has_version:
+            # Basic/Advanced versions are legacy — spells use Requirements now
+            issues.append("legacy 'Basic/Advanced Version' section present")
         if issues:
             violations.append({"file": sp, "issues": issues})
     return violations
