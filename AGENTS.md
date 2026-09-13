@@ -8,10 +8,16 @@ the Quartz site (GitHub Pages), the external playtest app
 ## Content conventions
 
 - **`source/content/CLAUDE.md`** is the authoritative content-conventions
-  doc: attribute codes (`PR WL CH WT MG EN AG DX`), perk/spell/ability/effect
+  doc: attribute codes (`PR WL CH WT ST EN AG DX`), perk/spell/ability/effect
   file formats, `Ability - ` / `Effect - ` naming, perk-tags vs mechanic-tags
   vs spell-traits vocabularies, folder organization. Read it before writing
   content. Filenames are global identifiers (title = filename, no H1).
+  Vocabulary note (0.6 rename): domains are **Magery/Prowess** (was
+  Spellcraft/Martial), attribute **Strength** (was Might, code `ST` was `MG`),
+  currencies **Battle XP / Life XP** (was Combat/Skill XP). Perk tags say what
+  a perk is (`#Prowess`, `#Magery`, `#Conditioning`, `#Skill`); the XP pool
+  lives in the Cost line (`5 Battle XP`), never in tags — see
+  `source/content/0.6 Content Plan Musings.md` for the full changelist.
 
 ## Editing content — use the vault editor, not raw file edits
 

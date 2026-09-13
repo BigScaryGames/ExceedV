@@ -1,10 +1,7 @@
-**Requirements:** Spellcraft 2
+**Requirements:** Magery 2
 **Attributes:** WL/WT
-**Cost:** 10 XP
-**Tags:** #Spellcraft #Metamagic
-
-## Description
-Turn a pointed spell into a wave — hit a whole skirmish, or a whole zone.
+**Cost:** 10 Battle XP
+**Tags:** #Magery #Metamagic
 
 ## Grants
 

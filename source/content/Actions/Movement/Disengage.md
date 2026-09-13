@@ -1,5 +1,5 @@
 **AP Cost:** 1
-**Traits:** #Move
+**Traits:** #Movement
 
 Leave your current [[Skirmish]] safely.
 

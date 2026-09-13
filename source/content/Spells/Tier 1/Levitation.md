@@ -1,0 +1,12 @@
+**Requirements:** -
+**Tier:** 1
+**AP Cost:** -
+**Attributes:** AG/ST
+**Base Target/Range:** Self, or allies in your zone
+**Traits:** #Spell #Attuned #Manipulation
+**Limit Cost:** Self 3 / Party 3
+**Duration:** -
+
+## Effect
+Each AP spent moves 1 target within its zone; moving it to a connected zone costs 1 AP. Can affect yourself, 1 target, or your whole team. Any successful attack against you requires an Endure check or your ability to hold the spell falters.
+

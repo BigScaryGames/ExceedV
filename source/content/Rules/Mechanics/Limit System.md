@@ -2,7 +2,7 @@
 
 ## Base Limit
 
-`Limit = 3 + Will + Spellcraft`
+`Limit = 3 + Will + Magery`
 
 ## What Counts Against Limit
 

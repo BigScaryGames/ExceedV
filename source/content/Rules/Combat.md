@@ -9,6 +9,6 @@ wounds, conditions, traits, and actions.
 ![[4.2 Wounds And Consequences]]
 ![[4.3 Conditions]]
 ![[4.4 Weapons and Combat Training]]
-![[10. Traits]]
+![[Traits]]
 ![[11. Actions]]
 ![[Conditioning Perks Overview]]

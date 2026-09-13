@@ -34,21 +34,21 @@
 
 ### Steps
 1. **Concept:** Name and character concept
-2. **Starting XP:** GM awards Combat XP and Skill XP separately
+2. **Starting XP:** GM awards Battle XP and Life XP separately
 3. **Spend XP:** Skills, perks, spells (each shows which attributes benefit)
-4. **Calculate AP:** Base 5 AP + Domain Tiers (Martial/Spellcraft)
+4. **Calculate AP:** Base 5 AP + Domain Tiers (Prowess/Magery)
 5. **Starting Gear:** Equipment and final statistics
 
 ### Attribute System
-- **8 Core Attributes:** Perception, Will, Charisma, Wit, Might, Endurance, Agility, Dexterity
+- **8 Core Attributes:** Perception, Will, Charisma, Wit, Strength, Endurance, Agility, Dexterity
 - **Cannot buy directly:** Only increase through skills/abilities
 - **Threshold Progression:** 10/30/60/100/150 points = +1 to attribute
 
 ### Skill Progression
 - **Regular Skills:** 2/+4/+6/+8/+10 XP per level
 - **Domains (Special Skills):**
-  - Spellcraft: 10/+20/+30/+40/+50 XP (progressed by learning spells)
-  - Martial: 10/+20/+30/+40/+50 XP (progressed by learning perks and weapon training)
+  - Magery: 10/+20/+30/+40/+50 XP (progressed by learning spells)
+  - Prowess: 10/+20/+30/+40/+50 XP (progressed by learning perks and weapon training)
 
 ### Weapon Training System (v0.5)
 - **8 Weapon Categories:** Brawling, Shield, Blades, Axes, Impact, Polearms, Bows, Thrown
@@ -63,15 +63,15 @@
   - **Bows:** Learn Aim action (works with all ranged weapons)
   - **Impact:** Shoving Strike (+1 AP, Impact or Unarmed; on hit target rolls Endure vs attack roll or is Shoved out of the skirmish)
 
-### Combat Perk Trees (v0.5)
-Combat perks with 5+ interconnected requirements form perk trees organized into subfolders.
+### Battle Perk Trees (v0.5)
+Battle perks with 5+ interconnected requirements form perk trees organized into subfolders.
 
-**Perk Folder Structure (`Perks/CombatPerks/`):**
+**Perk Folder Structure (`Perks/BattlePerks/`):**
 
 **Weapon Trees (Complete):**
 - `WeaponTraining/` - 8 weapon category training perks (Ax, Blades, Bow, Brawling, Impact, Polearms, Shield, Thrown)
 - `Shields/` - Complete shield tree (9 perks: Shield Rush, Multipurpose Shield, Shield Warden, Perfect Block, Spell Guard, Shield Guardian, Behind the Shield Strike, The Wall, Guardian Aura)
-- `Archery/` - Complete archery tree (15 files: Double Shot, Fast Archer, Tower, Hair Trigger, Mobile Draw, Tower Defender, Artillery, Spell Shot, Overpowered Draw, Close Quarters Shooter, Defensive Archer, Zen Archer, Don't Turn Your Back On Me (Deprecated), WIP: Ricochet Shot, Storm of Arrows)
+- `Archery/` - Complete archery tree (15 files: Double Shot, Fast Archer, Tower, Hair Trigger, Mobile Draw, Tower Defender, Artillery, Spell Shot, Overpowered Draw, Close Quarters Shooter, Defensive Archer, Zen Archer, Don't Turn Your Back On Me, Ricochet Shot, Storm of Arrows)
 - `Footwork/` - Evasion and movement (9 perks: Footwork, Light Steps, Small Steps, Big Steps, Dodging Step, Elusive, Dodge-Roll, Dodge Behind Your Back, Come and Get Me)
 - `Polearms/` - Polearm techniques (8 perks: Quarter-staff Adept, Walking Stick, Pointy Stick, Grip Switch, Spinning Staff, Monkey King Strike, Staff Acrobat, Spear Brothers)
 - `Parrying And Riposte/` - Defensive counter-attacks (5 perks: Parry This Parry That, Painful Parry, Repose This Repose That, Riposte, Projectile Parry)
@@ -107,15 +107,15 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 
 ### Action Economy
 - **Base:** 5 AP + 1 Reaction per turn
-- **Domain AP:** Each Tier in Martial provides 1 AP usable with #combat abilities. Each Tier in Spellcraft provides 1 AP usable with #spellcraft abilities.
+- **Domain AP:** Each Tier in Prowess provides 1 AP usable with abilities granted by Prowess perks. Each Tier in Magery provides 1 AP usable with spells and Magery perk abilities.
 - **Initiative:** 2d10 + Perception
 - **Surprise/Ambush:** Coordinated initiative, stunned targets lose 3 AP
 
 ### Defenses
-- **Deflect:** Martial + Agility/Dexterity/Might (based on weapon type) + Equipment Defense bonus
+- **Deflect:** Prowess + Agility/Dexterity/Strength (based on weapon type) + Equipment Defense bonus
 - **Dodge:** Agility + Perception
 - **Resolve:** Will + Charisma
-- **Endure:** Endurance + Might
+- **Endure:** Endurance + Strength
 
 ### Combat Resolution Sequence (v0.6)
 1. **Attacker declares activity:** "I swing at you"
@@ -140,9 +140,9 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 - **Body:** Endure (poison, disease, exhaustion)
 
 ### Attacks & Damage
-- **Weapon Stats:** Agility for all, Heavy allows Might, Finesse allows Dexterity
+- **Weapon Stats:** Agility for all, Heavy allows Strength, Finesse allows Dexterity
 - **Ranged:** Dexterity or Perception based on weapon
-- **Damage:** Weapon Dice + Might + Bonuses
+- **Damage:** Weapon Dice + Strength + Bonuses
 - **Damage Dice by Skill:** 1-2 skill = 1 die, 3-4 skill = 2 dice, 5+ skill = 3 dice
 - **Weapon AP Costs:** Light = 2 AP, Normal = 3 AP, Heavy = 4 AP
 
@@ -151,12 +151,12 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 ### Core Principles
 - **Mage Requirement:** Must have Mage perk (GM permission)
 - **Two Types:** Passive (uses Limit) vs Active (requires casting roll)
-- **Limit Stat:** 3 + Will + Spellcraft (capacity for persistent effects)
-- **Active Casting:** 2d10 + Spellcraft + Wit vs DC [8 + Tier × 2]
+- **Limit Stat:** 3 + Will + Magery (capacity for persistent effects)
+- **Active Casting:** 2d10 + Magery + Wit vs DC [8 + Tier × 2]
 
-### Spellcraft Domain
+### Magery Domain
 - **Progression:** Learning spells advances the domain
-- **Tier Unlocks:** Each Spellcraft level unlocks new spell tiers
+- **Tier Unlocks:** Each Magery level unlocks new spell tiers
 - **Learning Requirements:** Magical Theory/Theology ≥ spell tier (or teacher)
 - **Learning Time:** 1 day per XP spent
 
@@ -173,10 +173,10 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 > **Note (v0.6):** Advanced spell cost tier removed. Prerequisites now gate access — the Basic/Advanced split is no longer used. All spells cost a flat XP per tier.
 
 ### Metamagic (v0.6)
-- Spell-modifying options granted by #Spellcraft #Metamagic perks (`Perks/MagicPerks/Metamagic/`); perk XP counts toward Spellcraft tiers like spells
-- Each application adds an AP surcharge and a casting DC surcharge (per-option); cap = Spellcraft tier per cast
+- Spell-modifying options granted by #Magery #Metamagic perks (`Perks/MagicPerks/Metamagic/`); perk XP counts toward Magery tiers like spells
+- Each application adds an AP surcharge and a casting DC surcharge (per-option); cap = Magery tier per cast
 - #Attuned spells pay +1 Limit per application instead of DC
-- Grand Weaving (Spellcraft 3) removes the cap and allows multi-turn casting
+- Grand Weaving (Magery 3) removes the cap and allows multi-turn casting
 - Options: Reaching, Subtle, Lingering, Split, Widened, Empowered + Grand Weaving
 - Specializations (bonus inside/penalty outside): Mage of an Element, Inward Focus, Withering Focus
 
@@ -185,12 +185,12 @@ Combat perks with 5+ interconnected requirements form perk trees organized into 
 ### Social Skills
 - Dancing (Agility/Charisma), Negotiating (Charisma/Wit), Manipulation (Charisma/Will)
 - Leadership (Charisma/Will), Fast-talk (Charisma/Agility), Singing (Endurance/Charisma)
-- Gossip (Charisma/Perception), Intimidation (Charisma/Might), Acting (Charisma/Will)
+- Gossip (Charisma/Perception), Intimidation (Charisma/Strength), Acting (Charisma/Will)
 
 ### Athletic Skills
-- Running (Agility/Endurance), Climbing (Might/Agility), Swimming (Endurance/Might)
-- Jumping (Might/Agility), Acrobatics (Agility/Dexterity), Lifting (Might/Endurance)
-- Breaking (Might/Wit)
+- Running (Agility/Endurance), Climbing (Strength/Agility), Swimming (Endurance/Strength)
+- Jumping (Strength/Agility), Acrobatics (Agility/Dexterity), Lifting (Strength/Endurance)
+- Breaking (Strength/Wit)
 
 ### Knowledge Skills
 - Magical Theory (Wit/Will), History (Wit/Will), Theology (Will/Charisma), Streetwise (Charisma/Perception)
@@ -235,7 +235,7 @@ Conditions are stored in `/source/content/Rules/References/Conditions/` and defi
 
 ### Enhancement Conditions (Attribute Modifiers)
 - **Grace X:** ±X to Agility/Dexterity rolls
-- **Vigor X:** ±X to Might/Endurance rolls
+- **Vigor X:** ±X to Strength/Endurance rolls
 - **Focus X:** ±X to Willpower/Perception rolls
 - **Sharpness X:** ±X to Charisma/Wit rolls
 - **Quickened X:** ±X actions at start of turn
@@ -249,7 +249,7 @@ Conditions are stored in `/source/content/Rules/References/Conditions/` and defi
 - **Blessed:** Next roll at advantage
 
 ### Situational Conditions
-- **Prone:** Disadvantage on Martial Domain (attacks, Deflect). Advantage on Dodge/Resolve/Endure vs #Projectile and #Burst. Movement speed reduced to 1.
+- **Prone:** Disadvantage on Prowess Domain (attacks, Deflect). Advantage on Dodge/Resolve/Endure vs #Projectile and #Burst. Movement speed reduced to 1.
 - **Grabbed:** -2 to attacking/manipulating, intricate actions at disadvantage, no reach weapons vs grappler. Grappler releases free; grappled must Escape.
 - **Off-Guard:** -1 to defend against attacks.
 - **Blinded:** All sight-reliant checks are Screwed (1d10).
@@ -269,20 +269,20 @@ Conditions are stored in `/source/content/Rules/References/Conditions/` and defi
 
 ## Social Interactions
 
-### Attitude System
+### Disposition
 - **Range:** -5 (hostile) to +5 (fanatical adoration)
 - **Factors:** Race, appearance, social class, rank
-- **Favor Costs:** Attitude affects price (negative = higher cost, positive = lower/free)
+- **Favor Costs:** Disposition affects price (negative = higher cost, positive = lower/free)
 
 ### Social Actions
-- **Affect Attitude:** Social skill + Charisma vs target's resistance
+- **Improving Disposition:** Social skill + Charisma vs target's resistance
 - **Detect Falsehood:** Perception + Manipulation or Perception + Will
 - **Fast-Talk:** Fast-talk vs Detect Falsehood or Perception/Will
 
 ### Trading
 - **Base Prices:** Pawn shops buy 50%, sell 100% of listed price
-- **Attitude Modifier:** ±5% per attitude step
-- **Bargaining Range:** 25-125% of listed price based on attitude
+- **Disposition Modifier:** ±5% per disposition level
+- **Bargaining Range:** 25-125% of listed price based on disposition
 
 ## Key Actions
 
@@ -295,12 +295,12 @@ Conditions are stored in `/source/content/Rules/References/Conditions/` and defi
 ### Combat Actions
 - **Basic Attack:** 2-4 AP based on weapon weight
 - **All in Defense:** 2 AP - Gain advantage on all #Defend actions until your next turn (requires no offensive action this turn)
-- **Grapple:** 3 AP - Attempt to grab opponent (Brawling + Might/Agility vs defense). On success, both gain Grabbed condition.
+- **Grapple:** 3 AP - Attempt to grab opponent (Brawling + Strength/Agility vs defense). On success, both gain Grabbed condition.
 - **Escape:** 1 AP - Attempt to break free from Grabbed condition (Athletics or Escape Artist vs grappler's Brawling)
-- **Disarm:** 2 AP - Martial + MG/DX vs target's weapon roll; -5 and free retaliation on failure unless target is Grabbed by you
-- **Trip:** 2 AP - Martial + MG/AG vs Endure; target Prone
-- **Shove:** 3 AP - Martial + MG vs Endure; target forced out of its skirmish (no damage, team tactic)
-- **Feint (WIP):** 1 AP - Martial + CH/DX vs Resolve; target Off-Guard vs your next attack
+- **Disarm:** 2 AP - Prowess + ST/DX vs target's weapon roll; -5 and free retaliation on failure unless target is Grabbed by you
+- **Trip:** 2 AP - Prowess + ST/AG vs Endure; target Prone
+- **Shove:** 3 AP - Prowess + ST vs Endure; target forced out of its skirmish (no damage, team tactic)
+- **Feint (WIP):** 1 AP - Prowess + CH/DX vs Resolve; target Off-Guard vs your next attack
 - **Ready (v0.5):** Variable AP (activity cost) - prepare action with trigger, execute as Reaction
   - Examples: Ready strike, ready spell, ready movement
   - Most combat preparations are obvious to observers
@@ -328,33 +328,15 @@ Conditions are stored in `/source/content/Rules/References/Conditions/` and defi
 Core Rules use wiki-style organization with hub files embedding mechanics from subfolders.
 
 
-**Hub Files (numbered):**
-- `source/content/Rules/1. Welcome to Exceed.md` - Overview and introduction to ExceedV
-- `source/content/Rules/2. Core Resolution System.md` - Dice system, check types (embeds from Mechanics/)
-- `source/content/Rules/3. Character Creation and Point buy Costs.md` - XP system, creation steps
-- `source/content/Rules/3.1 Attributes.md` - 8-attribute system
-- `source/content/Rules/3.2 Perks and Flaws.md` - Perks and flaws system
-- `source/content/Rules/3.3 HP And Wounds.md` - Dual HP pools, wound system
-- `source/content/Rules/4.0 Lines and Zones.md` - Zone-based movement and positioning system
-- `source/content/Rules/4. Combat Conflict Resolution.md` - Action economy, attacks, defenses
-- `source/content/Rules/4.1 Taking Damage.md` - Damage application
-- `source/content/Rules/4.2 Wounds And Consequences.md` - Wound effects, treatment
-- `source/content/Rules/4.3 Conditions.md` - Condition system
-- `source/content/Rules/4.4 Weapons and Combat Training.md` - Weapon training and combat techniques
-- `source/content/Rules/5. Skills.md` - Skill list with attribute pairings
-- `source/content/Rules/5.1 Skill And Universal Perks.md` - Skill progression, universal perks
-- `source/content/Rules/6. Magic System.md` - Magic system overview (Limit system, spellcraft domain, Metamagic, spell lists)
-- `source/content/Rules/6.1 Summoning.md` - Summoning mechanics
-- `source/content/Rules/6.2 Magic Perks.md` - Magic-related perks
-- `source/content/Rules/7. Equipment.md` - Weapons, armor, gear
-- `source/content/Rules/7.1 Encumbrance.md` - Encumbrance system
-- `source/content/Rules/8. Social Interactions.md` - Attitude system, trading
-- `source/content/Rules/8.1 Organizations.md` - Ranks, org benefits/obligations (WIP till MS8)
-- `source/content/Rules/9.1 Time and Travel.md` - Time and travel mechanics
-- `source/content/Rules/9.2 Downtime and Training.md` - Training, recovery, income (embeds from Mechanics/)
-- `source/content/Rules/9.3 Exploration and Out of combat Activities.md` - Exploration, downtime activities
-- `source/content/Rules/10. Traits.md` - Traits, bonus types (embeds from References/)
-- `source/content/Rules/11. Actions.md` - All action types (embeds from Actions/)
+**Reading tree:** `Rules/Rulebook.md` embeds the chapter hubs (`Rules/Intro.md`, `Core.md`, `Combat.md`, `Magic.md`, `Social And World.md`, `Downtime And Exploration.md`); each hub embeds the numbered section files from its matching subfolder.
+
+**Chapter folders (numbered files):**
+- `source/content/Rules/Intro/` - `1. Welcome to Exceed.md` (overview and introduction)
+- `source/content/Rules/Core/` - `2. Core Resolution System.md` (dice, check types), `3. Character Creation and Point buy Costs.md`, `3.1 Attributes.md`, `3.2 Perks and Flaws.md`, `3.3 HP And Wounds.md`, `5. Skills.md` (skill list with attribute pairings; its 7 skill sections mirror the LifePerks subfolders)
+- `source/content/Rules/Combat/` - `4. Combat Conflict Resolution.md`, `4.0 Lines and Zones.md`, `4.1 Taking Damage.md`, `4.2 Wounds And Consequences.md`, `4.3 Conditions.md`, `4.4 Weapons and Combat Training.md`, `10. Traits.md` (embeds from References/), `11. Actions.md` (embeds from Actions/)
+- `source/content/Rules/Magic/` - `6. Magic System.md` (Limit system, magery domain, Metamagic, spell lists), `6.1 Summoning.md`, `6.2 Magic Perks.md`
+- `source/content/Rules/Social And World/` - `7. Equipment.md`, `7.1 Encumbrance.md`, `8. Social Interactions.md`, `8.1 Organizations.md` (WIP till MS8)
+- `source/content/Rules/Downtime And Exploration/` - `9.1 Time and Travel.md`, `9.2 Downtime and Training.md` (embeds from Mechanics/), `9.3 Exploration and Out of combat Activities.md`, `Camping and Maintanence Rules.md`
 
 **Subfolders:**
 - `source/content/Rules/Mechanics/` - Embeddable mechanic files (Action Points, Initiative, Recovery Rules, etc.)
@@ -364,37 +346,42 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 - `source/content/Rules/References/` - Reference tables (Bonus Types, Defense Traits, Downtime Quality, Rank System, Conditions/)
 - `source/content/Rules/Design Philosophy.md` - Design notes and rationale
 ### Combat System Files
-- `source/content/Perks/CombatPerks/` - All combat perks organized into folders
-- `source/content/Perks/SkillPerks/` - Skill-based perks
+- `source/content/Perks/BattlePerks/` - All battle perks organized into folders
+- `source/content/Perks/LifePerks/` - Skill-based perks
 - `source/content/Perks/MagicPerks/` - Magic-related perks
 - `source/content/Rules/Mechanics/Dual Wielding.md` - Dual wielding rules (WIP)
 - `source/content/Design Guidelines.md` - Comprehensive perk design document
 
 ### Spell System Files
-- `source/content/Spells/` - Individual spell definitions organized by tier
+- `source/content/Spells/` - Individual spell definitions organized by tier folders (Tier 0-5 + Rituals + Trees)
 - `source/content/Spells/0 Spell Template.md` - Template for creating new spells
 - `source/content/Spells/Rituals/Team Ritual.md` - Team formation and ritual mechanics
 
 ### Perk System Files
 - `source/content/Perks/0 Universal Perk Template.md` - Template for creating new perks
-- `source/content/Perks/CombatPerks/` - Combat perks organized by weapon/type
-- `source/content/Perks/SkillPerks/` - Non-combat skill perks
+- `source/content/Perks/BattlePerks/` - Battle perks organized by weapon/type
+- `source/content/Perks/LifePerks/` - Non-combat life perks. Subfolders mirror the skill sections of `Rules/Core/5. Skills.md`: Social, Athletic, Craft (Smithing/Woodworking/Textilework/Engineering), Natural Sciences (Biology/Chemistry/Medicine), Underworld (Stealth/Criminal), Wilderness, Knowledge. Each perk is filed under the section of its **first skill requirement**. `Rank and Reputation Perks/` is a side category (standing/rank perks, kept regardless of skill requirements)
 - `source/content/Perks/MagicPerks/` - Magic system perks
-- `source/content/Perks/UNEDITED/` - Perks pending revision
+- `source/content/Perks/Flaws/` - Disadvantage perks (flaws; Cost line carries the negative XP and its Battle/Life Flaw pool)
+- `source/content/Perks/Companions/` - Bonded companions & familiars - untagged Battle XP perks, advance no domain (see `Rules/Mechanics/Bonded Companions.md`)
 
 ### Special Character Files
 - `source/content/Perks/MagicPerks/Mage.md` - Mage character type and requirements
 
 ### Design Documentation
 - `source/content/Design Guidelines.md` - Design philosophy and guidelines
+- `source/content/Rules/Mechanics/Size Rules.md` - Size steps, wound scaling, #Size modifiers
+- `source/content/Rules/Mechanics/Bonded Companions.md` - Companion command economy (no own AP; commands cost your AP)
+- `source/content/Rules/References/Prices.md` - Full price tables (silver standard, anchored to the Earning Income Rules)
+- `source/content/Rules/References/Bestiary/` - Simplified statblocks (bond presets + summon units)
 
 ## Quick Search Patterns
 
 ### Finding Core Mechanics
 - **Dice System:** Search `2d10`, `advantage`, `disadvantage`, `doubles`
-- **Attributes:** Search `Perception`, `Will`, `Charisma`, `Wit`, `Might`, `Endurance`, `Agility`, `Dexterity`
+- **Attributes:** Search `Perception`, `Will`, `Charisma`, `Wit`, `Strength`, `Endurance`, `Agility`, `Dexterity`
 - **Combat:** Search `AP`, `action points`, `initiative`, `deflect`, `dodge`, `resolve`, `endure`
-- **Magic:** Search `Limit`, `spellcraft`, `persistent`, `active spell`
+- **Magic:** Search `Limit`, `magery`, `persistent`, `active spell`
 
 ### Finding Specific Rules
 - **Character Creation:** Files 3.x, search `XP`, `Experience Points`
@@ -402,10 +389,10 @@ Core Rules use wiki-style organization with hub files embedding mechanics from s
 - **Health System:** Files 3.2, 4.1, 4.2, search `HP`, `stamina`, `health`, `wounds`
 - **Skills:** File 5, search skill names or `(Attribute/Attribute)` pattern
 - **Magic Rules:** Files 6.x, search `tier`, `spell`, `casting`
-- **Social Rules:** Files 8.x, search `attitude`, `favor`, `negotiation`
+- **Social Rules:** Files 8.x, search `disposition`, `favor`, `negotiation`
 
 ### Finding Content by Type
-- **Perks:** `source/content/Perks/CombatPerks/`, `source/content/Perks/SkillPerks/`
+- **Perks:** `source/content/Perks/BattlePerks/`, `source/content/Perks/LifePerks/`
 - **Spells:** `source/content/Spells/` organized by tier folders
 - **Conditions:** `source/content/Rules/References/Conditions/`
 - **Effects:** `source/content/Rules/Effects/`
@@ -502,13 +489,14 @@ Flavor text
 2. Create file in `Actions/Abilities/` or `Rules/Effects/`
 3. Name file: `Ability - Descriptive Name.md` or `Effect - Descriptive Name.md`
 4. Write mechanics (no "Ability:" or "Effect:" label needed - filename shows type)
-5. Add relevant tags for mechanics (NOT perk-level tags like #Combat)
+5. Add relevant tags for mechanics (mechanic tags like #Strike — not perk discipline tags like #Prowess)
 6. In perk file, embed with `![[Ability - Name]]` or `![[Effect - Name]]`
 
 ### Tag Conventions
-**Perk-level tags** (in perk file):
-- `#Combat`, `#Skill`, `#Magic`, `#Universal`
-- `#WeaponTraining`, `#Shield`, `#StavesSpears`, etc.
+**Perk-level tags** (in perk file) say what the perk IS — never which XP pays for it (that lives in the Cost line, e.g. `**Cost:** 5 Battle XP`):
+- `#Prowess` (fighting techniques, advance the Prowess domain), `#Magery` (advance the Magery domain), `#Conditioning` (HP stages), `#Skill` (life-skill applications), `#Universal`, `#Flaw`
+- Battle-side perks that advance no domain (Plot Armor, Predictive, Leadership) carry no discipline tag — just a Battle XP cost
+- `#WeaponTraining`, `#Shield`, `#StavesSpears`, etc. (tree tags)
 
 **Mechanic tags** (in ability/effect file):
 - `#Strike`, `#Projectile`, `#Burst`, `#Reaction`

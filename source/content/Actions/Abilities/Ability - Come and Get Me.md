@@ -1,6 +1,6 @@
 **AP Cost:** 2
 
-Make a [[Feint (WIP)|Feint]] check against an enemy in your skirmish.
+Make a [[Feint|Feint]] check against an enemy in your skirmish.
 
 **On success**, you reposition and they are pulled along with you — neither of you spends a Reaction:
 - If you were in a duel (a skirmish of two), you both enter another skirmish in your zone — goading them into your friends.

@@ -1,10 +1,7 @@
-**Requirements:** Spellcraft 2
-**Attributes:** WL/MG
-**Cost:** 10 XP
-**Tags:** #Spellcraft #Metamagic
-
-## Description
-Pour more of yourself into the spell — extra damage dice for a harder cast.
+**Requirements:** Magery 2
+**Attributes:** WL/ST
+**Cost:** 10 Battle XP
+**Tags:** #Magery #Metamagic
 
 ## Grants
 

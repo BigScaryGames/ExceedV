@@ -6,4 +6,4 @@ All checks - including defend - required to reach the destination are rolled wit
 
 All offensive actions - including AOE - directed at the ally are directed at you instead. You can't leave the ally until the end of combat or until the ally is no longer incapacitated.
 
-**Tags:** #Reaction #Move 
+**Tags:** #Reaction #Movement 

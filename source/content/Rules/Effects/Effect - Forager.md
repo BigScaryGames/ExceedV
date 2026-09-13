@@ -1,3 +1,3 @@
-When traveling long distances in environments with present food sources you can procure 4 + Skill rations without considerably slowing down. Based on the environment GM determines food availability. (#TODO update when exploration rules are written)
+While traveling through environments with present food sources, you can procure **4 + Survival skill** rations per day of travel without considerably slowing the group. The GM sets what the environment offers — a forest in autumn is generous, a bog in winter is not.
 
-**Tags:** #Passive #Survival #Food #Exploration #TODO
+**Tags:** #Passive #Survival #Downtime

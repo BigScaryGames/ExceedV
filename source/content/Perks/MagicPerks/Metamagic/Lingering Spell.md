@@ -1,10 +1,7 @@
-**Requirements:** Spellcraft 1
+**Requirements:** Magery 1
 **Attributes:** WL/EN
-**Cost:** 5 XP
-**Tags:** #Spellcraft #Metamagic
-
-## Description
-Make your magic last — stretch a spell's duration step by step.
+**Cost:** 5 Battle XP
+**Tags:** #Magery #Metamagic
 
 ## Grants
 

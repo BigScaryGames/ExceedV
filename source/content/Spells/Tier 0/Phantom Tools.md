@@ -7,7 +7,5 @@
 **Limit Cost:** -
 **Duration:** 1 minuta
 ## Effect
-**Effect:** Create phantom tools for a skill you have
-
-## Description
 Create phantom tools for a skill you have
+

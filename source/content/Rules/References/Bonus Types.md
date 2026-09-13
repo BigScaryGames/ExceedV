@@ -1,7 +1,7 @@
 
 | Type         | Description                                                                                                                                      |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| #Competence  | Modifies skills or domains for all purposes except character progression (affects spell damage, martial damage dice, contested checks, etc.)     |
+| #Competence  | Modifies skills or domains for all purposes except character progression (affects spell damage, prowess damage dice, contested checks, etc.)     |
 | #Morale      | Modifier to rolls from emotional effects                                                                                                         |
 | #Enhancement | Flat bonus to attributes or stats for checks, does not change tier or affect derived stats (e.g., +1 Agility improves Dodge but not Physical AP) |
 | #Luck        | Advantage/Disadvantage on the action (3d10 keep 2)                                                                                               |

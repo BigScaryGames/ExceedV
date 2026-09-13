@@ -8,9 +8,7 @@
 **Duration:** 1 breather if cast as a spell
 
 ## Effect
-**Effect:** Bright light filling your zone, centered on you. At Party cost, also affects allies and extends +1 connected zone per Spellcraft tier. Can change color and intensity of the light.
+Bright light filling your zone, centered on you. At Party cost, also affects allies and extends +1 connected zone per Magery tier. Can change color and intensity of the light.
 
 ## Description
-Create small lamp level illumination around yourself or party
-
 [Third most popular awakening spell and first spell taught to the students. The color of the light coming from the spell can be modified. Research has shown that the spell is way better for nigh-time reading than candles or lamps, as it doesn't cause as much stress to the eyes.]

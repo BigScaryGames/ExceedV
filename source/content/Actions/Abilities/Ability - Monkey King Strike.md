@@ -1,4 +1,5 @@
-**AP Cost:** +2
-Disengage, engage a different skirmish attacking up to 3 targets.
+**AP Cost:** 2x
+Req: You are holding a Reach Polearm.
+Disengage, make a strike againt up to 3 enemies in a skirmish you were engaged in.
 
 **Tags:** #Strike #AoE

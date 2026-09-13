@@ -7,7 +7,5 @@
 **Limit Cost:** Self 1 / Party 1
 
 ## Effect
-**Effect:** Black and white darkvision. At Party cost, affects your team and extends +1 connected zone per Spellcraft tier.
+Black and white darkvision. At Party cost, affects your team and extends +1 connected zone per Magery tier.
 
-## Description
-Grant darkvision to self or team

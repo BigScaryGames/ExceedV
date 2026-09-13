@@ -7,7 +7,5 @@
 **Limit Cost:** 1
 **Duration:** 1 round
 ## Effect
-**Effect:** See magic auras in your zone
+See magic auras in your zone
 
-## Description
-Sense magical auras and enchantments

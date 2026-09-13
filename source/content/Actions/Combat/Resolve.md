@@ -5,4 +5,3 @@
 
 Resist mental effects: fear, charm, mind control, and other assaults on the psyche.
 
-**Tags:** #Defense

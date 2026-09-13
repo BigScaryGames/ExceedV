@@ -1,6 +1,6 @@
-**AP Cost:** -1
+**AP Cost:** 2
 
 Requirnment: Your previous strike was a hit.
-Make a basic strike with -1 AP cost.
+Kick the enemy (or use other 3AP Brawling strike) for a good measure.
 
 **Tags:** #Strike

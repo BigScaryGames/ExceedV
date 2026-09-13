@@ -4,7 +4,7 @@ This guideline is mainly for design purposes.
 
 The basic formula for calculating is **Severity × Frequency**. It is calculated in different ways based on flaw type.
 
-There are 5 flaw types. This doesn't automatically put them into #Skill or #Combat categories for XP, so tags will remain present.
+There are 5 flaw types. This doesn't automatically put them into #Life or #Combat categories for XP, so tags will remain present.
 
 1. Addictions
 2. Stigmas
@@ -89,7 +89,7 @@ It's 1 available and cheap. (Yes, cheap alcohol is more harmful, add "methanol p
 
 **Effects:**
 - Drunk effect when drunk
-- Roll above DC 5 to resist an offer to drink (this IS modified by #Attitude and things like combat state, so a life enemy offering a drink will not be required. But taking a sip of vodka on table while burglarizing?)
+- Roll above DC 5 to resist an offer to drink (this IS modified by #Disposition and things like combat state, so a life enemy offering a drink will not be required. But taking a sip of vodka on table while burglarizing?)
 
 ---
 
@@ -116,7 +116,7 @@ It's 1 available and cheap. (Yes, cheap alcohol is more harmful, add "methanol p
 - Availability: 0 (cheap, almost free - setting dependent)
 - Effect condition: 1
 - Drawback: 0
-- Withdrawal: 1 (doesn't last that long and you can't die from it, you just get debuffs on concentration)
+- Withdrawal: 1 (doesn't last that long and you can't die from it, you just get withdrawal debuffs)
 - **Severity Sum: 2**
 
 **Frequency:**
@@ -140,9 +140,9 @@ Here we rely on:
 2. The consequences of stigma. e.g. a witch getting into forced into reeducation camp, slaves being brought back to owners, children being not very. (0.2 to 2)
 
 Thus a Child can be a minor stigma.
-x2 for being often encountered and hard to hide (in most social campaigns), and x0.2 for the consequences of stigma for overall -2 points. Negative effects "Adults and others will start with -1 Starting Attitude, and react with -2 on you breaching adult topics."
+x2 for being often encountered and hard to hide (in most social campaigns), and x0.2 for the consequences of stigma for overall -2 points. Negative effects "Adults and others will start with -1 Starting Disposition, and react with -2 on you breaching adult topics."
 
-Known serial killer with a bounty would be -2 to -20. In a functioning society its -20. As people who are not criminal degenerates are going to report you, start with -3 to -5 negative attitude, and consequences are being hanged.
+Known serial killer with a bounty would be -2 to -20. In a functioning society its -20. As people who are not criminal degenerates are going to report you, start with -3 to -5 negative disposition, and consequences are being hanged.
 
 # Personality
 Personality flaws are internal compulsions, biases, and emotional vulnerabilities. These include gambling, kleptomania, cowardice, greed, compulsive lying, phobias, and other behavioral issues that character struggles to control.
@@ -241,7 +241,7 @@ Born with visible signs of magical affinity. In superstitious communities, this 
 Origin: Born (no modifier)
 Visibility: Obvious (×2) - marks, faint aura, unusual eye color
 Control: None - it's just what they are
-Effects: Starts with -2 Attitude in religious/superstitious communities, may be accused of causing misfortune
+Effects: Starts with -2 Disposition in religious/superstitious communities, may be accused of causing misfortune
 10 × 2 = -20 XP
 Attribute: -10 points in Charisma (social stigma)
 Effects: #Stigma: Witch-Blood in superstitious regions

@@ -1,3 +1,6 @@
+---
+draft: true
+---
 note: proper integration with medicine and medical perks will come later.
 
 ## Tier 0
@@ -5,7 +8,7 @@ note: proper integration with medicine and medical perks will come later.
 | Spell                 | Type   | AP  | Limit | Scaling                      | Notes                                                                                       |
 | --------------------- | ------ | --- | ----- | ---------------------------- | ------------------------------------------------------------------------------------------- |
 | **[[Stabilize]]**     | Active | 5   | —     | —                            | Magical first aid. Stop dying, stabilize wounds.                                            |
-| **[[Lend Vitality]]** | Active | 2   | —     | Up to Spellcraft × 6 stamina | Transfer stamina from self to 1 ally. Cannot transfer more stamina than you currently have. |
+| **[[Lend Vitality]]** | Active | 2   | —     | Up to Magery × 6 stamina | Transfer stamina from self to 1 ally. Cannot transfer more stamina than you currently have. |
 
 ---
 
@@ -13,8 +16,8 @@ note: proper integration with medicine and medical perks will come later.
 
 | Spell                  | Type    | AP  | Limit | Scaling                                      | Notes                                                                                      | req                               |
 | ---------------------- | ------- | --- | ----- | -------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------- |
-| **[[Minor  Healing]]** | Active  | 3   | —     | Heal `[Spellcraft]d6`                        | Single-target instant heal. Only fixes HP/Stamina.                                         | **[[Lend Vitality]]**. Medicine 1 |
-| **[[Healing Aura]]**   | Attuned | —   | 2     | Heal Spellcraft HP/turn (all allies in zone) | Passive team healing. Already built.                                                       | **[[Lend Vitality]]**.            |
+| **[[Minor Healing]]** | Active  | 3   | —     | Heal `[Magery]d6`                        | Single-target instant heal. Only fixes HP/Stamina.                                         | **[[Lend Vitality]]**. Medicine 1 |
+| **[[Healing Aura]]**   | Attuned | —   | 2     | Heal Magery HP/turn (all allies in zone) | Passive team healing. Already built.                                                       | **[[Lend Vitality]]**.            |
 | **[[Awaken]]**         | Active  | 3   | —     | —                                            | Wake unconscious, attempt to remove [[Condition - Stunned]] on the whole team or 1 target. | [[Stabilize]]                     |
 
 
@@ -24,7 +27,7 @@ note: proper integration with medicine and medical perks will come later.
 
 | Spell                   | Type   | AP  | Limit | Scaling                | Notes                                                                             | Req                           |
 | ----------------------- | ------ | --- | ----- | ---------------------- | --------------------------------------------------------------------------------- | ----------------------------- |
-| **[[Major Healing]]**   | Active | 5   | —     | Heal `[Spellcraft]d10` | Bigger Die, higher AP cost, heals consequences 0.                                 | [[Minor  Healing]] Medicine 2 |
+| **[[Major Healing]]**   | Active | 5   | —     | Heal `[Magery]d10` | Bigger Die, higher AP cost, heals consequences 0.                                 | [[Minor Healing]] Medicine 2 |
 | **[[Restore Senses]]**  | Active | 5   | —     | —                      | Cure temporary Blinded, Deafened, Dumb.<br>Heals up to severity 2 sensory wounds. | [[Awaken]]                    |
 | **[[Cure Affliction]]** | Active | 1m  | —     | —                      | Cure disease, poison, sickness, contagion.                                        | Medicine 2,                   |
 | Cleanse food and water  |        | 1m  |       |                        | Remove poison and disease from food and water. 1 minute per serving.              |                               |
@@ -38,8 +41,8 @@ note: proper integration with medicine and medical perks will come later.
 | ----------------------- | ------- | --- | ----- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
 | **[[Restoration]]**     | Ritual  |     | —     | —                                  | Attempt to patch newly aquired wound. <br>Counts as Surgery, if conducted with surgery counts as Enhanced treatment, .                              | Medicine 3, [[Major Healing]] |
 | **[[Restore Mind]]**    | Active  | 5   | —     | —                                  | Attempt to clear compulsion, charm and other mental  magical or alchemical effects.                                                                 | [[Awaken]]                    |
-| **[[Healing Slumber]]** | Attuned | —   | 2     | Spellcraft number of patients      | Puts a willing character to slumber. While sleeping recovery quality counts as at least +3 or adds +1 whatever is higher, for purposes of recovery. | [[Healing Aura]]              |
-| **[[Aura of Health]]**  | Attuned | —   | 2     | Spellcraft bonus vs disease/poison | **Upgrades** Healing Aura: same passive heal + all allies get +Spellcraft to Endure checks vs disease, poison, exhaustion.                          | [[Healing Aura]]              |
+| **[[Healing Slumber]]** | Attuned | —   | 2     | Magery number of patients      | Puts a willing character to slumber. While sleeping recovery quality counts as at least +3 or adds +1 whatever is higher, for purposes of recovery. | [[Healing Aura]]              |
+| **[[Aura of Health]]**  | Attuned | —   | 2     | Magery bonus vs disease/poison | **Upgrades** Healing Aura: same passive heal + all allies get +Magery to Endure checks vs disease, poison, exhaustion.                          | [[Healing Aura]]              |
 
 
 ---
@@ -48,7 +51,7 @@ note: proper integration with medicine and medical perks will come later.
 
 | Spell                | Type    | AP  | Limit | Scaling                                      | Notes                                                                                                                                                              |                                                         |
 | -------------------- | ------- | --- | ----- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- |
-| **[[Regeneration]]** | Attuned | —   | 3     | Regen `[Spellcraft]d6` HP/round              | Consider healing conditions +4 or add +2 Whatever is higher.<br>Every Tenday a medic can attempt to remove a Permanent consequence with a surgery.                 | [[Restoration]], Medicine 4                             |
+| **[[Regeneration]]** | Attuned | —   | 3     | Regen `[Magery]d6` HP/round              | Consider healing conditions +4 or add +2 Whatever is higher.<br>Every Tenday a medic can attempt to remove a Permanent consequence with a surgery.                 | [[Restoration]], Medicine 4                             |
 | **[[Halt Aging]]**   | Attuned | —   | 2     | Target doesn't age while the spell is active | Persistent anti-aging.                                                                                                                                             | Medicine 5, Biology 4                                   |
 | [[Resuscitate]]      | Active  | 5   | —     | —                                            | Allows healing of the dead body to lower Life and Death check difficulty or allow it in case of injuries incompatible with life. Failure = the spell doesn't work. | [[Regeneration]], [[Life and Death]], [[Summon Spirit]] |
 

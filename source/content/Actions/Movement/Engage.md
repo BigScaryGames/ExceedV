@@ -1,5 +1,5 @@
 **AP Cost:** 1
-**Traits:** #Move
+**Traits:** #Movement
 
 Join or start a [[Skirmish]] in your zone.
 

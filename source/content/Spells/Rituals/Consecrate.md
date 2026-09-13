@@ -1,8 +1,10 @@
 **Requirements:** -
-**Base Target/Range:** One zone
+**Tier:** 2
+**AP Cost:** 3
+**Attributes:** WL/WT
+**Base Target/Range:** Zone
 **Traits:** -
-**Category:** Universal
-**Cost:** 10 XP
+**Cost:** 10 Battle XP
 
 
 ## Effect
@@ -16,7 +18,3 @@
 - May provide safe rest areas in dangerous territories
 - Particularly useful for protecting camps, settlements, or important locations
 
-## Description
-Spend an breather consecrating one zone for up to a full day, making it uncomfortable for undead and monsters.
-
-Spend an breather consecrating one zone for up to a full day, making it uncomfortable for undead and monsters.

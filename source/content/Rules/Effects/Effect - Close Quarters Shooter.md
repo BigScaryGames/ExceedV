@@ -1,3 +1,4 @@
-When you aim, but strike a target in your zone (range increment 0 or 1), your attack deals extra damage equal to your archery level.
+
+When you aim, at a target in your weapon range gain +1 to hit.
 
 **Tags:** #Passive

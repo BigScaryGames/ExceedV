@@ -1,0 +1,3 @@
+1 Breather, outdoors. Roll Survival against DC 12 (the GM adjusts for ground, weather, and available materials). On a success you raise a camp that grants the party Downtime Quality 2 for resting — Quality 3 if you spent an extra Breather gathering materials. The camp is strung with alarm lines: while anyone rests in it, anyone sneaking in must beat your Perception with their Stealth or wake the camp. Rain, wind, or abandonment ends it; rebuild with a new roll.
+
+**Tags:** #Downtime #Buff

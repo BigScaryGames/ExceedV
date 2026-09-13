@@ -11,7 +11,7 @@ Perk Costs by Level:
  - Level 4: Cinematic effects (arbitrary costs)
   - Legendary techniques
 
-This cost logic is applied to both Spellcraft and Martial. Despite Martial requiring half the cost, the other half in Spellcraft can be substituted by spells.
+This cost logic is applied to both Magery and Prowess. Despite Prowess requiring half the cost, the other half in Magery can be substituted by spells.
 
 Spell Cost by Level
 Cost to reach next levels. 10 to reach lvl1, 20 to reach lvl2, 30 to reach lvl 3, 40 to reach level 4 and 50 for level 5.
@@ -61,13 +61,13 @@ Spell Costs by Tier (v0.6: single cost per tier, Advanced removed — prerequisi
 | Backpack               | 1-3 kg         |
 
 ## Encumbrance Simulation
-**Average human (MG0/EN0, 0 XP invested):**
+**Average human (Strength 0 / Endurance 0, 0 XP invested):**
 - Capacity: 25 kg, No penalty threshold: 12.5 kg
 
-**Early Character (MG1/EN1, 20 XP invested):**
+**Early Character (Strength 1 / Endurance 1, 20 XP invested):**
 - Capacity: 49 kg, No penalty threshold: 24.5 kg
 
-**Early-Mid Character (MG2 or EN2):**
+**Early-Mid Character (Strength 2 or Endurance 2):**
 - Capacity: 64 kg, No penalty threshold: 32 kg
 
 **Sample Loadout:**
@@ -79,41 +79,3 @@ Spell Costs by Tier (v0.6: single cost per tier, Advanced removed — prerequisi
 - Early-mid character: 22 kg + 12 kg additional gear = 34 kg = light encumbrance
 
 Adding daily food/water (1 kg) pushes characters toward light encumbrance during travel.
-
-## Designer Notes
-
-### Playtesting Notes
-[Record feedback and observations from testing]
-
-# Design Decisions & Logic
-
-### Unique Selling Proposition (USP)
-
-**The Limit System** - The core innovation of Exceed is the "Limit" stat, which governs the maximum number of persistent magical and non-magical effects a character can sustain simultaneously.
-
-#### Problem Solved
-Traditional systems suffer from "pre-buff" issues where players stack numerous temporary bonuses before encounters, and "magic item bloat" where characters accumulate dozens of persistent magical effects. D&D 5e attempts to address this with concentration, time limits, and attunement slots, while PF2E uses 10 attunement slots but still allows hundreds of different buffs to stack.
-
-#### Solution: Limit
-The Limit stat creates a hard cap on the total number of active persistent effects, forcing meaningful tactical choices:
-- Players must prioritize which effects to maintain
-- No endless stacking of buffs
-- Clear, trackable resource management
-- Scales with character power (Limit increases as characters advance)
-- Applies to all persistent effects: spells, permanent magic items, class abilities, etc.
-
-This system eliminates bookkeeping nightmares while maintaining strategic depth through meaningful choice constraints.
-
-### Core Concepts
-The game aims to fix 3 problems recurrent in TTRPGs
-- Buff Stacking/Endless Buffing, character progression disconnected from the play-style, and armor-hp interactions.
-  For this it offers its USPs as solutions.
-The Limit system in [[6. Magic System]] - limiting the active buffs and magical effects a character can sustain on self and group.
-
-[[3.3 HP And Wounds]]. - where Armor works as ablation multiplied by the character's resilience.
-  2. [[3.1 Attributes]] - Attributes deriving from skills, creating positive feedback loops, separation of social and combat XP based on the session contents.
-### Target Audience
-Skill-based TTRPG enjoyers. Earned progression connoisseurs.
-Target audience is TTRPG players who prefer when they are not dictated how to play a character from the moment they choose the class at level 1.
-It still absolutely should work for new players as well as experienced ones. Though groups with new players are suggested lower XP starting point.
-It's a game for GURPS players who want less complexity and more streamlined experience, Pathfinder players who want more control over their characters, LitRPG lovers who love numbers go up, slow burn progression.

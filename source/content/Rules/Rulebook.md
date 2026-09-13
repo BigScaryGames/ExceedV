@@ -7,5 +7,8 @@ this page renders the whole rulebook; zoom in via the editor tree view.
 ![[Core]]
 ![[Combat]]
 ![[Magic]]
-![[Social And World]]
+![[Social Gameplay]]
 ![[Downtime And Exploration]]
+
+
+![[7. Equipment]]

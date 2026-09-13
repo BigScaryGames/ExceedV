@@ -1,4 +1,4 @@
-**AP Cost:** Variable (readied action)
+**AP Cost:** +0
 
 [[Ready]] a ranged strike with a trigger of "target enters my line of sight" or "target enters my zone or a zone within my weapon's range," or both.
 

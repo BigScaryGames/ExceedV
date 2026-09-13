@@ -7,7 +7,5 @@
 **Limit Cost:** -
 **Duration:** Instant
 ## Effect
-**Effect:** First aid
+First aid
 
-## Description
-Conduct magical first aid

@@ -1,5 +1,4 @@
-**AP Cost:** TBD
+**AP Cost:** 3x of attack
 
-Fire three rapid-draw shots, each at -2 to hit and -1 damage die. May distribute among targets in your skirmish or a connected zone.
-
+Fire rapidly at a skirmish at all enemies. Roll once with -2. Apply damage normally.
 **Tags:** #Attack #Projectile

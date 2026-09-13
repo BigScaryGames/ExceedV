@@ -1,3 +1,3 @@
-Dual wielding provides +1 circumstance bonus to parrying.
+Dual wielding provides +1 Situational bonus to Deflect.
 
-**Tags:** #Passive #Parry #Defense #Circumstance
+**Tags:** #Passive #Defend

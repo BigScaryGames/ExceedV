@@ -7,7 +7,5 @@
 **Limit Cost:** Self 1 / Party 1
 
 ## Effect
-**Effect:** Ignore minor environmental effects, like rain or dust storm. #TODO Environmental rules are not yet written
+Ignore minor environmental effects, like rain or dust storm. #TODO Environmental rules are not yet written
 
-## Description
-Resist environmental extremes

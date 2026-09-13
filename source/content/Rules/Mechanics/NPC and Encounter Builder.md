@@ -34,15 +34,15 @@ NPC attack bonus = mook DC − 11 (the average of 2d10), so a rolling NPC hits a
 
 | NPC Value      | Static DC                          |
 | -------------- | ---------------------------------- |
-| Deflect        | 11 + Martial + Deflect stat + armor |
+| Deflect        | 11 + Prowess + Deflect stat + armor |
 | Dodge          | 11 + Agility + Perception          |
 | Resolve        | 11 + Will + Charisma               |
-| Endure         | 11 + Endurance + Might             |
+| Endure         | 11 + Endurance + Strength             |
 | Skill          | 11 + skill level + attribute       |
 | Initiative     | 10 + Perception (fixed — no roll)  |
 
 **Defense spread:** put the NPC's strong defense at the top of its band; lagging defenses sit 2–4 lower. What lags follows PC logic:
-- **Deflect** keeps pace for martial NPCs (weapon and armor carry it).
+- **Deflect** keeps pace for prowess NPCs (weapon and armor carry it).
 - **Dodge** lags behind for everyone — it leans on two attributes.
 - **Resolve** lags for noncasters.
 - **Endure** lags for casters and glass cannons.
@@ -77,7 +77,7 @@ Name | reaction / aura / trait — one line
 Skill X (DC Y), Skill X (DC Y)
 
 — Notes —
-Morale / Attitude / loot / one behavioral quirk
+Morale / Disposition / loot / one behavioral quirk
 ```
 
 Role tags: #melee #ranged #brute #skirmisher #support #caster #social #mook.
@@ -110,7 +110,7 @@ Health 14
 — Shortsword | 2 AP | #Strike | 2d10+1 vs defense roll | d6+1
 — Shield Block | Reaction | +2 Deflect vs one attack
 — Skills: Intimidation 1 (DC 12), Athletics 1 (DC 12)
-Flees at half Health if alone. Carries 10g of assorted gear.
+Flees at half Health if alone. Carries 100 of assorted gear.
 
 **Bandit Archer** | Threat 1 | #ranged
 Init 11 | Speed 5 | AP 5 (R: no)
@@ -129,9 +129,9 @@ Health 1
 Never flees, fights to death. Pack of 3–4.
 
 **Guild Clerk** | Threat — | #social
-Attitude 0 | Deflect 9 | Dodge 10 | Resolve 13 | Endure 10 | Health 8
+Disposition 0 | Deflect 9 | Dodge 10 | Resolve 13 | Endure 10 | Health 8
 — Skills: Haggling 2 (DC 13), Bureaucracy 2 (DC 13), Gossip 1 (DC 12)
 — Wants: quiet shifts; Fears: his boss; Lever: flattery about his ledgers
-Initial attitude per [[Attitude System]]. Bribable at −20% for 25g.
+Initial disposition per [[Disposition]]. Bribable at −20% for 25 for tier 2 favor.
 
 **Tags:** #Combat

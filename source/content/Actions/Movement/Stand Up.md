@@ -1,4 +1,4 @@
 **AP Cost:** 2
-**Traits:** #Move
+**Traits:** #Movement
 
 Remove [[Condition - Prone||Prone]] Condition. 

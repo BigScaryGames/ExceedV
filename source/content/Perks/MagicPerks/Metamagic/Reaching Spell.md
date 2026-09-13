@@ -1,10 +1,8 @@
-**Requirements:** Spellcraft 1
+**Requirements:** Magery 1
 **Attributes:** WL/WT
-**Cost:** 5 XP
-**Tags:** #Spellcraft #Metamagic
+**Cost:** 5 Battle XP
+**Tags:** #Magery #Metamagic
 
-## Description
-Throw your spells further than they were meant to go.
 
 ## Grants
 

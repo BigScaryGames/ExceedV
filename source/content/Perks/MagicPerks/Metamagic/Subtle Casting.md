@@ -1,10 +1,7 @@
-**Requirements:** Spellcraft 1
+**Requirements:** Magery 1
 **Attributes:** WL/CH
-**Cost:** 5 XP
-**Tags:** #Spellcraft #Metamagic
-
-## Description
-Cast with your hands in your pockets — no gestures, no words, just results.
+**Cost:** 5 Battle XP
+**Tags:** #Magery #Metamagic
 
 ## Grants
 

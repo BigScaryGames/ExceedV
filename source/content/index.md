@@ -5,10 +5,10 @@ Core Rules Index: "*A skill-based fantasy tabletop role-playing game*"
 
 | Topic                                                             | Description                                    |
 | ----------------------------------------------------------------- | ---------------------------------------------- |
-| [[2. Core Resolution System\|Base Mechanics]]                            | 2d10 system, advantage/disadvantage, criticals |
-| [[3. Character Creation and Point buy Costs\|Character Creation]] | 5-step character creation process, XP costs    |
-| [[3.1 Attributes\|Attributes]]                                    | 8 core attributes, progression thresholds      |
-| [[5. Skills\|Skills]]                                             | Complete skill list, attribute pairings        |
+| [[Core Resolution System\|Base Mechanics]]                            | 2d10 system, advantage/disadvantage, criticals |
+| [[Character Creation and Point buy Costs\|Character Creation]] | 5-step character creation process, XP costs    |
+| [[Attributes\|Attributes]]                                    | 8 core attributes, progression thresholds      |
+| [[Skills\|Skills]]                                             | Complete skill list, attribute pairings        |
 | [[9.2 Downtime and Training\|Downtime]]                                        | Downtime: training, resting, earning income    |
 
 ---
@@ -29,9 +29,9 @@ Core Rules Index: "*A skill-based fantasy tabletop role-playing game*"
 
 | Topic                                          | Description                               |
 | ---------------------------------------------- | ----------------------------------------- |
-| [[5. Skills\|Skills]]                          | Skill list and progression                |
-| [[5.1 Skill And Universal Perks\|Skill Perks]] | Skill-related perks and universal perks   |
-| [[Combat Skills and perks/\|Combat Perks]]     | Martial domain abilities, weapon training |
+| [[Skills\|Skills]]                          | Skill list and progression                |
+| **Life Perks** (`Perks/LifePerks/`) | Life-skill perks and universal perks      |
+| **Battle Perks** (`Perks/BattlePerks/`) | Prowess domain abilities, weapon training |
 
 ---
 
@@ -39,9 +39,9 @@ Core Rules Index: "*A skill-based fantasy tabletop role-playing game*"
 
 | Topic | Description |
 |-------|-------------|
-| [[6. Magic System\|Magic System]] | Limit stat, spellcraft, casting rules |
-| [[Spells/\|Spells]] | Spell compendium by tier |
-| [[6.1 Summoning\|Summoning]] | Summoning mechanics (WIP) |
+| [[6. Magic System\|Magic System]] | Limit stat, magery, casting rules |
+| **Spells** (`Spells/`) | Spell compendium organized by tier folders |
+| [[6.1 Summoning\|Summoning]] | Minion summons — Limit-bound, act on your turn |
 
 ---
 
@@ -49,7 +49,7 @@ Core Rules Index: "*A skill-based fantasy tabletop role-playing game*"
 
 | Topic | Description |
 |-------|-------------|
-| [[8. Social Interactions\|Social Interactions]] | Attitude system, social mechanics |
+| [[Social Mechanics\|Social Interactions]] | Disposition system, social mechanics |
 | [[8.1 Organizations\|Organizations]] | Ranks, organizational benefits, obligations |
 
 ---
@@ -67,7 +67,7 @@ Core Rules Index: "*A skill-based fantasy tabletop role-playing game*"
 
 | Topic | Description |
 |-------|-------------|
-| [[3.3 HP And Wounds\|Health System]] | Stamina, Health, Max Wounds |
+| [[HP And Wounds\|Health System]] | Stamina, Health, Max Wounds |
 | [[4.1 Taking Damage\|Damage & Consequences]] | What happens when you take damage |
 | [[4.2 Wounds And Consequences\|Treatment & Recovery]] | First aid, surgery, healing |
 
@@ -77,10 +77,9 @@ Core Rules Index: "*A skill-based fantasy tabletop role-playing game*"
 
 | Topic | Description |
 |-------|-------------|
-| [[10. Traits\|Traits]] | Spell/ability traits, bonus types, stacking rules |
-| [[Design Philosophy\|Design Philosophy]] | Game design notes and rationale |
+| [[Traits\|Traits]] | Spell/ability traits, bonus types, stacking rules |
 
 ---
 ### Action Economy
 - **Base:** 5 AP + 1 Reaction per turn
-- **Bonus AP:** +1 per 5 Mental/Physical attribute points
+- **Bonus AP:** +1 AP per Prowess tier (usable on Prowess abilities) and +1 AP per Magery tier (usable on spells and Magery perk abilities) — see [[Action Points]]

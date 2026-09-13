@@ -1,5 +1,5 @@
 **AP Cost:** Varies
-**Traits:** #Move
+**Traits:** #Movement
 
 Move along a Line from your zone to a connected zone.
 

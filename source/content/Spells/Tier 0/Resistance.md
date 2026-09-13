@@ -7,7 +7,5 @@
 **Limit Cost:** 1
 
 ## Effect
-**Effect:** Reduce damage from chosen type by `[Spellcraft]`.
+Reduce damage from chosen type by `[Magery]`.
 
-## Description
-Minor protection from one damage type

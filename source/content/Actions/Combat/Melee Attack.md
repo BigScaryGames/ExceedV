@@ -1,7 +1,7 @@
 **AP Cost:** 2-4 (based on weapon weight)
 **Traits:** #Attack 
 
-**Roll:** Martial + Attribute vs defense
+**Roll:** Prowess + Attribute vs defense
 
 Attack a target in the Skirmish. 
 

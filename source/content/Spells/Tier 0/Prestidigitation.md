@@ -7,7 +7,5 @@
 **Limit Cost:** -
 **Duration:** 1 minuta
 ## Effect
-**Effect:** Cosmetic effects
+Cosmetic effects
 
-## Description
-Minor magical effects for cleaning, flavoring, and coloring

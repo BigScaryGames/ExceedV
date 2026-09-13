@@ -22,12 +22,12 @@ A **Day** of training equals **4 Shifts** (~10 hours). You cannot train effectiv
 
 The higher the tier of a skill or perk, the greater the requirements. What counts as "Good" for Tier 2 may be "Poor" for Tier 4.
 
-| Tier | Minimum for Adequate | Good requires |
-|------|---------------------|---------------|
-| 1-2 | Any instruction or manual | Skilled teacher or quality manual |
-| 3 | Trained instructor or full manual | Expert teacher AND reference materials |
-| 4 | Expert instructor or rare texts | Master teacher AND specialized facility |
-| 5 | Master instructor | Legendary master AND perfect conditions |
+| Tier | Minimum for Adequate              | Good requires                           |
+| ---- | --------------------------------- | --------------------------------------- |
+| 1-2  | Any instruction or manual         | Skilled teacher or quality manual       |
+| 3    | Trained instructor or full manual | Expert teacher AND reference materials  |
+| 4    | Expert instructor or rare texts   | Master teacher AND specialized facility |
+| 5    | Master instructor                 | Legendary master AND perfect conditions |
 
 ## GM Notes
 

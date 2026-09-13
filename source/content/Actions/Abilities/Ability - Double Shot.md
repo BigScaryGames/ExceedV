@@ -1,5 +1,5 @@
-**AP Cost:** 4
+**AP Cost:** +1
 
-Shoot two different targets, second at -2 to hit.
+Load two arrows on the string. Attack two targets in one zone. Each stike deals one less weapon damage die.
 
 **Tags:** #Attack #Projectile

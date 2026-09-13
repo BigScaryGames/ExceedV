@@ -4,4 +4,4 @@ Preroll your next Deflect or Dodge defense. After seeing the attacker's roll, ch
 
 Unused predictions fade at end of your turn.
 
-**Tags:** #Mental #Deflect #Dodge
+**Tags:** #Mind #Deflect #Dodge

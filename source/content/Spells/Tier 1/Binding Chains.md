@@ -1,0 +1,12 @@
+**Requirements:** -
+**Tier:** 1
+**AP Cost:** 5
+**Attributes:** EN/WL
+**Base Target/Range:** 1 target in your zone
+**Traits:** #Spell #Conjuration #Bane #Strike #Active
+**Limit Cost:** -
+**Duration:** 3 rounds
+
+## Effect
+Target's speed is reduced to 1, Target can attempt to break the chain, which has Tier* 6 HP, or do a Break roll (breaking skill/ST vs Magery) for 2AP.
+

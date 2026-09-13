@@ -1,0 +1,76 @@
+# Exclude sensitive smart-env files with API keys
+.smart-env/smart_env.json
+
+# Exclude other potentially sensitive smart-env data
+.smart-env/smart_chat_threads/
+.smart-env/smart_completions/
+.smart-env/smart_contexts/
+.obsidian
+
+# Optional: exclude all smart-env if you don't want to sync AI plugin data
+# .smart-env/
+
+# Exclude Obsidian workspace (personal layout preferences)
+.obsidian/workspace.json
+
+# Exclude other potentially sensitive plugin data
+.obsidian/plugins/*/data.json
+/.obsidian/community-plugins.json
+Ruleset/CLAUDE.md
+Ruleset/todo.md
+*.ajson
+14th October compile.md
+.smart-env/multi/Untitled_md.ajson
+.smart-env/multi/README_md.ajson
+*.ajson
+*.ajson
+.smart-env/multi/README_md.ajson
+Ruleset/__pycache__/add_subtype_tags.cpython-312.pyc
+Ruleset/__pycache__/unify_perks.cpython-312.pyc
+Ruleset/add_subtype_tags.py
+Ruleset/unify_perks.py
+source/content/CLAUDE_REFERENCE.md
+/source/content/.claude
+/source/content/.claw
+/.hermes
+source/content/AI Playtest/AI Playtest Index.md
+source/content/AI Playtest/Character - Bram.md
+source/content/AI Playtest/Character - Cobb.md
+source/content/AI Playtest/Character - Yara.md
+source/content/AI Playtest/Game Master.md
+source/content/AI Playtest/Player - Bram.md
+source/content/AI Playtest/Player - Cobb.md
+source/content/AI Playtest/Player - Yara.md
+source/content/AI Playtest/Playtest Statistics.md
+
+# ===== ↑ 以上同步自 .gitignore（「从 .gitignore 同步」只重写以上部分）=====
+.git/
+.hg/
+.svn/
+node_modules/
+bower_components/
+jspm_packages/
+__pycache__/
+site-packages/
+venv/
+coverage/
+htmlcov/
+lcov-report/
+cmakefiles/
+cmake-build-*/
+bazel-*/
+pods/
+deriveddata/
+storybook-static/
+playwright-report/
+test-results/
+allure-results/
+allure-report/
+cdk.out/
+*.egg-info/
+*.dist-info/
+eggs/
+pip-wheel-metadata/
+wheels/
+# ----- ↑ 以上为 ZCode 默认排除规则（自定义规则请写在本行下方，不会被同步/恢复改动）-----
+# 自定义规则写在下方（本行提示可删除）

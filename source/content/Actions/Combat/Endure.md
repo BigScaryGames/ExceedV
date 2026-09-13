@@ -1,6 +1,6 @@
 **AP Cost:** - 
 **Traits:** #Defend
 
-**Roll:** Endurance + Will vs effect
+**Roll:** Endurance + Strength vs effect
 
-Resist physical ailments (poison, disease, exhaustion) or mental effects (fear, charm, mind control).
+Resist what the body is subjected to: poison, disease, exhaustion, body-affecting curses. Attacks on the mind are [[Resolve]]'s domain.

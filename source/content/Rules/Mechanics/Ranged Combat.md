@@ -13,7 +13,7 @@ Attacks that roll below the Distance DC miss automatically - the shot goes wide 
 
 If the attack equals or exceeds the Distance DC, the defender may use Dodge — or Deflect, with a shield or perks — against the attack roll as normal.
 
-The **[[Aim]]** action reduces the Distance DC by 2.
+The **[[Ability - Aim]]** action reduces the Distance DC by 2.
 
 ## Range Increment Calculation
 

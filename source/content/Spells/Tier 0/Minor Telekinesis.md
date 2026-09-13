@@ -7,7 +7,5 @@
 **Limit Cost:** -
 **Duration:** 1 minuta
 ## Effect
-**Effect:** 2kg max; move the object within your zone, moving it to a connected zone costs 1 AP; hard to aim to drop things
+2kg max; move the object within your zone, moving it to a connected zone costs 1 AP; hard to aim to drop things
 
-## Description
-Telekinetic manipulation of small objects

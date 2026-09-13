@@ -1,8 +1,4 @@
-**AP Cost:** 1
-**Traits:** #Attack
+**AP Cost:** 2
 
-**Roll:** Choose one:
-- Unarmed or weapon strike vs grappler's defense - AP as per strike's AP cost
-- Athletics or Escape Artist vs DC 11 + grappler's Brawling - 1 AP
-
-Attempt to break free from the [[Effect - Grabbed]] condition. On success, lose the Grappled condition.
+  Attempt to break free from the [[Condition - Grabbed]] condition. On success, lose the Grappled condition.
+- Athletics, Acrobatics or Prowess vs Grapplers grappling check

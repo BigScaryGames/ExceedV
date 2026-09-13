@@ -1,6 +1,6 @@
 **AP Cost:** 
 **Traits:** #Defend
 
-**Roll:** Martial + Agility/Dexterity/Might vs attack
+**Roll:** Prowess + Agility/Dexterity/Strength vs attack
 
 Deflect a melee attack with your weapon or shield. The attribute used depends on weapon or shield type.

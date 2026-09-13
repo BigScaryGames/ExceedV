@@ -1,3 +1,3 @@
-#TODO Potion Brewing (crafting) rules are TBD in 0.8 or later.
+you can imbue spells into potions. #TBD 
 
-**Tags:** #Passive #Crafting #Potions #TODO
+**Tags:** #Passive #Downtime

@@ -1,0 +1,2 @@
+If your medical advice on hygeine is taken into account the members of your team roll with advantage against environmental poisons and disease. If they already have an advantage from other sources - they succeed automatically.  
+**Tags:** #Passive #Body #Downtime 

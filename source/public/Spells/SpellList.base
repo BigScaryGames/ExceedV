@@ -1,7 +1,0 @@
-filters:
-  and:
-    - file.inFolder("Spells")
-views:
-  - type: cards
-    name: Table
-    cardSize: 280

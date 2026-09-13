@@ -15,7 +15,6 @@ Milestone 5 - Get it playable. FINISHED.
 - [x]  Wiki restructure part 1.
 - [x] resting basic rules
 - [x] Prone/Crawl/Stand
-- [ ] 
 - [ ] polish perks for playing
 Code updates
 1. Remove rules,
@@ -27,40 +26,40 @@ Code updates
 
 Milestone 6. - content update, editing.
 
-- [ ]  Skill perks - enough for 1-3 tiers. at least 100 overall skill perks
-- [ ] Disadvantage Perks
+- [ ]  Skill perks - enough for 1-3 tiers. at least 100 overall life perks (done v0.6: thematic subfolders - Social, Wilderness, Athletic, Craft, Underworld, Knowledge, Standing + flaws)
+- [x] Disadvantage Perks (done v0.6: 18 flaws in Perks/Flaws/ with Severity x Frequency math from [[Flaws Guidelines]]; Battle/Life Flaw pools in Cost lines)
 - [x] Negative stats
-- [ ] Skill actions like [[Deduce]]
-- [ ]  Combat perks adjustment.
+- [x] Skill actions like [[Deduce]] (done v0.6: Size Up, Read the Room, Identify Item)
+- [x]  Battle perks adjustment. (done v0.6: UNEDITED converted to current format and folder removed; WIP perks finalized - Ricochet Shot, Storm of Arrows, Predict A Perfect Ambush, Predicted Duel, Rocket Strike; Feint finalized; Ready Hand cost fixed)
 - [x] Move/Step/Run - reactions on moving outside range and inside range fix.
-- [ ] Clarify or edit dual-wielding
+- [x] Clarify or edit dual-wielding (done v0.6: [[Dual Wielding]] finalized - off-hand rule, Double Strike economy, shield interplay)
 - [x]  Flanking and ganging rules. (flanking removed; numeric advantage + back-to-back in [[Skirmish]])
 - [x]  Spells - make them work in GAS paradigm. (Wiki reconstruction 2)
-- [ ]  Size and HP rules (for big ass monsters and small nasty ones)
-- [ ]  Conditions revamp. (current ones suck)
-- [ ] Tag cleanup - there are random AI gen one from conversion and some from previous iterations going back to 0.1
+- [x]  Size and HP rules (for big ass monsters and small nasty ones) (done v0.6: [[Size Rules]] - 6 size steps, wound scaling, #Size modifiers, numeric-advantage weight)
+- [x]  Conditions revamp. (light cleanup done v0.6 per owner decision: mechanics kept; all condition files created - Shaken, Inspired, Jinxed, Blessed, Bleed, Fragile, Pinned, Grabbed; Demoralize's phantom 'Frightened' -> Shaken; 4.3 embeds the full set)
+- [x] Tag cleanup - there are random AI gen one from conversion and some from previous iterations going back to 0.1 (done v0.6: #Defense->#Defend, #Mental->#Mind, #Move->#Movement, legacy #Life->#Skill on actions, #TODO effects fleshed, tag format quirks normalized)
 - [x] Fix max wounds and extra wound wording in [[HP Calculation]]
-- [ ] Criticals for weapons and spells.
-- [ ] Extended Crits unified logic.
+- [x] Criticals for weapons and spells. (done v0.6: critical casts - double dice on damage/healing, duration/target refinement on utility)
+- [x] Extended Crits unified logic. (done v0.6: two paths, one result - doubles OR beat-by-10; weapon trees carry extended ranges; defense crits stay perk-owned)
 - [x]  Webpage
-- [ ] 
 
 Milestone 7. - Enemies, Content, 
 - [ ]  Simplified enemy character sheet(static enemy DCs) with a challenge rating calculator.
 - [ ] Persistent DoTs consequences
 - [ ]  Spells to tier 3.
-- [ ] Summoning.
-- [ ]  Items and pricing.
-- [ ] High quality variants, maybe item builder.
+- [x] Summoning. (done v0.6 first pass: [[6.1 Summoning]] minion rules - Limit-bound, Stamina-only, act on your turn, inherit boons; [[Bonded Companions]] command economy + Perks/Companions/ tree + [[Bestiary]] presets; summon spells aligned)
+- [x]  Items and pricing. (done v0.6: [[Prices]] - full price tables anchored to the potion ladder, quality variants formalized, GM loot guidance)
+- [ ] High quality variants, maybe item builder. 
 - [ ] Quest rewards
 - [ ]  Exploration
+- [ ] add unarmed combat basic - expanded
 
 Milestone 8 Social Layer, Polishing
 1. Organizations 
 2. Living expenses
 3. Social rules.
 4. Balancing of perks.
-5. Combat perks to tier 4.
+5. Battle perks to tier 4.
 6. Spells to tier 4.
 7. Spell permanency 
 8. Spell perks for narrow builds 
@@ -80,29 +79,3 @@ Milestone 10
 post MS 10.
 1. Endgame Content.
 2. TBD
-
----
-
-Post-playtest content phase: see [[0.6 Content Plan Musings]] (line/zone control content - gated on playtesting the v0.6 core).
-
-## Quick Wins Backlog
-
- - Wrestling perk tree BUILT (v0.6): Perks/CombatPerks/Wrestling/ - Takedown, Drag Along, Wrestler's Control, Iron Grip, Counter Grab, Weapon Thief, Chokehold, Throw
-
- Reposition perks BUILT (2026-06-11): [[Come and Get Me]] (Footwork tree - Feint check, on success pull enemy: duel↔skirmish flip; on failure plain Disengage+Engage); Duelist line in Combat Maneuvers: [[Spend Some Time with You]] (Feint/Shove → extract into duel → Off-Guard strike) → [[Just the Two of Us]] (proclaim fated duel, Resolve gate vs interference) → [[You and I]] (duel gains Duel Zone traits, -5 to interfere). [[Herding Strike]] moved into the Shoving line. Numbers are first-pass, tune at playtest.
- Idea (unfinished, from design session): Come and Get Me upgrade - trigger the pull as a Reaction after critically succeeding a Parry/Dodge.
-
- Candidates for "basic actions everyone can do":
- 1. ~~Feint~~ - built WIP (Actions/Combat/Feint (WIP).md - vs Resolve, Off-Guard)
- 2. ~~Shove~~ - built (Actions/Combat/Shove.md); Shoving perk line BUILT 2026-06-11 (Perks/CombatPerks/Shoving/): Shoving Strike (training) → Herding Strike → Home Run → Bowling Strike → WIP Rocket Strike
- 3. ~~Trip~~ - built (Actions/Combat/Trip.md)
- 4. ~~Grapple~~ - built (Actions/Combat/Grapple.md)
- 5. ~~Disarm~~ - built (Actions/Combat/Disarm.md)
- 6. ~~Defend~~ - exists as All in Defense
-
-Design suggestions (2026-06-10 audit):
-1. ~~Multi-turn line crossing~~ - rejected: level design constraint instead - no zone should be further than ~2/3 of a turn of Move on average.
-2. ~~DOT conditions~~ - resolved 2026-06-11: no ticking DOTs. Temp design in [[4.3 Conditions]] - front-loaded damage, one-time riders (Bleed/Fragile/Pinned trigger once then clear), or zone hazards (track the map, not tokens).
-3. Reaction economy - many perks grant reaction attacks (Reactive Strike, Hair Trigger, Tower Defender, Overswing); fine with 1 reaction/turn, revisit at MS8 balancing for stacking.
-
-MS5 checklist

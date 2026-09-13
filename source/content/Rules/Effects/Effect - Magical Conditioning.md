@@ -1,5 +1,4 @@
-Through repeated exposure to transmutation magic and teleportation effects, your body and essence have developed resistance to forced magical alterations.
+Yada-yada-yada, you are so good at beeing full of [[Strain]] that you can give yourself strain to roll a Magery check with advantage. Once per breather, reset with strain. 
 
-**Effect:** Gain +2 bonus to resist transmutation spells and forced teleportation effects.
-
+**Effect:** Gain strain, next Magery check is rolled with advantatge. 
 **Tags:** #Passive #Magic #Endure

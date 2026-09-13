@@ -1,15 +1,11 @@
-**Requirements:** Spellcraft 1, 
-**Attributes:** WI/WT
-**Cost:** 5 XP
-**Tags:** #Spellcraft #Spellshape
+**Requirements:** Magery 1
+**Attributes:** WL/WT
+**Cost:** 5 Battle XP
+**Tags:** #Magery #Spellshape
 
 ## Description
-You learn the [[Basic Elemental Invocation]], a universal spell
+You learn [[Basic Elemental Invocation]], a universal spell that lets you invoke any element you can name or find.
 
-### **Mechanics**
+## Grants
 
-A zone has an **abundance of an element** if any of the following apply:
-
-- **Environmental effects** influence the zone — such as howling winds, lightning storms, heavy rain, or snowfall.
-- **Elemental sources** are present in the zone in sufficient quantity to deal damage — such as torches, rivers, burning oil, or broken ice. _(Air and earth doesn't count.)_
-- Using such elements as the focus of your magic may **consume or alter** them — e.g. fire may extinguish, water may be displaced, etc.
+![[Effect - Elemental Abundance]]
