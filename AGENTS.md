@@ -1,4 +1,4 @@
-# AGENTS.md — working in this repo
+z# AGENTS.md — working in this repo
 
 Skill-based fantasy TTRPG ("Exceed"). The `source/content/` folder is an
 Obsidian vault that doubles as the single source of truth: it is parsed by

@@ -7,7 +7,7 @@ Doubles on the kept dice modify outcomes. With advantage you choose which 2 of t
 A critical is achieved by **doubles on the kept dice** (above) or by an **extended crit range** — perks that let you crit by beating the opposing roll or DC by 10+. Both paths produce the same critical result; they never stack into anything bigger. Doubles work for everyone; extended crit ranges must be earned (see below).
 
 ## Critical Hits — Weapons
-Critically succeeding on an attack is a critical hit: **double the damage dice** (not the flat Strength or bonuses; critical doubles on the damage roll still apply).
+Critically succeeding on an attack is a critical hit: **double the damage dice** (not the flat Strength or bonuses).
 
 **Extended crit range (unified logic):** if your attack roll beats the defender's roll by **10 or more**, the hit is a critical hit even without doubles. Blades training grants this by default (beat a defense by 10+ = crit). Other weapon families can reach it through their tier-3 perks; each weapon tree defines which technique carries it.
 

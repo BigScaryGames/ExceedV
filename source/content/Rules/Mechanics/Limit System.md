@@ -20,11 +20,9 @@ Everything with a Limit[N] trait. This usually includes:
 
 ## Teams
 
-Mages can conduct a simple breather-long [[Team Ritual]] with willing targets to form a team. This allows:
-- Mage can apply team effects on allies while they are in effect reach
-- Allies lose effects when exiting range and regain them when entering
-- Mage can cast harmful effects on allies bypassing Endure check
+Mages can conduct a simple breather-long [[Team Ritual]] with willing targets to form a team.
+![[Team Ritual]]
 
-To break away from a team: Spend a full round on your turn and succeed a Will roll against the ritualist's Magical Theory skill.
+To break away from a team: Spend a full round on your turn and succeed a Maical Theory or Resolve check against the ritualist's Magical Theory skill.
 
 **Tags:** #Magic

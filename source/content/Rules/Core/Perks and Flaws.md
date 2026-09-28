@@ -3,10 +3,7 @@ Perks represent specific training, experiences, conditions or specializations yo
 
 Perks cost XP and represent investments in specific areas of expertise. When you take a perk, you typically gain attribute points equal to the XP spent (some perks are free and some are without an attribute). These attribute points bring selected attributes closer to their next threshold (positive or negative).
 
-Most perks don't have levels, but some do. In that case each previous level overrides each next level, as per perk description. 
-
-Example of overriding are:
-Conditioning perks - [[Conditioning Perks Overview]]
+Most perks don't have levels, but some do. In that case each level's effect is as the perk description says — see [[Conditioning Perks Overview]] for the leveled example: levels 1-4 each add +1 HP, level 5 consolidates into +1 Max Wound plus a capstone.
 
 Perks may have prerequisites (other perks, skills, or attributes) and provide mechanical benefits that reflect your character's specialized training.
 

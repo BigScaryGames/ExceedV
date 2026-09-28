@@ -1,6 +1,6 @@
 **AP Cost:** 1
 **Requirements:** You are grappling the target.
 
-Lock the grabbed target's throat. Until the start of your next turn, the target cannot speak or cast spells that require voice.
+Lock the grabbed target's throat. Until the start of your next turn or until target escapes the grapple casting spells requiring voice are at disadvantage.
 
 **Tags:** #Brawling #Bane

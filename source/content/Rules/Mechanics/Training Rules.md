@@ -11,10 +11,10 @@ A **Day** of training equals **4 Shifts** (~10 hours). You cannot train effectiv
 
 | Quality         | Time per XP | Example                         |
 | --------------- | ----------- | ------------------------------- |
-| 0 - Nonexistent | 10 Days     | Self-taught, no materials       |
-| 1 - Poor        | 2 Days      | Bad manual, distracted mentor   |
-| 2 - Adequate    | 1 Day       | Competent teacher OR manual     |
-| 3 - Good        | 5 Shifts    | Skilled teacher AND materials   |
+| 0 - Nonexistent | 20 Days     | Self-taught, no materials       |
+| 1 - Poor        | 5 Days      | Bad manual, distracted mentor   |
+| 2 - Adequate    | 2 Day       | Competent teacher OR manual     |
+| 3 - Good        | 1 Shifts    | Skilled teacher AND materials   |
 | 4 - Excellent   | 2.5 Shifts  | Master teacher, full facilities |
 | 5 - Exceptional | 1 Shift     | Legendary master, perfect setup |
 

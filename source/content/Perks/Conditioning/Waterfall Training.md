@@ -1,6 +1,6 @@
 **Requirements:** Survival 1 or Athletics 1
 **Attributes:** EN/AG
-**Cost:** Variable (Max_Wounds × level), Battle XP
+**Cost:** Variable (current Max Wounds XP per level), Battle XP
 **Tags:** #Conditioning #Leveled
 
 ## Grants by Stage

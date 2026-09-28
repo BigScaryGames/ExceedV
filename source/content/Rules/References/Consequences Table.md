@@ -2,6 +2,7 @@
 
 | Roll  | Location   | Effect                                                                         |
 | ----- | ---------- | ------------------------------------------------------------------------------ |
+| 0     | Any        | Tis is but a scratch - Always Nonlethal                                        |
 | 1-6   | Head 0     | Cosmetic injury - broken nose/black eye etc.                                   |
 | 7-12  | Sensory 0  | Dazzled: Everything concealed until end of turn                                |
 | 13-18 | Limb 0     | -1 to speed or -1 to all actions involving the bruised arm until end of combat |

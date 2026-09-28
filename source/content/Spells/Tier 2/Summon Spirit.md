@@ -4,7 +4,7 @@
 **Attributes:** WL/CH
 **Base Target/Range:** 1 spirit
 **Traits:** #Spell #Active
-**Limit Cost:** -
+**Limit Cost:** 1
 **Duration:** Instant
 
 ## Effect

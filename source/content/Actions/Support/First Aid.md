@@ -5,7 +5,7 @@
 
 **Roll:** Medicine skill vs Treatment DC
 
-Restore HP and treat conditions.
+Restore 1 Wound worth of HP (quick patches — HP, not wound slots) and treat conditions.
 
 - **Trained:** 4 actions to perform
 - **Untrained:** Can be performed in 3 rounds, but cannot be done during combat

@@ -2,7 +2,7 @@
 **Attributes:** WL/WT
 **Cost:** 5 Battle XP
 **Tags:** -
-# THIS IS A PLACEHOLDER
+# AI gen placeholder
 ## Grants
 
 ![[Effect - Familiar Bond]]

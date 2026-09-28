@@ -15,6 +15,14 @@ Base recovery times from [[Severity Levels]] are modified by rest quality:
 | 4 - Excellent   | ×4 faster  | 1-2 Breathers | 2-3 Shifts  | 2.5 Days       | 25 Days        |
 | 5 - Exceptional | ×10 faster | 1 Breather    | 1 Shift     | 1 Day          | 1 Tenday       |
 
+## Recovering Pools
+
+- **Treat Wounds** can restore 1 Wound worth of HP (quick patches — HP, not wound slots). Can benefir once per day.
+- **Natural recovery:** a full night's sleep restores 1 Wound worth of HP. #TBD — connect natural recovery to rest quality, maybe with a roll.
+- **Stamina** is fully regained after a Breather of light or no activity. 
+- 
+Active wounds lessen he total amount of both Health and Stamina to be regenerated, to a minimum of one.
+
 ## Sleep Deprivation and Fatigue
 
 - Going a full **Day** without sleep: Gain **1 level of Fatigue**, plus **+1** for every **5 Shifts** (~12 hours) thereafter

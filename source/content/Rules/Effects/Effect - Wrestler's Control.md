@@ -1,3 +1,2 @@
-While grappling, you don't suffer the [[Condition - Grabbed|Grabbed]] condition's penalties yourself — no Off-Guard and no disadvantage on physical actions. You are still locked in the skirmish with your target.
-
+Tripping and Shoving grappled opponend is rolled with advantage.
 **Tags:** #Passive #Brawling

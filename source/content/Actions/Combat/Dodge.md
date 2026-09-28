@@ -1,4 +1,4 @@
-**AP Cost:** -
+**AP Cost:** Free (no AP, no Reaction)
 **Traits:** #Defend 
 **Roll:** Agility + Perception vs attack
 

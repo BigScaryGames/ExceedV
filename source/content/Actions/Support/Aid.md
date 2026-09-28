@@ -1,8 +1,9 @@
 # Aid
 
-**AP Cost:** 2 + Reaction
-**Traits:** #Interact #Boon
+**AP Cost:** [[Ready Reaction]] (2)
+**Traits:** #Interact #Boon 
 
-Provide a bonus to an ally's next action.
-
+Ready a reaction to aid an ally. When the ally rolls a check you readied for your ally rolls with an advantage.
+You have to be reasonably capable of aiding. 
+Usually meaning being in one zone.
 **Enhanced by:** [[Inspirer]]

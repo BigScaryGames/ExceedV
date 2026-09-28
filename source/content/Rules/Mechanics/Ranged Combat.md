@@ -17,7 +17,9 @@ The **[[Ability - Aim]]** action reduces the Distance DC by 2.
 
 ## Range Increment Calculation
 
-Each weapon defines its own **Range Increment** in meters (e.g., a shortbow might have 15m increments, while a longbow has 25m).
+A ranged weapon's **Range Increment** = weapon Tier × 10 meters (a Tier 0 ranged weapon has a 10m increment).
+
+> #TBD — range increments to be reconciled with the ranged weapon traits update.
 
 **To determine your range increment:**
 
@@ -30,11 +32,11 @@ Each weapon defines its own **Range Increment** in meters (e.g., a shortbow migh
 **Total Distance:** Sum of line distances from your zone to the target's zone.
 
 ### Example
-- Your longbow has a 25m range increment
+- Your longbow is tier 2, thus has a 20m range increment
 - Target is in zone C, you are in zone A
 - Lines: A→B is 15m, B→C is 15m
 - Total Distance = 30m
-- Range Increment = ceil(30 / 25) = 2
+- Range Increment = ceil(30 / 20) = 2
 - Distance DC = 14
 
 **Tags:** #Combat

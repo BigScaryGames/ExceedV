@@ -1,4 +1,4 @@
-Declare one visible enemy as your predicted duel partner at the start of combat (or via [[Ready]] before a fight turns hot).
+Declare one visible enemy as your predicted duel partner at the start of combat (or via [[Ready Reaction]] before a fight turns hot).
 
 Pre-roll your next attack against them **and** their next defense roll against you — the same prediction mechanic as [[Predictive Strike]], stretched across two blades. Write the results down; when either roll happens, the written result replaces that roll (used or wasted, it's spent).
 

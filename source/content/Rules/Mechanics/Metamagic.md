@@ -14,7 +14,7 @@ Metamagic lets a caster push a spell beyond its baseline at the cost of a harder
 | --- | --- | --- |
 | [[Reaching Spell]] | +1 AP / +2 DC | Range up one step: skirmish → zone → +1 connected zone |
 | [[Subtle Casting]] | +1 AP / +2 DC | No gestures or voice — only the spell's effects show |
-| [[Lingering Spell]] | +1 AP / +2 DC | Duration up one step (round → breather → minuta → shift) |
+| [[Lingering Spell]] | +1 AP / +2 DC | Duration up one step (round → minuta → breather → shift) |
 | [[Split Spell]] | +1 AP / +2 DC per extra target | Add a target within the spell's range |
 | [[Widened Spell]] | +2 AP / +4 DC (counts as 2 applications) | Single target → whole skirmish; applied twice → whole zone |
 | [[Empowered Spell]] | +1 AP / +2 DC | +1 damage die |

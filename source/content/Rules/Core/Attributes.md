@@ -39,11 +39,11 @@ Various derived stats use attributes:
 
 ## Examples: Skills and Their Attributes
 
-| Skill | Attributes |
-|-------|------------|
-| Medicine | Wit/Dexterity |
-| Running | Agility/Endurance |
-| Biology | Wit/Perception |
-| Negotiation | Charisma/Wit |
+| Skill       | Attributes        |
+| ----------- | ----------------- |
+| Medicine    | Wit/Dexterity     |
+| Acrobatics  | Agility/Dexterity |
+| Biology     | Wit/Perception    |
+| Negotiation | Charisma/Wit      |
 
 See [[Skills]] for the complete skill list with attribute pairings.

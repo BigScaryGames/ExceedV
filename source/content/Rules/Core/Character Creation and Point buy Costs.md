@@ -36,7 +36,7 @@ Select starting gear and calculate final statistics:
 **Movement Speed** (in-game referenced as just "Speed"):
 Calculate your movement speed - this will be used both in-combat and in exploration and chase scenes.
 
-`Speed = 5 + Agility + (Running ÷ 2, rounded down) + Bonuses - Penalties`
+`Speed = 5 + Agility + Bonuses - Penalties`
 
 
 ---

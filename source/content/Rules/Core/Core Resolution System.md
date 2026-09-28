@@ -9,6 +9,8 @@ In Exceed checks are resolved with d10 dice.
 | Disadvantage | 3d10, keep 2 lowest    |
 | Screwed      | 1d10                   |
 
+Advantage and disadvantage remove each other: a roll with one of each is a normal 2d10 roll.
+
 ## Roll Formulas
 
 **Ability Roll:** Dice + Skill + Attribute + Bonuses/Penalties 

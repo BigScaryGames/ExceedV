@@ -31,7 +31,7 @@ Core Rules Index: "*A skill-based fantasy tabletop role-playing game*"
 | ---------------------------------------------- | ----------------------------------------- |
 | [[Skills\|Skills]]                          | Skill list and progression                |
 | **Life Perks** (`Perks/LifePerks/`) | Life-skill perks and universal perks      |
-| **Battle Perks** (`Perks/BattlePerks/`) | Prowess domain abilities, weapon training |
+| **Battle Perks** (`Perks/Prowess/`) | Prowess domain abilities, weapon training |
 
 ---
 
@@ -82,4 +82,4 @@ Core Rules Index: "*A skill-based fantasy tabletop role-playing game*"
 ---
 ### Action Economy
 - **Base:** 5 AP + 1 Reaction per turn
-- **Bonus AP:** +1 AP per Prowess tier (usable on Prowess abilities) and +1 AP per Magery tier (usable on spells and Magery perk abilities) — see [[Action Points]]
+- **Bonus AP:** add your highest domain tier (Prowess or Magery) to the AP pool — see [[Action Points]]

@@ -1,7 +1,7 @@
 **AP Cost:** 2
 **Traits:** #Skill
 
-Use knowledge skills on a target in an attempt to deduce some of it's abilities or stats.
+Use knowledge or Observe skills on a target in an attempt to deduce some of it's abilities or stats.
 
-TBD
+Something like rolling with disadvantage against Acting/Resolve whicever is higher to learn the weakest/strongest defense.
 

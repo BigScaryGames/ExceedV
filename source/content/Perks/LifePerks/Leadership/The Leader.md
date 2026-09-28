@@ -1,6 +1,6 @@
-**Requirements:** Lead.1
+**Requirements:** Leadership1
 **Attributes:** CH
-**Cost:** 5 Battle XP
+**Cost:** 5 Skill XP
 **Tags:** #Skill
 
 ## Grants

@@ -9,7 +9,7 @@ Medical skill check against Treatment DC
 Medical skill check requiring training and appropriate tools
 - **Base time:** 1 minuta
 - **Enhanced treatment:** +2 bonus (Breather) or +4 bonus (Shift)
-- **Effect:** Required for Severity 1-2 consequences to heal
+- **Effect:** Required for Severity 1-2 consequences to heal; restores 1 Wound worth of HP
 
 ### Surgery
 Requires Medical skill 3+ and appropriate surgical tools

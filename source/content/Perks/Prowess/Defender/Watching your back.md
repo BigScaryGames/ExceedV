@@ -1,5 +1,5 @@
 **Requirements:** Prowess 2,
-**Attributes:** CH + Prowess
+**Attributes:** Charisma/Will
 **Cost:** 5 Battle XP
 **Tags:** -
 ## Grants

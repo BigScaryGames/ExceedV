@@ -1,137 +1,158 @@
 ---
 draft: true
 ---
-Temporary NPCs don't use the full PC machinery. They don't buy perks and don't track skills they'll never use. Their defenses are static DCs the players roll against; real NPCs roll their attacks, mooks are fully static.
 
-> MS7 draft (early — pulled forward for playtesting). Numbers are first-pass; tune at playtest.
+> MS7 draft. Generated from array of notes. Needs a final pass later
 
-## Design Rules
+# Creatures
 
-1. **Defenses are always static.** Players always roll against NPCs — attacks, spells, and effects all target a DC.
-2. **Real NPCs roll attacks** (2d10 + Attack Bonus vs the target's defense roll) and can crit on doubles. **Mooks don't roll** — their attacks are static DCs, and mooks can't crit.
-3. **One pool: Health.** No Stamina/Health split — damage just depletes Health. At 0 the NPC is down; at negative Health, dead. No Consequence Rolls. Named NPCs can opt into the full [[4.1 Taking Damage|wound rules]] if the fiction needs them to survive.
-4. **No XP economy.** Assign final numbers directly — write the flat result a perk would buy a PC (free Defense bonuses, free reaction abilities). Prerequisites don't apply to NPCs.
-5. **Few buttons.** 1–3 attacks/abilities total. An NPC never needs the full action list.
-6. **Only relevant skills.** 2–4 skills at most, as flat DCs. A tavern keeper needs Haggling and Gossip, not Track.
-7. **Mook economy:** 1 HP each. One move + one ability per turn (Move + attack, or Engage + attack). No reactions. Mooks are fragile — their threat is their damage, which stays at full tier dice.
+Creatures use **DC = 11 + 2T**. No character build, no Wounds, no Strain, no Limit. One HP pool; at 0 the non boss creature is out, summons vanish.
 
-## NPC Math
+A creature is a **Level 0-10**, a **tyoe**, and a handful of abilities from the player-facing lists. That is the whole statblock.
 
-**Threat = the adventurer tier this NPC threatens one-on-one.** Adventurers attack in steps of 2 per tier, so a Threat X NPC attacks like a tier-X adventurer:
+The same bandit as a person will have two different stat block depending on the player levels. 
 
-| Threat | Mook attack DC | NPC attack bonus | Damage   | Health        | Defenses | Buttons |
-| ------ | -------------- | ---------------- | -------- | ------------- | -------- | ------- |
-| 0      | 10             | −1               | d4       | 1 (mook) / 6–8 | 10–11    | 1       |
-| 1      | 12             | +1               | d6+1     | 12–16         | 12–14    | 1–2     |
-| 2      | 14             | +3               | d8+2     | 18–24         | 14–16    | 2       |
-| 3      | 16             | +5               | d10+3    | 26–32         | 16–18    | 2–3     |
-| 4      | 18             | +7               | 2 dice+  | 34–42         | 18+      | 3       |
-| 5      | 20             | +9               | 2 dice+  | 45+           | 20+      | 3       |
 
-NPC attack bonus = mook DC − 11 (the average of 2d10), so a rolling NPC hits as often as its DC suggests.
 
-**Other values:**
+##  Behavior
+Behavior varies based on NPC and GM interpretation. Most creatures would prefer to not die, but at the same time they wouldn't be combatants if they were completely averse to risk. There might be a morale threshold or triggers to creatures, but its up to gm to decide if someone flees, surrenders, gets a traumatic episore or fights till the end. 
+## Level
 
-| NPC Value      | Static DC                          |
-| -------------- | ---------------------------------- |
-| Deflect        | 11 + Prowess + Deflect stat + armor |
-| Dodge          | 11 + Agility + Perception          |
-| Resolve        | 11 + Will + Charisma               |
-| Endure         | 11 + Endurance + Strength             |
-| Skill          | 11 + skill level + attribute       |
-| Initiative     | 10 + Perception (fixed — no roll)  |
+Two levels per tier. A tier 2 party fights Levels 3-5; when in doubt, **Level = 2 x tier**. Odd levels are the half-steps between tiers.
+### Leveled graph
 
-**Defense spread:** put the NPC's strong defense at the top of its band; lagging defenses sit 2–4 lower. What lags follows PC logic:
-- **Deflect** keeps pace for prowess NPCs (weapon and armor carry it).
-- **Dodge** lags behind for everyone — it leans on two attributes.
-- **Resolve** lags for noncasters.
-- **Endure** lags for casters and glass cannons.
+| L   | Attack | HP  | Damage |
+| --- | ------ | --- | ------ |
+| 0   | +0     | 12  | 1d3    |
+| 1   | +1     | 16  | 1d4    |
+| 2   | +2     | 24  | 1d6    |
+| 3   | +3     | 28  | 1d8    |
+| 4   | +4     | 32  | 1d10   |
+| 5   | +5     | 40  | 1d12   |
+| 6   | +6     | 48  | 2d6+1  |
+| 7   | +7     | 60  | 3d4+2  |
+| 8   | +8     | 72  | 2d10   |
+| 9   | +9     | 84  | 3d8    |
+| 10  | +10    | 96  | 3d10   |
 
-**Crits:**
-- NPC attacks crit on doubles (damage ×2), like any rolled attack. Mooks can't crit.
-- Attacks against NPCs crit on the attacker's doubles vs the static DC, as normal.
+- Defenses start at **11 + Level**, then the spread.
+- Damage is per hit. Crits double the damage.
+- Spells and effects that scale on Magery use **M = half Level, rounded down**. for casters 
+- Checks use Level; pick two specialties at +2.
 
-**Caster NPCs** skip casting checks (no Strain): a spell is just a button — a rolled attack if it targets a defense, otherwise a static DC the players roll against (e.g. Fear Aura: Resolve DC 14).
+## Type
 
-- **NPC vs NPC:** compare static values, defender wins ties (matches [[Opposed Checks]]).
-- **Damage is still rolled:** weapon dice + flat bonus from the ladder.
-- **Action economy:** real NPCs: 5 AP + 1 Reaction. Mooks: one move + one ability.
+| Type | HP   | AP   | Attacks      | Reactions |
+| ---- | ---- | ---- | ------------ | --------- |
+| Mook | 1/4  | 3    | one per turn | —         |
+| NPC  | full | 5    | any          | 1         |
+| Boss | x2   | 5 x2 | any          | 1-2       |
 
-**Calibration:** a Threat 1 NPC attacks at 2d10+1 (avg 12) against a starting PC's defense roll (avg ~12–13) — an even duel, decided by PC perks.
+- Creatures roll attacks and defenses like anyone else. Printed offenses and defenses double as DCs when you'd rather not roll. (e.g.  mooks or to keep pace faster)
+- **Mook:** Move, Engage, attack — 1 AP each. Mook's attacks are one dice smaller than similar level NPC's.
+  Packs share one initiative slot. If a mook takes damage and you can't tell whether it survives, it dies. 
 
-## Statblock Template
+- **NPC:** 5 AP regained normally.
+- **Boss:** acts twice in the round order — 10AP that is regained at the end of the bottom turn. Dots play at the end of the bottom turn as well.
+Unike PCs NPCs don't spend actions when using reactions.
+- Two NPCs fighting each other: don't simulate. Tell it, or roll once for the round.
 
-```
-Name | Threat X | #role #role (#mook)
-Init X | Speed X | AP 5 (R: yes) — mooks: 1 move + 1 ability
+## Adjusting the stats
+Enemies have stats, and the stats have a numeric value. Moving numbers costs.
+When moving numbers move them up or down the leveled graph.
 
-Deflect X | Dodge X | Resolve X | Endure X
-Health X (down at 0; mooks: 1)
+NPC attribute level adjustment cost.
 
-— Attacks & Abilities (1-3) —
-NPC:   Name | AP X | #Strike | 2d10+B vs defense roll | dX+Y | traits (Reach, Nonlethal...)
-Mook:  Name | #Strike | DC X vs Deflect/Dodge | dX+Y | traits
-Name | reaction / aura / trait — one line
+| Attack | HP  | Damage | Deflect | Dodge | Resolve | Endure | Abiltiy/Effects |
+| ------ | --- | ------ | ------- | ----- | ------- | ------ | --------------- |
+| 2      | 1   | 2      | 1       | 1     | 0.5     | 0.5    | Varies          |
+E.g. to move attack 1 level up, i need 2 points, so i drop resolve, endure and deflect by 1 level.
 
-— Skills —
-Skill X (DC Y), Skill X (DC Y)
 
-— Notes —
-Morale / Disposition / loot / one behavioral quirk
-```
 
-Role tags: #melee #ranged #brute #skirmisher #support #caster #social #mook.
++1 attack - -1 to endure and resolve and deflect (0.5 0.5 1).
 
-## Encounter Budget
+If i want someone who is very strong and very clumsy i move damage up by 3 tiers and attack down by 3 tiers.
+in case of level 3 attack o hit was 10 became 13 almost halfing the to hit chance, damage from 1d8 went to 2d6+1 almost doubling. This is not ideal progression, but its good enough.
+If I want a glass cannon i do the same with HP and defenses. Moving 2 tiers up the attack, and dropping 3 defenses by 3 for 4.5 or HP by a tier.
 
-Weigh each PC: fresh ≈ 1, established ≈ 2, veteran ≈ 3.
+When making characters be sensible, and don't do more than +-2 on dodge and deflect. And don't move dodge more than 2 away from deflect. Unless trying to create insanely good dodger character.
 
-| Difficulty | Total Threat vs party weight |
-| ---------- | ---------------------------- |
-| Speed bump | ≤ half                       |
-| Even       | ≈ equal                      |
-| Hard       | 1.5×                         |
-| Deadly     | 2×+                          |
+## Abilities
 
-## Building the Encounter
+Player abilities and spells, as written, prerequisites ignored. What it needs at the table — a free hand, ammunition, a grabbed target — it still needs(most of the time).
 
-1. **Venue:** 2–5 zones with distance lines — see [[Encounter Setup]]. One zone is fine for a brawl.
-2. **Budget:** pick a difficulty, sum threat, stay within it. Mooks count full threat — their fragility is offset by their damage.
-3. **Mix roles:** pressure more than one defense (a #Projectile or #Burst forces Dodge; a #Mind effect forces Resolve). Mooks in pairs minimum — solo mooks die before acting.
-4. **Place and roll:** ambushes per [[Surprise Rounds]]; all mooks of one type share a single initiative slot.
-5. **Dials:** Health and attack values can move ±2 mid-fight without breaking math. Retreat/morale is a valid off-switch — most NPCs flee at half Health or when their leader drops (note it in the statblock).
+- A roll written as Prowess or Magery + attribute is the creature's **Attack**. Any other contest targets one of its listed defenses. 
+- Weapon attacks use the row damage. 2 AP — mooks 1 AP.
+- Enemies don't track strain or limit.
+- #Attuned effects are on for the whole fight.
+- Casters take spells of tier ≤ M, at the printed AP. Casting succeeds — targets still defend.
 
-## Worked Examples
+Mooks take 0-2 abilities, NPCs 2-4, bosses 3-6. A statblock can always carry a bespoke line.
 
-**Bandit** | Threat 1 | #melee #skirmisher
-Init 10 | Speed 5 | AP 5 (R: yes)
-Deflect 13 | Dodge 12 | Resolve 11 | Endure 13
-Health 14
-— Shortsword | 2 AP | #Strike | 2d10+1 vs defense roll | d6+1
-— Shield Block | Reaction | +2 Deflect vs one attack
-— Skills: Intimidation 1 (DC 12), Athletics 1 (DC 12)
-Flees at half Health if alone. Carries 100 of assorted gear.
+## Encounter Value
 
-**Bandit Archer** | Threat 1 | #ranged
-Init 11 | Speed 5 | AP 5 (R: no)
-Deflect 11 | Dodge 13 | Resolve 10 | Endure 11
-Health 12
-— Shortbow | 3 AP | #Projectile | 2d10+1 vs defense roll | d8+1 | Range 10m
-— Retreating Shot | Reaction | single attack when someone Engages them
-— Skills: Perception 1 (DC 12)
-Repositions to a new zone when engaged.
+Same-level base points: **mook 1/3, NPC 1, boss 2**. **ΔL = creature Level − party Level** (party Level = 2 x the average of the PCs' highest domain tiers). 
+Each level up costs x1.5; each level down x0.7. Two levels up doubles, two down halves.
 
-**Rabid Dog** | Threat 0 | #mook #melee
-Init 11 | Speed 6 | 1 move + 1 ability
-Deflect 10 | Dodge 12 | Resolve 8 | Endure 11
-Health 1
-— Bite | #Strike | DC 10 vs Deflect/Dodge | d4
-Never flees, fights to death. Pack of 3–4.
+| ΔL  | −4  | −2  | 0   | +2  | +4  |
+| --- | --- | --- | --- | --- | --- |
+| ×   | ¼   | ½   | 1   | 2   | 4   |
 
-**Guild Clerk** | Threat — | #social
-Disposition 0 | Deflect 9 | Dodge 10 | Resolve 13 | Endure 10 | Health 8
-— Skills: Haggling 2 (DC 13), Bureaucracy 2 (DC 13), Gossip 1 (DC 12)
-— Wants: quiet shifts; Fears: his boss; Lever: flattery about his ledgers
-Initial disposition per [[Disposition]]. Bribable at −20% for 25 for tier 2 favor.
+
+Four PCs: 3 points is standard - encounter, 4 is hard, 6 is deadly. 
+
+Everything below 1 points must have a secondary objective, a time limit, a defense mission. Otherwise it is considered too easy to contribute to growth and . 
+
+**Battle XP per PC = resolved points x 4 ÷ party size.** Rounding fractions up to GM.
+ A party of four drops their-tier boss: 2 XP each.
+
+Build the fight in [[Encounter Setup]]; ambushes per [[Surprise Rounds]]. Routed or surrendered creatures pay the same as dead ones.
+
+# Statblocks (AI gen)
+
+**Kiln Zealot** | L6 | Mook | 1/3 pt
+HP 12 · 3 AP, one attack · Attack +6 · Deflect 17 / Dodge 18 / Resolve 16 / Endure 16
+— Flensing Knife | 1 AP | #Strike | 2d4+1
+
+**Enforcer** | L6 | NPC | 1 pt
+HP 48 · 5 AP at the start and end of its turn · 1 reaction · Attack +7 · Deflect 16 / Dodge 16 / Resolve 16 / Endure 18
+— Hooked Chain | 2 AP | #Strike | 2d6+1
+— Grapple | 3 AP | vs Dodge, one free hand | on a failure, the defender gets a free attack
+— Shove | 3 AP | vs Endure | force the target out of its skirmish
+— Counter Grab | Reaction | after a critical Deflect against a melee attack | [[Grapple]] the attacker
+
+**Emberpriest** | L6 | Boss | 2 pts
+HP 96 · acts twice in the round, 5 AP per activation · 1 reaction · Attack +6 · Deflect 16 / Dodge 17 / Resolve 18 / Endure 16
+— Cinder Staff | 2 AP | #Strike | 2d6+1
+— Ember Lance | 2 AP | #Strike | half damage, round down; push the target out of the skirmish
+— Binding Chains | 5 AP | attack vs Endure | on a failed Endure, pull a target in its zone into the skirmish
+— Ember Lance | Reaction | after taking damage | hit the attacker with Ember Lance
+— Pinning Strike | Reaction | strike a creature entering the skirmish from outside
+— Last Stand | once per combat | below 0 HP: strike; on a hit, regain the damage dealt — above 0, it stays up
+
+
+*Built off the adjusting rules — check the trades.*
+
+**Kiln Ogre** | L6 | NPC | 1 pt — strong and clumsy: damage +3 levels (6 pts) for attack −3 levels (6 pts)
+HP 48 · 5 AP · 1 reaction · Attack +3 · Deflect 17 / Dodge 17 / Resolve 17 / Endure 17
+— Greatclub | 2 AP | #Strike | 3d8
+— Grapple | 3 AP | vs Dodge, one free hand | on a failure, the defender gets a free attack
+— Shove | 3 AP | vs Endure | force the target out of its skirmish
+
+**Needle** | L6 | NPC | 1 pt — glass cannon: attack +2 levels (4 pts) for all defenses −1 (3 pts) and HP one level down (1 pt)
+HP 40 · 5 AP · 1 reaction · Attack +8 · Deflect 16 / Dodge 16 / Resolve 16 / Endure 16
+— Stiletto | 2 AP | #Strike | 2d6+1, Light
+— Piranha Strike | each −3 to attack buys +1 damage die, multiple times | off-guard target, Light weapon
+
+**The Pacifist** | L6 | NPC | 1 pt — the insanely-good-dodger exception: Dodge +4 (4 pts) for attack −1 level (2 pts) and all damage dropped to 0
+HP 48 · 5 AP · 1 reaction · Attack +5 · Deflect 17 / Dodge 21 / Resolve 17 / Endure 17
+— Six-Shot | 2 AP | #Projectile | damage 0 — an attempt to disarm within own and adjacent zones  
+— Slip | effect | 
+— Shot from the Hip | Reaction | when attacked in its skirmish | attack vs Dodge; on a hit, the attacker is disarmed
+
+**Alley Cutter** | L2 | Mook | 1/3 pt
+HP 6 · 3 AP, one attack · Attack +2 · Deflect 13 / Dodge 14 / Resolve 12 / Endure 13
+— Rusty Shiv | 1 AP | #Strike | 1d4
 
 **Tags:** #Combat

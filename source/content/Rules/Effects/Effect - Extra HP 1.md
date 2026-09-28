@@ -1,8 +1,6 @@
-Gain additional HP based on your current Max_Wounds.
-
-This effect is granted by leveled conditioning perks at Stage .
+This effect is granted by leveled conditioning perks at Stage 1.
 
 **Effect:**
-- Gain + Extra HP
+- Gain +1 HP
 
 **Tags:** #Passive #HP #Conditioning #Stage

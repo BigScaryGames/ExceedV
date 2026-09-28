@@ -2,7 +2,7 @@ Disposition has raw value and level following the math logic of attributes but s
 
 | Points | Level | Name        | Negative    | Naming     |
 | ------ | ----- | ----------- | ----------- | ---------- |
-| -1     | 0     | Indifferent | -2          | Wary       |
+| -0     | 0     | Indifferent | -1          | Wary       |
 | 1      | 1     | Civil       | -2          | Disliked   |
 | 3      | 2     | Friendly    | -3          | Unfriendly |
 | 6      | 3     | Helpful     | -4          | Hated      |
