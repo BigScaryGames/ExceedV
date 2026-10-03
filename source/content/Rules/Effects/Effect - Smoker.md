@@ -1,3 +1,0 @@
-
-
-**Tags:** #Passive #Debuff

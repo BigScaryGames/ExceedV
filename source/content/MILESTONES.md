@@ -26,7 +26,7 @@ Code updates
 
 Milestone 6. - content update, editing.
 
-- [ ]  Skill perks - enough for 1-3 tiers. at least 100 overall life perks (done v0.6: thematic subfolders - Social, Wilderness, Athletic, Craft, Underworld, Knowledge, Standing + flaws)
+- [x]  Skill perks - enough for 1-3 tiers. at least 100 overall life perks (done v0.6: thematic subfolders - Social, Wilderness, Athletic, Craft, Underworld, Knowledge, Standing + flaws)
 - [x] Disadvantage Perks (done v0.6: 18 flaws in Perks/Flaws/ with Severity x Frequency math from [[Flaws Guidelines]]; Battle/Life Flaw pools in Cost lines)
 - [x] Negative stats
 - [x] Skill actions like [[Deduce]] (done v0.6: Size Up, Read the Room, Identify Item)

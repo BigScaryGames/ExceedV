@@ -1,5 +1,5 @@
 This guideline is mainly for design purposes.
-
+# THIS IS partially AI compilation
 # Intro into Flaw Design
 
 The basic formula for calculating is **Severity × Frequency**. It is calculated in different ways based on flaw type.

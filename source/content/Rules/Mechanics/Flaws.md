@@ -9,7 +9,7 @@ Perhaps you are an alcoholic that reduces your perception or wit (not yet writte
 
 1. Select a flaw and receive negative XP (e.g., -5, -10, -15 XP)
 2. Choose which attribute receive the negative XP points (if there is a choice)
-3. The negative XP moves the chosen attribute toward the previous threshold 
+3. The negative XP moves the chosen attribute (and maybe domain) toward the previous threshold 
 4. Example: Take a flaw worth -5 XP, choose Will. Will was at 3XP prior → Will loses 5 points and becomes -2, thus turning the stat into -1.
 
 Flaws create mechanical effects beyond just attribute penalties (roleplay hooks, situational limitations).
@@ -21,6 +21,8 @@ Flaws create mechanical effects beyond just attribute penalties (roleplay hooks,
 - **Involuntary Flaws**: Acquired through story events, GM decisions, or consequences. They might provide with XP points up to GM discretion.
 
 Both affect attributes similarly, but only voluntary ones provide XP during character creation and involuntary ones are up to GM.
+The flaws that did provide XP when resolved will deduce their cost from the player's XP pool.
+
 
 ![[Flaws Guidelines]]
 
