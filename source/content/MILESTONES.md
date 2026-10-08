@@ -48,6 +48,7 @@ Milestone 7. - Enemies, Content,
 - [ ] Persistent DoTs consequences
 - [ ]  Spells to tier 3.
 - [x] Summoning. (done v0.6 first pass: [[6.1 Summoning]] minion rules - Limit-bound, Stamina-only, act on your turn, inherit boons; [[Bonded Companions]] command economy + Perks/Companions/ tree + [[Bestiary]] presets; summon spells aligned)
+- [ ] New Bestiary — simplified statblocks on the current [[NPC and Encounter Builder]] spec (temp; AI-generated placeholders with banner, like the summoning docs)
 - [x]  Items and pricing. (done v0.6: [[Prices]] - full price tables anchored to the potion ladder, quality variants formalized, GM loot guidance)
 - [ ] High quality variants, maybe item builder. 
 - [ ] Quest rewards

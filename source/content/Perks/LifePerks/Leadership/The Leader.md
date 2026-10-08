@@ -1,6 +1,6 @@
 **Requirements:** Leadership1
 **Attributes:** CH
-**Cost:** 5 Skill XP
+**Cost:** 5 Life XP
 **Tags:** #Skill
 
 ## Grants

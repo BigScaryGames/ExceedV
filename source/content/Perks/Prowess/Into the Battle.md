@@ -1,6 +1,6 @@
 **Requirements:** Intimidation 4
 **Attributes:** CH / ST
-**Cost:** 10 Skill XP
+**Cost:** 10 Life XP
 **Tags:** -
 
 ## Grants
