@@ -17,13 +17,9 @@ Milestone 5 - Get it playable. FINISHED.
 - [x] Prone/Crawl/Stand
 - [ ] polish perks for playing
 Code updates
-1. Remove rules,
-2. update the folders
-3. Remake the defenses
-4. next
-
-
-
+  - [x] Remove rules,
+- [x] update the folders
+- [x] . Remake the defenses
 Milestone 6. - content update, editing.
 
 - [x]  Skill perks - enough for 1-3 tiers. at least 100 overall life perks (done v0.6: thematic subfolders - Social, Wilderness, Athletic, Craft, Underworld, Knowledge, Standing + flaws)

@@ -14,7 +14,7 @@ A perk's tags say what it is; its Cost line says which XP pays for it (`5 Battle
 - **Prowess Perks** (`#Prowess`): Fighting techniques, weapon training, tactical abilities — their XP advances the Prowess domain. Paid with Battle XP.
 - **Magery Perks** (`#Magery`): Magical specializations and techniques — their XP advances the Magery domain. Paid with Battle XP.
 - **Conditioning Perks** (`#Conditioning`): Staged HP progression. Paid with Battle XP.
-- **Skill Perks** (`#Skill`): Specialized applications of life skills (they don't directly increase skill levels). Paid with Life XP.
+- **Skill Perks** (`#Skill`): Specialized applications of life skills (they don't increase skill levels). Paid with Life XP.
 - Battle-side perks that advance no domain (e.g. Plot Armor, the Predictive line) simply carry no discipline tag and a Battle XP cost.
 
 ## How Perks Work
