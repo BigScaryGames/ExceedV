@@ -1,6 +1,6 @@
-**Requirements:** Fast-talk 3
+**Requirements:** Manipulation 3
 **Attributes:** CH/AG
-**Cost:** 6 Life XP
+**Cost:** 10 Life XP
 **Tags:** #Skill
 
 ## Grants

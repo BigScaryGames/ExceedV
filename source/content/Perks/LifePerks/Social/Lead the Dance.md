@@ -1,4 +1,4 @@
-**Requirements:** Dancing 3
+**Requirements:** Etiquette 3
 **Attributes:** AG/CH
 **Cost:** 4 Life XP
 **Tags:** #Skill

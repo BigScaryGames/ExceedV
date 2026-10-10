@@ -1,8 +1,8 @@
-**Requirements:** Negotiations 2
+**Requirements:** Negotiating 2
 **Attributes:** CH/WT
 **Cost:** 5 Life XP
 **Tags:** #Skill #Downtime
 
 ## Grants
 
-![[Effect - Haggler]]
+![[Effect - Bargainer]]

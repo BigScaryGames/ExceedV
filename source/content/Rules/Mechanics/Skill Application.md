@@ -1,5 +1,5 @@
 While rolling a skill check, roller can state their approach.
-Depending on declared approach or specified action the skill can use a different attribute (most often the second) as well as add bonuses from other
+Depending on declared approach or specified action the skill can use a different attribute (most often the second) as well as add bonuses from other, related skills.
 
 >[!note]
 In both cases of alternative attributes and [[Related Skills and Alternative Attributes]] GM decides if those are applicable.

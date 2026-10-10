@@ -1,10 +1,4 @@
-
-You know how to present yourself and your companions to the people with power and wealth. Through correct fasion and accessorizing choices your outlook (as part of your percieved social status) looks one tier higher than it normally should. 
-
-
-Example - target is wearing tier 2 outlook - as per organizational status e.g. Journeyman's clothes. 
-You adjust the looks, the target still remains at the owned status with said priveledges. With tier 3 outlook he looks more important than a tier 2.
-
- assumed of higher social status.  and ask for access for better training/medical fascilities or better lodging. 
-
+You know how to present yourself and your companions to the people with power and wealth.
+When GM calculates the [[First Impression]] for you and your allies that allow you to adjust their attaire and explaining the bestics to them, a penalty from social status is lessed by 2 or halved, whichever is better. 
+While this can change general disposition, and adjust the social dynamics this doesn't grant the benefits of higher social status. 
 **Tags:** #Passive #Social 

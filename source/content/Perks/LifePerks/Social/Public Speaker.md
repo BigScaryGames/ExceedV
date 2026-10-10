@@ -5,4 +5,4 @@
 
 ## Grants
 
-![[Effect - Public Speaker]]
+![[Effect - Public Orator]]

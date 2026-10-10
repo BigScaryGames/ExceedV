@@ -1,6 +1,6 @@
 **Requirements:** Negotiating 3
 **Attributes:** CH/WT
-**Cost:** 6 Life XP
+**Cost:** 10 Life XP
 **Tags:** #Skill
 
 ## Grants

@@ -9,7 +9,7 @@ A skill is written as **Medical Science (H) (Field Surgery) [3]**.
 | Part          | Meaning                                                                         |
 | ------------- | ------------------------------------------------------------------------------- |
 | **(H)**       | Complexity — Easy (E), Average (A), Hard (H): how costly the skill is to train. |
-| **(Surgeon)** | Focus — the field within the skill you have made yours.                         |
+| **(Field Surgery)** | Focus — the field within the skill you have made yours.                         |
 | **[3]**       | Level — your rank in the skill, 1 to 5.                                         |
 > [!note] Note on Rank
 > Some checks require a rank in a skill depending on the knoledge required to perform the check. GM decides if the penalty for the lack of said rank, and if the check is even possible without having skill rank for it.
@@ -19,8 +19,7 @@ A skill is written as **Medical Science (H) (Field Surgery) [3]**.
 Each skill also lists an **attribute pair** (e.g. Wit/Dexterity). The first attribute is the most common used attribute with the check, the default one. When asked to roll a check without specifying the attribute use that.
 
 > [!note] Design Signatures for GMs
-> In design part you will see 
-> One new player-facing word: Signature. Focus opens at level 3 for every complexity (3/3/3, provisional until the starting-budget playtest). Perks are not bound to Foci — see Training a Skill.> When designing the world remember that hard skills are rare - they require more effort to learn and master, and as most can lead to one's prosperity they often are gated. I.e. Don't give retarded NPCs hard skills.
+> In the GM design part you will see the four Signature forms. One new player-facing word: Signature. Focus opens at level 3 for every complexity (3/3/3, provisional until the starting-budget playtest). Perks are not bound to Foci — see Training a Skill. When designing the world remember that hard skills are rare - they require more effort to learn and master, and as most can lead to one's prosperity they often are gated. I.e. Don't give retarded NPCs hard skills.
 ## Rolling a skill
 ![[Skill Application]]
 
@@ -53,56 +52,55 @@ Each entry gives the skill's scope, complexity, and attribute pair. The bold lin
 ### 1. Etiquette (E) (Agility/Charisma) - Navigating social gatherings without an incident.
 You have learned to dance without stepping on partner's shoes, drink appropriate beverages and not use the curtains as napkin for a leaky nose.
 
-**High Society** - [[Effect - Proper Attaire|Proper Attaire]]
-**Cultural Breadth** - [[Learn The Customs]] time is lowered to 5 shifts and doesn't require dedicated training time, just social interaction.
-**Carouser** - +1 rolls to events that unclude alcoholic or narcotic substances.
-**Dancer** - get the Effect of [[Effect - Lead the Dance|Lead the Dance]]. but you undersand people through their movements. To understand a culture it requires for you to fully understand their dances, doubling the [[Learn The Customs]] period.
+**High Society** *(Effect)* -  you get the [[Effect - Proper Attaire|Proper Attaire]].
+**Cultural Breadth** *(Effect)* - [[Learn The Customs]] time is lowered to 5 shifts and doesn't require dedicated training time, just social interaction.
+**Carouser** *(Aptitude)* - +2 to keeping appearances (Etiquette rolls) in events that unclude heavy use of alcoholic or narcotic substances, like feasts and parties.
+**Dancer** *(Effect)* - get the Effect of [[Effect - Lead the Dance|Lead the Dance]]. When using [[Learn The Customs]] you learn dances as well as a part of learning.
 
 ### 2. Negotiating (A) (Charisma/Wit) - Making deals, bargaining, diplomatic solutions, finding win-win outcomes.
 
-**Bargainer** -  [[Effect - Haggler]]
-**Honest Solution** - when offering an honest deal roll with +2, a dishonest one -2.
-**Harsh Tactics** - you gain '[[Ability - Take it or leave it.|Take it Or Leave it]]' ability.
-**Fine-print Protection** - you know the manipulation tactics used to deceive in negotiations. You are hard to be fooled by a [[Effect - Fine Print|Fine Print]]
-
+**Bargainer** *(Effect)* -  [[Effect - Bargainer]]
+**Direct Negotiator** *(Ability)* - you gain '[[Ability - Take it or leave it.|Take it Or Leave it]]' ability.
+**Fine-print Reade** *(Effect)* - you know the manipulation tactics used to deceive in negotiations. You are a [[Effect - Fine Print Reader|Fine Print Reader]]. 
 ### 3. Manipulation (H) (Charisma/Will) - Subtle influence, psychological pressure, making people think your ideas are theirs.
 
-**Habitual Liar** - you lied so much that telling the truth somehow makes you sound wrong. You get the effects of [[Effect - Liar Liar|Liar Liar]]
-**Vizier** - +1 level against people in power or close to it, the haves, and -1 level against the have nots. People in the middle (lower-upperclass) don't get this effect.
-**Deep Manipulation** - you can double the time to plant a manipulation, if you succeed on such a chech the target suffers disadvantage on any subsequent rolls to see through the deception or realize they were manipulated.
-**Fast-Talk** - you learned to make things up quickly, but not to remember all the gibberish you spewed. [[TBD Fast takler]]
+**Vizier** *(Trade-off)* - +1 level against people in power or close to it, the haves, and -1 level against the have nots. People in the middle (lower-upperclass) don't get this effect.
+**Deep Manipulation** *(Effect)* - you can double the time to plant a manipulation, if you succeed on such a chech the target suffers disadvantage on any subsequent rolls to see through the deception or realize they were manipulated.
+**Fast-Talk** *(Aptitude, #TBD)* - you learned to make things up quickly, but not to remember all the gibberish you spewed. [[TBD Fast takler]]
 
 ### 4. Leadership (H) (Will/Charisma) - Inspiring groups, command presence, rallying others in crisis situations.
 
-**Project Manager** - you know how to manage grops of people by assigning them tasks. +2 to rolls for organizational aspects of leadership, -1 for in-battle/frontline leadership actions.
-**Standard-bearer** - you know how to inspire in the heat of battle and upkeep morale.  +2 to rolls for battle/frontline leadership actions, -1 to war-unrelated rolls.
-**Hero** - #GM - requires you to be a hero - you gain [[Presence of Bravery]] or [[Fear is not allowed]] if [[Ability - Presence of Bravery]] is already taken.
-**Harsh Trainer** - #TBD Something about improving speed of training at cost of disposition of the trainee.
-**Orator** - addressing crowds and inspiring them. [[Effect - Public Speaker|Public Speaker]] or [[Ability - Inspirer|Inspirer]]
+**Project Manager** *(Trade-off)* - you know how to manage grops of people by assigning them tasks. +2 to rolls for organizational aspects of leadership, -1 for in-battle/frontline leadership actions.
+**Standard-bearer** *(Trade-off)* - you know how to inspire in the heat of battle and upkeep morale.  +2 to rolls for battle/frontline leadership actions, -1 to war-unrelated rolls.
+**Hero** *(Ability, #GM)* - requires you to be a hero - you gain [[Presence of Bravery]] or [[Fear is not allowed]] if [[Ability - Presence of Bravery]] is already taken.
+**Harsh Trainer** *(Aptitude, #TBD)* - #TBD Something about improving speed of training at cost of disposition of the trainee.
+**Public Orator** *(effect)* - you know how to address many people as if adressing one. [[Effect - Public Orator|Public Speaker]] 
 
 ### 5. Gossip (E) (Charisma/Perception) - Information gathering, rumor trading, social intelligence, reputation management.
 #Todo Will have actions such as Gathering Rumours, Trading Rumours and Influencing rumors. Gathering opening at level 1. Trading and Influencing at level 2.
 
-**Rumor Monger** - you know how to set up rumour trading operations. Gain [[Effect - Rumour Monger|Rumor Monger]].
-**Avid Gossiper** - when trying to learn information through gossip you can apply get the [[Effect - Avid Gossiper|Avid Gosspuper]].
-**Influencer** - you get +2 to rolls to influence rumors. [[Rumors = Money]] #TBD
+**Rumor Monger** *(Effect)* - you know how to set up rumour trading operations. Gain [[Effect - Rumour Monger|Rumor Monger]].
+**Avid Gossiper** *(Effect)* - when trying to learn information through gossip you can apply get the [[Effect - Avid Gossiper|Avid Gosspuper]].
+**Influencer** *(Aptitude)* - you get +2 to rolls to influence rumors.
 
 ### 6. Intimidation (H) (Charisma/Strength) - Coercion, demoralizing and otherwise using fear to adjust behavior of the adversary.
 Make actions for: Coercion (long, noncombat) and frightening (combat, shaken).
 
-**Brute** - gives [[Effect - Scary Brute|Scary Brute]] -
-**Madman** - [[Effect - Respect Means Fear|Respect Means Fear]]  - social variation. Targets lower in social power think twice before joining a Mutiny against you.
-**Sadist** -  [[Make It Memorable]].
+**Brute** *(Effect)* - gives [[Effect - Scary Brute|Scary Brute]] -
+**Madman** *(Effect)* - [[Effect - Respect Means Fear|Respect Means Fear]]  - social variation. Targets lower in social power think twice before joining a Mutiny against you.
+**Vividly Violent** *(Effect)* -  The was you act on your threats make others think of themselves subjected to your [[Vivid Violence]]. 
 
 ### 7. Acting (A) (Charisma/Will) - Staying in the role, pretending to be someone else.
-Act as if someone else, or feeling something else.
+ACtions:
 Pretend - is going to be an Acting Action to fake a state.
 Impersonate - is going to be an action to fake identity.
 
-**Theater**  - for theater and helps earning income and gets 'fame'. [[Comedian]]
-**Disguise** - for disguise and pretending to be someone else [[Face in the Crowd]]
-**Lover not a fighter** #TBD - gives bonuses with people who might be romantically interested in you.
-**Musician** #TBD  - bonuses with music, penalties without.
+**Theater** *(Aptitude)*  - you know how to act - be it a tragedy or a comedy. All acting checks where the viewers know that you are in a role are rolled with +2.
+
+**Disguise** *(Aptitude)* - all checks for impersonation are rolled with +2.
+
+**Lover not a fighter** *(Aptitude, #TBD)* - all checks for flirting and courting are rolled with +2.
+**Musician** *(Effect)*  - Select an instrument (or vocals). you can use Acting to perform with said instrument. You count as if having life skill of playing a simple or average instrument. (Using the skill with self as related can be at half rank in case of musicles)
 
 ## Athletic and Acrobatic Skills
 
@@ -127,10 +125,9 @@ Impersonate - is going to be an action to fake identity.
 
 ## Natural Sciences
 
-Science fields overlap heavily — Pharmacy, Alchemy and Microbiology share ground. 
-In most cases if GM asks to roll either of skills - 
-Use [[Related Skills and Alternative Attributes]] 
-The classic use of overlap is an Approach: roll your science with an adjacent one as the supporting skill, and the GM judges how relevant the pair is.
+Science fields overlap heavily — Pharmacy, Alchemy and Microbiology share ground.
+In most cases if GM asks to roll either of skills -
+Use [[Related Skills and Alternative Attributes]] — roll your science with an adjacent one as the related skill, and the GM judges how relevant the pair is.
 
 ### 1. Physical Science (H) (Wit/Perception)
 **Physics** -
@@ -244,11 +241,11 @@ Craft perks pending a home: [[Gear Maintenence]] (gear upkeep), [[Lumberjack]] (
 >[!note] GM section below.
 ## GM Notes — Ruling Skills
 
-### Ruling an Approach
-When a player declares an Approach:
+### Ruling Related Skills and Alternative Attributes
+When a player states an approach or asks for a related skill:
 1. Approve it, or say why it does not work here.
 2. Set the DC for the approach as declared — a sound plan earns the easier number, a poor one the harder.
-3. If a supporting skill is invoked, add its bonus: **full** for a strong pair, **half (round down)** for a loose one. One supporting skill per check, and the contribution is **capped at +2**. A supporting bonus never stacks with a Signature bonus — use the higher. A Trade-off's penalty always applies, whatever the support.
+3. If a related skill is invoked, add its bonus: **full** for a strong pair, **half (round down)** for a loose one, **none** if it does not fit.
 
 If the named skill is missing entirely, the check either falls back to the raw attribute (Easy and Average only) or you name another acceptable primary at a harder DC — Hard tasks still require the skill itself.
 Default pairs, yours to overrule:
@@ -277,6 +274,6 @@ The bridge only one character can fix. The ritual only one can bind. The plea on
 >
 > **Homeless perks placed as candidates** - Friendly Faces → Streetwise (own TBD line), Quick Escape → Streetwise (Safehouses), Bribery Expert → Streetwise (Bribery), Master of Invitations → Etiquette planned action, Create a distraction → Sleight of Hand (Magician) - a guess, refile if it belongs elsewhere, Rumors = Money → Gossip (Influencer). Wrapper perks awaiting the deletion pass: [[Take it or leave it.]], [[Lead the Dance]], [[Rumour Monger]], [[Avid Gosspier]] (sic - rename candidate), [[Jumping Light]], [[Pack Mule]], [[Against the Current]], [[Forager]]. Note: [[Respect Means Fear]] (Social) and [[Fear Means Respect]] (Rank and Reputation) are a fork - same idea as skill perk vs rank perk, adjudicate on the swipe. The broken [[Pack Hunter]] link was removed - no such file.
 >
-> **Removed in the 0.6 review** - the science Focus lock and the [[Scientific Breath]] perk path; the old adjacent-science advantage/disadvantage rules (superseded by Approach); "Related skill" and "Creative alternatives" bullets (superseded by Approach in [[Skill Application]]).
+> **Removed in the 0.6 review** - the science Focus lock and the [[Scientific Breath]] perk path; the old adjacent-science advantage/disadvantage rules (superseded by [[Related Skills and Alternative Attributes]]); "Related skill" and "Creative alternatives" bullets (superseded by [[Related Skills and Alternative Attributes]] in [[Skill Application]]).
 >
 > **Naming debt** - Livelihood list needs a consistent -ings vs -ers convention. Unnamed Focuss marked #TBD are provisional homes for the linked perks - name them on the swipe pass.
