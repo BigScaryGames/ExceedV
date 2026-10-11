@@ -18,7 +18,7 @@ Working lists from the vault house-cleaning. Lives OUTSIDE the vault (source/, n
 
 ### A2. Perks moved into Focuss — standalone files still live, check = delete
 - [ ] [[Not Sherlock]]
-- [ ] [[Ward-Breaker]]
+- [ ] [[Ward-Warper]]
 - [ ] [[Scary Brute]]
 - [ ] [[Fresh Sign]]
 - [ ] [[Tracker]]

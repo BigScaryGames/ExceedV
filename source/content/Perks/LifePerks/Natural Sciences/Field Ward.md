@@ -5,4 +5,4 @@
 
 ## Grants
 
-![[Effect - Field Ward]]
+![[Ability - Field Ward]]

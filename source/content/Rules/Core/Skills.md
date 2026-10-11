@@ -106,90 +106,82 @@ Impersonate - is going to be an action to fake identity.
 
 ### 1. Climbing (A) (Strength/Agility) - Scaling walls, cliffs, buildings; vertical movement and grip strength.
 
-**Parkour** - grants [[Safe Roll]] and [[Reckless Sprint]] on level 4 (I can technically do this, why not).
-**Mountaineering** - grants [[Safe Climbing]] and [[Rock Climber]] on level 4, give a communal climbing ability.
-**Environment** #TBD - +1/-1 level in natural/artificial environments.
+**Parkour** - #TBD Something about climbing fast. As per lines and zones and travel moves - the climb speed is your speed/multipler from effects. In travel it also counts in how tired it makes you so its not 1 to 1. So Parcour should likely allow to reduce the line difficulty - not in DC way, but in speed penalty way. Because parcour invokes SPEED of climbing. The rule will be something like "On climb check success - lines distance multiplier is decreased by 1 or half, whichever is more.
+
+**Mountaineering** - #Tbd something about climbing safely. If climb check is a fall on crit fail you have to confirm it, roll again, and on a second failure you are going to fall (still alowing a reaction if you have pitons). People following your climbing path with your advice share this effect.
 
 ### 2. Athletics (A) (Strength/Endurance) - Raw strength application. Has Lifting and Breaking inside.
 
-**Breaker** - [[Shoulder It]] [[Maker-Breaker]]
-**Lifter** - [[Effect - Pack Mule]]
-**Swimmer** - both [[Effect - Against the Current]] and [[Pearl Diver]]. You can roll ST.
-#Todo some cool lifting and breaking abilities and maybe add it as a gate for supplex like wrestling perks.
-#GM [[Marathon Runner]] - needs a bloody fight prior, earned not bought.
+**Breaker** - [[Effect - Human Ram]] - ability that allows to act as a battaring ram. (barrier style line blocks that ask for a DC can be attempted to be rammed through).
+**Lifter** - [[Princess Carrier]] - (pack mule sounded about weight, this is better.)
+**Swimmer** - Distance multiplier by swimmer decreases by halved, when swimming you have  an [[Effect - Against the Current]].
 
 ### 3. Acrobatics (A) (Agility/Dexterity) - Tumbling, flips, balance, contortion, graceful movement, fall mitigation, tightrope walking, squeezing through spaces.
 
-**Jumper** - [[Effect - Jumping light]] - advantage on all jumping checks, ignore checks that require a roll of 10 or lower.
-**Balancer** - [[Firm on the Ground]] - advantage on all balance checks - ignore checks that require a roll of 10 or lower. (will need to make a unified Assurance logic.)
-
+**Jumper** - #TBD placeholder +2 for when jumping will be more utilized. 
+**Balancer** - [[Effect - Firm on the Ground]] - advantage on all balance checks, including dodge checks to be dropped prone.
+**Dodger** - Grants a reaction - 1AP. add half Acrobatics to the dodge roll. #TBD when step back will be made into a normal reaction - this will be direct upgrade to it.
 ## Natural Sciences
-
 Science fields overlap heavily — Pharmacy, Alchemy and Microbiology share ground.
-In most cases if GM asks to roll either of skills -
-Use [[Related Skills and Alternative Attributes]] — roll your science with an adjacent one as the related skill, and the GM judges how relevant the pair is.
+In most cases if GM asks to roll either of skills use [[Related Skills and Alternative Attributes]] — roll your science with an adjacent one as the related skill, and the GM judges how relevant the pair is. ("Roll Magical Science or harder Medical Science" "I have both, so I will roll Mag+Med?" "Sure, half bonus").
+
 
 ### 1. Physical Science (H) (Wit/Perception)
-**Physics** -
-**Astronomy and Astromancy** -
-**Mechanical Engineering** - 2- [[Shoddy Engineering]] 4- [[Everything Falls Somewhere]]
-
+**Physics** - #TBD Allows using physics as secondary skill during related spellcraft and alchemy checks at full bonus. 
+**Astronomy and Astromancy** - Allows using physics as secondary skill when navigating at night and divining at full bonus.
+**Mechanical Engineering** - allows using physics as secondary skill with breaking, lockpicking and demolition at full bonus.
 ### 2. Magical Science (H) (Wit/Will)
-**Alchemy** - for crafting concoctions and talismans, putting spells into vials. 1- [[Chem-Haz Safety Rules]] 2- [[Potion Brewer]] 3- [[Alchemist Prerequisite Perk|Alchemist]]
-**Ritualism** - for following and making new rituals. [[Sole Ritualist]] [[Arcane Sight]]
-**Enchanting** - for making magical items. [[Enchanter]] [[Magical Crafter]]
-**Magical Theory and Spellcraft** - 1- [[Spell Identification]] [[Arcane Veil]] 2- [[Spell Memory]] [[Afterglow]] 3- [[Spell-Craft]] [[Spell Buddy]] [[Arcane Mind]]
+**Alchemy** - for crafting concoctions and talismans, putting spells into vials. 
+You are an [[Alchemist Prerequisite Perk|Alchemist]]. The perk should allow to put own spells in bottles that are free to make, but require Limit. The alchemist perk line will be about shoving spells and alike into bottles, and using the skill as separate limit. a huge AP booster, at cost of versatility. #TBD 
+**Ritualism** - for following and making new rituals. +2 for now and Crit fail to fail. N #TBD when ritual rules will be written. They will have higher crit chances that normal checks, so maybe something about that.
 
+**Enchanting** - for making temp magical items. #TBD similar to Alchemist - but you can only put reaction spells, when alchecmist can put action spells. This is reaction booster. If alchemist is action booster, this is reaction booster. 
+
+**Magical Theory and Spellcraft** - bonuses to recognizing spells and making them +2 #TBD.
 ### 3. Biological Science (H) (Wit/Perception)
-**Zoology** - [[Tamer]] [[Animal Affinity]]
-**Botany** - [[Herbalist's Eye]]
-**Microbiology** - [[Anti-Germ]]
+**Zoology** -  +2 to all checks relating to animals. (not only biology but also riding a horse or taming an animal).
+**Botany** - [[Herbalist's Eye]], +2 to all check with plants (including things like pharmacy and cooking).
+**Microbiology** - #TBD may be deleted. 
 
-### 4. Social Science (A) (Perception/Wit)
-**Psychology** - reading people - motivation, behavior, intent.
+### 4. Social Science (A) (Perception/Wit) #TBD - Section is TBD do not take.
+**Psychology** - reading people - motivation, behavior, intent. 
 **Sociology** - political sciences. 3- [[I See a Secret Hand]]
 **Anthropology** - archeology. [[Aerial Archaeologist]] [[Cultural Explorer]]
 
 ### 5. Humanitarian Science (A) (Will/Wit)
-**History and Heraldry** - [[Heraldist]] 1- [[Footnotes of History]] [[Librarian]] 2- [[Old Grudges]] [[Well Read]]
-**Theology and Rites** - [[Last Rites]] 2- [[Smells Like Heresy]]
-**Linguistics and Fables** - [[Fabler]] 2- [[Language Expert]] 3- [[Linguist]]
+**History and Heraldry** - +2 on remembering historic events and identifying heraldry.
+**Theology and Rites** - +2 to performing rites and knowledge of faith postulates.
+**Linguistics and Fables** - +2 when attempting to communicate in a language you don't know (it efficiently lowers the penalty.) and remembering folk lore.
 
 ### 6. Medical Science (H) (Wit/Dexterity)
-**Field Surgery** - performing operations on wounds. 2- [[Field Ward]] [[First Responder]] [[Anatomical Knowledge]] 3- [[Practiced Surgeon]] 4- [[Life and Death]]
-**Hospitalier** - establishing and running wards, disease management. 2- [[Plague Doctor]] [[Autopsy]] 3- [[TBD Something about improving facility level, giving static bonus to everyone etc.]]
-**Pharmacy** - medicine. 2- [[In House Medicine]] 3- [[Toxicologist - Poisoner Prerequisite Perk|Toxicologist]]
+**Field Surgery** (ability) - [[Ability - Field Ward]] - tak
 
+**Hospitalier** (effect)- You run a ward so well every doctor gets +2 to rolls there. 
+**Pharmacy** (effect) - +2 on medical treatments and earning income from the skill.
 ## Stealth and Criminal Skills
 
 ### 1. Stealth (A) (Agility/Perception) - Moving unseen, hiding, avoiding detection.
 
-**Urban** - for cities. [[Meld with the backdrop]] [[Silent Steps]]
-**Wilderness** - for wilderness. [[Natural Predator]]
-**Group** #TBD - for leading a group. [[Thieves steps]]
+**Urban** - Once per game day turn a stealth failure to success.
+**Wilderness** - Once per game day in appropriate enviornment turn a stealth failure to success.
+**Group** - for leading a group. [[Thieves steps]]
 
 ### 2. Lockpicking (E) (Dexterity/Perception) - Bypassing mechanical and magical security, opening locked containers.
 
-**Ward Breaker** - requires Magical Theory 2. [[Ward-Breaker]] [[Lock Consul]]
 **Traps Focus** - disarming what Search finds.
 **Speed Focus** - mainline. [[Lock It Behind You]]
 
 ### 3. Sleight of Hand (E) (Dexterity/Agility) - Pickpocketing, palming objects, manual dexterity tricks.
 
-**Magician** - [[Gypsy]] [[Cheat]] [[Create a distraction]] #TBD action
-**Pickpocket** -
-**Forgery** #TBD - not art - art requires art skill.
-
+**Magician** - +2 on visuals of performing tricks.
+**Pickpocket** - Failure to pickpocket is not noticed, only crit failure is.
+**Forgery** #TBD - you can make fakes of documents that are good enough to pass surface glance. You roll for creation of a fake with advantage. 
 ### 4. Streetwise (A) (Charisma/Perception) - Criminal underworld knowledge, black market connections.
 This is the skill governing how to operate as a criminal on day-to-day basis and how to hunt them down.
 
-**Fencing** - [[The Going Rate]]
-**Organization** #TBD - running an organization. [[In the Know]] [[Sitting on the Fence]]
-**Safehouses** - [[Safe Houses]] [[Quick Escape]]
-**Fighting Crime** #TBD - hunting criminals. [[Street Predator]]
-**Bribery** #TBD - greasing palms. [[Bribery Expert]]
-**Friendly Faces** #TBD - a friendly face wherever you go; downtime activity per old TBD. [[Friendly Faces]]
-
+**Fencing** - You know [[The Going Rate]] for ilicit goods, where to buy them and whom to sell them to. Spending an active tenday in any settlement grants you updates this information as well. 
+**Organization** #TBD - Streetwise can be used instead of Leadership when organizing criminals with +2.
+**Bribery** #TBD - professional palm greaser. [[Bribery Expert]]
 ## Wilderness Skills
 
 ### 1. Survival (A) (Perception/Endurance) - Wilderness living, foraging, finding shelter and water.
