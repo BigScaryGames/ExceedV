@@ -38,7 +38,7 @@ Working lists from the vault house-cleaning. Lives OUTSIDE the vault (source/, n
 - [ ] [[Lock Consul]]
 - [ ] [[Lock It Behind You]]
 - [ ] [[Cartographer's Mind]]
-- [ ] [[Dead Reckoning]]
+- [ ] [[Backtracking]]
 - [ ] [[Wayfarer's Instinct]]
 - [ ] [[Campwright]]
 - [ ] [[Weather Reader]]

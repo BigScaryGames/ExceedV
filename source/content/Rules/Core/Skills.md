@@ -177,43 +177,45 @@ You are an [[Alchemist Prerequisite Perk|Alchemist]]. The perk should allow to p
 **Pickpocket** - Failure to pickpocket is not noticed, only crit failure is.
 **Forgery** #TBD - you can make fakes of documents that are good enough to pass surface glance. You roll for creation of a fake with advantage. 
 ### 4. Streetwise (A) (Charisma/Perception) - Criminal underworld knowledge, black market connections.
-This is the skill governing how to operate as a criminal on day-to-day basis and how to hunt them down.
+This is the skill governing how to operate as a criminal on day-to-day basis and how to think like them.
 
 **Fencing** - You know [[The Going Rate]] for ilicit goods, where to buy them and whom to sell them to. Spending an active tenday in any settlement grants you updates this information as well. 
 **Organization** #TBD - Streetwise can be used instead of Leadership when organizing criminals with +2.
 **Bribery** #TBD - professional palm greaser. [[Bribery Expert]]
+**Sherlock** - #TBD - to figure something out
+
 ## Wilderness Skills
 
 ### 1. Survival (A) (Perception/Endurance) - Wilderness living, foraging, finding shelter and water.
 
 **Forager** - [[Effect - Forager|Forager]]
-**Camper** - [[Safe Camp]] [[Campwright]] [[Ten Minute Furniture]] (camp action per its TBD)
-**Weather** - [[Weather Reader]] [[Environmental Grace]]
+**Camper** - When making camp you can take two roles at the same time.
+**Weatherman** - [[Effect - Weatherman]]  you know tomorrow's weather and rarely are wrong.
 
 ### 2. Tracking (E) (Perception/Wit) - Following trails, reading signs, hunting quarry.
 
 **Streets** #TBD - following tracks through streets and crowds.
-**Wilderness** - [[Fresh Sign]] [[Tracker]] [[Backtrail]] [[Primeval Awareness]]
+**Wilderness** - When successfully tracking in the wilderness it doesn't reduce your speed.
 
 ### 3. Navigation (E) (Perception/Wit) - Finding your way, reading maps, celestial navigation.
 
 **Dungeons and Civilizations** - [[Cartographer's Mind]]
-**Rivers and Seas** - [[Dead Reckoning]]
-**Fastest Paths** #TBD - [[Wayfarer's Instinct]]
+**Rivers and Seas** - #TBD Currently irrelevant
+**Fastest Paths** #TBD - When acting as a team navigator, it doesn't slow you down.
 
 ### 4. Search (A) (Perception/Wit) - You know how and where to pay attention.
 Player-declared and takes time. Search finds traps - Lockpicking's Traps Focus disarms them.
 
 **Forensics** - recreating scenes, reading the aftermath. [[Not Sherlock]]
-**Trapfinding** - finding traps.
-**Valuables** - finding valuables and hidden goods.
+**Trapfinding** - finding traps with advantage.
+**Valuables** - finding valuables and hidden goods with advantage.
 
 ### 5. Observation (A) (Perception/Will) - You stand sentry against shadows and subterfuge.
 GM-triggered and reactive.
 
-**Lie Detection** - piercing through lies. #TBD interplay with Manipulation (Compulsive Liar).
-**Security** - pickpockets and sneaks are no match for your gaze. Sentry duty and ambush-spotting.
-**Wilderness** #TBD - something about wilderness maybe.
+**Lie Detection** - piercing through lies. #TBD Basic +2..
+**Security** - Rolling with advantage to notice slight of hand and stealth checks to sneak. 
+**Wilderness** #TBD - something about wilderness maybe, with ambuses and alike. 
 
 ## A Life Skill
 

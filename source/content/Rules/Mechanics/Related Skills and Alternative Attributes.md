@@ -7,7 +7,7 @@ When something is dubious or not clear GM is the arbiter of such requests. No on
 
 # Related skills and Getting help
 When rolling a check you can attempt to amplify the result of the check using a secondary skill to get a circumstance bonus.
-E.g. You are trying to open a safe that uses - some complex inner working. GM might allow you to add Physical Science if your Focus is Mechanical Engineering, or a different safe that uses a magical lock - here magical science would could potentially fit as an aide.
+E.g. You are trying to open a safe that uses - some complex inner working. GM might allow you to add Physics if your Focus is Mechanical Engineering, or a different safe that uses a magical lock - here magical science would could potentially fit as an aide.
 
 
 In a similar manner, for prolonged checks, if you have an allyversed in the second skill, they might help you adding their skill to the roll.
