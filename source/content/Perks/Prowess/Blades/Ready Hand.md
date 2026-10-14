@@ -1,4 +1,4 @@
-**Requirements:** Prowess 1, [[Blades Training]]
+**Requirements:** [[Prowess]] 1, [[Blades Training]]
 **Attributes:** AG
 **Cost:** 2 Battle XP
 **Tags:** #Prowess

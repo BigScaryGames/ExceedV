@@ -1,4 +1,4 @@
-**Requirements:** Prowess 5, [[Bowling Strike]]
+**Requirements:** [[Prowess]] 5, [[Bowling Strike]]
 **Attributes:** ST/EN
 **Cost:** 15 Battle XP
 **Tags:** #Prowess

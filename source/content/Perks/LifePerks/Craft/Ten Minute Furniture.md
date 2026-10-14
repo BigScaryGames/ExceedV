@@ -1,4 +1,4 @@
-**Requirements:** Woodworking 3, Survival 1
+**Requirements:** Woodworking 3, [[Survival]] 1
 **Attributes:** DX/WT
 **Cost:** 6 Life XP
 **Tags:** #Skill

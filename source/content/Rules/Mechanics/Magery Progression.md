@@ -1,6 +1,6 @@
 # Magery
 
-Magery is a Domain (skill following special progression rules). It progresses as the player learns spells and magery perks.
+Magery is a Discipline (skill following special progression rules). It progresses as the player learns spells and magery perks.
 
 Each level of Magery unlocks the ability to learn and cast spells of the appropriate tier.
 
@@ -17,14 +17,14 @@ Each level of Magery unlocks the ability to learn and cast spells of the appropr
 
 ## Learning Spells
 
-Spells contribute to appropriate attributes AND to Magery at the same time. All XP spent on spells and #Magery perks ([[Metamagic]] options, specializations) accumulates toward the Magery tier thresholds above ("XP to Next Tier" is cumulative) — the domain is never bought directly.
+Spells contribute to appropriate attributes AND to Magery at the same time. All XP spent on spells and #Magery perks ([[Metamagic]] options, specializations) accumulates toward the Magery tier thresholds above ("XP to Next Tier" is cumulative) — the discipline is never bought directly.
 
 Spells can require other spells as prerequisites. More powerful effects are gated behind prerequisites, not a separate cost tier.
 
 ### Requirements
 
 Learning a spell from a library or spellbook requires:
-- Magical Theory or Theology skill ≥ spell tier
+- Arcane or Logos skill ≥ spell tier
 - A source from which to learn
 
 Learning from a teacher bypasses skill requirements.

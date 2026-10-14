@@ -1,4 +1,4 @@
-**Requirements:** Manipulation 3
+**Requirements:** [[Manipulation]] 3
 **Attributes:** CH/AG
 **Cost:** 10 Life XP
 **Tags:** #Skill

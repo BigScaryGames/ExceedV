@@ -1,4 +1,4 @@
-**Requirements:** Prowess 1, [[Takedown]]
+**Requirements:** [[Prowess]] 1, [[Takedown]]
 **Attributes:** ST/EN
 **Cost:** 5 Battle XP
 **Tags:** #Prowess #Wrestling

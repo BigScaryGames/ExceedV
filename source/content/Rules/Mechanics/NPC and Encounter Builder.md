@@ -92,7 +92,7 @@ Mooks take 0-2 abilities, NPCs 2-4, bosses 3-6. A statblock can always carry a b
 
 ## Encounter Value
 
-Same-level base points: **mook 1/3, NPC 1, boss 2**. **ΔL = creature Level − party Level** (party Level = 2 x the average of the PCs' highest domain tiers). 
+Same-level base points: **mook 1/3, NPC 1, boss 2**. **ΔL = creature Level − party Level** (party Level = 2 x the average of the PCs' highest discipline tiers). 
 Each level up costs x1.5; each level down x0.7. Two levels up doubles, two down halves.
 
 | ΔL  | −4  | −2  | 0   | +2  | +4  |

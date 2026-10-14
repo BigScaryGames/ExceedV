@@ -1,4 +1,4 @@
-**Requirements:** [[Spell Identification]], Magical Theory 2
+**Requirements:** [[Spell Identification]], [[Arcane]] 2
 **Attributes:** WT/WL
 **Cost:** 10 Life XP
 **Tags:** #Skill

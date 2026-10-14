@@ -1,4 +1,4 @@
-**Requirements:** Magical Theory 2, Detect Magic, Magery 2
+**Requirements:** [[Arcane]] 2, Detect Magic, [[Magery]] 2
 **Attributes:** PR
 **Cost:** 7 Life XP
 **Tags:** #Skill

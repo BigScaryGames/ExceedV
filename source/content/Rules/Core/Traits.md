@@ -32,7 +32,7 @@ This document defines all spell and ability traits used in the game for categori
 
 # Rarity
 
-Rarity represents how available knowledge, techniques, and equipment are in the world. Corresponds to skill/domain levels and organizational access.
+Rarity represents how available knowledge, techniques, and equipment are in the world. Corresponds to skill/discipline levels and organizational access.
 
 > **NOTE:** Rarity system is not meant for v0.4 - planned for later versions.
 

@@ -1,4 +1,4 @@
-**Requirements:** Theology 1
+**Requirements:** [[Logos]] 1
 **Attributes:** WL/CH
 **Cost:** 3 Life XP
 **Tags:** #Skill

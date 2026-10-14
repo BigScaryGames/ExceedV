@@ -1,4 +1,4 @@
-**Requirements:** Streetwise 3
+**Requirements:** [[Streetwise]] 3
 **Attributes:** CH/PR
 **Cost:** 6 Life XP
 **Tags:** #Skill

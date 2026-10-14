@@ -1,5 +1,5 @@
 **Requirements:** - #GM
-**Attributes:** Any
+**Attributes:** Varies
 **Cost:** Varies (Life Flaw)
 **Tags:** #Flaw 
 

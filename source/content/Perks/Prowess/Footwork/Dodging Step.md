@@ -1,4 +1,4 @@
-**Requirements:** Prowess 2, [[Light Steps]] or [[Small Steps]]
+**Requirements:** [[Prowess]] 2, [[Light Steps]] or [[Small Steps]]
 **Attributes:** AG/DX
 **Cost:** 8 Battle XP
 **Tags:** #Prowess

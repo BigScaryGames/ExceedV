@@ -1,4 +1,4 @@
-**Requirements:** History 3, Published author, Participated in conference
+**Requirements:** [[Chronicle]] 3, Published author, Participated in conference
 **Attributes:** -
 **Cost:** -
 **Tags:** #Skill #Rank

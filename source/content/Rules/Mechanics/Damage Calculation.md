@@ -3,7 +3,7 @@
 Criticals double the WeaponDamage — see [[Critical Results and Critical Hits]].
 ## Damage Dice by Prowess Tier
 
-Attacks roll the Prowess domain, so the dice scale with your Prowess tier:
+Attacks roll the Prowess discipline, so the dice scale with your Prowess tier:
 
 | Prowess Tier | Weapon Dice |
 | ------------ | ----------- |

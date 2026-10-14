@@ -1,4 +1,4 @@
-**Requirements:** Prowess 3, [[Mage]], [[Bow Training]]
+**Requirements:** [[Prowess]] 3, [[Mage]], [[Bow Training]]
 **Attributes:** AG/DX
 **Cost:** TBD
 **Tags:** #Prowess

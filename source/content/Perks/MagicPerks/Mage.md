@@ -1,4 +1,4 @@
-**Requirements:** GM permission, Magical Theory skill level 1 or Theology skill level 1
+**Requirements:** GM permission, [[Arcane]] 1 or [[Logos]] 1
 **Attributes:** WL
 **Cost:** 4 Battle XP
 **Tags:** #Magery #Instant #GM

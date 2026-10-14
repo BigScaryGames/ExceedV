@@ -1,4 +1,4 @@
-**Requirements:** History 1
+**Requirements:** [[Chronicle]] 1
 **Attributes:** WT/CH
 **Cost:** 2 Life XP
 **Tags:** #Skill

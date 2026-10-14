@@ -1,4 +1,4 @@
-**Requirements:** Prowess 3, [[Hair Trigger]], [[Tower]]
+**Requirements:** [[Prowess]] 3, [[Hair Trigger]], [[Tower]]
 **Attributes:** PR/WT
 **Cost:** 15 Battle XP
 **Tags:** #Prowess

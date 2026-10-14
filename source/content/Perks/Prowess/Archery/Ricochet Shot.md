@@ -1,4 +1,4 @@
-**Requirements:** Prowess 4
+**Requirements:** [[Prowess]] 4
 **Attributes:** WT/DX
 **Cost:** 10 Battle XP
 **Tags:** #Prowess

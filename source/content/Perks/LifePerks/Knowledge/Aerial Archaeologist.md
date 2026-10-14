@@ -1,4 +1,4 @@
-**Requirements:** History 2
+**Requirements:** [[Chronicle]] 2
 **Attributes:** WT/PR
 **Cost:** 2 Life XP
 **Tags:** #Skill #Exploration

@@ -1,4 +1,4 @@
-**Requirements:** Survival 3
+**Requirements:** [[Survival]] 3
 **Attributes:** PR/EN
 **Cost:** 8 Life XP
 **Tags:** #Skill

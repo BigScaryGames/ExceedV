@@ -1,4 +1,4 @@
-**Requirements:** Acting 3, Charisma 1
+**Requirements:** [[Acting]] 3, Charisma 1
 **Attributes:** CH/PR
 **Cost:** 4 Life XP
 **Tags:** #Skill

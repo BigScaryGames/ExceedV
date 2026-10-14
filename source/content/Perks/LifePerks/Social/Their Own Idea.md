@@ -1,4 +1,4 @@
-**Requirements:** Manipulation 4
+**Requirements:** [[Manipulation]] 4
 **Attributes:** CH/WL
 **Cost:** 8 Life XP
 **Tags:** #Skill

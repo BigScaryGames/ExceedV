@@ -1,4 +1,4 @@
-**Requirements:** Theology 3, Ordained
+**Requirements:** [[Logos]] 3, [[Ordained]]
 **Attributes:** -
 **Cost:** -
 **Tags:** #Skill #Rank

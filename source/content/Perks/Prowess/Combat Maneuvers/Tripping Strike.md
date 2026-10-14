@@ -1,4 +1,4 @@
-**Requirements:** Prowess 2, [[Calf Strike]]
+**Requirements:** [[Prowess]] 2, [[Calf Strike]]
 **Attributes:** ST/AG 
 **Cost:** 5 Battle XP
 **Tags:** #Prowess

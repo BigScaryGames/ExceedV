@@ -1,4 +1,4 @@
-**Requirements:** Stealth 2
+**Requirements:** [[Stealth]] 2
 **Attributes:** AG/DX
 **Cost:** 5 Life XP
 **Tags:** #Skill #Exploration

@@ -1,4 +1,4 @@
-**Requirements:** Prowess 2, [[Fast Archer]]
+**Requirements:** [[Prowess]] 2, [[Fast Archer]]
 **Attributes:** AG/DX
 **Cost:** 10 Battle XP
 **Tags:** #Prowess

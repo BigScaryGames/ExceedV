@@ -1,4 +1,4 @@
-**Requirements:** Leadership1
+**Requirements:** [[Leadership]] 1
 **Attributes:** CH
 **Cost:** 5 Life XP
 **Tags:** #Skill

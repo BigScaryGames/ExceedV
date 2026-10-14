@@ -1,4 +1,4 @@
-**Requirements:** Prowess 1, [[Footwork]]
+**Requirements:** [[Prowess]] 1, [[Footwork]]
 **Attributes:** AG/CH
 **Cost:** 5 Battle XP
 **Tags:** #Prowess

@@ -1,4 +1,4 @@
-**Requirements:** Prowess 3, [[Herding Strike]]
+**Requirements:** [[Prowess]] 3, [[Herding Strike]]
 **Attributes:** ST/EN
 **Cost:** 12 Battle XP
 **Tags:** #Prowess

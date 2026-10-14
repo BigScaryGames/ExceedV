@@ -1,4 +1,4 @@
-**Requirements:** Magical Theory 2
+**Requirements:** [[Arcane]] 2
 **Attributes:** WT/WL
 **Cost:** 5 Life XP
 **Tags:** #Skill

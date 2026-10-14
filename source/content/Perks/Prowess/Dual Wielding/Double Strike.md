@@ -1,4 +1,4 @@
-**Requirements:** Prowess 1
+**Requirements:** [[Prowess]] 1
 **Attributes:** AG/ST
 **Cost:** 5 Battle XP
 **Tags:** #Prowess

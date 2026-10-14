@@ -1,4 +1,4 @@
-**Requirements:** Prowess 1
+**Requirements:** [[Prowess]] 1
 **Attributes:** EN/WL
 **Cost:** Variable (current Max Wounds XP per level), Battle XP
 **Tags:** #Conditioning #Leveled

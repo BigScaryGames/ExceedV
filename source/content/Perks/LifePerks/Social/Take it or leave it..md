@@ -1,4 +1,4 @@
-**Requirements:** Negotiating 3
+**Requirements:** [[Negotiating]] 3
 **Attributes:** CH/WT
 **Cost:** 10 Life XP
 **Tags:** #Skill

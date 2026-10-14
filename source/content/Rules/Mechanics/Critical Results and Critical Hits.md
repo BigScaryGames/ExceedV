@@ -4,7 +4,7 @@ Doubles on the kept dice modify outcomes. With advantage you choose which 2 of t
 - **Failure + Doubles:** Critical Failure (if applicable)
 
 ## Two Paths to a Critical
-A critical is achieved by **doubles on the kept dice** (above) or by an **extended crit range** — perks that let you crit by beating the opposing roll or DC by 10+. Both paths produce the same critical result; they never stack into anything bigger. Doubles work for everyone; extended crit ranges must be earned (see below).
+A critical is achieved by **doubles on the kept dice** (above) or by an **extended crit range** — some perks grant you effects that let you crit by beating the opposing roll by a DC - usually 10+. Both paths produce the same critical result; they never stack into anything bigger. Doubles work for everyone; extended crit ranges must be earned (see below).
 
 ## Critical Hits — Weapons
 Critically succeeding on an attack is a critical hit: **double the damage dice** (not the flat Strength or bonuses).

@@ -1,4 +1,4 @@
-**Requirements:** Stealth 1
+**Requirements:** [[Stealth]] 1
 **Attributes:** AG/PR
 **Cost:** 3 Life XP
 **Tags:** #Skill

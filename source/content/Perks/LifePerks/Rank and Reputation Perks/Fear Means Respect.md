@@ -1,4 +1,4 @@
-**Requirements:** Streetwise 3, Created reputation rumors about power/viciousness
+**Requirements:** [[Streetwise]] 3, Created reputation rumors about power/viciousness
 **Attributes:** -
 **Cost:** -
 **Tags:** #Skill #Rank

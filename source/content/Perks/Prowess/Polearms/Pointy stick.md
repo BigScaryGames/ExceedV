@@ -1,4 +1,4 @@
-**Requirements:** Prowess 2, [[Polearms Training]]
+**Requirements:** [[Prowess]] 2, [[Polearms Training]]
 **Attributes:** PR/ST
 **Cost:** 5 Battle XP
 **Tags:** #Prowess

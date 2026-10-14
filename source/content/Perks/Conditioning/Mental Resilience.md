@@ -1,4 +1,4 @@
-**Requirements:** Theology 1 or History 1
+**Requirements:** [[Logos]] 1 or [[Chronicle]] 1
 **Attributes:** WL/WT
 **Cost:** Variable (current Max Wounds XP per level), Battle XP
 **Tags:** #Conditioning #Leveled

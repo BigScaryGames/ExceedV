@@ -1,4 +1,4 @@
-**Requirements:** Acting 3
+**Requirements:** [[Acting]] 3
 **Attributes:** CH/WL
 **Cost:** 6 Life XP
 **Tags:** #Skill

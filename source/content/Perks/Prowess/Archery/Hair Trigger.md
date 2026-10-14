@@ -1,4 +1,4 @@
-**Requirements:** Prowess 2
+**Requirements:** [[Prowess]] 2
 **Attributes:** PR/AG
 **Cost:** 10 Battle XP
 **Tags:** #Prowess

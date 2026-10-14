@@ -1,4 +1,4 @@
-**Requirements:** Licensed Healer, Medicine 3, Court appointment
+**Requirements:** Licensed Healer, [[Medicine]] 3, Court appointment
 **Attributes:** -
 **Cost:** -
 **Tags:** #Skill #Rank

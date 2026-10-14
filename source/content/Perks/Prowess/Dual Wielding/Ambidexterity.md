@@ -1,4 +1,4 @@
-**Requirements:** Prowess 1,  DX 1,
+**Requirements:** [[Prowess]] 1,  DX 1,
 **Attributes:** DX/AG
 **Cost:** 5 Battle XP
 **Tags:** #Prowess

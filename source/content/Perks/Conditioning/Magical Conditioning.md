@@ -1,4 +1,4 @@
-**Requirements:** Magery 1
+**Requirements:** [[Magery]] 1
 **Attributes:** WL/WT
 **Cost:** Variable (current Max Wounds XP per level), Battle XP
 **Tags:** #Conditioning #Leveled

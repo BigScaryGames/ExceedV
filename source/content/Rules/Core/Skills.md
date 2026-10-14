@@ -4,7 +4,7 @@ Skills are the result of the life experience of your character. The result of de
 
 ## Reading a Skill Entry
 
-A skill is written as **Medical Science (H) (Field Surgery) [3]**.
+A skill is written as **Medicine (H) (Field Surgery) [3]**.
 
 | Part          | Meaning                                                                         |
 | ------------- | ------------------------------------------------------------------------------- |
@@ -41,7 +41,7 @@ Your new Focus replaces the old Signature. Perks that have prerequisites of Foci
 
 ## **Perks and skills** 
 
-Skill perk lists the skill level it requires (**Requirements:** Negotiating 2) and a few demand a specific Focus — otherwise Foci and perks are independent: your Focus is your skills identity, your perks - your extra training. 
+Skill perk lists the skill level it requires (**Requirements:** [[Negotiating]] 2) and a few demand a specific Focus — otherwise Foci and perks are independent: your Focus is your skills identity, your perks - your extra training. 
 
 ## Using the Skill List
 
@@ -49,173 +49,61 @@ Each entry gives the skill's scope, complexity, and attribute pair. The bold lin
 
 ## Social Skills
 
-### 1. Etiquette (E) (Agility/Charisma) - Navigating social gatherings without an incident.
-You have learned to dance without stepping on partner's shoes, drink appropriate beverages and not use the curtains as napkin for a leaky nose.
+![[Etiquette]]
 
-**High Society** *(Effect)* -  you get the [[Effect - Proper Attaire|Proper Attaire]].
-**Cultural Breadth** *(Effect)* - [[Learn The Customs]] time is lowered to 5 shifts and doesn't require dedicated training time, just social interaction.
-**Carouser** *(Aptitude)* - +2 to keeping appearances (Etiquette rolls) in events that unclude heavy use of alcoholic or narcotic substances, like feasts and parties.
-**Dancer** *(Effect)* - get the Effect of [[Effect - Lead the Dance|Lead the Dance]]. When using [[Learn The Customs]] you learn dances as well as a part of learning.
+![[Negotiating]]
 
-### 2. Negotiating (A) (Charisma/Wit) - Making deals, bargaining, diplomatic solutions, finding win-win outcomes.
+![[Manipulation]]
 
-**Bargainer** *(Effect)* -  [[Effect - Bargainer]]
-**Direct Negotiator** *(Ability)* - you gain '[[Ability - Take it or leave it.|Take it Or Leave it]]' ability.
-**Fine-print Reade** *(Effect)* - you know the manipulation tactics used to deceive in negotiations. You are a [[Effect - Fine Print Reader|Fine Print Reader]]. 
-### 3. Manipulation (H) (Charisma/Will) - Subtle influence, psychological pressure, making people think your ideas are theirs.
+![[Leadership]]
 
-**Vizier** *(Trade-off)* - +1 level against people in power or close to it, the haves, and -1 level against the have nots. People in the middle (lower-upperclass) don't get this effect.
-**Deep Manipulation** *(Effect)* - you can double the time to plant a manipulation, if you succeed on such a chech the target suffers disadvantage on any subsequent rolls to see through the deception or realize they were manipulated.
-**Fast-Talk** *(Aptitude, #TBD)* - you learned to make things up quickly, but not to remember all the gibberish you spewed. [[TBD Fast takler]]
+![[Gossip]]
 
-### 4. Leadership (H) (Will/Charisma) - Inspiring groups, command presence, rallying others in crisis situations.
+![[Intimidation]]
 
-**Project Manager** *(Trade-off)* - you know how to manage grops of people by assigning them tasks. +2 to rolls for organizational aspects of leadership, -1 for in-battle/frontline leadership actions.
-**Standard-bearer** *(Trade-off)* - you know how to inspire in the heat of battle and upkeep morale.  +2 to rolls for battle/frontline leadership actions, -1 to war-unrelated rolls.
-**Hero** *(Ability, #GM)* - requires you to be a hero - you gain [[Presence of Bravery]] or [[Fear is not allowed]] if [[Ability - Presence of Bravery]] is already taken.
-**Harsh Trainer** *(Aptitude, #TBD)* - #TBD Something about improving speed of training at cost of disposition of the trainee.
-**Public Orator** *(effect)* - you know how to address many people as if adressing one. [[Effect - Public Orator|Public Speaker]] 
+![[Acting]]
 
-### 5. Gossip (E) (Charisma/Perception) - Information gathering, rumor trading, social intelligence, reputation management.
-#Todo Will have actions such as Gathering Rumours, Trading Rumours and Influencing rumors. Gathering opening at level 1. Trading and Influencing at level 2.
-
-**Rumor Monger** *(Effect)* - you know how to set up rumour trading operations. Gain [[Effect - Rumour Monger|Rumor Monger]].
-**Avid Gossiper** *(Effect)* - when trying to learn information through gossip you can apply get the [[Effect - Avid Gossiper|Avid Gosspuper]].
-**Influencer** *(Aptitude)* - you get +2 to rolls to influence rumors.
-
-### 6. Intimidation (H) (Charisma/Strength) - Coercion, demoralizing and otherwise using fear to adjust behavior of the adversary.
-Make actions for: Coercion (long, noncombat) and frightening (combat, shaken).
-
-**Brute** *(Effect)* - gives [[Effect - Scary Brute|Scary Brute]] -
-**Madman** *(Effect)* - [[Effect - Respect Means Fear|Respect Means Fear]]  - social variation. Targets lower in social power think twice before joining a Mutiny against you.
-**Vividly Violent** *(Effect)* -  The was you act on your threats make others think of themselves subjected to your [[Vivid Violence]]. 
-
-### 7. Acting (A) (Charisma/Will) - Staying in the role, pretending to be someone else.
-ACtions:
-Pretend - is going to be an Acting Action to fake a state.
-Impersonate - is going to be an action to fake identity.
-
-**Theater** *(Aptitude)*  - you know how to act - be it a tragedy or a comedy. All acting checks where the viewers know that you are in a role are rolled with +2.
-
-**Disguise** *(Aptitude)* - all checks for impersonation are rolled with +2.
-
-**Lover not a fighter** *(Aptitude, #TBD)* - all checks for flirting and courting are rolled with +2.
-**Musician** *(Effect)*  - Select an instrument (or vocals). you can use Acting to perform with said instrument. You count as if having life skill of playing a simple or average instrument. (Using the skill with self as related can be at half rank in case of musicles)
 
 ## Athletic and Acrobatic Skills
 
-### 1. Climbing (A) (Strength/Agility) - Scaling walls, cliffs, buildings; vertical movement and grip strength.
+![[Climbing]]
 
-**Parkour** - #TBD Something about climbing fast. As per lines and zones and travel moves - the climb speed is your speed/multipler from effects. In travel it also counts in how tired it makes you so its not 1 to 1. So Parcour should likely allow to reduce the line difficulty - not in DC way, but in speed penalty way. Because parcour invokes SPEED of climbing. The rule will be something like "On climb check success - lines distance multiplier is decreased by 1 or half, whichever is more.
+![[Athletics]]
 
-**Mountaineering** - #Tbd something about climbing safely. If climb check is a fall on crit fail you have to confirm it, roll again, and on a second failure you are going to fall (still alowing a reaction if you have pitons). People following your climbing path with your advice share this effect.
+![[Acrobatics]]
 
-### 2. Athletics (A) (Strength/Endurance) - Raw strength application. Has Lifting and Breaking inside.
-
-**Breaker** - [[Effect - Human Ram]] - ability that allows to act as a battaring ram. (barrier style line blocks that ask for a DC can be attempted to be rammed through).
-**Lifter** - [[Princess Carrier]] - (pack mule sounded about weight, this is better.)
-**Swimmer** - Distance multiplier by swimmer decreases by halved, when swimming you have  an [[Effect - Against the Current]].
-
-### 3. Acrobatics (A) (Agility/Dexterity) - Tumbling, flips, balance, contortion, graceful movement, fall mitigation, tightrope walking, squeezing through spaces.
-
-**Jumper** - #TBD placeholder +2 for when jumping will be more utilized. 
-**Balancer** - [[Effect - Firm on the Ground]] - advantage on all balance checks, including dodge checks to be dropped prone.
-**Dodger** - Grants a reaction - 1AP. add half Acrobatics to the dodge roll. #TBD when step back will be made into a normal reaction - this will be direct upgrade to it.
 ## Natural Sciences
 Science fields overlap heavily — Pharmacy, Alchemy and Microbiology share ground.
-In most cases if GM asks to roll either of skills use [[Related Skills and Alternative Attributes]] — roll your science with an adjacent one as the related skill, and the GM judges how relevant the pair is. ("Roll Magical Science or harder Medical Science" "I have both, so I will roll Mag+Med?" "Sure, half bonus").
+In most cases if GM asks to roll either of skills use [[Related Skills and Alternative Attributes]] — roll your science with an adjacent one as the related skill, and the GM judges how relevant the pair is. ("Roll Arcane or harder Medicine" "I have both, so I will roll Mag+Med?" "Sure, half bonus").
 
+![[Physics]]
+![[Arcane]]
+![[Biology]]
+![[Chronicle]]
+![[Logos]]
+![[Medicine]]
 
-### 1. Physical Science (H) (Wit/Perception)
-**Physics** - #TBD Allows using physics as secondary skill during related spellcraft and alchemy checks at full bonus. 
-**Astronomy and Astromancy** - Allows using physics as secondary skill when navigating at night and divining at full bonus.
-**Mechanical Engineering** - allows using physics as secondary skill with breaking, lockpicking and demolition at full bonus.
-### 2. Magical Science (H) (Wit/Will)
-**Alchemy** - for crafting concoctions and talismans, putting spells into vials. 
-You are an [[Alchemist Prerequisite Perk|Alchemist]]. The perk should allow to put own spells in bottles that are free to make, but require Limit. The alchemist perk line will be about shoving spells and alike into bottles, and using the skill as separate limit. a huge AP booster, at cost of versatility. #TBD 
-**Ritualism** - for following and making new rituals. +2 for now and Crit fail to fail. N #TBD when ritual rules will be written. They will have higher crit chances that normal checks, so maybe something about that.
-
-**Enchanting** - for making temp magical items. #TBD similar to Alchemist - but you can only put reaction spells, when alchecmist can put action spells. This is reaction booster. If alchemist is action booster, this is reaction booster. 
-
-**Magical Theory and Spellcraft** - bonuses to recognizing spells and making them +2 #TBD.
-### 3. Biological Science (H) (Wit/Perception)
-**Zoology** -  +2 to all checks relating to animals. (not only biology but also riding a horse or taming an animal).
-**Botany** - [[Herbalist's Eye]], +2 to all check with plants (including things like pharmacy and cooking).
-**Microbiology** - #TBD may be deleted. 
-
-### 4. Social Science (A) (Perception/Wit) #TBD - Section is TBD do not take.
-**Psychology** - reading people - motivation, behavior, intent. 
-**Sociology** - political sciences. 3- [[I See a Secret Hand]]
-**Anthropology** - archeology. [[Aerial Archaeologist]] [[Cultural Explorer]]
-
-### 5. Humanitarian Science (A) (Will/Wit)
-**History and Heraldry** - +2 on remembering historic events and identifying heraldry.
-**Theology and Rites** - +2 to performing rites and knowledge of faith postulates.
-**Linguistics and Fables** - +2 when attempting to communicate in a language you don't know (it efficiently lowers the penalty.) and remembering folk lore.
-
-### 6. Medical Science (H) (Wit/Dexterity)
-**Field Surgery** (ability) - [[Ability - Field Ward]] - tak
-
-**Hospitalier** (effect)- You run a ward so well every doctor gets +2 to rolls there. 
-**Pharmacy** (effect) - +2 on medical treatments and earning income from the skill.
 ## Stealth and Criminal Skills
 
-### 1. Stealth (A) (Agility/Perception) - Moving unseen, hiding, avoiding detection.
+![[Stealth]]
 
-**Urban** - Once per game day turn a stealth failure to success.
-**Wilderness** - Once per game day in appropriate enviornment turn a stealth failure to success.
-**Group** - for leading a group. [[Thieves steps]]
+![[Lockpicking]]
 
-### 2. Lockpicking (E) (Dexterity/Perception) - Bypassing mechanical and magical security, opening locked containers.
+![[Sleight of Hand]]
 
-**Traps Focus** - disarming what Search finds.
-**Speed Focus** - mainline. [[Lock It Behind You]]
-
-### 3. Sleight of Hand (E) (Dexterity/Agility) - Pickpocketing, palming objects, manual dexterity tricks.
-
-**Magician** - +2 on visuals of performing tricks.
-**Pickpocket** - Failure to pickpocket is not noticed, only crit failure is.
-**Forgery** #TBD - you can make fakes of documents that are good enough to pass surface glance. You roll for creation of a fake with advantage. 
-### 4. Streetwise (A) (Charisma/Perception) - Criminal underworld knowledge, black market connections.
-This is the skill governing how to operate as a criminal on day-to-day basis and how to think like them.
-
-**Fencing** - You know [[The Going Rate]] for ilicit goods, where to buy them and whom to sell them to. Spending an active tenday in any settlement grants you updates this information as well. 
-**Organization** #TBD - Streetwise can be used instead of Leadership when organizing criminals with +2.
-**Bribery** #TBD - professional palm greaser. [[Bribery Expert]]
-**Sherlock** - #TBD - to figure something out
+![[Streetwise]]
 
 ## Wilderness Skills
 
-### 1. Survival (A) (Perception/Endurance) - Wilderness living, foraging, finding shelter and water.
+![[Survival]]
 
-**Forager** - [[Effect - Forager|Forager]]
-**Camper** - When making camp you can take two roles at the same time.
-**Weatherman** - [[Effect - Weatherman]]  you know tomorrow's weather and rarely are wrong.
+![[Tracking]]
 
-### 2. Tracking (E) (Perception/Wit) - Following trails, reading signs, hunting quarry.
+![[Navigation]]
 
-**Streets** #TBD - following tracks through streets and crowds.
-**Wilderness** - When successfully tracking in the wilderness it doesn't reduce your speed.
+![[Search]]
 
-### 3. Navigation (E) (Perception/Wit) - Finding your way, reading maps, celestial navigation.
-
-**Dungeons and Civilizations** - [[Cartographer's Mind]]
-**Rivers and Seas** - #TBD Currently irrelevant
-**Fastest Paths** #TBD - When acting as a team navigator, it doesn't slow you down.
-
-### 4. Search (A) (Perception/Wit) - You know how and where to pay attention.
-Player-declared and takes time. Search finds traps - Lockpicking's Traps Focus disarms them.
-
-**Forensics** - recreating scenes, reading the aftermath. [[Not Sherlock]]
-**Trapfinding** - finding traps with advantage.
-**Valuables** - finding valuables and hidden goods with advantage.
-
-### 5. Observation (A) (Perception/Will) - You stand sentry against shadows and subterfuge.
-GM-triggered and reactive.
-
-**Lie Detection** - piercing through lies. #TBD Basic +2..
-**Security** - Rolling with advantage to notice slight of hand and stealth checks to sneak. 
-**Wilderness** #TBD - something about wilderness maybe, with ambuses and alike. 
+![[Observation]]
 
 ## A Life Skill
 
@@ -243,7 +131,7 @@ When a player states an approach or asks for a related skill:
 
 If the named skill is missing entirely, the check either falls back to the raw attribute (Easy and Average only) or you name another acceptable primary at a harder DC — Hard tasks still require the skill itself.
 Default pairs, yours to overrule:
-- **Full** — Engineering ↔ Magical Science, Botany ↔ Medical Science, Psychology ↔ Gossip, Streetwise ↔ Acting, Tracking ↔ Search.
+- **Full** — Engineering ↔ Arcane, Botany ↔ Medicine, Psychology ↔ Gossip, Streetwise ↔ Acting, Tracking ↔ Search.
 - **Half** — any adjacent science, Negotiating ↔ Streetwise, Observation ↔ Search, Athletics ↔ Climbing.
 
 ### Designing Foci

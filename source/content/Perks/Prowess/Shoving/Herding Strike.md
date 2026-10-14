@@ -1,4 +1,4 @@
-**Requirements:** Prowess 2, knows [[Ability - Shoving Strike|Shoving Strike]]
+**Requirements:** [[Prowess]] 2, knows [[Ability - Shoving Strike|Shoving Strike]]
 **Attributes:** ST/AG
 **Cost:** 8 Battle XP
 **Tags:** #Prowess

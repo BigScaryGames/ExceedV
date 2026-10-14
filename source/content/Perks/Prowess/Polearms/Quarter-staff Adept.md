@@ -1,4 +1,4 @@
-**Requirements:** Prowess 1, [[Polearms Training]]
+**Requirements:** [[Prowess]] 1, [[Polearms Training]]
 **Attributes:** AG
 **Cost:** 10 Battle XP
 **Tags:** #Prowess

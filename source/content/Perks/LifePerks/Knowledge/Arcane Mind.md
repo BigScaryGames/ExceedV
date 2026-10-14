@@ -1,4 +1,4 @@
-**Requirements:** Magical Theory 3, Magery 1
+**Requirements:** [[Arcane]] 3, [[Magery]] 1
 **Attributes:** WL/WT, Magery
 **Cost:** 7 Life XP
 **Tags:** #Skill
